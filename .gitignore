@@ -13,7 +13,11 @@ node_modules
 
 # Caches and docs
 .cache/
-kp-docs/
+
+# kp-docs holds large source PDFs/exports we don't want in git; only the
+# markdown/ subdir (used by the review notebook) is tracked.
+kp-docs/*
+!kp-docs/markdown/
 
 # Review output (ephemeral, per-session reviewer annotations)
 review-output/
