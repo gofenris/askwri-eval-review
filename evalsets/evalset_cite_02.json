@@ -37,7 +37,7 @@
       ],
       "source_document_id": "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
       "source_language": "zh",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "geography_constrained",
       "note": "Includes two possible twin-language pairs confirmed by retrieval score parity."
     },
@@ -57,7 +57,7 @@
       ],
       "source_document_id": "98cc253e-8d96-4499-b67a-38baffe2f3f2",
       "source_language": "zh",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "geography_constrained",
       "note": ""
     },
@@ -73,7 +73,7 @@
       ],
       "source_document_id": "add211a7-3919-48f6-bf21-c1b55f889dfb",
       "source_language": "zh",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "topic_discovery",
       "note": ""
     },
@@ -129,7 +129,7 @@
       ],
       "source_document_id": "76039c19-d7e5-45f3-b543-88302b6034fa",
       "source_language": "es",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "date_constrained",
       "note": "date_constrained test case variation of d4; Reuses d4's answer set. Will likely confirm post-retrieval filtering system in AskWRI."
     },
@@ -297,7 +297,7 @@
       ],
       "source_document_id": "",
       "source_language": "",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "query_type": "membership",
       "note": "Contrast pair with d6: partnership/authoring-entity membership (broader) vs. named report series (narrower). Includes d6's 8 docs plus the 2019 precursor d6 excludes, plus docs with explicit 'in partnership with' / 'prepared for CUT' language. Excludes docs that only cite or acknowledge CUT in passing."
     },
@@ -357,7 +357,7 @@
       ],
       "source_document_id": "",
       "source_language": "",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "topic_discovery",
       "note": ""
     },
@@ -391,7 +391,7 @@
       ],
       "source_document_id": "",
       "source_language": "",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "membership",
       "note": "individual-authorship variant of membership. Sourced directly 'authors:' metadata field."
     },
@@ -427,7 +427,7 @@
       ],
       "source_document_id": "ed7cc7fe-de63-4015-ba74-fe0cd84fe05f",
       "source_language": "id",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "query_type": "topic_discovery",
       "note": "Single-doc topic. Targets the id-lang (Bahasa Indonesia) document flagged in the 2026-08-17 corpus refresh -- previously mislabeled en-lang. Confirmed via qmd vsearch: only this doc scores substantively (0.73-0.76 across phrasings), sharp drop to generic-urban noise (~0.6) for everything else; geography constraint ('in Indonesian cities') doesn't change the result set, so classified as plain topic_discovery per the d3 precedent."
     }
