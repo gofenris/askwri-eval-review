@@ -2,10 +2,11 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "marimo",
-#     "molabel",
-#     "mohtml",
-#     "pandas",
+#     "molabel==0.1.5",
+#     "mohtml==0.1.11",
+#     "pandas==3.0.5",
 #     "pyyaml==6.0.3",
+#     "httpx==0.28.1",
 # ]
 # ///
 
@@ -33,6 +34,7 @@ def _():
     import json
     import re
 
+    import httpx
     import yaml
     import marimo as mo
     from molabel import SimpleLabel
@@ -40,7 +42,7 @@ def _():
 
     import pandas as pd
 
-    return SimpleLabel, a, div, json, mo, p, pd, re, span, yaml
+    return SimpleLabel, a, div, httpx, json, mo, p, pd, re, span, yaml
 
 
 @app.cell
@@ -51,13 +53,46 @@ def _(mo):
     EVALSET_DIR = REPO_ROOT / "evalsets"
     MARKDOWN_DIR = REPO_ROOT / "kp-docs" / "markdown"
     REVIEW_OUTPUT_DIR = REPO_ROOT / "review-output"
+    return EVALSET_DIR, MARKDOWN_DIR, REPO_ROOT, REVIEW_OUTPUT_DIR
 
-    return (
-        EVALSET_DIR,
-        MARKDOWN_DIR,
-        REPO_ROOT,
-        REVIEW_OUTPUT_DIR,
-    )
+
+@app.cell
+def _():
+    # Where "Save" submissions get POSTed so reviews land somewhere the
+    # notebook owner can see them, even when run read-only via molab/WASM
+    # (which has no persistent server-side filesystem of its own).
+    #
+    # This URL is not a secret credential -- it's a Google Apps Script Web
+    # App endpoint that can only append a file to one Drive folder and a row
+    # to one Sheet (see README.md "Submitting notebook output to a
+    # filedrop you own" for how this was set up, and how to rotate/replace
+    # it). Treat it as security-through-obscurity: fine for a short-lived,
+    # low-stakes review period; revoke the deployment in Apps Script when
+    # the review period ends.
+    SUBMIT_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbxNoFNUBXJkYEQK_m2yNeNMilhEqh22bXxbFjiWeZA03JCKxayTTScht2938U3mVakO/exec"
+    return (SUBMIT_ENDPOINT_URL,)
+
+
+@app.cell
+def _(SUBMIT_ENDPOINT_URL, httpx, json):
+    def submit_to_review_dashboard(filename, payload):
+        """Best-effort POST of a saved review file to the shared dashboard.
+
+        Never raises -- returns (success, error_message) so callers can
+        surface a warning without blocking the (already-successful) local
+        save.
+        """
+        try:
+            httpx.post(
+                SUBMIT_ENDPOINT_URL,
+                json={"filename": filename, "content": json.dumps(payload, indent=2)},
+                timeout=10,
+            )
+            return True, None
+        except Exception as e:
+            return False, str(e)
+
+    return (submit_to_review_dashboard,)
 
 
 @app.cell(hide_code=True)
@@ -80,7 +115,6 @@ def _(mo):
         [reviewer_name_input], justify="start", gap=1),
         mo.md("*Providing your name is optional -- it helps us track reviews and reach out if we have any questions.*")
     ])
-
     return (reviewer_name_input,)
 
 
@@ -132,7 +166,6 @@ def _(mo, pd, test_cases):
 
     {_counts_to_md_table(_difficulty_counts, "difficulty")}"""),
     ], justify="start", gap=3, widths="equal")
-
     return
 
 
@@ -188,7 +221,6 @@ def _(dirty_query_ids, last_selected_query_id_box, mo, query_dropdown):
     """)
 
     mo.vstack([_switch_warning, _query_info]) if _switch_warning else _query_info
-
     return (selected_query,)
 
 
@@ -220,6 +252,7 @@ def _(
     save_button,
     saved_annot_paths,
     selected_query,
+    submit_to_review_dashboard,
     widget,
 ):
     mo.stop(not save_button.value, mo.md("**Saved Results**: None. <br>_Click the button above to save your review for this query._"))
@@ -236,30 +269,42 @@ def _(
         for a in _annotations
     ]
 
+    _payload = {
+        "query_id": selected_query["id"],
+        "question": selected_query["question"],
+        "task_description": selected_query["task_description"],
+        "reviewer": _reviewer,
+        "reviewed_documents": _records,
+    }
+    _filename = f"annot-{EVALSET_NAME}-{selected_query['id']}-by-{_reviewer}.json"
+
     REVIEW_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    _annotations_path = REVIEW_OUTPUT_DIR / f"annot-{EVALSET_NAME}-{selected_query['id']}-by-{_reviewer}.json"
-    _annotations_path.write_text(json.dumps(
-        {
-            "query_id": selected_query["id"],
-            "question": selected_query["question"],
-            "task_description": selected_query["task_description"],
-            "reviewer": _reviewer,
-            "reviewed_documents": _records,
-        },
-        indent=2,
-    ))
+    _annotations_path = REVIEW_OUTPUT_DIR / _filename
+    _annotations_path.write_text(json.dumps(_payload, indent=2))
     saved_annot_paths.add(_annotations_path)
     dirty_query_ids.discard(selected_query["id"])
 
     print(f"Saved annotations to: {_annotations_path.relative_to(REPO_ROOT)}")
 
+    # Also push to the remote folder (Drive + Sheet) so submissions
+    # are visible to the notebook owner even when run read-only via
+    # molab/WASM
+    _submitted, _submit_error = submit_to_review_dashboard(_filename, _payload)
+
+    _submit_status = (
+        "✅ Submitted to Fenris' shared folder."
+        if _submitted
+        else f"⚠️ Saved locally, but submitting to the review dashboard failed: `{_submit_error}`"
+    )
+
     mo.md(f"""
     Saved!
 
     Annotations file:\n`{_annotations_path.relative_to(REPO_ROOT)}`
-    """)
 
+    {_submit_status}
+    """)
     return
 
 
@@ -339,7 +384,7 @@ def _(
         mo.md(f"Queries reviewed in this eval set **'{EVALSET_NAME}'**"),
         mo.Html(checklist_html),
     ])
-    return checklist_html, total_current, total_expected, total_rejected
+    return
 
 
 @app.cell
@@ -347,7 +392,6 @@ def _():
     saved_annot_paths = set()
     dirty_query_ids = set()
     last_selected_query_id_box = [None]
-
     return dirty_query_ids, last_selected_query_id_box, saved_annot_paths
 
 
@@ -372,7 +416,6 @@ def _(MARKDOWN_DIR, selected_query, yaml):
         }
         for doc_id in selected_query["expected_external_ids"]
     ]
-
     return (doc_contexts,)
 
 
@@ -468,7 +511,6 @@ def _(dirty_query_ids, selected_query, widget):
 
     if widget.get_annotations():
         dirty_query_ids.add(selected_query["id"])
-
     return
 
 

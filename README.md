@@ -18,9 +18,13 @@ expand expected results. Query expansion uses `qmd` with Qwen embeddings.
 
 - `kp-docs/` - the underlying corpus documents (PDFs plus generated
   markdown).
-- `notebooks/` - marimo notebook(s) for human review of eval sets (e.g.
-  `review_eval_answers_citemode.py`, a `molabel`-based tool for confirming
-  whether each `expected_document_ids` entry is actually a correct match).
+- `notebooks/` - marimo notebook(s) for human review of eval sets, e.g.
+  `review_expected_docs-cite.py`, a `molabel`-based tool for confirming
+  whether each `expected_document_ids` entry is actually a correct match.
+  These are designed to also run online via [molab](https://molab.marimo.io)
+  (including its WebAssembly preview) so external reviewers don't need a
+  local Python setup -- see "Submitting notebook output to a filedrop you
+  own" below for how reviews get collected back from those sessions.
 - `review-output/` - saved output from the review notebook(s) above.
 - `source_evalsets/` - the original ("generation 1") golden datasets:
   `cite-golden-dataset.json` and `answer-golden-dataset.json`. Read-only
@@ -47,6 +51,85 @@ expand expected results. Query expansion uses `qmd` with Qwen embeddings.
     the full 207-document cross-lingual corpus (151 en, 15 es, 4 pt, 37 zh).
   - `issuelog_*.md` - known corpus issues (e.g. suspected duplicate/twin
     documents across languages) to check or validate later.
+
+## Submitting notebook output to a filedrop you own
+
+When a review notebook runs on [molab](https://molab.marimo.io) -- especially
+its `/wasm` (WebAssembly/Pyodide) preview -- there is no durable, shared
+filesystem to write output to. Local file writes (e.g. to `review-output/`)
+either land in a real backend's disk (an "ephemeral server" molab preview --
+fine, but not synced back to this repo or visible to anyone but that
+reviewer) or in an in-browser, per-session virtual filesystem (the `/wasm`
+preview -- lost on refresh, and never visible in molab's own file
+explorer/storage sidebar, which only reflects real backend storage). Either
+way, reviewers would otherwise have to manually download and send you their
+output file.
+
+The fix used in `review_expected_docs-cite.py`: the notebook POSTs each save
+directly to a small Google Apps Script Web App, which writes the file into a
+Drive folder you own and logs an index row (timestamp, filename, link) in a
+Sheet. No reviewer-facing extra step, no server to run/maintain, and it works
+identically whether the notebook is running locally, on an ephemeral molab
+server, or fully client-side in `/wasm`.
+
+**Setup (one-time, ~10 minutes):**
+
+1. Create a Google Sheet (this becomes your submissions index) and note its
+   default tab name, `Sheet1`.
+2. Create a Drive folder for the actual output files; copy its folder ID out
+   of the URL (`drive.google.com/drive/folders/<FOLDER_ID>`).
+3. In the Sheet: **Extensions -> Apps Script**, replace the default code
+   with:
+
+   ```javascript
+   const FOLDER_ID = "<your Drive folder ID>";
+
+   function doPost(e) {
+     const data = JSON.parse(e.postData.contents);
+     const folder = DriveApp.getFolderById(FOLDER_ID);
+     const file = folder.createFile(data.filename, data.content, "application/json");
+
+     const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+     sheet.appendRow([new Date(), data.filename, file.getUrl()]);
+
+     return ContentService.createTextOutput("ok");
+   }
+   ```
+
+4. **Deploy -> New deployment -> Web app**. Execute as **Me**, who has
+   access **Anyone**. Deploy, then authorize the OAuth consent prompt (click
+   through the "unverified app" warning -- it's your own script asking your
+   own account for permission to your own Drive/Sheet).
+5. Copy the resulting `.../exec` URL. This is what the notebook POSTs to
+   (see `SUBMIT_ENDPOINT_URL` near the top of `review_expected_docs-cite.py`)
+   as `{"filename": ..., "content": <json-as-text>}`, using `httpx` so it
+   works from both native Python and Pyodide/WASM.
+
+**Security model (read before reusing this pattern):** the deployed URL is
+**not a secret** in any meaningful sense -- it lives in a public notebook's
+source, so treat it as security-through-obscurity only. The blast radius is
+intentionally small: at worst, someone who finds the URL can write junk
+files/rows into that one Drive folder/Sheet, nothing more (no read access to
+other data, no access to this repo or any other Google resource). This is
+appropriate for a short-lived, low-stakes review period. When a review round
+ends, **delete or disable the Apps Script deployment** (Deploy -> Manage
+deployments -> Archive) rather than leaving it open indefinitely, and create
+a fresh deployment (new Sheet/Folder, or just a new script version) for the
+next notebook/review round instead of reusing an old one.
+
+To test a deployment directly (bypassing the notebook):
+
+```bash
+curl -L "<your deployed .../exec URL>" \
+  -H "Content-Type: application/json" \
+  -d '{"filename":"test.json","content":"{\"hello\":\"world\"}"}'
+# -> ok
+```
+
+Note: use `-d` (not `-X POST`) with `-L`. Apps Script delivers the response
+via a redirect that must be followed as a `GET` -- curl does this
+automatically with `-d` alone, but `-X POST` forces POST through the whole
+redirect chain, which this endpoint rejects with a 405.
 
 ## Eval-generation process (generation 2+)
 
