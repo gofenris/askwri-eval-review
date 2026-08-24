@@ -2,10 +2,12 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "marimo",
-#     "molabel",
-#     "mohtml",
-#     "pandas",
+#     "molabel==0.1.5",
+#     "mohtml==0.1.11",
+#     "pandas==3.0.5",
 #     "pyyaml==6.0.3",
+#     "traitlets==5.16.1",
+#     "anywidget==0.11.0",
 # ]
 # ///
 
