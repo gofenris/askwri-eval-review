@@ -4,10 +4,11 @@
 ## Evalset Review Notebooks: 
 
 Review Expected Documents (Cite Mode)
-[![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/gofenris/askwri-eval-review/blob/main/notebooks/review_expected_docs-cite.py)
+* Use this link to start your review using the notebook
+* [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/gofenris/askwri-eval-review/blob/main/notebooks/review_expected_docs-cite.py)
 
 **Propose new query (Cite mode)**
-*Coming soon!* 
+* *Coming soon!* 
 
 
 ## Overview 
