@@ -64,7 +64,7 @@ def _():
     #
     # This URL is not a secret credential -- it's a Google Apps Script Web
     # App endpoint that can only append a file to one Drive folder and a row
-    # to one Sheet (see README.md "Submitting notebook output to a
+    # to one Sheet (see TECH_INFO.md "Submitting notebook output to a
     # filedrop you own" for how this was set up, and how to rotate/replace
     # it). Treat it as security-through-obscurity: fine for a short-lived,
     # low-stakes review period; revoke the deployment in Apps Script when
