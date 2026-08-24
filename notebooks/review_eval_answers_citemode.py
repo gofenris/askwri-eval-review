@@ -20,17 +20,12 @@ def _(mo):
     mo.md(r"""
     # CITE-mode eval review
 
-    Review the golden-set queries for AskWRI CITE (Citation) mode. For
-    each query, step through its `expected_document_ids` and confirm
-    whether each document is actually a correct match, using the
-    `molabel` widget.
+    Review the evalset for AskWRI CITE (Citation) mode.
 
-    Data sources (read-only):
+    1. For each query, step through its `expected_document_ids` and confirm
+    whether each document is actually a correct match
 
-    - `source_evalsets/golden-dataset.json` — queries + expected
-      document ids
-    - `kp-docs/markdown/{doc_id}.md` — per-document context
-      (title, authors, summary, etc.) via YAML frontmatter
+    2. Suggest new queries
     """)
     return
 
@@ -72,9 +67,15 @@ def _(mo):
     )
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(EVALSET_DIR):
+    # Get available evalsets 
+
+    # remove bkup sets
     eval_set_list = [e for e in sorted(EVALSET_DIR.iterdir()) if "bkup" not in e.name.lower()]
+
+    # filter to "cite" mode evalsets only
+    eval_set_list = [e for e in eval_set_list if "cite" in e.name.lower()]
     return (eval_set_list,)
 
 
@@ -162,10 +163,25 @@ def _(mo, test_cases):
 
 
 @app.cell(hide_code=True)
-def _(mo, query_dropdown):
+def _(dirty_query_ids, last_selected_query_id_box, mo, query_dropdown):
+    _prev_query_id = last_selected_query_id_box[0]
     selected_query = query_dropdown.value
 
-    mo.md(f"""
+    _switch_warning = None
+    if (
+        _prev_query_id is not None
+        and _prev_query_id != selected_query["id"]
+        and _prev_query_id in dirty_query_ids
+    ):
+        _switch_warning = mo.md(
+            f"\u26a0\ufe0f **Unsaved annotations lost**: you switched away from query "
+            f"`{_prev_query_id}` without clicking Save. Those annotations were not saved."
+        ).callout(kind="danger")
+        dirty_query_ids.discard(_prev_query_id)
+
+    last_selected_query_id_box[0] = selected_query["id"]
+
+    _query_info = mo.md(f"""
 
     **Selected Query:** "{selected_query["question"]}"
 
@@ -177,6 +193,9 @@ def _(mo, query_dropdown):
 
     {f"**note:** {selected_query['note']}" if selected_query.get("note") else ""}
     """)
+
+    mo.vstack([_switch_warning, _query_info]) if _switch_warning else _query_info
+
     return (selected_query,)
 
 
@@ -194,6 +213,36 @@ def _(mo):
     return (save_button,)
 
 
+@app.cell
+def _(
+    EVALSET_NAME,
+    checklist_html,
+    mo,
+    total_current,
+    total_expected,
+    total_rejected,
+):
+    mo.vstack([
+        mo.hstack(
+            [
+                mo.stat(value=total_expected, label="Total expected docs (all queries)", bordered=True),
+                mo.stat(
+                    value=total_current,
+                    label="Total expected (after review)",
+                    caption=f"{total_rejected} rejected" if total_rejected else "No rejections yet",
+                    direction="decrease" if total_current < total_expected else None,
+                    target_direction="increase",
+                    bordered=True,
+                ),
+            ],
+            gap=2,
+        ),
+        mo.md(f"Queries reviewed in this eval set **'{EVALSET_NAME}'**"),
+        mo.Html(checklist_html),
+    ])
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
@@ -203,7 +252,7 @@ def _(mo):
 
 
 @app.cell
-def _(DOCUMENTS_LIST_PATH, REPO_ROOT, mo):
+def _(DOCUMENTS_LIST_PATH, mo):
     def _parse_documents_list(path):
         _docs = []
         for _block in path.read_text().strip().split("\n\n"):
@@ -213,9 +262,10 @@ def _(DOCUMENTS_LIST_PATH, REPO_ROOT, mo):
             _docs.append(dict(_line.split(": ", 1) for _line in _block.splitlines()))
         return _docs
 
+    # documents are loaded from  `{DOCUMENTS_LIST_PATH.relative_to(REPO_ROOT)}`
 
     ALL_DOCUMENTS = _parse_documents_list(DOCUMENTS_LIST_PATH)
-    mo.md(f"Loaded **{len(ALL_DOCUMENTS)}** documents from `{DOCUMENTS_LIST_PATH.relative_to(REPO_ROOT)}` for the document picker below.")
+    mo.md(f"**{len(ALL_DOCUMENTS)}** documents loaded.")
 
     return (ALL_DOCUMENTS,)
 
@@ -331,6 +381,7 @@ def _(
     EVALSET_NAME,
     REPO_ROOT,
     REVIEW_OUTPUT_DIR,
+    dirty_query_ids,
     doc_contexts,
     json,
     mo,
@@ -369,12 +420,16 @@ def _(
         indent=2,
     ))
     saved_annot_paths.add(_annotations_path)
+    dirty_query_ids.discard(selected_query["id"])
+
+    print(f"Saved annotations to: {_annotations_path.relative_to(REPO_ROOT)}")
 
     mo.md(f"""
     Saved!
 
     Annotations file:\n`{_annotations_path.relative_to(REPO_ROOT)}`
     """)
+
     return
 
 
@@ -408,12 +463,12 @@ def _(
         _rejected = {d["doc_id"] for d in _data["reviewed_documents"] if d["label"] == "no"}
         _rejected_by_query.setdefault(_qid, set()).update(_rejected)
 
-    _total_expected = sum(len(tc["expected_document_ids"]) for tc in test_cases)
-    _total_current = sum(
+    total_expected = sum(len(tc["expected_document_ids"]) for tc in test_cases)
+    total_current = sum(
         len(tc["expected_document_ids"]) - len(_rejected_by_query.get(tc["id"], set()))
         for tc in test_cases
     )
-    _total_rejected = _total_expected - _total_current
+    total_rejected = total_expected - total_current
 
 
     def _chip(tc):
@@ -431,7 +486,7 @@ def _(
         )
 
 
-    _checklist_html = str(div(
+    checklist_html = str(div(
         *[_chip(tc) for tc in test_cases],
         style="display:grid; grid-template-columns:repeat(10, auto); gap:0.4rem; margin-top:0.75rem;",
     ))
@@ -439,12 +494,12 @@ def _(
     mo.vstack([
         mo.hstack(
             [
-                mo.stat(value=_total_expected, label="Total expected matches (all queries)", bordered=True),
+                mo.stat(value=total_expected, label="Total expected docs (all queries)", bordered=True),
                 mo.stat(
-                    value=_total_current,
-                    label="Total current matches (after review)",
-                    caption=f"{_total_rejected} rejected" if _total_rejected else "No rejections yet",
-                    direction="decrease" if _total_current < _total_expected else None,
+                    value=total_current,
+                    label="Total expected (after review)",
+                    caption=f"{total_rejected} rejected" if total_rejected else "No rejections yet",
+                    direction="decrease" if total_current < total_expected else None,
                     target_direction="increase",
                     bordered=True,
                 ),
@@ -452,9 +507,9 @@ def _(
             gap=2,
         ),
         mo.md(f"Queries reviewed in this eval set **'{EVALSET_NAME}'**"),
-        mo.Html(_checklist_html),
+        mo.Html(checklist_html),
     ])
-    return
+    return checklist_html, total_current, total_expected, total_rejected
 
 
 @app.cell(hide_code=True)
@@ -514,7 +569,10 @@ def _(
 @app.cell
 def _():
     saved_annot_paths = set()
-    return (saved_annot_paths,)
+    dirty_query_ids = set()
+    last_selected_query_id_box = [None]
+
+    return dirty_query_ids, last_selected_query_id_box, saved_annot_paths
 
 
 @app.cell
@@ -548,9 +606,40 @@ def _(a, div, p, span):
         "background:#f1f3f5; color:#495057; border-radius:999px; "
         "padding:0.15rem 0.6rem; font-size:0.75rem; font-weight:500;"
     )
+    _doc_link_style = (
+        "display:inline-block; background:#e9ecef; color:#495057; "
+        "text-decoration:none; font-size:0.85rem; font-weight:500; "
+        "padding:0.4rem 0.9rem; border-radius:6px;"
+    )
+    _doc_link_disabled_style = (
+        "display:inline-block; background:#f1f3f5; color:#adb5bd; "
+        "text-decoration:none; font-size:0.85rem; font-weight:500; "
+        "padding:0.4rem 0.9rem; border-radius:6px; cursor:not-allowed; "
+        "pointer-events:none;"
+    )
+    _summary_style = (
+        "font-size:0.95rem; color:#333; line-height:1.55; margin:0 0 0.75rem 0; max-width:65ch;"
+    )
+    _summary_missing_style = (
+        "font-size:0.95rem; color:#adb5bd; font-style:italic; line-height:1.55; "
+        "margin:0 0 0.75rem 0; max-width:65ch;"
+    )
 
 
     def render_doc_info(example):
+        doc_url = example["url"]
+        if doc_url:
+            doc_link = a("\U0001F4C4 View document", href=doc_url, target="_blank",
+                          style=_doc_link_style)
+        else:
+            doc_link = span("\U0001F4C4 URL not available", style=_doc_link_disabled_style)
+
+        summary = example["summary"]
+        if summary:
+            summary_el = p(summary, style=_summary_style)
+        else:
+            summary_el = p("No summary available", style=_summary_missing_style)
+
         return str(
             div(
                 p(example["title"],
@@ -564,12 +653,8 @@ def _(a, div, p, span):
                     span(example["sub_tag"], style=_badge_style),
                     style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-bottom:0.6rem;",
                 ),
-                p(example["summary"],
-                  style="font-size:0.95rem; color:#333; line-height:1.55; margin:0 0 0.75rem 0; max-width:65ch;"),
-                a("\U0001F4C4 View document", href=example["url"], target="_blank",
-                  style=("display:inline-block; background:#e9ecef; color:#495057; "
-                         "text-decoration:none; font-size:0.85rem; font-weight:500; "
-                         "padding:0.4rem 0.9rem; border-radius:6px;")),
+                summary_el,
+                doc_link,
                 klass="molabel-doc-context",
             )
         )
@@ -642,6 +727,8 @@ def _():
         }
 
         function render({ model, el }) {
+          el.innerHTML = "";
+
           const documents = model.get("documents");
           let query = "";
           let selected = new Set(model.get("selected") || []);
@@ -864,6 +951,16 @@ def _(EVALSET_DIR, evalset_dropdown):
     SELECTED_EVALSET_PATH = EVALSET_DIR / evalset_dropdown.value
     EVALSET_NAME = SELECTED_EVALSET_PATH.stem
     return EVALSET_NAME, SELECTED_EVALSET_PATH
+
+
+@app.cell
+def _(dirty_query_ids, selected_query, widget):
+    _ = widget.value  # dependency: mark query dirty whenever annotation state changes
+
+    if widget.get_annotations():
+        dirty_query_ids.add(selected_query["id"])
+
+    return
 
 
 if __name__ == "__main__":
