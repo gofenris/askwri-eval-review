@@ -8,7 +8,8 @@ Review Expected Documents (Cite Mode)
 * [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/gofenris/askwri-eval-review/blob/main/notebooks/review_expected_docs-cite.py)
 
 **Propose new query (Cite mode)**
-* *Coming soon!* 
+* Use this link to propose a new query
+* [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/gofenris/askwri-eval-review/blob/main/notebooks/propose_query_cite.py)
 
 
 ## Overview 
