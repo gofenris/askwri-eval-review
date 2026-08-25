@@ -5,6 +5,7 @@
 #     "anywidget==0.11.0",
 #     "pandas==3.0.5",
 #     "traitlets==5.16.1",
+#     "httpx==0.28.1",
 # ]
 # ///
 
@@ -22,24 +23,26 @@ def _(mo):
     Propose new queries for the AskWRI CITE (Citation) mode evalset.
 
     Pick a source evalset for context, then write a question and select the
-    documents you'd expect it to retrieve. Submit / Export to create an
-    updated eval set with your proposed queries added.
+    documents you'd expect it to retrieve. Saving a proposed query writes it
+    to a small JSON file and submits it to the shared review dashboard --
+    it does not modify the evalset directly. Merging proposed queries back
+    into an updated evalset is handled separately, outside this notebook.
     """)
     return
 
 
 @app.cell
 def _():
-    import copy
     import datetime
     import json
     import re
 
+    import httpx
     import marimo as mo
 
     import pandas as pd
 
-    return copy, datetime, json, mo, pd, re
+    return datetime, httpx, json, mo, pd, re
 
 
 @app.cell
@@ -50,13 +53,44 @@ def _(mo):
     EVALSET_DIR = REPO_ROOT / "evalsets"
     REVIEW_OUTPUT_DIR = REPO_ROOT / "review-output"
     DOCUMENTS_LIST_PATH = REPO_ROOT / "eval-generation-notes" / "documents-list_20260817.txt"
+    return DOCUMENTS_LIST_PATH, EVALSET_DIR, REPO_ROOT, REVIEW_OUTPUT_DIR
 
-    return (
-        DOCUMENTS_LIST_PATH,
-        EVALSET_DIR,
-        REPO_ROOT,
-        REVIEW_OUTPUT_DIR,
-    )
+
+@app.cell
+def _():
+    # Where saved proposed queries get POSTed so they land somewhere the
+    # notebook owner can see them, even when run read-only via molab/WASM
+    # (which has no persistent server-side filesystem of its own). Same
+    # Apps Script Web App / Drive folder / Sheet used by
+    # review_expected_docs-cite.py -- see TECH_INFO.md "Submitting notebook
+    # output to a filedrop you own" for how this was set up, and how to
+    # rotate/replace it. Treat this URL as security-through-obscurity: fine
+    # for a short-lived, low-stakes review period; revoke the deployment in
+    # Apps Script when the review period ends.
+    SUBMIT_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbxNoFNUBXJkYEQK_m2yNeNMilhEqh22bXxbFjiWeZA03JCKxayTTScht2938U3mVakO/exec"
+    return (SUBMIT_ENDPOINT_URL,)
+
+
+@app.cell
+def _(SUBMIT_ENDPOINT_URL, httpx, json):
+    def submit_to_review_dashboard(filename, payload):
+        """Best-effort POST of a saved proposed query to the shared dashboard.
+
+        Never raises -- returns (success, error_message) so callers can
+        surface a warning without blocking the (already-successful) local
+        save.
+        """
+        try:
+            httpx.post(
+                SUBMIT_ENDPOINT_URL,
+                json={"filename": filename, "content": json.dumps(payload, indent=2)},
+                timeout=10,
+            )
+            return True, None
+        except Exception as e:
+            return False, str(e)
+
+    return (submit_to_review_dashboard,)
 
 
 @app.cell(hide_code=True)
@@ -79,7 +113,6 @@ def _(mo):
         [reviewer_name_input], justify="start", gap=1),
         mo.md("*Providing your name is optional -- it helps us track reviews and reach out if we have any questions.*")
     ])
-
     return (reviewer_name_input,)
 
 
@@ -131,7 +164,6 @@ def _(mo, pd, test_cases):
 
     {_counts_to_md_table(_difficulty_counts, "difficulty")}"""),
     ], justify="start", gap=3, widths="equal")
-
     return
 
 
@@ -166,7 +198,6 @@ def _(DOCUMENTS_LIST_PATH, mo):
 
     ALL_DOCUMENTS = _parse_documents_list(DOCUMENTS_LIST_PATH)
     mo.md(f"**{len(ALL_DOCUMENTS)}** documents loaded.")
-
     return (ALL_DOCUMENTS,)
 
 
@@ -191,7 +222,6 @@ def _(mo, test_cases):
         new_query_text,
         mo.hstack([new_query_type, new_query_difficulty], gap=1, justify="start"),
     ])
-
     return new_query_difficulty, new_query_text, new_query_type
 
 
@@ -199,16 +229,15 @@ def _(mo, test_cases):
 def _(ALL_DOCUMENTS, DocumentPicker, mo):
     doc_picker = mo.ui.anywidget(DocumentPicker(documents=ALL_DOCUMENTS))
     doc_picker
-
     return (doc_picker,)
 
 
 @app.cell
 def _(mo):
-    add_query_button = mo.ui.run_button(label="Add proposed query")
+    add_query_button = mo.ui.run_button(label="Save proposed query")
     mo.vstack([
         add_query_button,
-        mo.md("*Adds this question + selected documents as a new test case, included when you Submit / Export.*"),
+        mo.md("*Saves this question + selected documents as a new proposed test case, and submits it to the shared review folder.*"),
     ])
 
     return (add_query_button,)
@@ -217,15 +246,19 @@ def _(mo):
 @app.cell
 def _():
     proposed_queries = []
-
     return (proposed_queries,)
 
 
 @app.cell
 def _(
     ALL_DOCUMENTS,
+    EVALSET_NAME,
+    REPO_ROOT,
+    REVIEW_OUTPUT_DIR,
     add_query_button,
+    datetime,
     doc_picker,
+    json,
     mo,
     new_query_difficulty,
     new_query_text,
@@ -233,15 +266,19 @@ def _(
     proposed_queries,
     re,
     reviewer_name_input,
+    submit_to_review_dashboard,
     test_cases,
 ):
     mo.stop(not add_query_button.value, mo.md(""))
 
     _question = new_query_text.value.strip()
-    mo.stop(not _question, mo.md("**Cannot add:** please enter a query question first."))
+    mo.stop(not _question, mo.md("**Cannot save:** please enter a query question first."))
 
     _docs_by_external_id = {d["external_id"]: d for d in ALL_DOCUMENTS}
     _selected_docs = [_docs_by_external_id[e] for e in doc_picker.value["selected"] if e in _docs_by_external_id]
+
+    _reviewer_raw = reviewer_name_input.value.strip() or "reviewer"
+    _reviewer = re.sub(r"[^\w\-]+", "_", _reviewer_raw)
 
     _slug = re.sub(r"[^a-z0-9]+", "-", _question.lower()).strip("-")[:50]
     _existing_ids = [tc["id"] for tc in test_cases] + [pq["id"] for pq in proposed_queries]
@@ -258,78 +295,45 @@ def _(
         "source_language": _selected_docs[0]["language"] if _selected_docs else "",
         "difficulty": new_query_difficulty.value,
         "query_type": new_query_type.value,
-        "note": f"Proposed via review notebook by {reviewer_name_input.value}.",
+        "note": f"Proposed via review notebook by {_reviewer_raw}.",
     }
 
     proposed_queries.append(_new_test_case)
 
+    _payload = {
+        **_new_test_case,
+        "reviewer": _reviewer,
+        "source_evalset": EVALSET_NAME,
+        "proposed_at": datetime.datetime.now().isoformat(),
+    }
+    _filename = f"proposed-{EVALSET_NAME}-{_new_test_case['id']}-by-{_reviewer}.json"
+
+    REVIEW_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    _proposal_path = REVIEW_OUTPUT_DIR / _filename
+    _proposal_path.write_text(json.dumps(_payload, indent=2))
+
+    _submitted, _submit_error = submit_to_review_dashboard(_filename, _payload)
+    _submit_status = (
+        "✅ Submitted to Fenris' shared folder."
+        if _submitted
+        else f"⚠️ Saved locally, but submitting to the review dashboard failed: `{_submit_error}`"
+    )
+
     mo.md(f"""
-    **Added proposed query** `{_new_test_case["id"]}`
+    **Saved proposed query** `{_new_test_case["id"]}`
 
     - Question: {_new_test_case["question"]}
     - Documents selected: {len(_selected_docs)}
     - Query type: {_new_test_case["query_type"]} · Difficulty: {_new_test_case["difficulty"]}
 
+    Saved to: `{_proposal_path.relative_to(REPO_ROOT)}`
+
+    {_submit_status}
+
     Total proposed queries this session: **{len(proposed_queries)}**
     """)
 
     return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    submit_button = mo.ui.run_button(label="Submit / Export")
-    mo.vstack([
-        submit_button,
-        mo.md("*Creates an updated eval set with your proposed queries added.*"),
-    ])
-    return (submit_button,)
-
-
-@app.cell(hide_code=True)
-def _(
-    EVALSET_NAME,
-    REPO_ROOT,
-    REVIEW_OUTPUT_DIR,
-    build_updated_evalset,
-    datetime,
-    evalset,
-    json,
-    mo,
-    proposed_queries,
-    submit_button,
-):
-    mo.stop(not submit_button.value, mo.md(""))
-    mo.stop(not proposed_queries, mo.md("**Nothing to export.** Propose at least one new query before exporting."))
-
-    _updated_evalset = build_updated_evalset(evalset, proposed_queries)
-
-    _timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    REVIEW_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    _evalset_path = REVIEW_OUTPUT_DIR / f"{EVALSET_NAME}-{_timestamp}.json"
-    _evalset_path.write_text(json.dumps(_updated_evalset, indent=2))
-
-    mo.md(f"""
-    Exported!
-
-    Proposed new queries added: {len(proposed_queries)}
-
-    Updated evalset:\n`{_evalset_path.relative_to(REPO_ROOT)}`
-    """)
-
-    return
-
-
-@app.cell
-def _(copy):
-    def build_updated_evalset(source_evalset, proposed_queries=None):
-        updated_evalset = copy.deepcopy(source_evalset)
-        if proposed_queries:
-            updated_evalset["test_cases"].extend(copy.deepcopy(proposed_queries))
-        return updated_evalset
-
-
-    return (build_updated_evalset,)
 
 
 @app.cell
