@@ -81,16 +81,26 @@ def _(SUBMIT_ENDPOINT_URL, httpx, json):
         Never raises -- returns (success, error_message) so callers can
         surface a warning without blocking the (already-successful) local
         save.
+
+        Sends Content-Type: text/plain (not the default application/json)
+        so the request stays a CORS "simple request". Browsers (e.g. molab's
+        WASM/Pyodide runtime) otherwise send a preflight OPTIONS request
+        first, which this Apps Script endpoint doesn't answer with the
+        required CORS headers, causing a NetworkError. Apps Script's doPost
+        reads the raw request body regardless of Content-Type, so this
+        doesn't change what the server receives.
         """
         try:
             httpx.post(
                 SUBMIT_ENDPOINT_URL,
-                json={"filename": filename, "content": json.dumps(payload, indent=2)},
+                content=json.dumps({"filename": filename, "content": json.dumps(payload, indent=2)}),
+                headers={"Content-Type": "text/plain;charset=utf-8"},
                 timeout=10,
             )
             return True, None
         except Exception as e:
             return False, str(e)
+
 
     return (submit_to_review_dashboard,)
 
