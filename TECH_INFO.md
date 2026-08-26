@@ -37,6 +37,29 @@
     the full 207-document cross-lingual corpus (151 en, 15 es, 4 pt, 37 zh).
   - `issuelog_*.md` - known corpus issues (e.g. suspected duplicate/twin
     documents across languages) to check or validate later.
+- `scripts/` - one-off/maintenance scripts for populating `kp-docs/markdown/`.
+  - `db_text_to_markdown_askwri-qa.py` - **the current, primary script.**
+    Connects directly to the askwri-qa Postgres instance via `psycopg`
+    (no docker/`psql` dependency) and treats it as the source of truth for
+    every `kp-docs/markdown/*.md` file's frontmatter, refreshing it in
+    place rather than writing a file once and never touching it again.
+    Splits work into a cheap metadata pass (`documents` +
+    `document_summaries`, run by default) and an expensive, opt-in
+    full-text pass (`document_texts`, via `--refresh-text`, for the rare
+    case of a genuinely new document or re-OCR'd text). Fields that could
+    silently break eval resolution if wrong (`language`, `languages`,
+    `status`) are never auto-written - only reported - until a human
+    passes `--approve-critical`. Requires a `PGPASSWORD` env var (set it
+    in a local, gitignored `mise.local.toml`'s `[env]` block, then run via
+    `mise exec -- uv run scripts/db_text_to_markdown_askwri-qa.py`) and the
+    RDS CA bundle at `../global-bundle.pem` (one level above this repo).
+    See the script's module docstring for the full flag reference.
+  - `db_text_to_markdown.py` / `db_text_to_markdown_s3_docs.py` /
+    `cache_to_markdown.py` - earlier one-shot generators (docker
+    `exec .../psql`-based, or legacy CSV-based) that only ever *created* a
+    `.md` file once and never revisited it. Superseded by
+    `db_text_to_markdown_askwri-qa.py` above; kept for posterity/reference,
+    not expected to be run again.
 
 ### Submitting notebook output to a filedrop you own
 
