@@ -8,12 +8,16 @@ char_count: 68707
 title: 基于气候政策覆盖度看地方政府低碳策略
 title_en: Assessing Low-Carbon Strategies of Local Governments Through the Lens of Climate Policy Coverage
 authors: Lin, Jiaying; Qiu, Shiyong; Liu, Siyi; Liu, Daizong
+date_published: 2023-09-20
 year_published: 2023
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
+languages: [zh]
 doi: 10.46830/wriwp.22.00092
-status: needs_review
+url: "https://wri.org.cn/research/ASSESSING-LOW-CARBON-STRATEGIES-OF-LOCAL-GOVERNMENTS-THROUGH-THE-LENS-OF-CLIMATE-POLICY-COVERAGE"
+status: searchable
+summary: "This World Resources Institute working paper develops a practical framework to assess how fully cities cover climate policies and why that matters for meeting carbon peak and neutrality goals. Building on the City Clean Energy Scorecard and an analysis of policies in 12 sample cities (three in China and nine abroad), the authors map seven policy areas: community-wide initiatives, building policy, transportation policy, energy and water utilities, waste management, local government operations, and green finance. They scored 114 policy documents and find that local government operations and energy and water utilities have the most complete policy coverage, while community initiatives, buildings, and transport vary widely. National and provincial rules help, but most cities show stronger climate ambition than their countries; about 83% set carbon neutrality target years and over 85% of city scores derive from local policies. The paper recommends clear sectoral targets aligned with overall goals, better data and disclosure, stronger green finance and market signals, and investment in talent. It notes limits: small sample and focus on policy coverage rather than implementation or impact."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

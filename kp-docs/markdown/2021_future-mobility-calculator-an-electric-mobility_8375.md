@@ -3,17 +3,19 @@ doc_id: 2021_future-mobility-calculator-an-electric-mobility_8375
 source_pdf: kp-docs/askwri-kps/2021_future-mobility-calculator-an-electric-mobility_8375.pdf
 extraction_method: cache-plaintext
 char_count: 4147
-title: "Future Mobility Calculator: An electric mobility infrastructure tool"
+title: "Future Mobility Calculator: An Electric Mobility Infrastructure Tool"
+title_en: "Future Mobility Calculator: An Electric Mobility Infrastructure Assessment Tool"
 authors: Kothari, Vishant; Sclar, Ryan; Jackson, Eleanor; Werthmann, Emmett; Orbea, Jone
-date_published: 3/30/2021
+date_published: 2021-03-30
+year_published: 2021
+publication_title: "Future Mobility Calculator: An Electric Mobility Infrastructure Tool"
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/future-mobility-calculator-an-electric-mobility-infrastructure-tool/"
-doi: No DOI listed
-summary: Urban centers are significant contributors to global CO2 emissions, with transportation accounting for 24% of these emissions. The Future Mobility Calculator (FMC) is an Excel-based tool designed to assist cities in planning the infrastructure needed for electric vehicle (EV) adoption and charging stations. By analyzing city-specific data and projected scenarios for 2035 and 2050, the FMC estimates the required infrastructure quantity and costs, as well as potential emissions reductions. This open-source tool allows customization and integration of user data, facilitating informed decision-making for sustainable urban mobility and energy systems.
+status: searchable
+summary: Transportation represents 24% of global CO2 emissions, with road vehicles contributing nearly three-quarters of that share. The Future Mobility Calculator (FMC), an open-source Excel tool, helps cities plan EV and charging infrastructure deployment through 2035 and 2050. Using city-specific inputs—mobility data, charging infrastructure needs, and costs—it quantifies required infrastructure quantities, investment costs, and emissions benefits. Over 500 default data points drawn from IPCC, IEA, World Bank, and others fill gaps when local data are unavailable. All assumptions remain fully customizable, enabling tailored planning for any urban context.
 ---
 
 # Future Mobility Calculator: An electric mobility infrastructure tool

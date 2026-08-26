@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_low-speed-zone-guide_6603.pdf
 extraction_method: cache-plaintext
 char_count: 241249
 title: Low-Speed Zone Guide
+title_en: Low-Speed Zone Guide
 authors: Sharpin, Anna Bray; Adriazola-Steil, Claudia; Job, Soames; Obelheiro, Marta; Welle, Ben; Imamoglu, Celal Tolga; Bhatt, Amit; Liu, Daizong; Lleras, Natalia; Luke, Nikita
-date_published: 5/14/2021
+date_published: 2021-05-14
+year_published: 2021
+publication_title: Low-Speed Zone Guide
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/low-speed-zone-guide"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrigb.18.00063"
-summary: Deaths and serious injuries are the painful and highly visible result of a lack of road safety, but more has been lost to high car speeds than we realize. One solution to this growing problem is Low-Speed Zones. This Low-Speed Zone Guide presents strategies for planning, designing, building, and evaluating low-speed zones in cities. The guide intends to equip communities and decision-makers with the tools to implement low-speed zones that will suit their specific context.
+url: "https://www.wri.org/research/low-speed-zone-guide"
+status: searchable
+summary: Physical traffic-calming with 30 km/h or lower target speeds delivers the greatest safety benefits. London streets converted to 20 mph zones saw a 46% drop in killed and seriously injured crashes, versus only 1.6 km/h average speed reduction from speed limit changes alone. Zones must be self-enforcing through design. Site selection should weigh need, suitability, and feasibility. Boundaries should align with major urban features. Stakeholder engagement is critical to counter concerns about diversion and delays. Pilot implementations help build political will. Evaluation plans must assess safety, commerce, and public health outcomes.
 ---
 
 # Low-Speed Zone Guide

@@ -6,13 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 72145
 title: 2016年北京市拥堵收费政策民意调查分析报告
-title_en: 2016 Beijing Congestion Charging Policy Public Opinion Survey Analysis Report
+title_en: Analysis of Public Opinion on Congestion Charging Policy in Beijing in 2016
 authors: Qiu, Shiyong; Wang, Ying; Song, Su; Song, Liying; Li, Baowen; Bian, Qian; Wang, Jun; Liu, Cong
+date_published: 2018-05-01
 year_published: 2018
 article_type: Report
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/analysis-public-opinion-congestion-charging-policy-beijing-2016"
+status: searchable
+summary: "This report presents the first large-scale public opinion survey in Beijing on a proposed congestion charging policy and explains how public views could shape whether the policy succeeds. Conducted by the World Resources Institute and Beijing Jiaotong University in 2016, the survey collected 6,602 valid resident responses and 1,461 valid business responses from inside the Sixth Ring Road. It finds low resident support (23.2%), substantial opposition (48.3%), and a higher business support rate (37.5%). Support rises sharply among people who understand the policy, non-car households, frequent public-transport users, and businesses located where transit is strong. Notable effects: 34.7% of residents say they would switch from driving to public transit if the charge were introduced, and 51.5% expect revenues to fund public-transport improvements. The authors recommend a transparent, participatory decision process, pilot trials to demonstrate benefits, clear revenue earmarking for transit, and targeted public communication to increase acceptance and improve the policy’s congestion and pollution outcomes."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

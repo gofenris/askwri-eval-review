@@ -6,12 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 102547
 title: "A Pathway for a Green Transition of the Transport Sector in Mexico: Feasible Interventions That Are Environmentally, Economically, and Socially Beneficial"
+title_en: "A Pathway for a Green Transition of the Transport Sector in Mexico: Feasible Interventions That Are Environmentally, Economically, and Socially Beneficial"
 authors: Avelina Ruiz; Fernando Olea; Andrés Flores Montalvo; Emilio García
+date_published: 2023-09-25
 year_published: 2023
 article_type: Issue Brief
 wri_primary_office: WRI Mexico
 language: en
-status: needs_review
+languages: [en]
+url: "https://es.wri.org/publicaciones/pathway-green-transition-transport-sector-mexico"
+status: searchable
+summary: "This report shows that Mexico’s transport sector—about 23 percent of national greenhouse gas (GHG) emissions—can be put on a sharply lower-emissions trajectory using a feasible policy package based on the Avoid–Shift–Improve framework. Under a business-as-usual (BAU) forecast, transport emissions would rise from 166 million tonnes of CO2-equivalent in 2017 to 317 million tonnes by 2050. Modeling with the Energy Policy Simulator (EPS) finds a pathway that reduces emissions 30 percent below BAU by 2030 (about 140 MtCO2e) and 86 percent by 2050 (about 44 MtCO2e). The strategy combines travel-demand management to avoid trips, sustainable land use planning and regulations, modal shifts to public and rail freight, promotion of walking and cycling, tighter fuel-economy standards, removal of harmful fuel subsidies, and accelerated electrification of vehicles. The pathway also delivers large co-benefits: roughly 75,000 fewer premature deaths annually by 2050 from improved air quality and energy savings of 24 percent by 2030 and 66 percent by 2050. The report notes EPS uses general cost parameters and recommends Mexico-specific cost analysis for policy design and financing."
 ---
 
 WRI MÉXICO

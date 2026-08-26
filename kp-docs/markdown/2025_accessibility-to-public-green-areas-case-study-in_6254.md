@@ -3,17 +3,20 @@ doc_id: 2025_accessibility-to-public-green-areas-case-study-in_6254
 source_pdf: kp-docs/askwri-kps/2025_accessibility-to-public-green-areas-case-study-in_6254.pdf
 extraction_method: cache-plaintext
 char_count: 59326
-title: "Accessibility to public green areas: case study in Belo Horizonte, Brazil"
+title: "Accessibility to Public Green Areas: Case Study in Belo Horizonte, Brazil"
+title_en: "Accessibility to Public Green Areas: Case Study in Belo Horizonte, Brazil"
 authors: Pasqual, Francisco; Azeredo, Laura
-date_published: 3/18/2025
+date_published: 2025-03-18
+year_published: 2025
+publication_title: "Accessibility to Public Green Areas: Case Study in Belo Horizonte, Brazil"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: English
-url: "https://www.wribrasil.org.br/publicacoes/accessibility-public-green-areas-case-study-belo-horizonte-brazil"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.21.00061"
-summary: Accessibility to public green areas (PGAs) in Belo Horizonte, Brazil, reveals significant disparities linked to income levels, with wealthier neighborhoods enjoying better access. The study employed a cumulative opportunities measure to assess accessibility by walking, cycling, and public transport, finding that the poorest 10% can access only one PGA within a 15-minute walk, compared to four for the wealthiest. Recommendations include enhancing public transport connections to PGAs in low-income areas and prioritizing the creation of new green spaces in these regions. The findings underscore the need for equitable urban policies to improve access to recreational areas for marginalized communities.
+url: "https://www.wribrasil.org.br/publicacoes/accessibility-public-green-areas-case-study-belo-horizonte-brazil"
+status: searchable
+summary: "Green areas in Belo Horizonte are concentrated in wealthier districts, with stark access gaps by income. Within a 15-minute walk, the poorest 10% reach 1 PGA (avg. 13,000 m²) versus 4 PGAs (46,000 m²) for the wealthiest. By bicycle, the gap widens: 13 vs. 33 PGAs. Public transport shows the greatest inequality—6 vs. 31 PGAs in 30 minutes. The wealthy Centro-Sul district leads in PGA count and accessibility across all modes. Short-term recommendations include expanding public transport to peripheral neighborhoods and improving PT connections to PGAs. Medium- and long-term priorities include creating new PGAs in underserved areas and adopting transit-oriented development principles."
 ---
 
 # Accessibility to public green areas: case study in Belo Horizonte, Brazil

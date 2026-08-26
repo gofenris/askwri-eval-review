@@ -3,17 +3,20 @@ doc_id: 2023_our-journey-with-the-city-deciphering-wri-india_5344
 source_pdf: kp-docs/askwri-kps/2023_our-journey-with-the-city-deciphering-wri-india_5344.pdf
 extraction_method: cache-plaintext
 char_count: 279152
-title: "Our Journey with the City: Deciphering WRI India Ross Center’s Influence in Bengaluru"
+title: "Our Journey With the City: Deciphering WRI India Ross Center’s Influence in Bengaluru"
+title_en: "Our Journey with the City: Deciphering WRI India Ross Center's Influence in Bengaluru"
 authors: Chanchani, Radha; Dhindaw, Jaya; King, Robin; Pai, Madhav
-date_published: 10/7/2023
+date_published: 2023-10-07
+year_published: 2023
+publication_title: "Our Journey With the City: Deciphering WRI India Ross Center’s Influence in Bengaluru"
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/our-journey-city-deciphering-wri-india-ross-centers-influence-bengaluru"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wripn.18.00097"
-summary: WRI India Ross Center for Sustainable Cities (previously EMBARQ India) has maintained a presence in Bengaluru since 2010. It has served as a key change agent for sustainable development, starting with mobility and moving more broadly to urban development, related services such as energy and water, and climate resilience. WRI India Ross Center’s long-term engagement across multiple sectors and scales makes Bengaluru one of its “deep dive” cities.
+url: "https://www.wri.org/research/our-journey-city-deciphering-wri-india-ross-centers-influence-bengaluru"
+status: searchable
+summary: "WRI India's decade-long deep engagement in Bengaluru yielded 1.3 billion public bus passenger trips, 213 million hours of travel time saved, 136,525 metric tons of CO2 reduced, 390+ lives saved, and $198 million leveraged. Four success factors drove impact: data-driven credibility, sustained physical presence, flexible multi-sector partnerships, and innovation platforms like STAMP and NIPC challenges. Key lessons: organizations must engage city budget processes to influence priorities, establish early partnerships to fill operational gaps, communicate long-term milestones to funders, and accept that systemic change requires patient capital beyond individual project cycles."
 ---
 
 # Our Journey with the City: Deciphering WRI India Ross Center’s Influence in Bengaluru

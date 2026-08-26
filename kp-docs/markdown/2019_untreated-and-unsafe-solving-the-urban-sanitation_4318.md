@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_untreated-and-unsafe-solving-the-urban-sanit
 extraction_method: cache-plaintext
 char_count: 270534
 title: "Untreated and Unsafe: Solving the Urban Sanitation Crisis in the Global South"
+title_en: "Untreated and Unsafe: Solving the Urban Sanitation Crisis in the Global South"
 authors: Satterthwaite, David; Beard, Victoria A.; Mitlin, Diana; Du, Jillian
-date_published: 12/18/2019
+date_published: 2019-12-18
+year_published: 2019
+publication_title: "Untreated and Unsafe: Solving the Urban Sanitation Crisis in the Global South"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/untreated-and-unsafe-solving-urban-sanitation-crisis-global-south"
-doi: No DOI listed
-summary: Cities must ensure universal access to safe, reliable and affordable sanitation so that all urban residents can lead productive, healthy and thriving lives. Globally, the number of urban residents who lack safely managed sanitation has increased from 1.9 billion in 2000 to 2.3 billion in 2015, costing $223 billion a year in health costs and lost productivity and wages. When households cannot afford safe sanitation services, they often resort to unsafe practices, putting the entire city at risk.
+status: searchable
+summary: Analysis of 15 Global South cities finds 62% of sewage and fecal sludge is unsafely managed. In Caracas, Colombo, and Karachi, zero human waste is safely managed; Santiago de Cali leads at 87%. Global monitoring grossly underestimates the crisis. Sewer connections often cost households less than private septic tanks. On-site sanitation capital costs reach 128–759% of monthly household income. Low-income households in sub-Saharan Africa can afford only $3–4/month for sanitation. Communal toilets reduce per-household costs from ~$400 to $22. Cities must extend sewers, regulate fecal sludge management, upgrade informal settlements with community organizations, and subsidize sanitation costs for low-income households.
 ---
 
 # Untreated and Unsafe: Solving the Urban Sanitation Crisis in the Global South

@@ -3,17 +3,20 @@ doc_id: 2022_impactar-tool-valuing-air-quality-health-impacts_4741
 source_pdf: kp-docs/askwri-kps/2022_impactar-tool-valuing-air-quality-health-impacts_4741.pdf
 extraction_method: cache-plaintext
 char_count: 147930
-title: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil (2022)"
+title: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil"
+title_en: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil"
 authors: Betti, Luana; Garcia, Marina Caregnato; Siqueira, Eduardo; Evers, Henrique
-date_published: 2/23/2022
+date_published: 2022-02-23
+year_published: 2022
+publication_title: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil"
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/impactar-tool-air-quality-health-impacts-urban-bus-fleet-brazil-2022"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.21.00044"
-summary: In Brazil, where the transport sector is one of the biggest contributors to air pollution in cities, replacing conventional buses with electric vehicles can save lives and positively impact the economy. This is what ImpactAr tool, a technical note and a valuation model, demonstrates.
+url: "https://www.wri.org/research/impactar-tool-air-quality-health-impacts-urban-bus-fleet-brazil-2022"
+status: searchable
+summary: "ImpactAr quantifies health and economic costs of urban bus fleet transitions in São Paulo, Rio de Janeiro, Belo Horizonte, and Niterói using three-stage pathways: environmental (PM₂.₅/PM₁₀ emissions), epidemiological (hospitalization and mortality), and financial (cost-of-illness and statistical life value). Outdoor air pollution causes ~20,500 annual deaths and 4,581 respiratory hospitalizations nationally. Diesel buses dominate fleets while low-emissions alternatives represent only 0.003% of Brazil's urban bus fleet. Fleet renewal yields measurable public health savings and productivity gains that should inform municipal benefit-cost analyses to overcome investment barriers."
 ---
 
 # ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil (2022)

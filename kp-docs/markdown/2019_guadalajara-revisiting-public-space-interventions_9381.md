@@ -3,17 +3,19 @@ doc_id: 2019_guadalajara-revisiting-public-space-interventions_9381
 source_pdf: kp-docs/askwri-kps/2019_guadalajara-revisiting-public-space-interventions_9381.pdf
 extraction_method: cache-plaintext
 char_count: 91501
-title: "Guadalajara: Revisiting Public Space Interventions through the Via RecreActiva"
+title: "Guadalajara: Revisiting Public Space Interventions Through the Via RecreActiva"
+title_en: "Guadalajara: Revisiting Public Space Interventions Through the Via RecreActiva"
 authors: Sarmiento, Carolina S.; Alveano, Saúl; King, Robin
-date_published: 3/26/2019
+date_published: 2019-03-26
+year_published: 2019
+publication_title: "Guadalajara: Revisiting Public Space Interventions Through the Via RecreActiva"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/guadalajara-revisiting-public-space-interventions-through-recreactiva"
-doi: No DOI listed
-summary: This case study in the World Resources Report, “Towards a More Equal City,” tells the story of the Via RecreActiva – a ciclovía, or bike path, in the city of Guadalajara, Mexico. More than 60 kilometers of streets are closed every Sunday for this event, drawing more than 220,000 people. The Via RecreActiva exemplifies how a public space intervention can alter the social and political fabric of a city, sparking broader transformative change to public space use and inclusive governance.
+status: searchable
+summary: "Guadalajara's 2004 Sunday ciclovía created a clear political \"before and after,\" consolidating investment in public space and shifting civil society demands from basic infrastructure toward progressive governance reforms. The program now spans four municipalities with 220,000 weekly users across 63 km, at just $6.50 annual cost per capita. Business-led momentum halted a planned elevated expressway and brought activists into municipal office under the Citizens' Movement party. New institutions, participatory budgeting, and free sidewalk programs followed. However, investment remains concentrated in affluent western areas, and gentrification, displacement, and accountability gaps continue to limit truly equitable transformation."
 ---
 
 # Guadalajara: Revisiting Public Space Interventions through the Via RecreActiva

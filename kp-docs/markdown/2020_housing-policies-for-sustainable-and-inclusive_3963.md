@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2020_housing-policies-for-sustainable-and-inclusi
 extraction_method: cache-plaintext
 char_count: 154325
 title: "Housing policies for sustainable and inclusive cities: How national governments can deliver affordable housing and compact urban development"
+title_en: "Housing Policies for Sustainable and Inclusive Cities: How National Governments Can Deliver Affordable Housing and Compact Urban Development"
 authors: Moreno-Monroy, Ana; Gars, Jared; Matsumoto, Tadashi; Crook, Jonathan; Ahrend, Rudiger; Schumann, Abel
-date_published: 3/31/2020
+date_published: 2020-03-31
+year_published: 2020
+publication_title: "Housing policies for sustainable and inclusive cities: How national governments can deliver affordable housing and compact urban development"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/housing-policies-for-sustainable-and-inclusive-cities/"
-doi: No DOI listed
-summary: "To deliver sustainable and inclusive cities, national housing policies must achieve two objectives at the same time: boost affordable housing supply and deliver compact urban development."
+status: searchable
+summary: "Fiscal tools like impact fees and split-rate taxes can align housing development with affordability and compactness goals. Home ownership tax incentives are costly, regressive, and fuel sprawl. Inclusionary zoning and developer incentives should operate across both owner and rental markets. Three core recommendations emerge: redesign property taxes to encourage density and adopt development fees that price in sprawl costs; strengthen rental markets through balanced tenant-landlord regulations and social rental support; and build coherent national urban policies that align ministries, improve inter-municipal collaboration, and expand local property tax capacity."
 ---
 
 # Housing policies for sustainable and inclusive cities: How national governments can deliver affordable housing and compact urban development

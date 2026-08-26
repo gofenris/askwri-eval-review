@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2023_supporting-the-energy-transition-by-addressi
 extraction_method: cache-plaintext
 char_count: 97502
 title: Supporting the Energy Transition by Addressing Technology Gaps of Electrolyzers
+title_en: Supporting the Energy Transition by Addressing the Technology Gaps of Electrolyzers
 authors: Munjal, Guncha; Nallapaneni, Anuraag; Mulukutla, Pawan; Mishra, Shubham; Dwivedi, Garima
-date_published: 7/20/2023
+date_published: 2023-07-20
+year_published: 2023
+publication_title: Supporting the Energy Transition by Addressing Technology Gaps of Electrolyzers
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://wri-india.org/research/supporting-energy-transition-addressing-technology-gaps-electrolyzers"
-doi: No DOI listed
-summary: Supporting the energy transition by addressing technology gaps of electrolyzers- This report reviews the progress and current state of play for hydrogen production and corresponding electrolyzer technologies and proposes recommendations for addressing technology challenges, and exploring collaboration opportunities among G20 countries, through synchronized policy action.
+status: searchable
+summary: "Green hydrogen could meet 12% of global energy use by 2050, up from 2.5% in 2021. Global electrolyzer manufacturing capacity must scale from 8 GW/year (2021) to 65 GW/year by 2030. Critical bottlenecks include platinum group metal supply chains, design limitations, and intermittent renewable energy supply. Recommendations include diversifying mineral supply chains, harmonizing global standards and certification, creating demand incentives, providing financial support, and establishing a G20 collaborative platform for technology analysis. AEM technology shows promise alongside mature AE and PEM systems. Policy priorities must align with each country's resource availability and infrastructure capacity."
 ---
 
 # Supporting the Energy Transition by Addressing Technology Gaps of Electrolyzers

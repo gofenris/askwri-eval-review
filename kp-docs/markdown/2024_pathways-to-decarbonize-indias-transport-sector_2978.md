@@ -3,17 +3,20 @@ doc_id: 2024_pathways-to-decarbonize-indias-transport-sector_2978
 source_pdf: kp-docs/askwri-kps/2024_pathways-to-decarbonize-indias-transport-sector_2978.pdf
 extraction_method: cache-plaintext
 char_count: 107322
-title: "Pathways to decarbonize India’s transport sector: Scenario analysis using the Energy Policy Simulator"
+title: "Pathways to Decarbonize India’s Transport Sector: Scenario Analysis Using the Energy Policy Simulator"
+title_en: "Pathways to Decarbonize India's Transport Sector: Scenario Analysis Using the Energy Policy Simulator"
 authors: Ma, Ramya; Chakrabarty, Subrata
-date_published: 5/12/2024
+date_published: 2024-05-12
+year_published: 2024
+publication_title: "Pathways to Decarbonize India’s Transport Sector: Scenario Analysis Using the Energy Policy Simulator"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/wriwp.23.00039
 url: "https://wri-india.org/research/pathways-decarbonize-indias-transport-sector-scenario-analysis-using-energy-policy"
-doi: No DOI listed
-summary: India’s Long-Term Low-Carbon Development Strategy (LT-LEDS), submitted in November 2022, highlights key strategies such as electrification, fuel efficiency improvements, and a modal shift to public transport for passenger transport and toward railways for road freight. An integrated assessment of the decarbonization potential of each of these strategies and their cumulative impact is required to prioritize effective low-carbon transport policy packages.
+status: searchable
+summary: "India's transport sector can cut CO₂ emissions 71% below business-as-usual by 2050 by combining stringent fuel economy standards, electrification, and modal shift at high ambition. Electrification alone delivers the largest single-strategy reduction (57%), followed by fuel economy improvements (21%) and modal shift (18%). Modal shift is the most cost-effective policy, saving ~INR 12,118 per tonne of CO₂ abated. EV sales mandates yield the highest absolute abatement (121 MtCO₂e annually). Adding a 75% renewable electricity standard raises total reductions to 75%. Without action, fossil fuel consumption will quadruple by 2050."
 ---
 
 # Pathways to decarbonize India’s transport sector: Scenario analysis using the Energy Policy Simulator

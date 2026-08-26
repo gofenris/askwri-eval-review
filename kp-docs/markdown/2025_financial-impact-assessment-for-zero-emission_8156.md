@@ -3,17 +3,20 @@ doc_id: 2025_financial-impact-assessment-for-zero-emission_8156
 source_pdf: kp-docs/askwri-kps/2025_financial-impact-assessment-for-zero-emission_8156.pdf
 extraction_method: cache-plaintext
 char_count: 66277
-title: Financial Impact Assessment for Zero-Emission Trucks (Fi-ZET)
+title: Financial Impact Assessment for Zero-Emission Trucks
+title_en: "Financial Impact Assessment for Zero-Emission Trucks (Fi-ZET): A Tool for Comparative Feasibility Analysis of a Single Zero-Emission Truck (ZET) and an Internal Combustion Engine (ICE) Truck"
 authors: Patki, Sharvari; Polisetty, Manojna; Ramaprasad, Vishal; Mir, Waseem; Mulukutla, Pawan
-date_published: 8/14/2025
+date_published: 2025-08-14
+year_published: 2025
+publication_title: Financial Impact Assessment for Zero-Emission Trucks
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/writn.24.00053
 url: "https://wri-india.org/research/financial-impact-assessment-zero-emission-trucks-fi-zet"
-doi: No DOI listed
-summary: The MS Excel-based tool ‘Financial Impact Assessment for Zero-Emission Trucks (Fi-ZET) has been developed to assess the financial viability of replacing a diesel-powered internal combustion engine (ICE) truck with a zero-emission electric truck (ZET). The tool is a flexible, transparent, and user-friendly solution for conducting a preliminary financial comparison between an electric truck and a diesel truck.
+status: searchable
+summary: "The Fi-ZET Excel tool enables Indian fleet operators, shippers, and policymakers to compare zero-emission and diesel trucks across payback period, total cost of ownership (INR/km), net earnings, and discounted cash flows. Designed for India's state-level regulatory variations, it supports sensitivity analysis on interest rates, energy costs, and battery expenses. Policy levers simulate subsidies, toll waivers, and interest subvention impacts. Key limitations include debt-only financing assumptions, captive charging defaults, and single-vehicle scope. Recommended enhancements include fleet-wide analysis, hydrogen fuel cell integration, declining battery cost modeling, and regional adaptation beyond India."
 ---
 
 # Financial Impact Assessment for Zero-Emission Trucks (Fi-ZET)

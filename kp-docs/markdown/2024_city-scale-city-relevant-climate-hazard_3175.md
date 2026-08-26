@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_city-scale-city-relevant-climate-hazard_3175
 extraction_method: cache-plaintext
 char_count: 107001
 title: City-Scale, City-Relevant Climate Hazard Indicators Under 1.5°C, 2.0°C, and 3.0°C of Global Warming
+title_en: City-Scale, City-Relevant Climate Hazard Indicators Under 1.5°C, 2.0°C, and 3.0°C of Global Warming
 authors: Wong, Ted; Mackres, Eric
-date_published: 9/19/2024
+date_published: 2024-09-19
+year_published: 2024
+publication_title: City-Scale, City-Relevant Climate Hazard Indicators Under 1.5°C, 2.0°C, and 3.0°C of Global Warming
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/technical-note-city-climate-hazards-warming-scenarios"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.23.00154"
-summary: This paper describes a data set of 14 temperature- and precipitation-related climate hazard indicators, calculated for 996 cities at the 1.5°C, 2.0°C, and 3.0°C global warming scenarios.
+url: "https://www.wri.org/research/technical-note-city-climate-hazards-warming-scenarios"
+status: searchable
+summary: Across 996 cities housing ~2 billion people, heat waves grow longer and more frequent as warming increases. Days exceeding 35°C and 40°C rise consistently from 1.5°C to 3.0°C scenarios. Arbovirus vector mosquitoes (Aedes aegypti, Aedes albopictus) gain optimal-temperature days with warming, while malaria vector days decline modestly. Cooling degree-days increase substantially, signaling higher energy demand. Precipitation hazards show little change averaged globally, but regional and income-level disaggregation reveals meaningful differences. Drought days increase modestly at 3.0°C. Results underscore severe consequences of exceeding the 1.5°C Paris Agreement target.
 ---
 
 # City-Scale, City-Relevant Climate Hazard Indicators Under 1.5°C, 2.0°C, and 3.0°C of Global Warming

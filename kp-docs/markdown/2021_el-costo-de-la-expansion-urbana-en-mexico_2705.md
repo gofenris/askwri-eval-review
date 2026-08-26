@@ -3,17 +3,19 @@ doc_id: 2021_el-costo-de-la-expansion-urbana-en-mexico_2705
 source_pdf: kp-docs/askwri-kps/2021_el-costo-de-la-expansion-urbana-en-mexico_2705.pdf
 extraction_method: cache-plaintext
 char_count: 12829
-title: El costo de la expansión urbana en México
+title: El Costo de la Expansión Urbana en México. Resumen ejecutivo
+title_en: The Cost of Urban Expansion in Mexico. Executive summary
 authors: Zubicaray, Gorka; Lorelei, Díaz; Brito, Ramírez Reyes; Berumen, Abraham; Mackres, Eric
-date_published: 7/21/2021
+date_published: 2021-07-21
+year_published: 2021
+publication_title: El Costo de la Expansión Urbana en México
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
+language: en
+languages: [en, es]
 url: "https://urbantransitions.global/es/publication/el-costo-de-la-expansion-urbana-en-mexico/"
-doi: No DOI listed
-summary: "This WRI Coalition for Urban Transitions study analyzes the economic costs of urban sprawl across eight Mexican metropolitan areas: Mexico City, Guadalajara, Monterrey, Tijuana, Reynosa, Mérida, Tuxtla Gutiérrez, and Culiacán. Using four cost components—housing construction, construction emissions, commuting expenses, and basic service provision—the study finds that annual commuting and public service costs exceed 1% of national GDP. By 2050, half the cities would need to increase municipal spending by 48–244% to maintain current service levels. Location-based policies reducing commuting distances yield 5.6% average savings in travel costs, while densification alone cuts total costs ~10% but raises family commuting expenses 5.3%. The report recommends combining densification with strategic housing location policies, supported by shared fiscal responsibility across all government levels and focused support for vulnerable peripheral populations."
+status: searchable
+summary: Urban sprawl costs in eight Mexican metro areas exceed 1% of national GDP annually. By 2050, half of analyzed cities would need to increase municipal spending by 48–244% just to maintain current service levels per housing unit. Locating new dwellings near employment would cut cumulative commuting costs by 5.6% versus business-as-usual, reaching 8.3% annual savings per unit by 2050. Peripheral densification alone reduces total costs ~10% but raises family commuting expenses 5.3%. Combining location and densification policies maximizes benefits. Recommendations call for shared fiscal responsibility across all government levels and targeted support for vulnerable peripheral populations.
 ---
 
 # El costo de la expansión urbana en México

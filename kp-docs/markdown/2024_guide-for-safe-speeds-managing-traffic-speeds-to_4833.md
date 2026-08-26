@@ -3,17 +3,19 @@ doc_id: 2024_guide-for-safe-speeds-managing-traffic-speeds-to_4833
 source_pdf: kp-docs/askwri-kps/2024_guide-for-safe-speeds-managing-traffic-speeds-to_4833.pdf
 extraction_method: cache-plaintext
 char_count: 319715
-title: "Guide for Safe Speeds: Managing Traffic Speeds to Save Lives and Improve Livability | GRSF"
+title: "Guide for Safe Speeds: Managing Traffic Speeds to Save Lives and Improve Livability"
+title_en: "Guide for Safe Speeds: Managing Traffic Speeds to Save Lives and Improve Livability"
 authors: Turner, B.M.; Eichinger-Vill, E.M.; El-Samra, S; Adriazola-Steil, Claudia; Burlacu
-date_published: 03/01/2024
+date_published: 2024-03-01
+year_published: 2024
+publication_title: "Guide for Safe Speeds: Managing Traffic Speeds to Save Lives and Improve Livability"
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.globalroadsafetyfacility.org/publications/guide-safe-speeds-managing-traffic-speeds-save-lives-and-improve-livability"
-doi: No DOI listed
-summary: "Effective speed management is crucial for enhancing road safety and reducing fatalities, particularly among vulnerable road users like pedestrians and cyclists. The guide introduces the Roads-for-Life framework, which emphasizes setting speed limits based on actual road use and the needs of all users, rather than outdated methods like the \"85th percentile.\" By integrating evidence-based interventions and real-life examples, it aims to dispel myths surrounding speed management and promote community support for safer speeds. The guide is particularly relevant for decision-makers in low- and middle-income countries, offering practical strategies to improve road safety and contribute to environmental goals."
+status: searchable
+summary: Speed limits worldwide are often too high and poorly enforced, while benefits of faster speeds are overstated—lower limits minimally affect travel times but significantly reduce fatalities. The 85th percentile speed-setting method should be abandoned. The Roads-for-Life framework is recommended for setting limits based on actual road use and vulnerability of all users, not vehicle flow. Urban areas with pedestrians need limits well below current norms. Speed management strategies must combine engineering interventions, enforcement, and education. LMICs, where 90% of road deaths occur, need tailored, resource-appropriate solutions. Lower speeds also cut emissions, noise, and congestion.
 ---
 
 # Guide for Safe Speeds: Managing Traffic Speeds to Save Lives and Improve Livability | GRSF

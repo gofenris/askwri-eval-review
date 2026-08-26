@@ -3,17 +3,19 @@ doc_id: 2017_integrating-national-policies-to-deliver-compact_5239
 source_pdf: kp-docs/askwri-kps/2017_integrating-national-policies-to-deliver-compact_5239.pdf
 extraction_method: cache-plaintext
 char_count: 308200
-title: "Integrating national policies to deliver compact, connected cities: an overview of transport and housing"
+title: "Integrating National Policies to Deliver Compact, Connected Cities: An Overview of Transport and Housing"
+title_en: "Integrating National Policies to Deliver Compact, Connected Cities: An Overview of Transport and Housing"
 authors: Rode, Philipp; Heeckt, Catarina; Ahrend, Rudiger; Huerta Melchor, Oscar; Robert, Alexis; Badstuber, Nicole; Hoolachan, Andrew; Kwami, Corina
-date_published: 12/1/2017
+date_published: 2017-12-01
+year_published: 2017
+publication_title: "Integrating National Policies to Deliver Compact, Connected Cities: An Overview of Transport and Housing"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/integrating-national-policies-to-deliver-compact-connected-cities-an-overview-of-transport-and-housing/"
-doi: No DOI listed
-summary: "This report explores the ways in which urban policy sectors are integrated (or fragmented) in ten case study countries: China, Colombia, Ethiopia, Germany, India, Mexico, Nigeria, South Africa, the United Kingdom and the United States. The analysis is based on the most recent and authoritative national-level policy documents."
+status: searchable
+summary: "Across ten countries, transport policy integrates strongly with economic development but weakly with housing and spatial planning. Housing policy prioritizes quantity and affordability over location, ignoring transport linkages. Urban highways and road-widening programs generate sprawl with measurable economic costs. Middle-income countries show stronger land-transport integration than higher-income ones. Five integration typologies were identified: status quo, socio-spatial, spatial, total, and green growth. National urban policy frameworks—as in South Africa, California, and the UK—prove effective for aligning housing, transport, and spatial planning toward compact, connected development."
 ---
 
 # Integrating national policies to deliver compact, connected cities: an overview of transport and housing

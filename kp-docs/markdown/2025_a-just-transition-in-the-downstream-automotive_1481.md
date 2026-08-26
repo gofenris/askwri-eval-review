@@ -3,17 +3,20 @@ doc_id: 2025_a-just-transition-in-the-downstream-automotive_1481
 source_pdf: kp-docs/askwri-kps/2025_a-just-transition-in-the-downstream-automotive_1481.pdf
 extraction_method: cache-plaintext
 char_count: 93233
-title: "A “just” Transition in the Downstream Automotive Segment: Evidence from Delhi"
+title: "A “Just” Transition in the Downstream Automotive Segment: Evidence From Delhi"
+title_en: "A Just Transition in the Downstream Automotive Segment: Evidence From Delhi"
 authors: Sharma, Purva; Mukherjee, Aloke; Kanuri, Chaitanya; Chatterjee, Sudeshna
-date_published: 5/19/2025
+date_published: 2025-05-19
+year_published: 2025
+publication_title: "A “Just” Transition in the Downstream Automotive Segment: Evidence From Delhi"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/wriwp.23.00175
 url: "https://wri-india.org/research/just-transition-downstream-automotive-segment-evidence-delhi"
-doi: No DOI listed
-summary: India is in the early stages of a planned transition of its automotive sector to EVs. Most (86.38 percent) of India’s 30.7-million-strong automotive workforce is employed in the sector’s downstream segment rather than in automotive manufacturing. The downstream segment, which encompasses post-manufacturing processes, is a services-oriented segment including dealerships, aftersales parts and servicing, vehicle repairs, and commercial drivers.
+status: searchable
+summary: "Delhi's EV transition offers higher wages but fails other decent work standards. Half of green job workers transitioned from ICEV roles, motivated primarily by better pay. Green Enhanced Skills jobs—EV repair, charging stations—face inadequate training and underdeveloped supply chains. Green Increased Demand jobs like commercial driving suffer lost earnings from long charging times and insufficient infrastructure. Most ICEV workers are unaware of green job equivalents; those aware perceive upskilling requirements as excessive. Recommendations include expanding charging and battery-swapping infrastructure, improving skilling program access, legislating social protections for informal workers, and instituting right-to-repair policies."
 ---
 
 # A “just” Transition in the Downstream Automotive Segment: Evidence from Delhi

@@ -7,13 +7,17 @@ parse_model: mistral-ocr-latest
 char_count: 173901
 title: 新能源货车在城市和区域运输场景中的技术与经济可行性分析：以中国广东省为例
 title_en: "Techno-Economic Feasibility Analysis of Zero-Emission Trucks in Urban and Regional Delivery Use Cases: A Case Study of Guangdong Province, China"
-authors: Chen, Ke; Xue, Xuelu
+authors: Chen, Ke; Xue, Lulu
+date_published: 2024-12-02
 year_published: 2024
 article_type: Report
 wri_primary_office: WRI China
 language: zh
+languages: [zh]
 doi: 10.46830/wrirpt.24.00006
-status: needs_review
+url: "https://wri.org.cn/research/techno-economic-feasibility-analysis-zero-emission-trucks-urban-and-regional-delivery-use"
+status: searchable
+summary: "This World Resources Institute China report shows that zero-emission trucks (ZETs)—battery electric trucks (BETs) and fuel-cell electric trucks (FCETs)—can become cost-competitive with diesel trucks in many Guangdong use cases between 2022 and 2030. BETs perform especially well in urban delivery, port operations and drayage: in those settings BETs can reach total cost of ownership (TCO) parity with diesel trucks as early as model year (MY) 2025–2027, even without incentives. Regional long-haul routes reach parity later, where FCETs can be more competitive. The report finds that energy prices, battery and fuel-cell costs, and payload loss strongly affect timing. Comprehensive policy packages (purchase and energy subsidies, tax relief, priority road access, toll waivers, higher allowable gross vehicle mass, and lower financing costs) accelerate parity, with BETs benefiting most. The authors also recommend non-policy actions: smaller batteries plus sufficient fast charging and operational changes for drayage, leasing or battery-separation business models to cut upfront costs, better data collection, and designing adaptable BET models. Results apply mainly to cities similar to Shenzhen and Foshan."
 ---
 
 WRI CHINA

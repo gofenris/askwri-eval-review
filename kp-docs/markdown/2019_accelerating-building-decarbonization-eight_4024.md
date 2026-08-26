@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_accelerating-building-decarbonization-eight_
 extraction_method: cache-plaintext
 char_count: 297984
 title: "Accelerating Building Decarbonization: Eight Attainable Policy Pathways to Net Zero Carbon Buildings For All"
+title_en: "Accelerating Building Decarbonization: Eight Attainable Policy Pathways to Net Zero Carbon Buildings for All"
 authors: Becqué, Renilde; Weyl, Debbie; Stewart, Emma; Mackres, Eric; Jin, Luting; Shen, Xufei
-date_published: 9/17/2019
+date_published: 2019-09-17
+year_published: 2019
+publication_title: "Accelerating Building Decarbonization: Eight Attainable Policy Pathways to Net Zero Carbon Buildings For All"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/publication/accelerating-building-decarbonization"
-doi: No DOI listed
-summary: Achieving net zero carbon buildings (ZCBs) is feasible through eight defined policy pathways, emphasizing operational carbon emissions reduction via energy efficiency and renewable energy sources. The research, which analyzes policy frameworks in India, China, Mexico, and Kenya, highlights that cities can lead this transition by implementing supportive policies and leveraging existing frameworks. Key recommendations include prioritizing energy efficiency measures, utilizing on-site renewable energy, and considering carbon offsets only as a last resort. The findings underscore the critical role of municipal governments in facilitating ZCB pathways while also necessitating collaboration with national and state authorities. Ultimately, the study aims to guide urban decision-makers in realizing a decarbonized building stock by 2050.
+status: searchable
+summary: Cities can achieve net zero carbon buildings (ZCBs) through eight policy pathways combining basic efficiency, advanced efficiency, on-site renewables, off-site renewables, and carbon offsets as a last resort. Analysis of India, China, Mexico, and Kenya confirms feasible ZCB pathways exist in each country today. Energy efficiency takes priority, followed by on-site then off-site renewables. Expanding ZCB definitions beyond individual buildings to district or portfolio scales increases feasibility. Municipal governments should act as regulators, conveners, and building owners, while national governments must enable codes and renewable energy regulations. Currently fewer than 1% of buildings qualify as net zero carbon.
 ---
 
 # Accelerating Building Decarbonization: Eight Attainable Policy Pathways to Net Zero Carbon Buildings For All

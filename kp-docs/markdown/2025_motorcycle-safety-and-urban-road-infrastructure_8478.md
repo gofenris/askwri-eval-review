@@ -3,17 +3,20 @@ doc_id: 2025_motorcycle-safety-and-urban-road-infrastructure_8478
 source_pdf: kp-docs/askwri-kps/2025_motorcycle-safety-and-urban-road-infrastructure_8478.pdf
 extraction_method: cache-plaintext
 char_count: 187365
-title: Motorcycle safety and urban road infrastructure
+title: Motorcycle Safety and Urban Road Infrastructure
+title_en: "Motorcycle Safety and Urban Road Infrastructure: Urban Road Design and Planning Recommendations for Reducing Motorized Two-Wheeler Deaths and Injuries in Low- and Middle-Income Countries"
 authors: López, Segundo; John, Vineet; Pérez-Barbosa, David; Perdomo, Valentina; Vega, Juliana; Kisner, Jessica; Dumbaugh, Eric; Vijayarangan, Vipassana; Jakovcevic, Adriana; Adriazola-Steil, Claudia; Kemp, Hannah
-date_published: 10/3/2025
+date_published: 2025-10-03
+year_published: 2025
+publication_title: Motorcycle Safety and Urban Road Infrastructure
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Colombia
-wri_programs: Cities
-language: English; Spanish
-url: "https://www.wri.org/research/motorcycle-safety-and-urban-road-infrastructure"
+language: en
+languages: [en, es]
 doi: "https://doi.org/10.46830/wrirpt.21.00030"
-summary: The UN Global Plan of Action on Road Safety aims to reduce global road fatalities by half by 2030, with a focus on vulnerable road users such as motorcyclists, pedestrians, and cyclists, who collectively account for half of all global road deaths. In Latin America, Africa, and Asia, motorized two-wheelers fleets are growing rapidly accompanied by a rise in road fatalities and injuries. Today, motorized two- and three-wheelers account for 30 percent of total traffic fatalities globally- the highest share by road user.
+url: "https://www.wri.org/research/motorcycle-safety-and-urban-road-infrastructure"
+status: searchable
+summary: "Analysis of six cities (Accra, Bangkok, Bogotá, Cali, Buenos Aires, Nairobi) found higher traffic speeds are the strongest risk factor for motorcycle crashes, injuries, and fatalities. Roads with more lanes, uncontrolled median openings, dense commercial land use, and frequent intersections increase motorcyclist risk. BRT stations reduce injuries in Latin American cities. Key recommendations: implement continuous, corridor-level speed management for all vehicles; apply area-wide conflict reduction in dense and low-income zones; redesign median openings and restrict unsafe turns; and integrate motorcyclist safety into broader interventions for pedestrians, cyclists, and transit users."
 ---
 
 # Motorcycle safety and urban road infrastructure

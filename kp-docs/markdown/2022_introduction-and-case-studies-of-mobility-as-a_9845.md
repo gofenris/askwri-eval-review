@@ -3,17 +3,19 @@ doc_id: 2022_introduction-and-case-studies-of-mobility-as-a_9845
 source_pdf: kp-docs/askwri-kps/2022_introduction-and-case-studies-of-mobility-as-a_9845.pdf
 extraction_method: cache-plaintext
 char_count: 150134
-title: Introduction and Case Studies of Mobility as a Service (MAAS) Practice Guide
+title: 出行即服务（MAAS）实践指南介绍与案例集
+title_en: Mobility-as-a-Service (MaaS) Guideline for Chinese Cities and Case Studies
 authors: Song, Su; Ma, Jiahui; Liu, Andi; Ji, Junyi; Lu, Qingling; Zhong, Miaoqing; Tan, Ding; Xu, Xiaotian
-date_published: 10/11/2022
+date_published: 2022-11-10
+year_published: 2022
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/report/MaaS-Guideline-for-Chinese-Cities-and-Case-Studies"
+language: zh
+languages: [zh]
 doi: "https://doi.org/10.46830/wrirpt.21.00063"
-summary: "MaaS integrates multiple transport modes—buses, metros, ride-hailing, bike-sharing—into a single on-demand platform offering unified planning, booking, and payment. Drawing on 10 global case studies (Helsinki, Japan, Beijing, Singapore, Guangzhou, Los Angeles, Sweden, Netherlands, Sydney, Antwerp), five success factors emerge: clear strategic alignment with sustainable mobility goals, agreed business and governance models, data-sharing frameworks, commercially sustainable financing, and supportive regulation. For Chinese cities, recommendations include prioritizing low-carbon inclusive MaaS strategies, cultivating multi-stakeholder ecosystems, pursuing diversified financing linked to carbon markets, advancing data-sharing legislation, launching pilot programs with third-party evaluation, and tailoring services to distinct user groups and urban-rural contexts."
+url: "https://wri.org.cn/report/MaaS-Guideline-for-Chinese-Cities-and-Case-Studies"
+status: searchable
+summary: MaaS success requires clear goals aligned with local sustainable transport strategies, multi-stakeholder business models, data-sharing agreements, commercially viable financing, and supportive regulations. Analysis of 10 global cases—including Helsinki, Beijing, Guangzhou, Singapore, Los Angeles, and Antwerp—identified these five elements as universal success factors. For Chinese cities, recommendations include prioritizing low-carbon, inclusive MaaS strategies; forming multi-sector alliances; pursuing diversified financing linked to carbon markets; advancing legislation enabling open data sharing; launching pilot competitions with third-party evaluations; and tailoring services to distinct user groups and urban versus rural contexts.
 ---
 
 # Introduction and Case Studies of Mobility as a Service (MAAS) Practice Guide

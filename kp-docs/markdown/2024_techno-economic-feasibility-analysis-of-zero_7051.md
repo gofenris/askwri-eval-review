@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_techno-economic-feasibility-analysis-of-zero
 extraction_method: cache-plaintext
 char_count: 256346
 title: "Techno-Economic Feasibility Analysis of Zero-Emission Trucks in Urban and Regional Delivery Use Cases: A Case Study of Guangdong Province, China"
+title_en: "Techno-Economic Feasibility Analysis of Zero-Emission Trucks in Urban and Regional Delivery Use Cases: A Case Study of Guangdong Province, China"
 authors: Chen, Ke; Xue, Lulu
-date_published: 6/28/2024
+date_published: 2024-06-28
+year_published: 2024
+publication_title: "Techno-Economic Feasibility Analysis of Zero-Emission Trucks in Urban and Regional Delivery Use Cases: A Case Study of Guangdong Province, China"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/techno-economic-feasibility-analysis-zero-emission-trucks-urban-and-regional-delivery-use"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.24.00006"
-summary: "Techno-economic analysis of zero-emission trucks (ZETs) in Guangdong, China, reveals that battery electric trucks (BETs) can achieve total cost of ownership (TCO) parity with diesel trucks by 2025 in urban delivery and port operations, particularly when supported by comprehensive policy incentives. The study assessed 14 localized use cases, emphasizing the importance of operational flexibility and financing mechanisms to address small fleet operators' concerns regarding upfront costs. While BETs show significant cost advantages, fuel-cell electric trucks (FCETs) lag in TCO parity, reaching it only by 2028-2030. The findings underscore the necessity of targeted policies to accelerate ZET adoption among small and medium-sized enterprises."
+url: "https://www.wri.org/research/techno-economic-feasibility-analysis-zero-emission-trucks-urban-and-regional-delivery-use"
+status: searchable
+summary: Battery electric trucks (BETs) in port operations, drayage, and urban delivery reach total cost of ownership (TCO) parity with diesel before MY2025 in Guangdong, China—particularly 42-ton tractor trailers. Fuel-cell trucks achieve parity later, around MY2028–2030. Comprehensive policy packages—tax exemptions, energy incentives, road access privileges, toll reductions, and weight allowances—advance BET parity by up to nine years. Smaller batteries with multiple daily charges reduce BET costs significantly. Purchase cost gaps with diesel persist through MY2030, making leasing essential. Large purchase subsidies risk market oversupply; scrappage subsidies and road access privileges are preferable alternatives.
 ---
 
 # Techno-Economic Feasibility Analysis of Zero-Emission Trucks in Urban and Regional Delivery Use Cases: A Case Study of Guangdong Province, China

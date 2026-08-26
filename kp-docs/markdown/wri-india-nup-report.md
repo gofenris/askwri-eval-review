@@ -6,13 +6,16 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest+gs300
 char_count: 1003602
 title: "Equitable, Productive, Low-Carbon and Resilient System of Cities in India: National Urbanization Policy Recommendations"
+title_en: "Equitable, Productive, Low-Carbon and Resilient System of Cities in India: National Urbanization Policy Recommendations"
 authors: Sudeshna Chatterjee; Jaya Dhindaw; Malavika Neurekar; Nandini Agnihotri; Anirudh Burman; Anjali Mahendra; Purva Sharma; Madhav Pai
 date_published: 2026-07-30
 year_published: 2026
 article_type: Report
 wri_primary_office: WRI India
 language: en
+languages: [en]
 status: searchable
+summary: The report shows that India’s urban growth is widespread, often hidden, and frequently unplanned — producing housing shortages, infrastructure gaps, environmental harm, and rising climate risks. This matters because how India shapes urbanization will determine equity, economic opportunity, and national climate outcomes for many decades. Commissioned by the Economic Advisory Council to the Prime Minister and prepared by WRI India, the study uses geospatial analysis, census and administrative data, and stakeholder consultation to propose an evidence-based National Urbanization Policy (NUP). The NUP would treat the rural–urban continuum, including small towns, Census Towns, and peri-urban areas, rather than focus only on large cities. It recommends cross-sectoral reforms across seven themes — spatial planning; infrastructure and transport; affordable, climate‑resilient housing; economic development and inclusive growth; environmental sustainability; climate vulnerability and resilience; and governance and finance — and urges aligning fiscal incentives, strengthening institutions, and enabling coordinated planning that balances national direction with local flexibility to deliver equitable, productive, low‑carbon, and resilient city-regions.
 ---
 
 WRI INDIA

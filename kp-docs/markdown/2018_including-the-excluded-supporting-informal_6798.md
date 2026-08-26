@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2018_including-the-excluded-supporting-informal_6
 extraction_method: cache-plaintext
 char_count: 148284
 title: "Including the Excluded: Supporting Informal Workers for More Equal and Productive Cities in the Global South"
+title_en: "Including the Excluded: Supporting Informal Workers for More Equal and Productive Cities in the Global South"
 authors: Chen, Martha; Beard, Victoria A.
-date_published: 5/29/2018
+date_published: 2018-05-29
+year_published: 2018
+publication_title: "Including the Excluded: Supporting Informal Workers for More Equal and Productive Cities in the Global South"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/including-excluded-supporting-informal-workers-more-equal-and-productive-cities-global"
-doi: No DOI listed
-summary: A small but growing number of cities are adopting more inclusive approaches to informal workers and this offers important lessons for cities that seek a more equal, productive and environmentally sustainable future. Informal workers account for 50 to 80 percent of urban employment and generate from 25 to 50 percent of the (non-agricultural) gross domestic product of the global south. Yet they are largely excluded from public infrastructure and services, public space, and public procurement contracts.
+status: searchable
+summary: Informal employment comprises 50–80% of urban workforces across the Global South—over three-quarters in Africa, half in Asia-Pacific, and nearly half in Latin America. Informal enterprises generate 25–50% of non-agricultural GDP. Cities must grant home-based workers equitable access to core services; provide street vendors regulated access to public spaces; and allow waste picker organizations to compete for solid waste contracts. Laws should simplify business registration, make taxation progressive, and extend benefits in exchange. Inclusive approaches require meaningful participation of informal worker organizations in urban planning, supported by coalitions of lawyers, academics, and NGOs.
 ---
 
 # Including the Excluded: Supporting Informal Workers for More Equal and Productive Cities in the Global South

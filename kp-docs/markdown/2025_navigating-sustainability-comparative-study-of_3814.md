@@ -3,17 +3,19 @@ doc_id: 2025_navigating-sustainability-comparative-study-of_3814
 source_pdf: kp-docs/askwri-kps/2025_navigating-sustainability-comparative-study-of_3814.pdf
 extraction_method: cache-plaintext
 char_count: 156823
-title: "Navigating sustainability: Comparative Study of China’s and International Standards for Sustainable Transportation Fuels"
-authors: Chunjia, Ran; Xue, Lulu
-date_published: 6/30/2025
+title: 交通低碳燃料的可持续性标准：全球与本土的比较研究
+title_en: "Navigating Sustainability: Comparative Study of China's and International Standards for Sustainable Transportation Fuels"
+authors: Ran, Chunjia; Xue, Lulu
+date_published: 2025-06-30
+year_published: 2025
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/navigating-sustainability-comparative-study-chinas-and-international-standards-sustainable"
+language: zh
+languages: [zh]
 doi: "https://doi.org/10.46830/wrirpt.24.00144"
-summary: Promoting sustainable alternative fuels is widely regarded as a key strategy for achieving emission reduction targets in the transportation sector. Defining sustainable alternative fuels through clear and robust standards is critical. These standards form the basis for designing effective policy frameworks and guiding industry investment. In recent years, ICAO, IMO, the EU, the United States, and China have all introduced policies to support the development of sustainable alternative fuels. These policies are beginning to have a profound impact on China’s relevant industries.
+url: "https://wri.org.cn/yanjiu/jiao-tong-di-tan-ran-liao-de-ke-chi-xu-xing-biao-zhun-quan-qiu-yu-ben-tu-de-bi-jiao-yan-jiu"
+status: searchable
+summary: "China's aviation sustainable fuel standards are 12.5% more lenient than ICAO CORSIA thresholds, with no national maritime fuel standards. China leads by prohibiting food crops in aviation biofuels but must extend this ban to maritime fuels. Agricultural and forestry residue requirements need strengthening—explicitly barring high-carbon ecosystems and setting straw return ratios. Grid-electricity-based hydrogen produces 301.1 gCO₂e/MJ, far exceeding EU limits. China should incorporate indirect land-use change and baseline-scenario avoided emissions into accounting, establish granular electricity carbon intensity factors, and pursue mutual recognition with international certification schemes."
 ---
 
 # Navigating sustainability: Comparative Study of China’s and International Standards for Sustainable Transportation Fuels

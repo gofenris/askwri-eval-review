@@ -6,12 +6,18 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 54391
 title: 抓住中国城市机遇：将城市置于“十四五”规划以及气候韧性和净零排放国家愿景的核心位置
-title_en: "Seizing China’s Urban Opportunity: Putting Cities at the Heart of the 14th Five-Year Plan and the National Vision for Climate Resilience and Net-Zero Emissions"
+title_en: "Seizing China’s Urban Opportunity: Cities at the Heart of the 14th Five-Year Plan and a National Vision for Net-Zero Emissions"
+authors: Coalition for Urban Transitions
+date_published: 2021-03-17
 year_published: 2021
+publication_title: Seizing China’s Urban Opportunity
 article_type: Report
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-chinas-urban-opportunity/"
+status: searchable
+summary: "This report shows that Chinese cities can drive a large, rapid shift to low-carbon, resilient growth — and that doing so matters for national recovery, jobs and China’s 2060 carbon‑neutral goal. The Coalition for Urban Transitions models that using existing low‑carbon measures could cut urban emissions from buildings, transport and waste by 48% by 2030 (about 194 million tonnes CO2e) and by 89% by 2050 (about 337 million tonnes CO2e). More than half the opportunity lies in cities under one million people. Delivering these measures requires about $5.5 trillion in additional investment to 2050 but would yield at least $7.7 trillion in net present value and create some 15.2 million jobs by 2030, mainly from building retrofits. Electricity decarbonization is essential: in 2019 China still relied on fossil fuels for 68% of power. The report urges placing sustainable cities at the center of the 14th Five‑Year Plan and updated nationally determined contributions, prioritizing energy‑efficient buildings, compact connected urbanization of small and medium cities, and nature‑based “sponge city” resilience."
 ---
 
 COALITION

@@ -3,17 +3,19 @@ doc_id: 2025_from-concept-to-application-analyzing-just_6237
 source_pdf: kp-docs/askwri-kps/2025_from-concept-to-application-analyzing-just_6237.pdf
 extraction_method: cache-plaintext
 char_count: 131285
-title: "From Concept to Application: Analyzing Just Transition in the Core Climate Documents of 80 Paris Agreement Parties"
+title: "从概念到应用:解析80个缔约方核心气候文件中的公正转型"
+title_en: "From Concept to Application: Analyzing Just Transition in the Core Climate Documents of 80 Paris Agreement Parties"
 authors: Lu, Lu; Chen, Yidan
-date_published: 10/6/2025
+date_published: 2024-12-30
+year_published: 2024
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/just-transition-core-climate-documents-80-paris-agreement"
+language: zh
+languages: [zh]
 doi: "https://doi.org/10.46830/wrirpt.23.00090"
-summary: To achieve the Paris Agreement’s 1.5°C goal, countries’ emission reduction efforts are entering, or will soon enter, “uncharted waters”. While reducing emissions, governments must also address the negative socioeconomic problems induced by climate action. These issues include the decline of carbon-intensive industries, increased unemployment risks, and challenges related to regional economic development, social equity, and people’s livelihoods.
+url: "https://wri.org.cn/research/just-transition-core-climate-documents-80-paris-agreement"
+status: searchable
+summary: "As of May 2024, 80 Paris Agreement parties reference \"just transition\" in climate documents, yet over half offer no definition. A four-principle framework reveals significant gaps: procedural justice is weakest, with marginalized groups rarely guaranteed meaningful participation. Energy, industry, and transport dominate discussions (72%, 56%, and 53% of parties); agriculture receives least attention. Just transition is linked far more to mitigation than adaptation. Parties should embed commitments in core climate documents and strengthen public finance mechanisms while mobilizing private capital."
 ---
 
 # From Concept to Application: Analyzing Just Transition in the Core Climate Documents of 80 Paris Agreement Parties

@@ -3,17 +3,19 @@ doc_id: 2020_the-future-of-urban-mobility-the-case-for_6259
 source_pdf: kp-docs/askwri-kps/2020_the-future-of-urban-mobility-the-case-for_6259.pdf
 extraction_method: cache-plaintext
 char_count: 61440
-title: "The Future of Urban Mobility: The case for electric bus deployment in Bogotá, Colombia"
+title: "The Future of Urban Mobility: The Case for Electric Bus Deployment in Bogotá, Colombia"
+title_en: "The Future of Urban Mobility: The Case for Electric Bus Deployment in Bogotá, Colombia"
 authors: Sclar, Ryan; Werthmann, Emmett; Orbea, Jone; Siqueira, Eduardo; Tavares, Virginia; Pinheiro, Berta; Albuquerque, Cristina; Castellanos, Sebastian
-date_published: 3/31/2020
+date_published: 2020-03-31
+year_published: 2020
+publication_title: "The Future of Urban Mobility: The Case for Electric Bus Deployment in Bogotá, Colombia"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/the-future-of-urban-mobility-the-case-for-electric-bus-deployment-in-bogota-colombia/"
-doi: No DOI listed
-summary: Public transport officials in Bogotá, Colombia used an innovative planning tool to inform the electrification of their municipal bus fleet. This paper explores the city’s experience, and highlights lessons relevant for other governments looking to deploy electric buses.
+status: searchable
+summary: "Across all four electrification scenarios tested for Bogotá's TransMilenio fleet—ranging from 117 to 1,661 e-buses—benefits outweighed costs. Colombia's grid (65% renewable, projected 100% by 2035) amplifies emissions reductions. Key barriers included e-buses' limited range (235 km/day vs. 440 km for diesel), high upfront costs, and rigid procurement structures. The analysis directly informed Bogotá's 2019 Phase V tender, resulting in procurement of 483 e-buses. Investment in low-carbon transit must increase sixfold by 2050 to stay below 2°C. National policy targets 100% electric or natural gas mass transit by 2028."
 ---
 
 # The Future of Urban Mobility: The case for electric bus deployment in Bogotá, Colombia

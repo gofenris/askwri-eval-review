@@ -4,15 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_10-questions-to-ask-about-planning-financing
 extraction_method: cache-plaintext
 char_count: 161611
 title: 10 Questions to Ask About Planning, Financing and Implementing Transit Oriented Development Strategies
+title_en: 10 Questions to Ask About Planning, Financing, and Implementing Transit-Oriented Development Strategies
 authors: Amos,Albert; Moon-Miklaucic, Christopher Tristan; Orloff, Mariana
-date_published: 4/30/2021
+date_published: 2021-04-30
+year_published: 2021
+publication_title: 10 Questions to Ask About Planning, Financing and Implementing Transit Oriented Development Strategies
 article_type: Working Paper
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/10-questions-ask-about-planning-financing-and-implementing-transit-oriented-development"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.19.00144"
-summary: "TOD strategies improve urban connectivity, reduce sprawl, and lower carbon emissions by concentrating mixed-use, high-density development near transit stations. Drawing on 26 global case studies and technical assistance across Brazil, Colombia, and India, the analysis addresses ten implementation challenges: quantifying benefits and costs, spatial planning models (urban core, urban residential, suburban residential), design principles (walkability, bikeability, mixed-use), land assembly tools (land pooling, Community Land Trusts, eminent domain), and financing mechanisms including Tax Increment Financing and Land Value Capture. Key recommendations include establishing integrated regulatory frameworks across government tiers, conducting early market analysis, ensuring robust stakeholder engagement, deploying private-sector incentives, and implementing inclusionary zoning and affordable housing subsidies to mitigate gentrification. TOD investments typically require 5–10 years before financial returns materialize, necessitating patient capital and strong governance structures."
+url: "https://www.wri.org/research/10-questions-ask-about-planning-financing-and-implementing-transit-oriented-development"
+status: searchable
+summary: TOD improves connectivity, reduces emissions, and creates mixed-income neighborhoods, but requires enabling regulatory frameworks and strong institutional coordination. Financing typically combines betterment levies, Tax Increment Financing, air rights, and special assessment districts, as transit fare revenues only cover operations. Land Value Capture tools—zoning changes, land banking, and development fees—can fund infrastructure. Cities must counter gentrification through inclusionary zoning and affordable housing funds. Economic impacts take 5–10 years to materialize, requiring patient capital. Metrics should track walkability, density, mixed-use development, and transport connectivity.
 ---
 
 # 10 Questions to Ask About Planning, Financing and Implementing Transit Oriented Development Strategies

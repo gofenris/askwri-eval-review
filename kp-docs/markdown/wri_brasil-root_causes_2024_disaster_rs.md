@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 149886
 title: "Understanding Risk Construction: Root Causes of the 2024 Climate Disaster in Rio Grande do Sul"
+title_en: "Understanding Risk Construction: Root Causes of the 2024 Climate Disaster in Rio Grande do Sul"
 authors: Andressa Ribeiro; Pâmela Herrmann; Clara Strack; Henrique Evers; Lara Caccia; Luis Antonio Lindau
 date_published: 2026-05-07
 year_published: 2026
 article_type: Working Paper
 wri_primary_office: WRI Brasil
 language: en
+languages: [en]
 doi: 10.46830/wriwp.25.00076en
 status: searchable
+summary: This working paper from WRI Brasil shows that the May 2024 disaster in the state of Rio Grande do Sul was not only a meteorological event but the result of long-term social, economic and governance failures that built vulnerability over time. The report documents the scale of the crisis — 2.4 million people affected, 418 municipalities declaring emergency, 183 deaths, 27 missing, more than 660,000 displaced or homeless, widespread damage to roads, public facilities and farms, and estimated losses of R$ 88.9 billion — and traces how unsafe conditions, dynamic pressures and 11 root causes combined with extreme rainfall to produce the catastrophe. Using the Forensic Investigation of Disasters approach and Retrospective Longitudinal Analysis, researchers drew on two workshops with 30 local experts, 15 questionnaires and three interviews, focusing on the Guaíba Basin. They conclude that low social memory, climate-change denial, socioeconomic inequality and fragmented municipal governance amplified impacts and they urge supra-municipal planning, river-basin governance, integrated adaptation, and climate justice for the most vulnerable.
 ---
 
 WRI BRASIL

@@ -3,17 +3,19 @@ doc_id: 2022_research-on-medium-and-long-term-in-depth_4687
 source_pdf: kp-docs/askwri-kps/2022_research-on-medium-and-long-term-in-depth_4687.pdf
 extraction_method: cache-plaintext
 char_count: 119888
-title: "Research on Medium- and Long-Term In-Depth Emission Reduction in Guangdong Province's Road Traffic Sector"
-authors: Xue, Lulu; Liu, Daizong
-date_published: 5/26/2022
+title: 广东省道路交通领域 中长期深度减排研究
+title_en: Pathways to Decarbonize the Road Transport Sector in Guangdong, China
+authors: Miao, Ling; Liu, Yonghong; Zeng, Xuelan; Ren, Huanhuan; Huang, Zhuohui; Xue, Lulu
+date_published: 2023-04-17
+year_published: 2023
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://www.wri.org/research/decarbonizing-chinas-road-transport-sector-strategies-toward-carbon-neutrality"
+language: zh
+languages: [zh]
 doi: "https://doi.org/10.46830/wrirpt.22.00102"
-summary: As a relatively developed province with carbon emissions that could possibly peak before 2030—earlier than other regions—it is important for Guangdong Province to decarbonize its transport sector to achieve its carbon peaking and neutrality goals. According to the authors’ estimation, transport CO2 emissions accounted for 14.3 percent of energy-related emissions in Guangdong Province in 2020. This share is even larger in the Greater Bay Area and on the city level.
+url: "https://wri.org.cn/report/Pathways-to-Decarbonize-the-Road-Transport-Sector-in-Guangdong"
+status: searchable
+summary: "Guangdong's road transport emissions peak in 2027 under existing policies (17% above 2020) or 2024 under zero-emission scenario (7% above 2020). By 2060, existing policies yield 80% reduction; zero-emission scenario achieves near-zero. Private cars (48% of emissions) and heavy trucks (23%) are critical. Non-Pearl River Delta regions peak latest (2026–2033) with only 68% reduction by 2060. EV adoption offers greatest long-term mitigation potential; transport structure optimization dominates near-term reductions. Priority recommendations: accelerate EV deployment outside Guangzhou and Shenzhen, and scale zero-emission heavy trucks province-wide."
 ---
 
 # Research on Medium- and Long-Term In-Depth Emission Reduction in Guangdong Province's Road Traffic Sector

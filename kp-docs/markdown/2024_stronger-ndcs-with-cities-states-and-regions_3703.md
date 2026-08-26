@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_stronger-ndcs-with-cities-states-and-regions
 extraction_method: cache-plaintext
 char_count: 106802
 title: "Stronger NDCs With Cities, States, and Regions: Recommendations for National Governments"
+title_en: "Stronger NDCs with Cities, States, and Regions: Recommendations for National Governments"
 authors: Naidoo, Nadia Shah; Sanniti, Sophia; Malhotra, Chaandi; Doust, Michael; Batra, Pandora
-date_published: 11/13/2024
+date_published: 2024-11-13
+year_published: 2024
+publication_title: "Stronger NDCs With Cities, States, and Regions: Recommendations for National Governments"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/stronger-ndcs-cities-states-regions-recommendations-national-governments"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.24.00038"
-summary: Countries can significantly enhance the ambition of their Nationally Determined Contributions (NDCs) through a more collaborative and integrated approach with subnational governments to fully align with the Paris Agreement goals. This document supports national governments in the facilitation of input from subnational governments in the NDC development process.
+url: "https://www.wri.org/research/stronger-ndcs-cities-states-regions-recommendations-national-governments"
+status: searchable
+summary: "Only 27% of 194 NDCs contain strong urban content, and fewer than half mention climate hazards at the urban level. National governments should follow three staged recommendations: review existing multilevel partnerships and subnational data gaps; plan stakeholder engagement with clear objectives and coordination bodies; and develop NDCs by integrating subnational GHG inventories, vulnerability assessments, and sector-specific targets. Capacity-building support is critical, as 83% of countries with conditional NDCs cite capacity as a primary barrier. Kenya and Colombia offer replicable models of whole-of-government climate coordination."
 ---
 
 # Stronger NDCs With Cities, States, and Regions: Recommendations for National Governments

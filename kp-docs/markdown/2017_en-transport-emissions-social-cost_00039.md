@@ -6,10 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 239976
 title: "Transport Emissions & Social Cost Assessment: Methodology Guide"
+title_en: "Transport Emissions & Social Cost Assessment: Methodology Guide"
 authors: Su Song
+date_published: 2017-01-12
+year_published: 2017
 article_type: Report
+wri_primary_office: WRI China
 language: en
-status: needs_review
+languages: [en]
+url: "https://wri.org.cn/research/transport-emissions-social-cost-assessment"
+status: searchable
+summary: "This guide presents a practical methodology and an Excel tool (TESCA v1.0) to quantify transport emissions and roughly value their social costs, aimed at cities and countries with limited data capacity. It estimates inventories for six air pollutants—nitrogen oxides, sulfur oxides, particulate matter (PM2.5 and PM10), carbon monoxide, and hydrocarbons—and three greenhouse gases (GHGs): carbon dioxide, methane, and nitrous oxide, across 18 transport modes at city or national scale. The guide produces four outputs: emissions inventories, estimated social costs, eco-efficiency indicators (for example, tonnes of PM2.5 per vehicle-kilometre), and a data-quality assessment. It was tested in Chengdu, China, and is designed to help policymakers prioritize cost-effective transport policies. The report stresses that transport is a growing contributor to urban air pollution and large health costs (for example, OECD countries’ air-pollution health costs were about US$1.7 trillion in 2010) and warns that monetized social-cost estimates—especially health impacts—carry substantial uncertainty and need further research."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

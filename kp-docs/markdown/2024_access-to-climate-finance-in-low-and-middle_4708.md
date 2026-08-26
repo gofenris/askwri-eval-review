@@ -3,17 +3,20 @@ doc_id: 2024_access-to-climate-finance-in-low-and-middle_4708
 source_pdf: kp-docs/askwri-kps/2024_access-to-climate-finance-in-low-and-middle_4708.pdf
 extraction_method: cache-plaintext
 char_count: 151027
-title: "Access to Climate Finance in Low and Middle-Income Countries: 14 Case Studies in the Transport Sector"
+title: "Access to Climate Finance in Low- and Middle-Income Countries: 14 Case Studies for the Transport Sector"
+title_en: "Access to Climate Finance in Low- and Middle-Income Countries: 14 Case Studies in the Transport Sector"
 authors: Zhang, Yiqian; Caldwell, Molly; Laxton, Valerie; Welle, Ben; Liu, K. Zé
-date_published: 11/18/2024
+date_published: 2024-11-18
+year_published: 2024
+publication_title: "Access to Climate Finance in Low- and Middle-Income Countries: 14 Case Studies for the Transport Sector"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/access-climate-finance-low-middle-income-countries-14-case-studies-transport-sector"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.23.00145"
-summary: Access to climate finance for the transport sector in low- and middle-income countries (LMICs) reveals significant barriers, including inadequate policy frameworks, high upfront costs, and limited project preparation capacity. An analysis of 839 transport projects and 14 case studies across Asia, Africa, and Latin America indicates that one-third of funded projects focus on road construction, with only 20% aimed at enhancing resilience. Recommendations emphasize the need for governments to create supportive policies, enhance inter-agency coordination, and implement de-risking strategies to attract private investment. Addressing these challenges is crucial for mobilizing the estimated $2.4 trillion needed annually for sustainable transport by 2050.
+url: "https://www.wri.org/research/access-climate-finance-low-middle-income-countries-14-case-studies-transport-sector"
+status: searchable
+summary: "Roads dominate transport climate finance, comprising one-third of 839 reviewed projects, while only 20% explicitly target climate resilience. Concessional loans and grants are most common; blended finance appears in 30+ projects. Private actors supply 62% of transport climate finance, largely from household EV purchases. Key barriers include weak policy frameworks, limited project preparation capacity, high upfront costs, complex funder requirements, and poor monitoring. Recommendations: set binding transport targets, coordinate across government agencies, deploy de-risking instruments like guarantees, build stakeholder capacity, and shift MDB technical assistance toward pipeline development and implementation support."
 ---
 
 # Access to Climate Finance in Low and Middle-Income Countries: 14 Case Studies in the Transport Sector

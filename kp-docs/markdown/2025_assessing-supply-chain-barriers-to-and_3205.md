@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_assessing-supply-chain-barriers-to-and_3205.
 extraction_method: cache-plaintext
 char_count: 105241
 title: Assessing Supply Chain Barriers to and Opportunities for Advancing Road Transport Electrification in Kenya
+title_en: Assessing Supply Chain Barriers to and Opportunities for Advancing Road Transport Electrification in Kenya
 authors: Mwangi, Amos; Abubaker, Iman Abdulwassi; Kipkirui, Japheth; Oursler, Anna
-date_published: 5/16/2025
+date_published: 2025-05-16
+year_published: 2025
+publication_title: Assessing Supply Chain Barriers to and Opportunities for Advancing Road Transport Electrification in Kenya
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Africa
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/assessing-supply-chain-barriers-and-opportunities-advancing-road-transport-electrification"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.23.00088"
-summary: Kenya’s transport sector is the second-greatest contributor to the country’s greenhouse gas (GHG) emissions, accounting for 13 percent of total emissions. Over 75 percent of Kenyans can access clean energy, so switching to electric vehicles (EVs) could help Kenya curb air pollution and reach its decarbonization goals. But far fewer than 1 percent of vehicles sold in Kenya annually are electric.
+url: "https://www.wri.org/research/assessing-supply-chain-barriers-and-opportunities-advancing-road-transport-electrification"
+status: searchable
+summary: "Kenya's transport sector contributes 13% of national GHG emissions, yet EVs represent under 1% of registered vehicles despite 75% electricity access from 90% renewable sources. Key barriers include absent comprehensive e-mobility policy, EV upfront costs 1.5x higher than ICE equivalents, prohibitive loan interest rates exceeding 50% annually, and charging infrastructure concentrated in Nairobi. Recommendations include establishing EV sales mandates, deploying green financing and de-risking mechanisms, incorporating EV education into national curriculum, expanding government-led charging infrastructure, and using targeted data-driven modelling to design interventions and pilot programs."
 ---
 
 # Assessing Supply Chain Barriers to and Opportunities for Advancing Road Transport Electrification in Kenya

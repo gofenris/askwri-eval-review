@@ -3,16 +3,19 @@ doc_id: 2021_mexico-frontrunners-adapting-to-climate-change-in_8904
 source_pdf: kp-docs/askwri-kps/2021_mexico-frontrunners-adapting-to-climate-change-in_8904.pdf
 extraction_method: cache-plaintext
 char_count: 90529
-title: "Mexico Frontrunners | Adapting to climate change in mountain cities: Lessons from Xalapa, Mexico."
+title: "Adapting to Climate Change in Mountain Cities: Lessons from Xalapa, Mexico (Mexico Frontrunners)"
+title_en: "Adapting to Climate Change in Mountain Cities: Lessons from Xalapa, Mexico"
 authors: Balderas Torres, Arturo; Angón Rodríguez, Sergio; Sudmant, Andrew; Gouldson, Andy
-date_published: 2/26/2021
+date_published: 2021-02-26
+year_published: 2021
+publication_title: "Adapting to Climate Change in Mountain Cities: Lessons from Xalapa, Mexico (Mexico Frontrunners)"
 article_type: Working Paper
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/mexico-frontrunners/"
-doi: No DOI listed
-summary: "Xalapa, a 600,000-person mountain city in Veracruz, Mexico, demonstrates how sustained multi-level climate governance enables incremental adaptation. Facing compounding risks—annual flooding affecting 19% of residents, severe water rationing, and deforestation—the city published Latin America's first Municipal Climate Action Plan (PACMUN) in 2013, maintained across three successive administrations. Adaptation strategies combine nature-based solutions (wetland recovery, silvo-pastoral systems, infiltration pathways), grey infrastructure (rainwater drainage), and community approaches (small-scale water tanks). Key success factors include early institutionalization, cross-party political continuity, national-state-municipal legal alignment, and international partnerships. Recommendations emphasize ecosystem-based approaches over costly large-scale grey infrastructure, supportive national financing frameworks, and sustained local capacity-building."
+status: searchable
+summary: "Xalapa's 2013 Municipal Climate Action Plan, sustained across three administrations, demonstrates how institutionalized local climate policy enables adaptation. Success required multi-level government commitment, cross-departmental mainstreaming, and international partnerships. Ecosystem-based solutions—wetland recovery, silvopastoral systems, urban food gardens, infiltration pathways—proved more effective than costly grey infrastructure. National governments must support local climate policy, build municipal capacity, establish legal frameworks, and ensure access to climate finance."
 ---
 
 # Mexico Frontrunners | Adapting to climate change in mountain cities: Lessons from Xalapa, Mexico.

@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_upward-and-outward-growth-managing-urban_284
 extraction_method: cache-plaintext
 char_count: 270000
 title: "Upward and Outward Growth: Managing Urban Expansion for More Equitable Cities in the Global South"
+title_en: "Upward and Outward Growth: Managing Urban Expansion for More Equitable Cities in the Global South"
 authors: Mahendra, Anjali; Seto, Karen C.
-date_published: 1/31/2019
+date_published: 2019-01-31
+year_published: 2019
+publication_title: "Upward and Outward Growth: Managing Urban Expansion for More Equitable Cities in the Global South"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/upward-and-outward-growth-managing-urban-expansion-more-equitable-cities-global-south"
-doi: No DOI listed
-summary: "Urban areas in the Global South are projected to expand significantly, with challenges particularly pronounced in lower-income cities due to weak governance and planning. Analysis of 499 cities reveals that rapid outward growth exacerbates spatial inequities, leading to distorted land markets and inadequate service provision. The authors propose three strategies to manage urban expansion: prioritizing spatial equity through regulations, incrementally increasing serviced land via partnerships, and integrating informal settlements into urban planning. These approaches aim to enhance equitable access to services while promoting economic and environmental sustainability. Urgent public sector action is essential for steering urban growth effectively."
+status: searchable
+summary: "Analysis of 499 cities confirms lower-income cities face the greatest urban expansion challenges due to weak planning and distorted land markets. Three equity crises emerge: land speculation crowding out affordable housing, deficient services in peripheral areas, and disjointed informal settlements. Three strategies are recommended: use regulations and incentives to prioritize spatial equity over speculation; incrementally increase serviced land supply through public-private partnerships; and integrate informal settlements with flexible planning standards. Enabling conditions include transparent land records, simplified administrative processes, land value capture tools, and shared spatial data across agencies."
 ---
 
 # Upward and Outward Growth: Managing Urban Expansion for More Equitable Cities in the Global South

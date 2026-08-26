@@ -8,11 +8,15 @@ char_count: 85241
 title: 评价城市公交服务水平：国际案例分析与借鉴
 title_en: "Urban Transport Performance Appraisal: International Case Studies and Recommendations for China's National Transit Metropolis Program"
 authors: Xue, Lulu; Carrigen, Aileen; Lu, Lu; Jiang, Hui
+date_published: 2017-04-01
 year_published: 2017
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/urban-transport-performance-appraisal-international-case-studies"
+status: searchable
+summary: This working paper evaluates China’s National Transit Metropolis Demonstration Program and shows why its 2013 Transit Metropolis Assessment System—30 national transit-related Key Performance Indicators (20 mandatory and 10 reference), plus 3 city-specific indicators—has not guided consistent improvement in urban public transport. The authors compare eight national funding programs (Colombia, the United Kingdom, France, Germany, India, Mexico, New Zealand and the United States) and eight city strategies (Copenhagen, London, Los Angeles, New York, Seattle, Singapore, Seoul and Vancouver) to identify common strengths and pitfalls. They find the Chinese system is overly city‑focused, outcome‑driven and ex post, overemphasizes single metrics such as transit mode share, leaves responsibilities unclear, and lacks robust data, midterm review and accountability mechanisms. The report recommends clarifying project vision and boundaries; adopting stakeholder‑targeted, flexible outcome and process KPIs that include demand‑side quality measures; formalizing data collection and third‑party verification (including use of big data); instituting midterm monitoring; and linking performance to incentives and mayoral accountability to better steer cities toward higher‑quality, multimodal transit.
 ---
 
 WRI CHINA

@@ -3,17 +3,18 @@ doc_id: 2019_overcoming-the-operational-challenges-of-electric_2317
 source_pdf: kp-docs/askwri-kps/2019_overcoming-the-operational-challenges-of-electric_2317.pdf
 extraction_method: cache-plaintext
 char_count: 41772
-title: "Overcoming The Operational Challenges Of Electric Buses: Lessons Learnt From China"
-authors: Xue, Lulu; Liu, Daizong; Wei, Wei; Liu, Peng
-date_published: 1/10/2019
+title: 中国纯电动公交车运营现状分析与改善对策
+title_en: "Overcoming the Operational Challenges of Electric Buses: Lessons Learnt From China"
+authors: Xue, Lulu; Wei, Wei; Liu, Peng; Liu, Daizong
+date_published: 2019-10-01
+year_published: 2019
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/overcoming-operational-challenges-electric-buses"
-doi: No DOI listed
-summary: Buses has been at the forefront of vehicle electrification. The launch of “One Thousand Vehicles in Ten Cities” National Energy-efficient and New Energy Vehicles demonstration project in 2009 marked China’s national effort to promote electric buses. Since then, the number of electric buses (e-buses) in China has kept ratcheting up. In 2018, the nation’s e-buses have outnumbered diesel buses and natural-gas buses, becoming the largest bus fleet.
+language: zh
+languages: [zh]
+url: "https://wri.org.cn/research/overcoming-operational-challenges-electric-buses"
+status: searchable
+summary: "Maximizing electric bus (e-bus) utilization to achieve 1:1 replacement of diesel buses saves approximately RMB 1.1 million in lifecycle costs over eight years—making e-buses cost-competitive even without subsidies. Key operational barriers include vehicle-route mismatches, inadequate charging infrastructure planning, and poor scheduling coordination. Nearly 50% of early e-bus deployments were under 10 meters, limiting capacity. Recommendations include establishing performance testing and disclosure mechanisms, building three-tier national-city-operator monitoring platforms, frontloading charging infrastructure planning before procurement, and developing differentiated scheduling protocols for fast- versus slow-charging fleets."
 ---
 
 # Overcoming The Operational Challenges Of Electric Buses: Lessons Learnt From China

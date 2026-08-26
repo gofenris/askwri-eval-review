@@ -12,7 +12,9 @@ year_published: 2019
 article_type: Working Paper
 wri_primary_office: WRI México
 language: es
+languages: [es]
 status: searchable
+summary: "This World Resources Institute (WRI) working paper presents the Green-Gray Assessment (GGA), a six-step method to quantify costs and benefits of adding or protecting green infrastructure (natural watershed measures) in water-supply systems. It shows why green interventions can lower treatment, dredging and other operating costs, reduce climate and hydrometeorological risks, and deliver social co-benefits such as recreation and carbon storage. The paper emphasizes three preliminary actions—understand local context, engage stakeholders, and assemble the right technical team—and then guides analysts through defining investment goals, specifying portfolios, modeling biophysical outcomes, valuing costs and benefits, running economic or financial analyses, and testing uncertainty. Case studies in Brazil (São Paulo, Rio de Janeiro, Vitória) and Mexico (Monterrey) illustrate results: for example, reforesting 3,000 hectares above Rio de Janeiro’s system was estimated to cost US$32 million while avoiding US$781 million in provider costs, with positive net present value. The GGA helps water managers, regulators and conservation groups compare green, gray and hybrid options consistently for investment decisions."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

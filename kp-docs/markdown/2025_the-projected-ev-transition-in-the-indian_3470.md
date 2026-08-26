@@ -3,17 +3,20 @@ doc_id: 2025_the-projected-ev-transition-in-the-indian_3470
 source_pdf: kp-docs/askwri-kps/2025_the-projected-ev-transition-in-the-indian_3470.pdf
 extraction_method: cache-plaintext
 char_count: 117857
-title: "The Projected EV Transition in the Indian Automotive Manufacturing Industry: Perceptions and Enterprise-level Strategies"
+title: "The Projected EV Transition in the Indian Automotive Manufacturing Industry: Perceptions and Enterprise-Level Strategies"
+title_en: "The Projected EV Transition in the Indian Automotive Manufacturing Industry: Perceptions and Enterprise-Level Strategies"
 authors: Sen, Trinayani; Bansal, Priya; Kulkarni, Pranusha; Kanuri, Chaitanya
-date_published: 1/9/2025
+date_published: 2025-01-09
+year_published: 2025
+publication_title: "The Projected EV Transition in the Indian Automotive Manufacturing Industry: Perceptions and Enterprise-Level Strategies"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/wriwp.23.00170
 url: "https://wri-india.org/research/projected-ev-transition-indian-automotive-manufacturing-industry-perceptions-and"
-doi: No DOI listed
-summary: "India's projected transition to electric vehicles (EVs) is likely to pose different kinds of challenges and opportunities for automotive manufacturers of different sizes, especially micro, small and medium enterprises (MSMEs). A well-planned transition can ensure that these enterprises are not left behind, thus leading towards a just, inclusive, and equitable transition."
+status: searchable
+summary: "India's EV uptake rose from 0.6% in 2019 to 7.6% in 2024. Large OEMs and Tier 1 suppliers view the transition positively, leveraging R&D and market diversification. MSMEs manufacturing ICEV powertrain components anticipate 50–70% business declines, while those producing powertrain-agnostic or EV components expect gains. Key enterprise strategies include product diversification, in-house R&D, and workforce upskilling through industry-academia partnerships. Recommendations include dedicated transition finance for ICEV MSMEs, R&D funds for EV startups, market development support, and reskilling workers on EV-specific competencies."
 ---
 
 # The Projected EV Transition in the Indian Automotive Manufacturing Industry: Perceptions and Enterprise-level Strategies

@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_needs-assessment-for-equitable-school-bus_61
 extraction_method: cache-plaintext
 char_count: 123781
 title: Needs Assessment for Equitable School Bus Electrification in U.S. School Districts
+title_en: Needs Assessment for Equitable School Bus Electrification in US School Districts
 authors: Brown, Charles T.; Jackson, Eleanor
-date_published: 3/13/2025
+date_published: 2025-03-13
+year_published: 2025
+publication_title: Needs Assessment for Equitable School Bus Electrification in U.S. School Districts
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/needs-assessment-equitable-school-bus-electrification-us-school-districts"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.22.00153"
-summary: Equitable school bus electrification is influenced more by district geography than priority status, highlighting the need for tailored regional support. A survey and focus groups revealed that while funding availability is the primary motivator for adopting electric school buses (ESBs), many districts lack awareness of funding options, which contributes to budget constraints. Health benefits and cleaner air were recognized as key advantages, yet most districts did not prioritize equity in their electrification efforts, focusing mainly on distributional equity. Recommendations emphasize increasing awareness, improving funding access, and integrating equity considerations into planning processes.
+url: "https://www.wri.org/research/needs-assessment-equitable-school-bus-electrification-us-school-districts"
+status: searchable
+summary: "Funding availability, air quality, and climate benefits drove electric school bus (ESB) adoption, yet 88% of districts knew the EPA's Clean School Bus Program versus only 32% aware of the 45W tax credit. Cost, infrastructure, and maintenance were top barriers. Geography and locale mattered more than priority status—rural districts showed least interest in federal programs. Most districts ignored equity in ESB planning; those that didn't focused on deploying buses in low-income areas or for students with disabilities. Recommendations include expanding funding awareness, reducing procurement costs, improving maintenance support, and broadening equity considerations beyond route selection to procedural and structural dimensions."
 ---
 
 # Needs Assessment for Equitable School Bus Electrification in U.S. School Districts

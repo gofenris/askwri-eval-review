@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_changing-the-demand-preference-for-electric_
 extraction_method: cache-plaintext
 char_count: 98500
 title: "Changing the Demand Preference for Electric Vehicles in Ho Chi Minh City: Costs and Benefits From Incentives in the Early Stages of Adoption"
+title_en: "Changing the Demand Preference for Electric Vehicles in Ho Chi Minh City: Costs and Benefits From Incentives in the Early Stages of Adoption"
 authors: Tesoriere, Giuseppe; Shrestha, Rajat; Kothari, Vishant; Steimer, Hamilton; Yangden, Mende Thuji; Duarte, Lorenzo Hernández
-date_published: 1/31/2023
+date_published: 2023-01-31
+year_published: 2023
+publication_title: "Changing the Demand Preference for Electric Vehicles in Ho Chi Minh City: Costs and Benefits From Incentives in the Early Stages of Adoption"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/changing-demand-preference-electric-vehicles-ho-chi-minh-city-costs-and-benefits"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.22.00003"
-summary: Financial incentives for electric vehicle (EV) adoption in Ho Chi Minh City (HCMC) can yield significant net benefits, with a benefit-cost ratio of 1.86 at a 2% discount rate over eight years. The study employs a cost-benefit analysis to assess the economic viability of implementing purchase subsidies and registration rebates, estimating a net present value of $275 million. It highlights the necessity of making EVs more price-competitive against internal combustion engine vehicles, particularly as the city aims to reduce greenhouse gas emissions. The findings suggest that targeted incentives, alongside infrastructure support, are crucial for fostering early-stage EV market growth in HCMC.
+url: "https://www.wri.org/research/changing-demand-preference-electric-vehicles-ho-chi-minh-city-costs-and-benefits"
+status: searchable
+summary: Purchase subsidies and registration rebates for electric vehicles in Ho Chi Minh City yield a benefit-cost ratio of 1.86 (2% discount) and 1.69 (6% discount) over eight years, generating net present values of $275M and $190M respectively. Each new EV produces $65–$76 annually in net benefits. Under a low scenario, incentives of $1,400 (car purchase bonus) and $30–$500 (registration rebates) could support 11,000 electric cars and 130,000 electric two-wheelers; a high scenario reaches 30,000 cars and 370,000 two-wheelers. Electric cars cost on average $1,347 more than ICE equivalents, while electric two-wheelers show no price gap. Charging infrastructure deployment is essential alongside financial incentives.
 ---
 
 # Changing the Demand Preference for Electric Vehicles in Ho Chi Minh City: Costs and Benefits From Incentives in the Early Stages of Adoption

@@ -3,17 +3,19 @@ doc_id: 2023_deciphering-chinas-provincial-transport-carbon_5424
 source_pdf: kp-docs/askwri-kps/2023_deciphering-chinas-provincial-transport-carbon_5424.pdf
 extraction_method: cache-plaintext
 char_count: 55672
-title: "Deciphering China’s Provincial Transport Carbon Emissions: Status Quo and Growth Trends"
+title: 解码中国省级交通领域 2012—2019年二氧化碳排放
+title_en: "Deciphering China's Provincial Transport Carbon Emissions: Status Quo and Growth Trends"
 authors: Xue, Lulu; Liu, Daizong
-date_published: 4/24/2023
+date_published: 2023-04-24
+year_published: 2023
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/Deciphering-Chinas-Provincial-Transport-Carbon-Emissions"
-doi: No DOI listed
-summary: To decarbonize the transport sector to attain China’s goals of carbon peaking before 2030 and carbon neutrality before 2060, the national and subnational governments in China are actively developing action plans for CO2 peaking before 2030 for key sectors, including transport.
+language: zh
+languages: [zh, en]
+doi: 10.46830/wriwp.22.00109
+url: "https://wri.org.cn/research/Deciphering-Chinas-Provincial-Transport-Carbon-Emissions"
+status: searchable
+summary: "China's eastern provinces had the highest transport CO₂ emissions in 2019, while central and western provinces saw the fastest growth (7.4% and 3.9% annually). Top five emitters—Guangdong, Jiangsu, Shandong, Liaoning, and Sichuan—accounted for one-third of national transport emissions. Fastest-growing provinces were Guizhou, Qinghai, Hunan, and Jiangxi. In Beijing and Shanghai, aviation dominated emissions; eastern provinces were led by passenger cars; central and western regions by trucks. Transport's share of total provincial emissions grew in two-thirds of provinces. Recommendations include standardizing accounting methods, expanding fuel consumption statistics, and mandating annual subnational transport emissions inventories."
 ---
 
 # Deciphering China’s Provincial Transport Carbon Emissions: Status Quo and Growth Trends

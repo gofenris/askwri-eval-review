@@ -8,10 +8,16 @@ char_count: 101580
 title: 中国电动汽车与电网协同的路线图与政策建议
 title_en: Action Plans and Policy Recommendations on Vehicle Grid Integration in China
 authors: Xue, Lulu; Liu, Jian; Wang, Ying; Liu, Xiaoshi; Xiong, Ying
+date_published: 2020-06-01
+year_published: 2020
+publication_title: How Do Electric Vehicles Friendly Interact with the Electric Grid
 article_type: Report
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/action-plans-policy-recommendations-vehicle-grid-integration-china"
+status: searchable
+summary: "This report shows China can turn its growing fleet of electric vehicles into a major flexible grid resource, helping integrate rising shares of renewable power while avoiding costly grid upgrades. It estimates that, under ideal conditions, electric vehicles could offer about 250 GW of power capacity by 2025 and 730 GW by 2030 (Energy Research Institute of the National Development and Reform Commission), equal to eight and 23 times 2018 stationary storage. The study finds one-way managed charging is the most commercially viable near term (about 23% internal rate of return in 2020), while two-way charging (vehicle-to-grid, V2G) will likely become broadly viable only after 2030 as battery costs fall and market access improves. Current Chinese pilots focus on distribution-level deferral and technical feasibility rather than wholesale market participation. Key recommendations: adopt EV-specific time-of-use tariffs, subsidize managed-charging infrastructure, amend national charging standards (GB/T27930) to support direct-current managed charging, develop separate vehicle–charger–grid communication protocols for bidirectional charging, run V2G pilots and battery degradation tests, and clarify EVs’ status as distributed energy resources."
 ---
 
 世界资源研究所

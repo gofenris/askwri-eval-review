@@ -6,11 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 177270
 title: "How to Enable Electric Bus Adoption in Cities Worldwide: A Guiding Report for City Transit Agencies and Bus Operating Entities"
+title_en: "How to Enable Electric Bus Adoption in Cities Worldwide: A Guiding Report for City Transit Agencies and Bus Operating Entities"
 authors: Xiangyi Li; Camron Gorguinpour; Ryan Sclar; Sebastian Castellanos
+date_published: 2019-05-21
+year_published: 2019
 article_type: Report
-wri_primary_office: WRI Global
+wri_primary_office: WRI China
 language: en
-status: needs_review
+languages: [en]
+url: "https://www.wri.org/research/how-enable-electric-bus-adoption-cities-worldwide"
+status: searchable
+summary: "This World Resources Institute (WRI) report shows how cities can plan, pilot, finance, and scale electric buses (e-buses) to cut air pollution, reduce noise, lower operating costs, and shrink transport-related greenhouse gas emissions. Drawing on 16 city case studies—mostly in the global South—the authors identify common barriers (technological, financial, and institutional) and offer a concrete, staged adoption framework. For initial preparation they recommend five steps: review the policy landscape; perform an initial cost-benefit and stakeholder analysis; launch a structured pilot; update analyses and explore financing; and set actionable, time-bound targets. To reach mass adoption they emphasize four priorities: long-term charging infrastructure planning; formalized e-bus procurement strategies; operator training; and responsible planning for battery end-of-life. The report also categorizes cities into five development stages (0–4) to guide tailored actions and urges transit agencies and bus operators to lead practical pilots and coordinate with utilities, manufacturers, and policymakers to accelerate a safe, cost-effective transition to electric bus fleets."
 ---
 
 [LOGO]

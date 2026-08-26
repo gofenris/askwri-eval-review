@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 147096
 title: Modeling Hyperlocal Heat Exposure With Open-Source Data
+title_en: Modeling Hyperlocal Heat Exposure With Open-Source Data
 authors: Ruth A. Engel; Kenn Cartier; Hyeji Joh; Zhuoyue Wang; Theodore Wong; Xiaojiang Li
 date_published: 2026-03-17
 year_published: 2026
 article_type: Technical Note
 wri_primary_office: WRI Global
 language: en
+languages: [en]
 doi: 10.46830/writn.25.00018
 status: searchable
+summary: "This technical note models the Universal Thermal Climate Index (UTCI) at 1-meter resolution to help cities assess local heat exposure, using the SOLWEIG model and open-access data, achieving a mean absolute error of 0.39°C against LiDAR-based validation. Developed under WRI's Cool Cities Lab, it generates high-resolution UTCI, shade, and land-use data to guide the design and prioritization of heat-resilient infrastructure. The approach is applied to compare planning scenarios—such as tree planting, shade structures, and cool surfaces—by measuring their cooling potential in air temperature and UTCI across diverse urban settings."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

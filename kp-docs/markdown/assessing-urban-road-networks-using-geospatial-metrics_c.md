@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 142306
 title: Assessing Urban Road Networks Using Geospatial Metrics
+title_en: Assessing Urban Road Networks Using Geospatial Metrics
 authors: Archiman Biswas; Bina Shetty; Madhav Pai; Raj Bhagat Palanichamy; Sonal Ganvir; Janhavi Mane; Priam Pillai
 date_published: 2026-07-09
 year_published: 2026
 article_type: Working Paper
 wri_primary_office: WRI India
 language: en
+languages: [en]
 doi: 10.46830/wriwp.25.00042
 status: searchable
+summary: This working paper identifies 21 geospatial indicators that explain how the structure of urban road networks shapes connectivity and travel speeds in Indian cities. It groups these indicators into five themes — Nodal Connections, Road Segments, Barrier Blocks, Traffic Flow, and Directional Patterns — and explains each metric’s definition, data needs, computation, and limitations. The authors used a hybrid systematic literature review that followed the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) framework, supplemented by bibliometric analysis and expert consultations to validate indicators for India’s often organic and hybrid grid–tree urban forms. The review highlights measures especially relevant to Indian contexts, such as Dead-End Proportion, Spatial Distribution of Dead-End Clusters, and the Grid-Tree Pattern Index, alongside conventional connectivity indices (alpha, beta, gamma). Case studies show that planned, structured layouts score higher on connectivity and suffer smaller peak-hour speed reductions than organically grown neighborhoods. The paper offers a practical, context-sensitive geospatial framework to help planners, urban local bodies, and policymakers assess network gaps and target interventions to improve mobility.
 ---
 
 WRI INDIA

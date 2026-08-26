@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2016_towards-a-more-equal-city-framing-the-challe
 extraction_method: cache-plaintext
 char_count: 13650
 title: "Towards a More Equal City: Framing the Challenges and Opportunities"
+title_en: "Towards a More Equal City: Framing the Challenges and Opportunities"
 authors: Beard, Victoria A.; Mahendra, Anjali; Westphal, Michael I.
-date_published: 10/13/2016
+date_published: 2016-10-13
+year_published: 2016
+publication_title: "Towards a More Equal City: Framing the Challenges and Opportunities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/towards-more-equal-city-framing-challenges-and-opportunities"
-doi: No DOI listed
-summary: "Cities are growing differently today than before. As much as 70 percent of people in emerging cities in Asia, Africa and Latin America are under-served. Furthermore, cities face challenges in four areas:"
+status: searchable
+summary: Urban growth will add 2.5 billion city residents by 2050, with 90% in Asia and Africa, yet Global South cities have the fewest financial resources per capita. Up to 70% of residents in these cities lack access to at least one core service—housing, water, energy, or transport. Prioritizing equitable access to these services generates economic and environmental benefits citywide. Medellín reduced violence and expanded opportunity by connecting hillside communities via cable car, triggering broader reforms. Surat transformed governance after a plague outbreak. Successful urban transformation requires coalitions with shared vision, adequate financing, and sustained political commitment.
 ---
 
 # Towards a More Equal City: Framing the Challenges and Opportunities

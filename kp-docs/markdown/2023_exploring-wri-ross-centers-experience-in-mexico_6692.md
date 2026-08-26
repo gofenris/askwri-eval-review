@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_exploring-wri-ross-centers-experience-in-mex
 extraction_method: cache-plaintext
 char_count: 288577
 title: "Exploring WRI Ross Center’s Experience in Mexico City: A Deep City-Level Engagement Approach"
+title_en: "Exploring WRI Ross Center's Experience in Mexico City: A Deep City-Level Engagement Approach"
 authors: Martínez, A; King, Robin; Santana, J.L.; Jacquin, C; Páez, F
-date_published: 7/10/2023
+date_published: 2023-07-10
+year_published: 2023
+publication_title: "Exploring WRI Ross Center’s Experience in Mexico City: A Deep City-Level Engagement Approach"
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/exploring-wri-ross-centers-experience-mexico-city-deep-city-level-engagement-approach"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wripn.18.00098"
-summary: "WRI Ross Center's deep engagement in Mexico City has demonstrated the effectiveness of a long-term, multi-sectoral approach to urban sustainability, particularly through its role in the successful implementation of the Metrobús system. Utilizing a mixed-methods analysis, the study highlights the importance of building trust with city officials and understanding the local political landscape as critical factors for transformative change. The findings suggest that such deep collaborations can catalyze broader societal movements towards sustainable urban mobility and environmental quality. Additionally, the center's adaptability and capacity-building efforts have positioned it as a reliable partner in navigating Mexico City's complex challenges, offering valuable lessons for similar initiatives globally."
+url: "https://www.wri.org/research/exploring-wri-ross-centers-experience-mexico-city-deep-city-level-engagement-approach"
+status: searchable
+summary: "WRI's deep engagement in Mexico City since 2002 catalyzed transformative urban change. Jobs accessible within a 30-minute transit commute increased 77% between 2004 and 2014, following Metrobús BRT implementation. Three success factors drove this impact: building trust through technical expertise combined with political understanding; strategic positioning within a broad sustainability ecosystem to share knowledge and empower civil society; and flexible funding enabling adaptive, multi-sector responses beyond individual projects. Permanent local staff, transparent fund allocation, and robust impact-monitoring mechanisms are recommended for replicating this deep-dive model in other cities."
 ---
 
 # Exploring WRI Ross Center’s Experience in Mexico City: A Deep City-Level Engagement Approach

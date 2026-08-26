@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2016_financing-the-urban-transition-for-sustainab
 extraction_method: cache-plaintext
 char_count: 137127
 title: "Financing the Urban Transition for Sustainable Development: Better Finance for Better Cities"
+title_en: "Financing the Urban Transition for Sustainable Development: Better Finance for Better Cities"
 authors: Godfrey, Nick; Zhao, Xiao
-date_published: 12/1/2016
+date_published: 2016-12-01
+year_published: 2016
+publication_title: "Financing the Urban Transition for Sustainable Development: Better Finance for Better Cities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/financing-the-urban-transition-for-sustainable-development-better-finance-for-better-cities/"
-doi: No DOI listed
-summary: In urban infrastructure the investment decisions taken today will shape tomorrow. Despite the critical importance of infrastructure for urban development, financing to scale up smarter, more sustainable urban infrastructure remains an immense challenge, particularly in emerging and developing economies.
+status: searchable
+summary: "Urban infrastructure requires $4.1–4.3 trillion annually by 2030, with an additional $0.5–0.8 trillion needed to make it sustainable. Compact, connected cities outperform sprawling models economically and climatically—urban sprawl costs the U.S. over $1 trillion annually. Key barriers include market failures, weak municipal creditworthiness, fossil fuel subsidies, and limited local capacity. Recommended solutions: land-based financing, municipal bond markets, public-private investment platforms, fossil fuel subsidy reform, carbon pricing, and mandatory climate disclosure for infrastructure projects. Improving infrastructure productivity alone could cut financing needs by 40%."
 ---
 
 # Financing the Urban Transition for Sustainable Development: Better Finance for Better Cities

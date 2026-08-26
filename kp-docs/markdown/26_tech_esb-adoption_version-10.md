@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 71870
 title: Technical Note for a Dataset of Electric School Bus Adoption in the United States
+title_en: Technical Note for a Dataset of Electric School Bus Adoption in the United States
 authors: Leah Lazer; Lydia Freehafer; Brian Zepka
 date_published: 2026-05-20
 year_published: 2026
 article_type: Technical Note
 wri_primary_office: WRI US
 language: en
+languages: [en]
 doi: 10.46830/writn.21.00134.v10
 status: searchable
+summary: This technical note documents a first-of-its-kind, school-district–level dataset tracking electric school bus (ESB) adoption in the United States. Built on the NCES 2022–23 LEA directory and updated through December 31, 2025 (v10, April 2026), the dataset records “committed” ESBs—buses for which funding was awarded or a formal purchase agreement exists—and aggregates bus-level details (counts, procurement stage, manufacturer, funders, charging partners) to the district level. Data on fleet characteristics come from WRI’s prior U.S. school-bus fleet dataset and public sources (news, district releases, industry publications, social media); socioeconomic, demographic, and environmental-health indicators draw on NCES, U.S. Census, and EPA EJSCREEN outputs (population-weighted block-group aggregation). The dataset includes district geography and administrative attributes, privately operated fleets without LEA IDs, and curated indicators to enable equity analyses. WRI also defines Priority Outreach Districts (PODs) using quartile thresholds on low-income, non‑white/Hispanic share, and ozone or PM2.5; the process yielded 1,007 national PODs and 932 state PODs (431 overlapping).
 ---
 
 ![img-0.jpeg](img-0.jpeg)

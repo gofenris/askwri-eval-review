@@ -3,17 +3,20 @@ doc_id: 2023_public-bicycle-sharing-in-india-lessons-learned_1422
 source_pdf: kp-docs/askwri-kps/2023_public-bicycle-sharing-in-india-lessons-learned_1422.pdf
 extraction_method: cache-plaintext
 char_count: 130992
-title: "Public Bicycle Sharing in India: Lessons Learned from Implementation in Three Cities"
+title: "Public Bicycle Sharing in India: Lessons Learned From Implementation in Three Cities"
+title_en: "Public Bicycle Sharing in India: Lessons Learned From Implementation in Three Cities"
 authors: Khan, Azra; Bhatt, Amit; Bhatt, Sarika Panda; Jain, Advait
-date_published: 7/17/2023
+date_published: 2023-07-17
+year_published: 2023
+publication_title: "Public Bicycle Sharing in India: Lessons Learned From Implementation in Three Cities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/public-bicycle-sharing-india-lessons-learned-implementation-three-cities"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.18.00110"
-summary: Close to 2,000 PBS systems are operational around the world, providing flexible mobility as users can pick up and drop off bicycles at any location in the network.
+url: "https://www.wri.org/research/public-bicycle-sharing-india-lessons-learned-implementation-three-cities"
+status: searchable
+summary: "Mysuru, Bhopal, and Pune succeeded as India's first large-scale PBS systems by adopting public-private partnerships, smart technology, and service-level benchmarks tied to operator payments. Common success factors included multi-year strategic planning, pre-launch citizen engagement generating 5,000–17,000 registrations, comprehensive business-financial models with clear revenue sharing, and service coverage exceeding 10 sq km. Key barriers across Indian cities include cycling's \"poor man's transport\" stigma, absent dedicated infrastructure, weak cross-agency coordination, and unsustainable purely private funding. Earlier systems in Delhi, Mumbai, and Bangalore collapsed within months due to small scale and no government financial support."
 ---
 
 # Public Bicycle Sharing in India: Lessons Learned from Implementation in Three Cities

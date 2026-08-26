@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2017_powering-cities-in-the-global-south_6040.pdf
 extraction_method: cache-plaintext
 char_count: 230106
 title: Powering Cities in the Global South
+title_en: "Powering Cities in the Global South: How Energy Access for All Benefits the Economy and the Environment"
 authors: Westphal, Michael I.; Zhou, Lihuan; Satterthwaite, David; Martin, Sarah
-date_published: 7/9/2017
+date_published: 2017-07-09
+year_published: 2017
+publication_title: Powering Cities in the Global South
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/powering-cities-global-south-how-energy-access-all-benefits-economy-and-environment"
-doi: No DOI listed
-summary: Millions of residents in some of the fastest growing cities in the world don’t have access to clean, reliable energy, and the challenge of reaching them is not getting easier. In 2012, only 58 percent of the urban population had access to electricity in low-income countries, and nearly 500 million urban residents worldwide used dirty and harmful cooking fuels like charcoal and wood.
+status: searchable
+summary: "Urban energy access, reliability, and affordability gaps in Global South cities demand three priority interventions: accelerating shifts to clean cooking fuels, scaling distributed solar PV, and enforcing building energy-efficiency codes. Solid cooking fuels cause ~550,000 urban premature deaths annually. Low-income countries average only 58% urban electricity access. Solar PV costs now match natural gas generation in India and China. Efficiency measures can cut building energy use 50–90%. Tripling solar PV capacity across 60 countries would reduce emissions by 108 MtCO₂e annually. Fossil fuel subsidy reform, pay-as-you-go financing, and NGO-utility partnerships are key enablers."
 ---
 
 # Powering Cities in the Global South

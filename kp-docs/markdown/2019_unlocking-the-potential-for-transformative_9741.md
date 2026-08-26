@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_unlocking-the-potential-for-transformative_9
 extraction_method: cache-plaintext
 char_count: 290578
 title: Unlocking the Potential for Transformative Climate Adaptation in Cities
+title_en: Unlocking the Potential for Transformative Climate Adaptation in Cities
 authors: Chu, Eric; Brown, Anna; Michael, Kavya; Du, Jillian; Lwasa, Shuaib; Mahendra, Anjali
-date_published: 1/10/2019
+date_published: 2019-01-10
+year_published: 2019
+publication_title: Unlocking the Potential for Transformative Climate Adaptation in Cities
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/unlocking-potential-transformative-climate-adaptation-cities"
-doi: No DOI listed
-summary: This paper is part of a series of background papers commissioned by the Global Commission on Adaptation to inform its 2019 flagship report. This paper reflects the views of the authors, and not necessarily those of the Global Commission on Adaptation.
+status: searchable
+summary: "Cities need transformative adaptation that corrects inequalities and prioritizes equity and climate justice. Three priority actions: mainstream climate risk data into spatial planning; upgrade informal settlements using community knowledge; deploy nature-based solutions for water and heat management. Enabling conditions include strong leadership, inclusive governance, cross-sectoral coordination, and expanded finance. Nature-based approaches prove cost-effective—forest restoration near São Paulo's watershed saved $4.5M versus reservoir dredging. Accountable institutions and community-co-created metrics are essential to prioritize equitable solutions."
 ---
 
 # Unlocking the Potential for Transformative Climate Adaptation in Cities

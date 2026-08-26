@@ -3,17 +3,20 @@ doc_id: 2021_simulator-to-quantify-and-manage-electric-vehicle_1145
 source_pdf: kp-docs/askwri-kps/2021_simulator-to-quantify-and-manage-electric-vehicle_1145.pdf
 extraction_method: cache-plaintext
 char_count: 83768
-title: Simulator to Quantify and Manage Electric Vehicle Load Impacts on Low-voltage Distribution Grids
+title: Simulator to Quantify and Manage Electric Vehicle Load Impacts on Low-Voltage Distribution Grids
+title_en: Simulator to Quantify and Manage Electric Vehicle Load Impacts on Low-Voltage Distribution Grids
 authors: Xue, Lulu; Xia, Junrong
-date_published: 6/1/2021
+date_published: 2021-06-01
+year_published: 2021
+publication_title: Simulator to Quantify and Manage Electric Vehicle Load Impacts on Low-Voltage Distribution Grids
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/simulator-quantify-and-manage-electric-vehicle-load-impacts-low-voltage-distribution-grids"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.20.00009"
-summary: The Electric Vehicles on the Grid Simulator enables users to assess the load impacts of electric vehicles (EVs) on low-voltage distribution grids, facilitating informed planning for capacity upgrades. Utilizing Monte Carlo simulations and linear programming, the tool predicts EV charging profiles while accounting for various factors such as user behavior and charging infrastructure. It supports both unmanaged and managed charging scenarios, allowing for optimization of EV load to reduce costs and enhance grid reliability. This simulator is particularly beneficial for utility companies and facility managers aiming to mitigate potential overloads and integrate renewable energy sources effectively.
+url: "https://www.wri.org/research/simulator-quantify-and-manage-electric-vehicle-load-impacts-low-voltage-distribution-grids"
+status: searchable
+summary: Monte Carlo simulation and linear programming predict EV charging load profiles across residential, office, and public use cases. U.S. data show 84% of EV charging occurs at home; China shows ~40%. DC fast charger starting state-of-charge averages 20%, while daily home charging leaves batteries at 70–90% charge. Vehicle-grid integration—managed charging and vehicle-to-grid—can defer costly distribution upgrades and reduce electricity costs. Level 1 chargers (1.4–3.4 kW) offer limited flexibility for grid integration due to slow charging speeds. The simulator covers transformers rated 200–1,500 kVA and supports medium- to long-term grid planning exceeding three-year upgrade lead times.
 ---
 
 # Simulator to Quantify and Manage Electric Vehicle Load Impacts on Low-voltage Distribution Grids

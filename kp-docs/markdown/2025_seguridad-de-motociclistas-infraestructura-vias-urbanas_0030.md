@@ -6,14 +6,18 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest+gs300
 char_count: 235995
 title: "Seguridad de motociclistas e infraestructura de vías urbanas: Recomendaciones para el diseño y la planificación de vías urbanas para reducir el número de usuarios fallecidos y lesionados de vehículos con motor de dos ruedas en países de ingresos bajos y medios"
-title_en: "Motorcyclist Safety and Urban Road Infrastructure: Recommendations for the Design and Planning of Urban Roads to Reduce Deaths and Injuries of Two-Wheeled Motor Vehicle Users in Low- and Middle-Income Countries"
+title_en: "Motorcycle Safety and Urban Road Infrastructure: Urban road design and planning recommendations for reducing motorized two-wheeler deaths and injuries in low- and middle-income countries"
 authors: Segundo López; Vineet John; David Pérez-Barbosa; Valentina Perdomo; Juliana Vega; Jessica Kisner; Eric Dumbaugh; Vipassana Vijayarangan; Adriana Jakovcevic; Claudia Adriazola-Steil; Hannah Kemp
+date_published: 2025-06-25
 year_published: 2025
 article_type: Report
 wri_primary_office: WRI Colombia
 language: es
+languages: [es]
 doi: 10.46830/wrirpt.21.00030es
-status: needs_review
+url: "https://es.wri.org/publicaciones/seguridad-de-motociclistas-e-infraestructura-de-vias-urbanas"
+status: searchable
+summary: "This World Resources Institute (WRI) report shows that urban street design and management, particularly traffic speeds, roadway widths, intersection complexity, and land use patterns, have a significant impact on fatalities and injuries among users of powered two- and three-wheel vehicles in low- and middle-income countries. Drawing on data from six cities (Accra, Bangkok, Bogota, Cali, Buenos Aires, and Nairobi), the report documents the rapid growth of motorcycle fleets and highlights alarming statistics: in 2021, road traffic crashes caused 1.2 million deaths worldwide, and nearly one-third of those fatalities involved users of two- or three-wheeled vehicles. The report recommends reducing vehicle speeds, minimizing conflicts at intersections, optimizing roadway widths and access points, accounting for the effects of land use on traffic conflicts, and implementing integrated measures that also protect pedestrians, cyclists, and other road users. These actions, embedded within a multidimensional Safe System approach, can help save lives and support progress toward the United Nations road safety targets for 2030."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

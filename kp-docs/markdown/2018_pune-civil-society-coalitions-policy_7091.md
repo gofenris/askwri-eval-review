@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2018_pune-civil-society-coalitions-policy_7091.pd
 extraction_method: cache-plaintext
 char_count: 101241
 title: "Pune: Civil Society Coalitions, Policy Contradictions, and Unsteady Transformation"
+title_en: "Pune: Coalitions, Contradictions, and Unsteady Transformation"
 authors: Kamath, Lalitha; King, Robin; Burte, Himanshu; Madhale, Avinash
-date_published: 8/16/2018
+date_published: 2018-08-16
+year_published: 2018
+publication_title: "Pune: Civil Society Coalitions, Policy Contradictions, and Unsteady Transformation"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/pune-civil-society-coalitions-policy-contradictions-and-unsteady-transformation"
-doi: No DOI listed
-summary: This case study in the World Resources Report, “Towards a More Equal City,” examines the processes of transformative change and the conditions both enabling and inhibiting it in Pune, the second largest city in Maharashtra state, India. Many initiatives across diverse sectors have had a positive, qualitative impact on sustainability and service provision in Pune, particularly in its solid waste and transport sectors between the 1990s and the present.
+status: searchable
+summary: "Diverse CSO coalitions with receptive municipal officials drove progress in Pune's transport and solid waste sectors. India's first bus rapid transit system raised bus speeds from 8 to 13 km/h and increased ridership 22%. Waste pickers were formally integrated via the SWaCH cooperative. Both gains face reversal: flyover construction disrupts BRTS corridors, while waste management shifts toward corporatized models. The Smart Cities Mission weakened elected local government through private-sector-dominated special purpose vehicles. Strengthening PMC's financial autonomy and securing Maharashtra's commitment to urban sustainability are essential for durable change."
 ---
 
 # Pune: Civil Society Coalitions, Policy Contradictions, and Unsteady Transformation

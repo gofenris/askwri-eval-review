@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_from-mobility-to-access-for-all-expanding-ur
 extraction_method: cache-plaintext
 char_count: 190993
 title: "From Mobility to Access for All: Expanding Urban Transportation Choices in the Global South"
+title_en: "From Mobility to Access for All: Expanding Urban Transportation Choices in the Global South"
 authors: Venter, Christo; Mahendra, Anjali; Hidalgo, Dario
-date_published: 5/14/2019
+date_published: 2019-05-14
+year_published: 2019
+publication_title: "From Mobility to Access for All: Expanding Urban Transportation Choices in the Global South"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/mobility-access-all-expanding-urban-transportation-choices-global-south"
-doi: No DOI listed
-summary: "Many cities are experiencing a decline in access to jobs, services and people due to a confluence of two trends: rapid urbanization and motorization. Lack of access afflicts both low-income communities scattered throughout the city and low- to medium-income people living in suburbs and peripheral settlements who use private cars and motorcycles on long, congested commutes. We define these groups as underserved – those who face restricted access to opportunities because of poor location or poor transport choices."
+status: searchable
+summary: "Up to 42% of Johannesburg and 56% of Mexico City residents lack adequate job access. Two under-served groups emerge: \"stranded\" residents with few transport options, and \"mobile\" commuters spending up to 35% of income on travel. Three priority actions are recommended: building complete, democratic street networks prioritizing pedestrians and cyclists; integrating formal, informal, and private modes into unified multimodal networks; and managing private vehicle demand through road pricing and parking reform. Private car use is systematically underpriced, acting as a taxpayer subsidy for a minority. Capable metropolitan transport authorities and sustainable funding—including land-value capture and climate finance—are essential enablers."
 ---
 
 # From Mobility to Access for All: Expanding Urban Transportation Choices in the Global South

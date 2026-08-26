@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_seven-transformations-for-more-equitable-and
 extraction_method: cache-plaintext
 char_count: 642389
 title: Seven Transformations for More Equitable and Sustainable Cities
+title_en: Seven Transformations for More Equitable and Sustainable Cities
 authors: Mahendra, Anjali; King, Robin; Du, Jillian; Dasgupta, Aniruddha; Beard, Victoria A.; Kallergis, Achilles; Schalch, Kathleen
-date_published: 10/19/2021
+date_published: 2021-10-19
+year_published: 2021
+publication_title: Seven Transformations for More Equitable and Sustainable Cities
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/7-transformations-more-equitable-sustainable-cities"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.19.00124"
-summary: Urbanization is happening differently today than in the past and occurring most rapidly in places with the fewest resources. Traditional approaches are not able to keep up, leaving billions of people with poor access to basic necessities, dragging down economies and damaging the environment.This synthesis report of the Towards a More Equal City series proposes a new way of thinking about urban development, where the metrics for a functional and thriving city are defined by the quality, reliability and affordability of essential services.
+url: "https://www.wri.org/research/7-transformations-more-equitable-sustainable-cities"
+status: searchable
+summary: "Over 1.2 billion urban residents—one in three—lack adequate housing, transport, water, sanitation, or energy. Seven transformations can close this divide: redesigning infrastructure to prioritize vulnerable populations; partnering with alternative service providers; improving data through community engagement; recognizing and supporting informal workers; targeting financing and subsidies innovatively; promoting transparent, integrated land management; and building diverse governance coalitions. Closing the urban services gap generates cascading citywide benefits, including economic productivity and lower emissions. Income alone understates inequality—service access gaps matter more for long-term prospects."
 ---
 
 # Seven Transformations for More Equitable and Sustainable Cities

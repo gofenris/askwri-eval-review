@@ -4,15 +4,19 @@ source_pdf: kp-docs/askwri-kps/2022_sustainable-urban-mobility-in-the-ndcs-the_7
 extraction_method: cache-plaintext
 char_count: 76460
 title: "Sustainable Urban Mobility in the NDCs: The Essential Role of Public Transport"
+title_en: "Sustainable Urban Mobility in the NDCs: The Essential Role of Public Transport"
 authors: Kustar, Anna; Welle, Ben; Tun, Thet Hein
-date_published: 9/28/2022
+date_published: 2022-09-28
+year_published: 2022
+publication_title: "Sustainable Urban Mobility in the NDCs: The Essential Role of Public Transport"
 article_type: Working Paper
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/sustainable-urban-mobility-ndcs-essential-role-public-transport"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.22.00018"
-summary: "Of 142 NDCs representing 168 countries, 100 mention public transport, yet only 26 set specific targets for mode shift, infrastructure, or bus electrification. Analysis used SLOCAT's Climate Strategies for Transport tracker and ClimateWatch data. Transport represents 24% of direct CO₂ emissions; electric buses emit one-quarter the GHGs of ride-hailing per passenger-kilometer. Large emitters—US, Australia, China—lack meaningful public transport commitments. Five implementation priorities emerge: fund public transport infrastructure through sustainable urban mobility plans; mandate 100% electric bus fleet transitions; integrate climate adaptation into transit systems; expand capacity while disincentivizing private vehicle travel; and strengthen cross-sectoral, sub-national coordination linking NDCs to national transport ministries and city governments."
+url: "https://www.wri.org/research/sustainable-urban-mobility-ndcs-essential-role-public-transport"
+status: searchable
+summary: "Of 142 NDCs, 100 mention public transport, but only 26 set specific targets. Just 13 countries have mode-shift targets and 12 have bus electrification targets. NDCs from major emitters—the US, Australia, and China—lack meaningful public transport commitments. No NDCs address informal transport, which dominates mobility across the Global South. Five priority actions are recommended: commit funding to public transport infrastructure via sustainable urban mobility plans; set 100% electric bus fleet targets; integrate climate adaptation into transit systems; expand capacity while disincentivizing private vehicle use; and align NDCs with sub-national governments and cross-sectoral ministries."
 ---
 
 # Sustainable Urban Mobility in the NDCs: The Essential Role of Public Transport

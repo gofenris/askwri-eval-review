@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_water-resilience-in-a-changing-urban-context
 extraction_method: cache-plaintext
 char_count: 420051
 title: "Water Resilience in a Changing Urban Context: Africa's Challenge and Pathways for Action"
+title_en: "Water Resilience in a Changing Urban Context: Africa's Challenge and Pathways for Action"
 authors: Habtemariam, Liku Workalemahu; Gelaye, Fitsum; Du, Jillian; Mahendra, Anjali
-date_published: 7/19/2021
+date_published: 2021-07-19
+year_published: 2021
+publication_title: "Water Resilience in a Changing Urban Context: Africa's Challenge and Pathways for Action"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/urban-water-resilience-africa"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.20.00007"
-summary: "Cities in Africa face escalating water-related challenges, compounded by worsening climate change and rising urbanization. Water insecurity threatens economies, livelihoods and the health and wellbeing of billions. The answer: smart, systematic investments in urban water resilience that ensure communities have safe, reliable and affordable water; and that water resources are protected through disaster preparedness and water-sensitive infrastructure."
+url: "https://www.wri.org/research/urban-water-resilience-africa"
+status: searchable
+summary: "African cities face compounding water crises: over 50% of urban residents lack safely managed water, 80% lack sanitation, and two-thirds of cities face extreme climate risk. Four action pathways are recommended: mainstream risk-informed land management and water-sensitive urban development; increase equitable access prioritizing informal settlers, women, and minorities; build innovative institutions and cross-sector partnerships; and align water-resilient financing. Centralized gray infrastructure must shift toward adaptive, multifunctional systems. Cities must coordinate across hydrological boundaries, engaging land use, transport, agriculture, and forestry sectors traditionally outside water governance."
 ---
 
 # Water Resilience in a Changing Urban Context: Africa's Challenge and Pathways for Action

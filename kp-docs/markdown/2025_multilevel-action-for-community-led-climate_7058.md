@@ -3,16 +3,20 @@ doc_id: 2025_multilevel-action-for-community-led-climate_7058
 source_pdf: kp-docs/askwri-kps/2025_multilevel-action-for-community-led-climate_7058.pdf
 extraction_method: cache-plaintext
 char_count: 34026
-title: Multilevel Action for Community-led Climate Resilience in Informal Settlements
+title: Multilevel Action for Community-Led Climate Resilience in Informal Settlements
+title_en: Multilevel Action for Community-Led Climate Resilience in Informal Settlements
 authors: King, Robin; Shah Naidoo, Nadia
-date_published: 10/30/2025
+date_published: 2025-10-30
+year_published: 2025
+publication_title: Multilevel Action for Community-Led Climate Resilience in Informal Settlements
 article_type: Expert Note
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/multilevel-action-community-led-climate-resilience-informal-settlements"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrien.25.00083"
-summary: Over a billion Global South residents in informal settlements face compounding climate risks, yet only 3.5% of global climate finance reaches the urban poor. Effective climate action requires vertical policy alignment—embedding informal settlements in NDCs, NAPs, and urban infrastructure plans—and horizontal coordination across housing, transport, and environmental sectors. Case studies from Brazil, Thailand, Colombia, India, South Africa, and the Philippines demonstrate that community-led upgrading delivers superior resilience outcomes. Key recommendations include explicitly targeting informal settlements in future NDCs and Global Stocktakes, institutionalizing participatory planning, directing climate finance to high-risk communities, and integrating slum transformation into the post-2030 agenda and 2026 World Urban Forum.
+url: "https://www.wri.org/research/multilevel-action-community-led-climate-resilience-informal-settlements"
+status: searchable
+summary: Only 3.5% of global climate finance has reached the urban poor over two decades. NDCs must explicitly include informal settlement upgrading targets, tenure security, and basic services. Future Global Stocktakes should directly reference informal settlements. Vertical policy alignment—linking NDCs, national adaptation plans, and urban infrastructure plans—must enable pro-poor land management. Horizontal coordination across housing, transport, and environment sectors is essential. Community-led approaches in Africa, Asia, and Latin America consistently outperform top-down methods. Climate finance must combine with flexible fiscal transfers, land value capture, and public-private partnerships targeting high-risk areas.
 ---
 
 # Multilevel Action for Community-led Climate Resilience in Informal Settlements

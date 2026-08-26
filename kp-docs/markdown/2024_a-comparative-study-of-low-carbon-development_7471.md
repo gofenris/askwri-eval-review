@@ -3,17 +3,19 @@ doc_id: 2024_a-comparative-study-of-low-carbon-development_7471
 source_pdf: kp-docs/askwri-kps/2024_a-comparative-study-of-low-carbon-development_7471.pdf
 extraction_method: cache-plaintext
 char_count: 66213
-title: "A Comparative Study of Low-Carbon Development Levels in Over 100 Cities Worldwide: Insights into China's Urban Low-Carbon Development Path"
+title: 从全球百余城市低碳发展水平异同看中国城市低碳发展之道
+title_en: "Low-Carbon City Development in China: Evaluation Results for More Than 100 Cities Around the World"
 authors: Qiu, Shiyong; Lin, Jiaying; Liu, Daizong; Jiang, Hongqiang; Cao, Dong; Wang, Yuan; Zhang, Hongyu; Li, Bo; Liang, Chen
-date_published: 5/16/2024
+date_published: 2024-05-16
+year_published: 2024
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/research/Low-carbon-city-development-in-China"
+language: zh
+languages: [zh]
 doi: "https://doi.org/10.46830/wrirpt.22.00105"
-summary: "This study evaluates low-carbon development across 102 cities (59 Chinese, 43 international) using four dimensions: low-carbon production, consumption, environment, and progress, with 11 indicators weighted through combined subjective-expert and objective entropy methods. Chinese cities show meaningful progress, with Shenzhen, and two other Chinese cities ranking in the global top three. Chinese cities excel in low-carbon consumption but need improvement in production, environment, and progress indicators. Service-oriented cities outperform industrial and agricultural cities, while warm temperate and continental climate zones host most top-performing cities. Recommendations are tailored by city type: megacities like Shanghai should restructure industry and expand renewables; service cities like Guilin should leverage local resources for low-carbon tourism; industrial cities like Tangshan should pursue digital green transformation; and agricultural cities like Wuwei should develop agro-processing and rural tourism."
+url: "https://wri.org.cn/research/Low-carbon-city-development-in-China"
+status: searchable
+summary: "Among 102 cities evaluated globally, China's top three performers led all rankings, with Shenzhen first. Chinese cities excelled in low-carbon consumption but lagged in production, environment, and progress. Service-oriented cities outperformed industrial and agricultural cities. Top performers clustered in warm temperate and continental climate zones. Megacities like Shanghai should optimize industrial structure and expand renewables. Service cities like Guilin should leverage local resources and align climate targets. Industrial cities like Tangshan must pursue digital transformation and phase out high-energy technologies. Agricultural cities like Wuwei should develop agro-processing and rural tourism."
 ---
 
 # A Comparative Study of Low-Carbon Development Levels in Over 100 Cities Worldwide: Insights into China's Urban Low-Carbon Development Path

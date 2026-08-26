@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_impact-driven-investing-in-new-mobility_9121
 extraction_method: cache-plaintext
 char_count: 126122
 title: "Impact-Driven Investing in New Mobility Enterprises: Perspectives from Kampala, Uganda, and Hyderabad, India"
+title_en: "Impact-Driven Investing in New Mobility Enterprises: Perspectives From Kampala, Uganda, and Hyderabad, India"
 authors: Tun, Thet Hein; Fried, Travis; Kanuri, Chaitanya; Oursler, Anna; Davidson, Adam; Welle, Ben
-date_published: 9/27/2021
+date_published: 2021-09-27
+year_published: 2021
+publication_title: "Impact-Driven Investing in New Mobility Enterprises: Perspectives from Kampala, Uganda, and Hyderabad, India"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Africa
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/impact-driven-investing-new-mobility-enterprises-perspectives"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.20.00036"
-summary: Private investments present a critical funding opportunity to achieve the Sustainable Development Goals, due to the growing recognition that socially and environmentally responsible solutions can generate impacts and financial returns across the risk spectrum. Innovative new mobility solutions—especially when driven by impact-oriented investments and enabled by inclusive policies—can be part of the solution for sustainable and equitable transport.
+url: "https://www.wri.org/research/impact-driven-investing-new-mobility-enterprises-perspectives"
+status: searchable
+summary: "Impact investing in new mobility enterprises remains rare in Kampala and Hyderabad. Three barriers explain this: transport's cross-sectoral benefits are poorly captured by standard impact metrics; true impacts—including negative externalities like congestion and gig worker exploitation—are hard to quantify; and high regulatory risk, patient capital requirements, and entrenched incumbents deter investors. Recommendations include engaging policymakers to link mobility solutions to existing government priorities, developing participatory impact measurement frameworks grounded in SDG and GIIN standards, and building enterprise-investor coalitions supported by government-backed sandbox pilots with long-term funding commitments."
 ---
 
 # Impact-Driven Investing in New Mobility Enterprises: Perspectives from Kampala, Uganda, and Hyderabad, India

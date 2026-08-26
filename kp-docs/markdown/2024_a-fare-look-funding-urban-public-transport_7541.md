@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_a-fare-look-funding-urban-public-transport_7
 extraction_method: cache-plaintext
 char_count: 121479
 title: "A Fare Look: Funding Urban Public Transport Operations"
+title_en: "A Fare Look: Funding Urban Public Transport Operations"
 authors: Kustar, Anna; Davidson, Adam; Tun, Thet Hein; Welle, Ben; Muralidaran, Santosh
-date_published: 11/12/2024
+date_published: 2024-11-12
+year_published: 2024
+publication_title: "A Fare Look: Funding Urban Public Transport Operations"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/fare-look-funding-urban-public-transport-operations"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.21.00002"
-summary: "This paper investigates the financial challenges urban public transit systems faced during the COVID-19 pandemic, focusing on operational funding sources across 12 global cities. We highlight how fare revenues, a primary income source, sharply declined during the pandemic, and compare how transit agencies from various geographies filled the funding gap via government subsidies, taxes, or alternative revenue streams. The study categorizes funding instruments as direct, indirect, or general, offering a \"toolbox\" of options to enhance financial resilience."
+url: "https://www.wri.org/research/fare-look-funding-urban-public-transport-operations"
+status: searchable
+summary: Farebox revenue alone is insufficient to fund urban transit, yet most agencies rely on it heavily. Cities in the U.S. and Europe, with diversified revenue including local taxes and subsidies, saw total revenue stabilize or grow during COVID-19, while fare-dependent systems in Latin America and Africa suffered the steepest losses. Rio de Janeiro lost 25% of revenue; Chicago, Houston, Paris, and Washington, DC gained 2–17%. Agencies should combine direct sources (fares, parking fees, congestion charges), indirect sources (sales, employment, and land value taxes), and general government funding to build resilience and ensure affordable, equitable service.
 ---
 
 # A Fare Look: Funding Urban Public Transport Operations

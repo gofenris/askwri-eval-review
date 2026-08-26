@@ -8,11 +8,15 @@ char_count: 61725
 title: 中国城市轨道加物业开发的本土化实践：深圳的启示
 title_en: "Rail Plus Property Development in China: The Pilot Case of Shenzhen"
 authors: Xue, Lulu; Fang, Wanli
+date_published: 2015-04-07
 year_published: 2015
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/rail-plus-property-development-china-pilot-case-shenzhen"
+status: searchable
+summary: "This World Resources Institute working paper shows that rail-plus-property (R+P) development can help Chinese cities finance rapid urban rail expansion, capture land value uplift, and promote transit-oriented development (TOD). It argues China’s current reliance on direct fiscal spending and government‑backed debt cannot meet growing rail funding needs and risks rising local debt, urban sprawl, and farmland loss. Using Shenzhen as a pilot, the paper traces a three‑stage evolution: early government funding, a mixed phase using conditioned land auctions, land‑price refunds and build‑transfer contracts, and a later phase that uses land‑use rights as capital contributions and public–private partnerships. Shenzhen’s experience—compared with Hong Kong’s—shows R+P works when local leaders commit politically, local property markets are viable, and strong local technical teams exist. The authors recommend system reforms: pilot legislation, integrated transit and land‑use planning, layered land release, risk‑sharing mechanisms, clearer land rules, cross‑departmental decision making, and stronger local legal and technical capacity to scale R+P responsibly."
 ---
 
 世界资源研究所

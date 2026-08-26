@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 154226
 title: "Flooding in Nairobi's Informal Settlements: Advancing Equitable and Resilient Solutions"
+title_en: "Flooding in Nairobi's Informal Settlements: Advancing Equitable and Resilient Solutions"
 authors: Charity Mumbi Mwangi; Obadiah Mungai; John Nduru; Walter Samuel; Hellen Njoki Wanjohi-Opil; Purity Munyambu; Anjali Mahendra; Vaibhav Shrivastava; Eurallyah Akinyi
 date_published: 2026-07-27
 year_published: 2026
 article_type: Issue Brief
 wri_primary_office: WRI Global
 language: en
+languages: [en]
 doi: 10.46830/wriib.25.00024
 status: searchable
+summary: This issue brief shows that extreme rainfall, combined with unplanned urban growth and weak governance, is making Nairobi’s floods more frequent and deadly, and is harming the city’s poorest residents most. The authors document the severe 2024 March-May floods — 400–660 mm of rain, at least 11 deaths, 20,968 families displaced, and damage to over 90 km of roads and nine bridges — and note that March 2026 flooding contributed to 37 fatalities and wider socioeconomic disruption. Flood risk is amplified by settlement expansion into floodplains and riparian corridors, degraded natural buffers, impermeable surfaces, clogged drainage, and uneven enforcement of land-use rules. Impacts include destroyed infrastructure, disease outbreaks affecting roughly 147,061 people, displacement and evictions with minimal relocation support, and rises in gender-based violence and mental-health trauma. The brief, using geospatial analysis, a two-dimensional flood model, literature review, and household surveys, recommends enforcing flood-resilient land use and riverbank protection; scaling green–grey infrastructure and nature-based solutions; strengthening early warning and anticipatory actions including cash transfers and safe shelters; and financing local resilience through Financing Locally-Led Climate Action (FLLoCA) and a transparent Urban Resilience Fund.
 ---
 
 WORLD

@@ -3,17 +3,20 @@ doc_id: 2025_technical-note-for-a-dataset-modeling-the_1957
 source_pdf: kp-docs/askwri-kps/2025_technical-note-for-a-dataset-modeling-the_1957.pdf
 extraction_method: cache-plaintext
 char_count: 84554
-title: Technical Note for a Dataset Modeling the Societal Health and Climate Benefits Associated With Transitioning the US School Bus Fleet From Diesel to Electric
+title: Technical Note for a Dataset Modeling the Societal Health and Climate Benefits Associated With Transitioning the U.S. School Bus Fleet From Diesel to Electric
+title_en: Modeling the Societal Health and Climate Benefits Associated With Transitioning the US School Bus Fleet From Diesel to Electric
 authors: Oztaner, Burak; Soltanzadeh, Marjan; Todd, Amy; Zepka, Brian; Hakami, Amir
-date_published: 8/27/2025
+date_published: 2025-08-27
+year_published: 2025
+publication_title: Technical Note for a Dataset Modeling the Societal Health and Climate Benefits Associated With Transitioning the U.S. School Bus Fleet From Diesel to Electric
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/technical-note-dataset-modeling-societal-health-and-climate-benefits-electric-school-buses"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.24.00024"
-summary: Approximately 90 percent of the half million school buses operating in the United States run on diesel, a fossil fuel known to emit harmful pollutants such as particulate matter, nitrogen oxides, and volatile organic compounds. These emissions, particularly from older buses, pose significant health risks to children and drivers, including of respiratory and cognitive impairment. Diesel exhaust has been classified as a carcinogen by the World Health Organization. Research shows that older diesel buses emit substantially more pollution than newer models, exacerbating public health burdens.
+url: "https://www.wri.org/research/technical-note-dataset-modeling-societal-health-and-climate-benefits-electric-school-buses"
+status: searchable
+summary: "Replacing aging diesel school buses with electric buses yields substantial health and climate benefits across U.S. counties. Per-VMT health impacts range from under $10 to nearly $4,000 per 1,000 miles, with the highest burdens in dense urban counties including Kings County, Queens, the Bronx, Philadelphia, and Washington, DC. The most polluting 10% of buses account for 49% of the fleet's total health burden. Under the 2022 social cost of carbon ($190/ton-CO₂), climate impacts dominate overall societal costs, with health impacts comparably significant only in major urban areas. Older buses (pre-2007) impose dramatically higher burdens due to less stringent emissions standards."
 ---
 
 # Technical Note for a Dataset Modeling the Societal Health and Climate Benefits Associated With Transitioning the US School Bus Fleet From Diesel to Electric

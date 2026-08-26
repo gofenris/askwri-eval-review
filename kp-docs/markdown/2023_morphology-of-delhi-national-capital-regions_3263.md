@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_morphology-of-delhi-national-capital-regions
 extraction_method: cache-plaintext
 char_count: 292190
 title: Morphology of Delhi National Capital Region’s Economic Geography and Its Implications for Planning
+title_en: Morphology of Delhi National Capital Region’s Economic Geography and Its Implications for Planning
 authors: Mathews, Rejeet; Kundu, Amitabh; Chawla, Paramjeet; Sebastian, Tintu; Palanichamy, Raj Bhagat; Pai, Madhav
-date_published: 7/18/2023
+date_published: 2023-07-18
+year_published: 2023
+publication_title: Morphology of Delhi National Capital Region’s Economic Geography and Its Implications for Planning
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/morphology-delhi-national-capital-regions-economic-geography-and-its-implications-planning"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.22.00042"
-summary: This report studies the Delhi National Capital Region (NCR), which accommodates India’s foremost economic agglomeration, through an economic geography lens that closely synergizes with urban and regional planning and governance.
+url: "https://www.wri.org/research/morphology-delhi-national-capital-regions-economic-geography-and-its-implications-planning"
+status: searchable
+summary: "Delhi NCR's core (NCT) lost employment share from 50% to 36% between 1990 and 2013–14, while contiguous periphery districts (CNCR) gained, with Gurugram and Gautam Buddha Nagar achieving the highest per capita incomes in their respective states. The core decentralized without transitioning to a knowledge-based economy, as business services jobs fell from 0.21M to 0.16M there. Per capita income tripled 2004–2017, poverty declined, yet unemployment rose 8 percentage points. Women's workforce participation stagnated at 17%. Recommendations call for place-specific, dynamic economic strategies prioritizing Core NCT revitalization and equitable distribution of growth benefits."
 ---
 
 # Morphology of Delhi National Capital Region’s Economic Geography and Its Implications for Planning

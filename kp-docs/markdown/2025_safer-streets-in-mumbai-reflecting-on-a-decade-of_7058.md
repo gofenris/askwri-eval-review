@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_safer-streets-in-mumbai-reflecting-on-a-deca
 extraction_method: cache-plaintext
 char_count: 627562
 title: "Safer Streets in Mumbai: Reflecting on a Decade of Processes & Solutions for Road Safety"
+title_en: "Safer Streets in Mumbai: Reflecting on a Decade of Processes & Solutions for Road Safety"
 authors: Chatterjee, Sudeshna; Jain, Saurabh; Shetty, Ojas; Aggarwal, Akanksha; Siroliya, Yash; Ashar, Dhawal
-date_published: 2/9/2025
+date_published: 2025-02-09
+year_published: 2025
+publication_title: "Safer Streets in Mumbai: Reflecting on a Decade of Processes & Solutions for Road Safety"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/wrirpt.22.00053
 url: "https://wri-india.org/research/safer-streets-mumbai-reflecting-decade-processes-solutions-road-safety"
-doi: No DOI listed
-summary: Mumbai has been working to improve road safety and develop pedestrian infrastructure using the Safe System approach for over a decade under the Bloomberg Initiative for Global Road Safety (BIGRS). This report is a first-of-its-kind formative evaluation of the road safety initiatives undertaken by the Brihanmumbai Municipal Corporation, in partnership with WRI India and other partners, under the BIGRS program.
+status: searchable
+summary: "Mumbai's pedestrian safety improved from a \"nascent issue\" in 2012 to \"mainstream\" by 2022, yet pedestrians received only 2.3% of BMC's budget while accounting for 47% of road fatalities. Pilots covered just 6% of intersections and 1% of streets. Design interventions at one junction reduced conflict points and improved traffic flow by 20%. Sustained progress required 5–6 years of stakeholder engagement. Key recommendations: build coalitions integrating government, planners, and communities; embed pedestrian infrastructure within large projects like Mumbai's 330km metro expansion; and adopt urban design-led street planning over purely civil-engineering approaches."
 ---
 
 # Safer Streets in Mumbai: Reflecting on a Decade of Processes & Solutions for Road Safety

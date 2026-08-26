@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_accelerating-nature-based-solutions-in-brazi
 extraction_method: cache-plaintext
 char_count: 167619
 title: Accelerating Nature-Based Solutions in Brazilian Cities
+title_en: "Accelerating Nature-Based Solutions in Brazilian Cities: Lessons Learned in the Structuring of Projects in the Ideation Stage"
 authors: Horn, Lara; Tornello, Vitor Tramontin; Arioli, Magdala; Corrêa, Fernando; Azeredo, Laura
-date_published: 9/1/2024
+date_published: 2024-09-01
+year_published: 2024
+publication_title: Accelerating Nature-Based Solutions in Brazilian Cities
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: English, Portuguese
-url: "https://www.shiftcities.org/publication/accelerating-nature-based-solutions-brazilian-cities"
+language: en
+languages: [en, pt]
 doi: "https://doi.org/10.46830/wripn.23.00103"
-summary: Nature-based solutions (NBS) are essential for enhancing urban resilience in Brazilian cities, yet their implementation is hindered by a lack of robust project structures. The Accelerator of NBS in Cities program successfully guided ten projects through capacity building and mentoring, enabling them to progress from ideation to advanced structuring stages. Key challenges included economic-financial valuation and stakeholder engagement, highlighting the need for multidisciplinary collaboration and political support. The findings underscore the demand for NBS initiatives and suggest that targeted acceleration programs can effectively foster innovative urban solutions to combat climate change impacts.
+url: "https://www.shiftcities.org/publication/accelerating-nature-based-solutions-brazilian-cities"
+status: searchable
+summary: "All ten Brazilian NBS projects advanced in structuring after nine months of mentoring and capacity building. Three reached pre-feasibility stage, four completed technical and economic feasibility studies, and three achieved basic project level. Key barriers included economic-financial valuation of NBS, refining technical design, and securing intersectoral governance. Four teams created projects specifically to join the program. Recommendations: ensure senior municipal leadership stays continuously engaged; build multidisciplinary teams; establish intersectoral partnerships beyond environment departments; and embed projects in municipal fundraising plans from inception."
 ---
 
 # Accelerating Nature-Based Solutions in Brazilian Cities

@@ -3,17 +3,19 @@ doc_id: 2024_accelerating-zero-emission-truck-adoption-in_6287
 source_pdf: kp-docs/askwri-kps/2024_accelerating-zero-emission-truck-adoption-in_6287.pdf
 extraction_method: cache-plaintext
 char_count: 136076
-title: "Accelerating zero emission truck adoption in urban applications: Beijing analysis and recommendations"
+title: 加速城市场景下新能源货车推广：北京实例分析及建议
+title_en: "Accelerating Zero Emission Truck Adoption in Urban Applications: Beijing's Analysis and Recommendations"
 authors: Xue, Lulu; Chen, Ke; Liu, Xiaoying; Cheng; Song, Liying; Ren, Huanhuan
-date_published: 3/5/2024
+date_published: 2023-12-26
+year_published: 2023
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/accelerating-zero-emission-vehicle-adoption-in-urban-applications-Beijings-analysis-and-recommendations"
+language: zh
+languages: [zh, en]
 doi: "https://doi.org/10.46830/wrirpt.22.00148"
-summary: With the complete phase out of national new energy vehicle purchase subsidies, Chinese cities need to explore more policy instruments to simulate the adoption new energy trucks (NETs).
+url: "https://wri.org.cn/en/research/accelerating-zero-emission-vehicle-adoption-in-urban-applications-Beijings-analysis-and-recommendations"
+status: searchable
+summary: Battery electric vans suit most Beijing urban delivery routes but struggle with long-distance and cold-chain scenarios. Hydrogen fuel cell trucks, when receiving full Beijing-Tianjin-Hebei demonstration subsidies, outperform battery electrics in long-haul and refrigerated transport and achieve cost parity with diesel in most heavy-truck applications. Among four policy levers analyzed, reforming existing priority road-access rules for zero-emission trucks delivers the greatest TCO reduction while saving government expenditure. Combining road-access reform, improved charging/hydrogen infrastructure, higher allowable payload limits, and purchase subsidies closes remaining cost gaps across nearly all urban freight scenarios.
 ---
 
 # Accelerating zero emission truck adoption in urban applications: Beijing analysis and recommendations

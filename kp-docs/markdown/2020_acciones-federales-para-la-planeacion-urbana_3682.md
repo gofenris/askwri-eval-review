@@ -3,17 +3,19 @@ doc_id: 2020_acciones-federales-para-la-planeacion-urbana_3682
 source_pdf: kp-docs/askwri-kps/2020_acciones-federales-para-la-planeacion-urbana_3682.pdf
 extraction_method: cache-plaintext
 char_count: 20509
-title: "Acciones federales para la planeación urbana: hacia mejores ciudades para todos"
+title: "Acciones Federales para la Planeación Urbana: Hacia Mejores Ciudades para Todos"
+title_en: "Federal Actions for Urban Planning: Towards Better Cities for All"
 authors: Zubicaray Díaz, Gorka; García Montoya, Natalia; Macías Mora, Jorge A.
-date_published: 11/17/2020
+date_published: 2020-11-17
+year_published: 2020
+publication_title: "Acciones Federales para la Planeación Urbana: Hacia Mejores Ciudades para Todos"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
+language: en
+languages: [en, es]
 url: "https://urbantransitions.global/es/publication/acciones-federales-para-la-planeacion-urbana/"
-doi: No DOI listed
-summary: Mexican cities, generating 90% of the national GDP, face significant challenges such as air quality issues, social inequality, and inadequate urban infrastructure. The report advocates for a 4C+E urban model—compact, coordinated, connected, clean, and equal—requiring reforms in housing, land management, mobility, and risk mitigation. Key recommendations include enhancing affordable housing access for low-income groups, modifying federal mobility funding to prioritize sustainable transport, and establishing a metropolitan governance framework to foster cooperation among municipalities. These changes aim to create more equitable urban environments and improve resilience against climate change.
+status: searchable
+summary: "Mexico's cities generate 90% of GDP but face sprawl, inequality, and climate vulnerability. Federal housing policy must expand affordable options for low-income and informal workers in central areas. Land management requires public reserves and integrated cadastral systems. Mobility funding must shift from car-centric infrastructure toward active and public transit, especially in mid-sized cities. Risk management must transition from reactive disaster response to prevention-focused frameworks with shared public-private responsibility. Metropolitan governance needs binding legal coordination with defined sanctions. Municipalities require federal technical support to build fiscal capacity through land value capture tools."
 ---
 
 # Acciones federales para la planeación urbana: hacia mejores ciudades para todos

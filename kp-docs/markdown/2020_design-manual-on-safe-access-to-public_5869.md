@@ -3,17 +3,18 @@ doc_id: 2020_design-manual-on-safe-access-to-public_5869
 source_pdf: kp-docs/askwri-kps/2020_design-manual-on-safe-access-to-public_5869.pdf
 extraction_method: cache-plaintext
 char_count: 48893
-title: Design Manual on Safe Access to Public Transportation in China
+title: 安全绿色出行设计指南
+title_en: Design Manual on Safe Access to Public Transportation in China
 authors: Li, Wei; Hui, Jiang; Zhong, Chen; Le, Zhou; Lua, Kim Beng
-date_published: 1/5/2020
-article_type: Guidebook
-sub_tag: Transport decarbonization
+date_published: 2020-05-01
+year_published: 2020
+article_type: Report
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/design-manual-safe-access-public-transportation-china"
-doi: No DOI listed
-summary: The Design Manual on Safe Access to Public Transportation in China is based on the safe systems approach, which holds that users and designers of road traffic systems should share responsibility for traffic safety, and that streets should create a tolerant environment that minimize the frequency and severity of traffic crashes. With the support of Bloomberg Philanthropies, the World Resource Institute (WRI) and the China Academy of Urban Planning and Design studied the issue of safe access to public transport stations in the context of rapid development of public transport in China.
+language: zh
+languages: [zh]
+url: "https://wri.org.cn/research/design-manual-safe-access-public-transportation-china"
+status: searchable
+summary: "Pedestrians and cyclists account for a significant share of China's road traffic fatalities, yet most transit riders complete their journeys on foot or by bicycle. Safe access to bus stops requires action across six areas: stop design, surrounding environment, walking and cycling networks, crossing safety, parking management, and signage. Bicycle lanes should bypass bus platforms to reduce conflicts, while protected crossings with refuge islands should be provided between paired stops. On-street parking must be prohibited within 10–15 meters of stops. Cross-departmental coordination and integrating road safety audits into the planning-design-construction-maintenance cycle are essential for implementation."
 ---
 
 # Design Manual on Safe Access to Public Transportation in China

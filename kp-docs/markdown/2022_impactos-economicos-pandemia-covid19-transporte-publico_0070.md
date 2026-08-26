@@ -5,15 +5,19 @@ extraction_method: postgres-full-text
 parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 102281
-title: IMPACTOS ECONÓMICOS DE LA PANDEMIA DE COVID-19 EN EL TRANSPORTE PÚBLICO URBANO EN CIUDADES MEXICANAS
+title: Impactos económicos de la pandemia de COVID-19 en el transporte público urbano en ciudades mexicanas
 title_en: Economic Impacts of the COVID-19 Pandemic on Urban Public Transport in Mexican Cities
 authors: José Juan Hernández; Anamaría Martínez; José Gil; Anette Ramírez; David Escalante; Evelyn Ruiz
+date_published: 2022-07-18
 year_published: 2022
 article_type: Working Paper
 wri_primary_office: WRI Mexico
 language: es
+languages: [es]
 doi: 10.46830/wriwp.20.00070
-status: needs_review
+url: "https://es.wri.org/publicaciones/impactos-economicos-de-la-pandemia-de-covid-19-en-el-transporte-publico-urbano-en"
+status: searchable
+summary: "The study shows that the COVID-19 pandemic caused public collective transport (PCT) ridership to fall by as much as 70% between April and June 2020, undermining the financial sustainability of operations and generating estimated losses of MXN 11.4-28 billion in 2020 and MXN 18 billion from January to September 2021. Based on surveys of government authorities, interviews with operators, and financial estimates covering 76 cities with more than 100,000 inhabitants, the analysis evaluates three operational models: public or state-owned entities, privately operated company services, and the individual concession model. Public operators were able to mitigate losses through subsidies, while private companies and individual concessionaires reduced costs through salary adjustments, loan renegotiations, and route redesigns. The study notes that approximately 50 million people relied on public collective transport as their primary mode of mobility before the crisis and that the sector supports around 410,000 direct jobs, underscoring its social importance. It recommends strengthening interinstitutional coordination and increasing the involvement of the private sector and civil society to preserve and sustain the service."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

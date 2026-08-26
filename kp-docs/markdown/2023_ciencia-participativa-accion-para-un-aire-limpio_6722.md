@@ -3,17 +3,20 @@ doc_id: 2023_ciencia-participativa-accion-para-un-aire-limpio_6722
 source_pdf: kp-docs/askwri-kps/2023_ciencia-participativa-accion-para-un-aire-limpio_6722.pdf
 extraction_method: cache-plaintext
 char_count: 71503
-title: "Ciencia participativa: acción para un aire limpio"
+title: "Ciencia Participativa: Acción Para un Aire Limpio"
+title_en: "Participatory Science: Action for Clean Air"
 authors: López, Tania; Escobar, Mercedes; Cárdenas, Beatriz; Duran, Yasmin Agustin; Retama, Armando; Cortés, Maite
-date_published: 8/18/2023
+date_published: 2023-08-18
+year_published: 2023
+publication_title: "Ciencia Participativa: Acción Para un Aire Limpio"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
-url: "https://es.wri.org/publicaciones/ciencia-participativa-accion-para-un-aire-limpio"
+language: es
+languages: [es]
 doi: "https://doi.org/10.46830/wriwp.20.00132"
-summary: Ciencia participativa demonstrates the effectiveness of community engagement in addressing air quality issues in León and Guadalajara, Mexico. Through collaborative efforts involving local authorities, civil society, and academic institutions, the project utilized low-cost microsensors to monitor air pollution levels, revealing significant contamination sources linked to urban infrastructure. Key findings indicate that citizen involvement enhances awareness and empowers communities to influence local environmental policies. The study underscores the importance of integrating local knowledge and capacities in scientific research to foster democratic decision-making and improve public health outcomes.
+url: "https://es.wri.org/publicaciones/ciencia-participativa-accion-para-un-aire-limpio"
+status: searchable
+summary: "Participatory air quality monitoring in León and Guadalajara, Mexico found high PM2.5 concentrations linked to commercial activity, vehicle traffic, and narrow streets limiting pollutant dispersion. León's proposed Low Emission Zone showed pollution hotspots near the Central Bus Terminal and schools, with peak concentrations at 7–8 a.m. and 6–7 p.m. Guadalajara's historic center showed accumulation at narrow intersections and dense tree canopy. Key lessons: engaging stakeholders from the earliest research stages increases commitment and reduces costs; capacity-building for local authorities enables democratic decision-making; and citizen science complements regulatory monitoring networks without replacing them."
 ---
 
 # Ciencia participativa: acción para un aire limpio

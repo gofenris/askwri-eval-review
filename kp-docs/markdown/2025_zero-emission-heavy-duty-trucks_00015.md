@@ -8,12 +8,16 @@ char_count: 146854
 title: "驶向2035: 中国新能源重卡在区域与长途运输场景中的推广潜力研究"
 title_en: "Charging Toward 2035: Policies to Accelerate Zero-Emission Heavy-Duty Trucks in China's Regional and Long-Haul Freight"
 authors: Chen, Ke; Xue, Lulu
+date_published: 2025-11-24
 year_published: 2025
 article_type: Report
 wri_primary_office: WRI China
 language: zh
-doi: 10.48830/wriprt.25.00015
-status: needs_review
+languages: [zh]
+doi: 10.46830/wriprt.25.00015
+url: "https://wri.org.cn/policies-accelerate-zero-emission-heavy-duty-trucks-chinas-regiona-land-long-haul-freight"
+status: searchable
+summary: This report shows how China can accelerate adoption of zero-emission heavy-duty trucks for regional delivery and long-haul freight between 2024 and 2035, and why targeted policies and charging infrastructure matter. Using two market models and three policy scenarios (no policy, current policy, and enhanced policy), the authors project payback periods and total cost of ownership for battery electric trucks and fuel cell electric trucks and forecast market shares for tractor trailers and straight trucks. Without new policies, regional adoption could reach only 2–17 percent by model year 2030 and long-haul adoption will remain nascent through 2035. Current subsidies raise uptake through 2027 but risk a post-subsidy drop. Stronger measures—especially a large road‑charge reduction and accelerated deployment of truck charging plus cheaper overnight depot charging—can push regional tractor trailers above 50 percent market share in 2027–2030; long‑haul growth needs sustained policy to gain traction by 2035. The report recommends differential targets by application, careful design of toll relief, rapid charger deployment, hydrogen subsidies through 2030, and better truck operating data.
 ---
 
 WRI CHINA

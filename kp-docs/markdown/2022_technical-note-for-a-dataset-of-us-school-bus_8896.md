@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2022_technical-note-for-a-dataset-of-us-school-bu
 extraction_method: cache-plaintext
 char_count: 60640
 title: Technical Note for a Dataset of U.S. School Bus Fleets
+title_en: Dataset of U.S. School Bus Fleets
 authors: Lazer, Leah; Freehafer, Lydia; Wang, Jessica
-date_published: 12/23/2022
+date_published: 2022-12-23
+year_published: 2022
+publication_title: Technical Note for a Dataset of U.S. School Bus Fleets
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/technical-note-dataset-us-school-bus-fleets"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.22.00076"
-summary: The dataset provides comprehensive information on over 475,000 school buses across 46 states and the District of Columbia, detailing characteristics such as model year, fuel type, and school district affiliation. Compiled through public records requests from state governments, the dataset aims to address significant gaps in knowledge regarding school bus fleets, which can inform environmental and equity analyses. Key applications include assessing the impact of transitioning to electric buses on greenhouse gas emissions and public health, as well as identifying districts with outdated diesel buses. Limitations include missing data from four states and inconsistencies in data collection methods across states. The dataset serves as a crucial resource for policymakers, researchers, and advocates focused on improving school transportation systems.
+url: "https://www.wri.org/research/technical-note-dataset-us-school-bus-fleets"
+status: searchable
+summary: "Data covers 475,000+ buses across 46 states and D.C., serving 11,000+ entities including ~9,700 public school districts. Four states (Colorado, Hawaii, Louisiana, New Hampshire) and all U.S. territories are missing. Departments of Education proved better data sources than DMVs, which typically charged $100–$500 for records and lacked district-level detail. Eight or more distinct fuel types were identified across fleets. The dataset enables estimation of electrification's emissions impact, grid upgrade planning, and targeting of oldest/most-polluting buses toward equity-focused funding. A federal agency should create and maintain a permanent public school bus dataset."
 ---
 
 # Technical Note for a Dataset of U.S. School Bus Fleets

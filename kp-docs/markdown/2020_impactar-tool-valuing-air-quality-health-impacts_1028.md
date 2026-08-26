@@ -3,16 +3,19 @@ doc_id: 2020_impactar-tool-valuing-air-quality-health-impacts_1028
 source_pdf: kp-docs/askwri-kps/2020_impactar-tool-valuing-air-quality-health-impacts_1028.pdf
 extraction_method: cache-plaintext
 char_count: 240992
-title: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil (2020)"
+title: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil"
+title_en: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil"
 authors: Betti, Luana; Caregnato Garcia, Marin; Siqueira, Eduardo; Evers, Henrique
-date_published: 6/26/2020
+date_published: 2020-06-26
+year_published: 2020
+publication_title: "ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil"
 article_type: Technical Note
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/impactar-tool"
-doi: No DOI listed
-summary: Developed by WRI Brasil, ImpactAr quantifies health and economic impacts of urban bus fleet transitions in São Paulo, Rio de Janeiro, Belo Horizonte, and Niterói. Using an Impact Pathway Approach, the tool converts PM₂.₅ and PM₁₀ emissions changes into concentration variations (via BRAMS 5.2 atmospheric modeling), then applies epidemiological concentration-response coefficients to estimate avoided hospitalizations and deaths from cardiovascular and respiratory diseases. Monetary valuation combines Cost of Illness methodology for morbidity and Value of Statistical Life (R$-adjusted via OECD transfer methodology) for mortality. Results span 1-year and 30-year horizons, enabling benefit-cost comparisons against municipal GDP and public health budgets, supporting decision-makers evaluating investments in cleaner bus technologies.
+status: searchable
+summary: "Covering São Paulo, Rio de Janeiro, Belo Horizonte, and Niterói, the ImpactAr tool quantifies health and economic costs of urban bus fleet transitions using an impact pathway approach. Outdoor air pollution causes ~20,500 annual deaths and 4,581 respiratory hospitalizations in Brazil, costing ~US$6.5M yearly in lost productivity and hospitalization. Low-emission buses represent just 0.003% of Brazil's urban fleet. The tool monetizes PM₂.₅ and PM₁₀ impacts through cost-of-illness for morbidity and value of statistical life (VSL ~US$3M adjusted) for mortality, enabling benefit-cost comparisons against municipal GDP and public health budgets to support fleet renewal investment decisions."
 ---
 
 # ImpactAr Tool: Valuing Air Quality Health Impacts of Urban Bus Fleet Changes in Brazil (2020)

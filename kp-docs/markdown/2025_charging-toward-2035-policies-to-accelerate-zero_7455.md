@@ -3,17 +3,20 @@ doc_id: 2025_charging-toward-2035-policies-to-accelerate-zero_7455
 source_pdf: kp-docs/askwri-kps/2025_charging-toward-2035-policies-to-accelerate-zero_7455.pdf
 extraction_method: cache-plaintext
 char_count: 259158
-title: "Charging toward 2035: Policies to accelerate zero-emission heavy-duty trucks in China’s regional and long-haul freight"
+title: "Charging Toward 2035: Policies to Accelerate Zero-Emission Heavy-Duty Trucks in China’s Regional and Long-Haul Freight"
+title_en: "Charging Toward 2035: Policies to Accelerate Zero-Emission Heavy-Duty Trucks in China’s Regional and Long-Haul Freight"
 authors: Chen, Ke; Xue, Lulu
-date_published: 10/15/2025
+date_published: 2025-10-15
+year_published: 2025
+publication_title: "Charging Toward 2035: Policies to Accelerate Zero-Emission Heavy-Duty Trucks in China’s Regional and Long-Haul Freight"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/charging-toward-2035-policies-accelerate-zero-emission-heavy-duty-trucks-chinas-regional-long-haul-freight"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.25.00015"
-summary: Adoption of zero-emission heavy-duty trucks (HDT) grew rapidly in China during the 2021–24 period. The current adoption of zero-emission HDTs is primarily concentrated in closed-loop applications (such as HDTs operating within factories or ports) and urban delivery. However, zero-emission HDTs are expected to expand into the regional delivery and long-haul applications, which are the two most common heavy-duty truck applications in China.
+url: "https://www.wri.org/research/charging-toward-2035-policies-accelerate-zero-emission-heavy-duty-trucks-chinas-regional-long-haul-freight"
+status: searchable
+summary: "Without policy, zero-emission heavy-duty trucks (ZETs) would reach only 2–17% market share in regional delivery by 2030, with long-haul adoption remaining negligible through 2035. Current trade-in subsidies and tax breaks effectively boost battery electric tractor trailers but risk a market share decline after 2028 when they expire. Enhanced policies—especially a 50% expressway toll reduction (the single most impactful measure) and accelerated charging infrastructure—could push regional delivery ZET share above 50% by 2027–30 and long-haul to 15–53% by 2035. China should set segment-specific ZET targets: ambitious for regional delivery by 2030, moderate for long-haul by 2035. FCET purchase and hydrogen subsidies must continue through 2030."
 ---
 
 # Charging toward 2035: Policies to accelerate zero-emission heavy-duty trucks in China’s regional and long-haul freight

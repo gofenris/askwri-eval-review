@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2023_assessing-the-environmental-impact-of-shared
 extraction_method: cache-plaintext
 char_count: 151745
 title: "Assessing the Environmental Impact of Shared Micromobility Services: A Guide for Cities"
+title_en: "Assessing the Environmental Impact of Shared Micromobility Services: A Guide for Cities"
 authors: Lazer, Leah
-date_published: 4/25/2023
+date_published: 2023-04-25
+year_published: 2023
+publication_title: "Assessing the Environmental Impact of Shared Micromobility Services: A Guide for Cities"
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.numo.global/resources/micromobility-emissions-life-cycle-assessment-guide"
-doi: No DOI listed
-summary: Shared micromobility services significantly impact urban transportation emissions, yet cities lack standardized methods for assessing these effects. This guide provides a framework for city transportation departments to evaluate greenhouse gas emissions through life cycle assessments (LCAs), emphasizing best practices for data collection and analysis. By clarifying use cases and offering actionable insights, the guide enables cities to compare micromobility operators and understand their environmental impacts. Developed collaboratively by experts and stakeholders, it aims to enhance the sustainability of urban mobility solutions.
+status: searchable
+summary: "Standardizing micromobility emissions assessments requires cities to clarify three distinct use cases: comparing operators to each other, comparing micromobility to other transport modes, and estimating net GHG impact. Life cycle assessments (LCAs) are the preferred method for operator comparisons, covering cradle-to-grave emissions across all lifecycle stages. Without standardization, operators risk being penalized for greater transparency. Cities should request LCA data using consistent input assumptions and a data quality pedigree matrix. Mode-shift data is essential for net impact calculations, as induced demand can offset emissions reductions. Guidance applies primarily to high-income countries."
 ---
 
 # Assessing the Environmental Impact of Shared Micromobility Services: A Guide for Cities

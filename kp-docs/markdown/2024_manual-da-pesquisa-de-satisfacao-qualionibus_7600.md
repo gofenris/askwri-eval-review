@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_manual-da-pesquisa-de-satisfacao-qualionibus
 extraction_method: cache-plaintext
 char_count: 417516
 title: Manual da Pesquisa de Satisfação QualiÔnibus
+title_en: "QualiÔnibus Satisfaction Survey Manual: A Methodology to Assess the Satisfaction of Public Bus Customers"
 authors: Cabral, Henrique; Barcelos, Mariana Müller; Blank, Cynthia; Albuquerque, Cristina; Petzhold, Guillermo; Silva, Rafael Stucchi da; Siqueira, Rafael Gustavo Silva; Alves, Luiz Marcelo Teixeira
-date_published: 9/18/2024
+date_published: 2024-09-18
+year_published: 2024
+publication_title: Manual da Pesquisa de Satisfação QualiÔnibus
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: Portuguese
-url: "https://www.wribrasil.org.br/publicacoes/manual-pesquisa-satisfacao-qualionibus"
+language: pt
+languages: [pt]
 doi: "https://doi.org/10.46830/wrigb.22.00083"
-summary: "The \"Manual da Pesquisa de Satisfação QualiÔnibus\" outlines a comprehensive methodology for assessing customer satisfaction in urban bus transport, emphasizing the importance of understanding passenger perceptions to enhance service quality. It details both in-person and online survey formats, with the former providing statistically representative data essential for benchmarking and tracking service improvements over time. The manual has been applied in over 20 Brazilian cities, collecting insights from more than 50,000 respondents, which have informed actionable plans for service enhancement. By prioritizing customer feedback, cities can foster a more sustainable and equitable public transport system, ultimately increasing ridership and satisfaction."
+url: "https://www.wribrasil.org.br/publicacoes/manual-pesquisa-satisfacao-qualionibus"
+status: searchable
+summary: "Brazil's bus satisfaction survey methodology, applied since 2013, has reached 40+ implementations across 20+ cities, capturing perceptions from 50,000+ people. The standardized tool evaluates 16 quality factors—including availability, reliability, comfort, and public safety. Two formats are recommended: in-person surveys for statistically representative results, required when tracking year-over-year trends or concession contract targets; and online surveys for lower-cost continuous monitoring without direct score comparisons. Results should drive action plans targeting the most critically rated factors. Standardization enables benchmarking across cities, facilitating best-practice exchange and systemic quality improvements."
 ---
 
 # Manual da Pesquisa de Satisfação QualiÔnibus

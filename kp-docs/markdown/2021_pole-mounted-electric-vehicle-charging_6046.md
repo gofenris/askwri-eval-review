@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_pole-mounted-electric-vehicle-charging_6046.
 extraction_method: cache-plaintext
 char_count: 108050
 title: "Pole-Mounted Electric Vehicle Charging: Preliminary Guidance for a Low-Cost and More Accessible Public Charging Solution for U.S. Cities"
+title_en: "Pole-Mounted Electric Vehicle Charging: Preliminary Guidance for a Low-Cost and More Accessible Public Charging Solution for U.S. Cities"
 authors: Werthmann, Emmett; Kothari, Vishant
-date_published: 11/30/2021
+date_published: 2021-11-30
+year_published: 2021
+publication_title: "Pole-Mounted Electric Vehicle Charging: Preliminary Guidance for a Low-Cost and More Accessible Public Charging Solution for U.S. Cities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/pole-mounted-electric-vehicle-charging-preliminary-guidance"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.21.00023"
-summary: Pole-mounted electric vehicle (EV) chargers (PMCs) offer a cost-effective solution for expanding public charging infrastructure in U.S. cities, potentially reducing installation costs by 55-70% compared to traditional ground-mounted chargers. The study, based on interviews with over 30 stakeholders and a literature review, emphasizes the importance of local context in determining the feasibility of PMC deployments, particularly favoring utility poles over streetlights due to electrical capacity. Recommendations highlight the need for pilot projects, stakeholder engagement, and equitable access considerations to ensure effective implementation. As demand for accessible charging grows, PMCs could significantly enhance EV adoption, especially for residents without private charging options.
+url: "https://www.wri.org/research/pole-mounted-electric-vehicle-charging-preliminary-guidance"
+status: searchable
+summary: "Pole-mounted chargers (PMCs) cut installation costs 55–70% versus ground-mounted units. U.S. utility poles outperform streetlights for PMCs due to higher voltage capacity (208–240V versus streetlights' typical 120V). Cities should pilot PMCs first, then convene stakeholders—utilities, city agencies, TNCs—before scaling. Site selection must prioritize equitable access for low-income residents and multiunit dwelling dwellers. Utilities are best positioned to own and operate PMCs. TNCs can serve as data and financing partners. LED streetlight conversions free electrical capacity for PMCs. Los Angeles remains the only U.S. city with scaled deployment (430+ units)."
 ---
 
 # Pole-Mounted Electric Vehicle Charging: Preliminary Guidance for a Low-Cost and More Accessible Public Charging Solution for U.S. Cities

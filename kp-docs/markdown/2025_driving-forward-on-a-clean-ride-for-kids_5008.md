@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2025_driving-forward-on-a-clean-ride-for-kids_500
 extraction_method: cache-plaintext
 char_count: 27796
 title: Driving Forward on a Clean Ride for Kids
+title_en: Driving Forward on a Clean Ride for Kids
 authors: Gander, Sue; Epstein, Meredith
-date_published: 3/25/2025
+date_published: 2025-03-25
+year_published: 2025
+publication_title: Driving Forward on a Clean Ride for Kids
 article_type: Expert Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/driving-forward-clean-ride-kids"
-doi: No DOI listed
-summary: The vast majority of our nation’s 480,000 school buses run on diesel fuel, whose emissions endanger the health of the more than ​​20 million children who ride them every day. Diesel exhaust pollutants can lead to cancer, asthma and other respiratory illnesses. Moreover, asthma is one of the leading causes of school absenteeism.
+status: searchable
+summary: Electric school buses (ESBs) operate in 49 states, with nearly 14,000 on the road or on order across 1,500+ districts. The Clean School Bus Program (CSBP) funded two-thirds of deployments, shifting ESB adoption toward rural (now 36% of districts) and low-income communities (62% of buses). Each ESB saves ~$6,000 annually in operating costs. Over 97% of US school buses are domestically manufactured, with 21 facilities across 13 states. The EPA should disburse all awarded CSBP funds, issue new funding opportunities for the remaining $2 billion, and preserve tax credits like 45W and 30C. States should expand financing mechanisms, utility make-ready programs, and workforce training.
 ---
 
 # Driving Forward on a Clean Ride for Kids

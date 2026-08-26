@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2022_toward-credible-transport-carbon-dioxide_377
 extraction_method: cache-plaintext
 char_count: 117209
 title: Toward Credible Transport Carbon Dioxide Emissions Accounting in China
+title_en: Toward Credible Transport Carbon Dioxide Emissions Accounting in China
 authors: Xue, Lulu; Liu, Daizong
-date_published: 12/23/2022
+date_published: 2022-12-23
+year_published: 2022
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
+language: en
+languages: [en, zh]
+doi: "https://doi.org/10.46830/wriwp.22.00015en"
 url: "https://wri.org.cn/en/study/Toward-Credible-Transport-CO2-Emissions-Accounting-in-China"
-doi: "https://doi.org/10.46830/wriwp.22.00015"
-summary: To help unify the transport emissions accounting methodologies for China’s national and subnational governments and improve statistical data collection for credible transport emissions reporting, this study reviews the accounting methods and statistical data used globally and in China through a literature review and stakeholder interviews.
+status: searchable
+summary: "China's transport CO₂ accounting methods produce uncertain estimates, particularly at subnational levels, due to incomplete fuel consumption statistics covering only 3.5% of the vehicle fleet. Top-down and bottom-up methods misalign emissions responsibilities, with cities like Beijing bearing disproportionate aviation and shipping burdens. Recommendations: require annual subnational transport emissions inventories; fix fuel statistics gaps through comprehensive collection and QA/QC procedures; use bottom-up methods alongside top-down approaches; allocate aviation, railway, and water navigation emissions to responsible corporations; and establish dedicated inventory offices with updated accounting guidelines."
 ---
 
 # Toward Credible Transport Carbon Dioxide Emissions Accounting in China

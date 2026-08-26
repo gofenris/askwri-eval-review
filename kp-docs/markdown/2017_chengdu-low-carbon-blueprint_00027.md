@@ -8,11 +8,15 @@ char_count: 9374
 title: 成都市低碳发展蓝图研究
 title_en: Chengdu Low-Carbon Development Blueprint Study
 authors: Lei, Hongpeng; Mao, Ziwei; Yuan, Min
-year_published: 2014
+date_published: 2017-11-10
+year_published: 2017
 article_type: Report
 wri_primary_office: WRI China
 language: zh
+languages: [zh]
+url: "https://wri.org.cn/research/study-chengdu-low-carbon-development-blueprint"
 status: searchable
+summary: "This World Resources Institute (WRI) study maps pathways for Chengdu’s low‑carbon development to 2030 and shows how policy choices can sharply change future energy use and carbon dioxide (CO2) emissions. Under three scenarios—baseline, policy, and a proactive “blueprint” that aims to peak emissions early—the study finds 2030 energy demand would be about three, 2.5 and 1.9 times 2010 levels, respectively. Under the blueprint, emissions level off by 2025 and reach roughly 100 million tonnes CO2 in 2030 (about 1.7 times 2010), rather than continuing to grow. The report identifies the main levers: slower, higher‑quality economic growth; industrial upgrading and spatial planning; major shifts in transport (more transit, natural gas, electric vehicles); tighter building standards and population/manage­ment to limit building demand; and an energy mix that cuts coal and expands hydropower purchases, biomass and gas. It also calls for a robust urban greenhouse gas accounting system to track progress and guide investments."
 ---
 
 # 成都市低碳发展蓝图研究

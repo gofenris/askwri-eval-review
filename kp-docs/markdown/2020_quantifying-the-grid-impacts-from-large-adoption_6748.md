@@ -3,17 +3,20 @@ doc_id: 2020_quantifying-the-grid-impacts-from-large-adoption_6748
 source_pdf: kp-docs/askwri-kps/2020_quantifying-the-grid-impacts-from-large-adoption_6748.pdf
 extraction_method: cache-plaintext
 char_count: 85837
-title: Quantifying the Grid Impacts from Large Adoption of Electric Vehicles in China
-authors: Xue, Lulu; Jian, Liu; Ying, Wang; Xiaoshi, Liu; Ying, Xiong
-date_published: 1/1/2020
+title: 中国新能源汽车规模化 推广对电网的影响分析
+title_en: Quantifying the Grid Impacts from Large Adoption of Electric Vehicles in China
+authors: Xue, Lulu; Xia, Junrong; Yu, Rujie; Ren, Huanhuan; Liu, Yong; Wei, Wei; Liu, Peng
+date_published: 2020-01-01
+year_published: 2020
+publication_title: How Do Electric Vehicles Friendly Interact with the Electric Grid
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese, English
+language: zh
+languages: [zh, en]
+doi: 10.46830/wrirpt.19.00061
 url: "https://www.wri.org/research/quantifying-grid-impacts-large-adoption-electric-vehicles-china"
-doi: No DOI listed
-summary: Large-scale adoption of electric vehicles (EVs) in China significantly impacts the electricity grid, affecting generation, transmission, and distribution systems. The study employs macro and micro modeling techniques, including Monte Carlo simulations, to analyze how uncoordinated charging can overload distribution transformers, especially when EV penetration exceeds 50%. It highlights that merely increasing transformer capacity may not suffice; instead, implementing coordinated charging strategies and vehicle-to-grid (V2G) solutions is essential for efficient grid integration. These findings underscore the need for smart control measures to optimize charging patterns and reduce infrastructure costs while supporting the transition to cleaner transportation.
+status: searchable
+summary: "Large-scale EV adoption in China will raise urban peak grid loads by 1–5% under moderate growth, but 10–11% (1,000–4,000 MW) with accelerated EV numbers and fast-charging dominance, creating generation and transmission capacity gaps. At distribution level, impacts are sharper: when private vehicle electrification exceeds 50%, most distribution transformers face overload risk, especially in residential areas and fast-charging locations. Smart-controlled orderly charging is the priority near-term solution, outperforming time-of-use pricing alone. Vehicle-to-grid (V2G) delivers the strongest peak-shaving but faces technical and commercial barriers best addressed through fleet pilots."
 ---
 
 # Quantifying the Grid Impacts from Large Adoption of Electric Vehicles in China

@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2021_seizing-the-urban-opportunity_8690.pdf
 extraction_method: cache-plaintext
 char_count: 251647
 title: Seizing the Urban Opportunity
+title_en: "Seizing the Urban Opportunity: How National Governments Can Recover From COVID-19, Tackle the Climate Crisis and Secure Shared Prosperity Through Cities — Insights From Six Emerging Economies"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing the Urban Opportunity
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/"
-doi: No DOI listed
-summary: National governments can leverage urban areas to drive economic recovery from COVID-19 while addressing climate change, as cities produce 80% of global GDP and house 56% of the population. The report identifies six emerging economies—China, India, Indonesia, Brazil, Mexico, and South Africa—as critical case studies, highlighting that a low-carbon urban transformation can create millions of jobs and significantly reduce greenhouse gas emissions. Recommended strategies include investing in sustainable transport, enhancing urban resilience, and prioritizing inclusive development. The findings underscore the urgent need for national leadership to mobilize resources and implement policies that foster compact, connected, and clean cities.
+status: searchable
+summary: Low-carbon urban measures in China, India, Indonesia, Brazil, Mexico, and South Africa could cut city emissions by 87–96% by 2050 and support 87 million jobs by 2030. National governments should embed compact, connected, clean cities in recovery plans and NDCs; prioritize energy-efficient buildings, sustainable transport, and affordable housing; and reform fiscal governance to empower local authorities. Financial institutions should redirect concessional finance toward urban transformation and long-payback investments like building retrofits and ecosystem restoration. Urban poor must be centered in resilience planning and decision-making.
 ---
 
 # Seizing the Urban Opportunity

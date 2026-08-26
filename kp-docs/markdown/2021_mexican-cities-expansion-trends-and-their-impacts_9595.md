@@ -3,17 +3,19 @@ doc_id: 2021_mexican-cities-expansion-trends-and-their-impacts_9595
 source_pdf: kp-docs/askwri-kps/2021_mexican-cities-expansion-trends-and-their-impacts_9595.pdf
 extraction_method: cache-plaintext
 char_count: 160635
-title: "Mexican Cities: Expansion trends and their impacts"
+title: "Las ciudades mexicanas: tendencias de expansión y sus impactos"
+title_en: "Mexican Cities: Trends in Expansion and Their Impacts"
 authors: Zubicaray Díaz, Gorka; Brito Moreno, Mauricio; Ramírez Reyes Brito, Lorelei
-date_published: 2/25/2021
+date_published: 2021-02-25
+year_published: 2021
+publication_title: "Mexican Cities: Expansion Trends and Their Impacts"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: English, Spanish
+language: es
+languages: [es, en]
 url: "https://urbantransitions.global/en/publication/mexican-cities-expansion-trends-and-their-impacts/"
-doi: No DOI listed
-summary: "Urban expansion in Mexican cities has led to increased emissions and significant social inequality, with lower socioeconomic groups facing limited access to essential urban services. Analyzing data from 2000 to 2018, the study reveals that urban growth has not been justified by population increases, resulting in lower density and higher emissions of certain pollutants. The findings highlight the urgent need for a shift towards a compact and equitable urban model, emphasizing tailored public policies to address diverse urban realities. This research supports the Coalition for Urban Transitions' goal of promoting sustainable urban development and reducing emissions by 2050."
+status: searchable
+summary: Urban sprawl in Mexican cities has outpaced population growth since 2000, reducing density across most cities. Peripheral rural areas grew 4–7 times faster than consolidated urban zones. Lower density correlates with higher emissions of CO, ammonia, and nitrous oxides. While mobile-source CO and volatile compounds declined between 2008–2016, PM10, PM2.5, and nitrogen oxides kept rising, especially in cities under 3 million. Inequality in access to jobs, schools, health clinics, and public space is acute, with lower-income groups—concentrated in peripheries—facing the greatest deficits. Transitioning to a compact, connected, coordinated, clean, and equitable urban model is recommended.
 ---
 
 # Mexican Cities: Expansion trends and their impacts

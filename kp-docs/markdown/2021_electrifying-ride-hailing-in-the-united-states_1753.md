@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_electrifying-ride-hailing-in-the-united-stat
 extraction_method: cache-plaintext
 char_count: 181688
 title: "Electrifying Ride-Hailing in the United States, Europe, and Canada: How to Enable Ride-Hailing Drivers to Switch to Electric Vehicles"
+title_en: "Electrifying Ride-Hailing in the United States, Europe, and Canada: How to Enable Ride-Hailing Drivers to Switch to Electric Vehicles"
 authors: Lazer, Leah; Wachche, Sadanand; Sclar, Ryan; Cassius, Sarah
-date_published: 10/11/2021
+date_published: 2021-10-11
+year_published: 2021
+publication_title: "Electrifying Ride-Hailing in the United States, Europe, and Canada: How to Enable Ride-Hailing Drivers to Switch to Electric Vehicles"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/electrifying-ride-hailing-united-states-europe-canada"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.21.00053"
-summary: Electrifying ride-hailing vehicles can significantly reduce transportation emissions, yet current policies often overlook this sector. The research identifies key barriers to electric vehicle (EV) adoption among ride-hailing drivers, including high upfront costs and inadequate charging infrastructure. An analysis of ten cities reveals that those with supportive policies, like London and Vancouver, see higher electrification rates compared to overall vehicle stocks. Recommendations include targeted financial incentives for low-income drivers and improved access to overnight charging, which could facilitate a more equitable transition to electric ride-hailing and help meet climate goals.
+url: "https://www.wri.org/research/electrifying-ride-hailing-united-states-europe-canada"
+status: searchable
+summary: U.S. cities lag significantly in ride-hailing electrification (1% or less), while Amsterdam, London, and Vancouver exceed 4.5%. Top-priority actions include retargeting EV purchase subsidies toward low-income and high-mileage drivers, installing more 50kW chargers, expanding overnight charging access for renters and multiunit building residents, revising EV fast-charging pricing structures, and tailoring ride-hailing apps to support EV drivers. Current subsidies disproportionately benefit higher-income households. New and used EVs are projected to reach price parity with ICE vehicles by 2026–2028. Ride-hailing companies should offer direct financial support, negotiate favorable charging rates, and expand EV rental programs for drivers.
 ---
 
 # Electrifying Ride-Hailing in the United States, Europe, and Canada: How to Enable Ride-Hailing Drivers to Switch to Electric Vehicles

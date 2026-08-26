@@ -8,12 +8,16 @@ char_count: 61434
 title: 精准施策：中国省级交通领域二氧化碳排放核算方法研究
 title_en: Toward Credible Transport Carbon Dioxide Emissions Accounting in China
 authors: Xue, Lulu; Liu, Daizong
+date_published: 2022-12-23
 year_published: 2022
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
+languages: [zh]
 doi: 10.46830/wriwp.22.00015
-status: needs_review
+url: "https://wri.org.cn/study/Toward-Credible-Transport-CO2-Emissions-Accounting-in-China"
+status: searchable
+summary: This World Resources Institute working paper evaluates methods for calculating provincial transport-sector carbon dioxide emissions in China and recommends steps to make those inventories credible and policy‑relevant. It shows that choice of method—“top‑down” approaches based on fuel statistics versus “bottom‑up” approaches based on vehicle activity—produces large, policy‑relevant differences in provincial results. That inconsistency, together with incomplete energy and activity statistics and unclear cross‑boundary allocation rules, limits provinces’ ability to set and track fair reduction targets and to meet the Paris Agreement Enhanced Transparency Framework. The authors therefore urge provinces to prepare annual transport CO2 inventories, adopt a consistent national methodology (using top‑down accounting for official totals while encouraging bottom‑up methods for source diagnosis and planning), strengthen transport energy statistics, require fuller supplier reporting, assign aviation/rail/coastal shipping emissions to responsible enterprises, and build shared data platforms and third‑party verification to improve accuracy and comparability.
 ---
 
 世界资源研究所

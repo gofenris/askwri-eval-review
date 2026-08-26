@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2022_decarbonizing-hong-kongs-roads-pathways-towa
 extraction_method: cache-plaintext
 char_count: 264437
 title: "Decarbonizing Hong Kong’s Roads: Pathways Towards a Net-Zero Road Transport System"
+title_en: "Decarbonising Hong Kong's Roads: Pathways Towards a Net-Zero Road Transport System"
 authors: Xue, Lulu; Song, Su; Xi, Wenyi; Jiang, Xiaoqian; Iu, Lawrence; Sawhney, Simran
-date_published: 9/30/2022
+date_published: 2022-09-30
+year_published: 2022
+publication_title: "Decarbonizing Hong Kong’s Roads: Pathways Towards a Net-Zero Road Transport System"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
-url: "https://wri.org.cn/en/research/decarbonising-hong-kongs-roads"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.21.00130"
-summary: Decarbonizing road transport is important for realizing the city’s net-zero emission goal. This report focuses on the top road transport emitters—private cars, freight vehicles, and buses.
+url: "https://wri.org.cn/en/research/decarbonising-hong-kongs-roads"
+status: searchable
+summary: "Hong Kong's electric bus total cost of ownership (TCO) could reach parity with diesel by 2030, supporting a recommended diesel bus ban by 2030–2033. Banning by 2026 yields 2.4 million tonnes more CO₂ reductions but requires HK$452M–HK$1.21B in public expenditure. For private cars, TCO parity for electric compact cars is already achieved, with SUV parity expected before 2024 under current tax concessions. The private car fossil fuel ban should advance from 2035 to 2026–2030. Light-goods vehicle ICE registrations should be banned by 2030; medium and heavy goods vehicles by 2039, prioritizing battery-electric with some hydrogen fuel cell trucks."
 ---
 
 # Decarbonizing Hong Kong’s Roads: Pathways Towards a Net-Zero Road Transport System

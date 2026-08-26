@@ -8,11 +8,15 @@ char_count: 94215
 title: 拥堵收费和低排放区国际经验研究
 title_en: Study on International Practices for Low Emission Zone and Congestion Charging
 authors: Wang, Ying; Song, Su; Qiu, Shiyong; Lu, Lu; Ma, Yilin; Li, Xiaoyi; Hu, Ying
+date_published: 2016-07-01
 year_published: 2016
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/study-international-practices-low-emission-zone-and-congestion-charging"
+status: searchable
+summary: This World Resources Institute working paper compares London, Singapore and Stockholm to show how congestion charging and low emission zones (LEZs) can cut traffic and improve air quality—and what China should consider when adopting them. Based on expert interviews, site visits and monitoring reports, the study finds strong legal backing, clear local leadership, careful feasibility studies, transparent use of revenues, reliable enforcement technology and sustained public outreach are critical to success. Measured effects include London’s congestion charge reducing private car entries and congestion by about 30% and raising bus use; London’s LEZ saw over 95% of entering vehicles meet standards and local particulate matter fell 2.46–3.07%; Stockholm’s congestion tax reduced inner-city emissions by 10–15% and traffic by roughly 21%, and its LEZ cut heavy-truck particulate emissions by about 40% after four years. The report recommends that China combine national legislation with clear local goals, practical tech choices, equity and visible reinvestment in public transport and complementary measures.
 ---
 
 世界资源研究所

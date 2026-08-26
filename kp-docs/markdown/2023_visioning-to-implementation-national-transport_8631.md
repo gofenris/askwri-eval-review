@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_visioning-to-implementation-national-transpo
 extraction_method: cache-plaintext
 char_count: 35258
 title: "Visioning to Implementation: National Transport Decarbonization Policies That Match Climate Targets in China, India, and Vietnam"
+title_en: "Visioning to Implementation: National Transport Decarbonization Policies That Match Climate Targets in China, India, and Vietnam"
 authors: Zhang, Yiqian; Castellanos, Sebastian; Welle, Ben
-date_published: 4/12/2023
+date_published: 2023-04-12
+year_published: 2023
+publication_title: "Visioning to Implementation: National Transport Decarbonization Policies That Match Climate Targets in China, India, and Vietnam"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/visioning-implementation-national-transport-decarbonization-policies-match-climate-targets"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.22.00084"
-summary: Transport decarbonization policies in China, India, and Vietnam are assessed for their alignment with national climate targets and governance structures. The report finds that while climate ambitions are generally reflected in national strategies, improved coordination across policy areas and governance levels is essential. Recommendations include aligning long-term visions with short-term actions, integrating transport policies with other sectors, and fostering equitable transitions. The research utilized literature reviews, policy document analyses, and expert interviews to identify barriers and enabling conditions for effective decarbonization. Enhanced collaboration and systematic approaches are crucial for achieving net-zero targets in the transport sector.
+url: "https://www.wri.org/research/visioning-implementation-national-transport-decarbonization-policies-match-climate-targets"
+status: searchable
+summary: Climate ambitions in China, India, and Vietnam are reflected in transport strategies, but cross-sector coordination remains weak. Net zero targets have spurred new policies, yet transport and energy sectors operate in silos, impeding EV rollout. Recommendations include aligning long-term targets with short-term actions, establishing lead coordinating agencies, and adopting the Avoid-Shift-Improve framework beyond electrification. Integrated policy mixes combining subsidies, mandates, and regulations are essential. Private financing must supplement public investment, and fossil fuel subsidies should be eliminated. Equity considerations—gender, informal transport, and accessibility—need explicit inclusion in decarbonization planning.
 ---
 
 # Visioning to Implementation: National Transport Decarbonization Policies That Match Climate Targets in China, India, and Vietnam

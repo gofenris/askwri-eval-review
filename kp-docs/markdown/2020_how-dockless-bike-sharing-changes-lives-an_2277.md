@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2020_how-dockless-bike-sharing-changes-lives-an_2
 extraction_method: cache-plaintext
 char_count: 198902
 title: "How Dockless Bike Sharing Changes Lives: An Analysis of Chinese Cities"
+title_en: "How Dockless Bike-Sharing Changes Lives: An Analysis of Chinese Cities"
 authors: Jiang, Hui; Song, Su; Zou, Xuan; Lu, Lu
-date_published: 9/24/2020
+date_published: 2020-09-24
+year_published: 2020
+publication_title: "How Dockless Bike Sharing Changes Lives: An Analysis of Chinese Cities"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/how-dockless-bike-sharing-changes-lives-analysis-chinese-cities"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.18.00124"
-summary: "Dockless bike-share systems have experienced unprecedented growth in China since 2016. This report investigated the comprehensive nationwide impact of dockless systems in 12 Chinese cities with relatively high bike-share usage and a thriving bike-share economy: Shanghai, Beijing, Guangzhou, Shenzhen, Chengdu, Wuhan, Hangzhou, Nanjing, Xi’an, Jinan, Xiamen and Lanzhou."
+url: "https://www.wri.org/research/how-dockless-bike-sharing-changes-lives-analysis-chinese-cities"
+status: searchable
+summary: Surveying 8,218 DBS users across 12 Chinese cities, DBS cycling yields net annual mortality avoided of 59,635 among 235 million users. Cycling up to one hour daily is optimal at PM2.5 levels of 50–60µg/m³; cycling beyond 30 minutes is inadvisable above 160µg/m³. DBS reduces CO₂ by 4.8 million tonnes annually. Some 54% of users connect DBS to other modes, with 91% linking to public transit. An estimated 15,556 annual bike fatalities are attributable to DBS. Cities should cap fleet sizes using evidence-based methods, establish KPI systems for operator permit renewal, standardize parking technology, and expand dedicated cycling infrastructure.
 ---
 
 # How Dockless Bike Sharing Changes Lives: An Analysis of Chinese Cities

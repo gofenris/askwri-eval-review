@@ -3,17 +3,20 @@ doc_id: 2023_analisis-de-los-mecanismos-financieros-para-la_3765
 source_pdf: kp-docs/askwri-kps/2023_analisis-de-los-mecanismos-financieros-para-la_3765.pdf
 extraction_method: cache-plaintext
 char_count: 86894
-title: Análisis de los mecanismos financieros para la sostenibilidad del transporte público en ciudades mexicanas
+title: Análisis de los Mecanismos Financieros para la Sostenibilidad del Transporte Público en Ciudades Mexicanas
+title_en: Analysis of Financial Mechanisms for the Sustainability of Public Transport in Mexican Cities
 authors: Govea, Ariel; Martínez, Ana María; Hernández, José Juan
-date_published: 5/30/2023
+date_published: 2023-05-30
+year_published: 2023
+publication_title: Análisis de los Mecanismos Financieros para la Sostenibilidad del Transporte Público en Ciudades Mexicanas
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
-url: "https://es.wri.org/publicaciones/analisis-de-los-mecanismos-financieros-para-la-sostenibilidad-del-transporte-publico"
+language: es
+languages: [es]
 doi: "https://doi.org/10.46830/wriwp.21.00087"
-summary: "Mexico's urban public transport (PT) faces a financial sustainability crisis, worsened by COVID-19, which caused a 70% ridership drop and over $2 billion USD in losses across 75 metropolitan areas (April 2020–September 2021). Seven financing mechanism categories are analyzed: transport system revenues (fares, subsidies), public asset revenues (parking fees, congestion charges), taxes (carbon, fuel, vehicle, property, employer contributions), government funding, private financial institutions, private developers, and international cooperation. Key findings show 93% of PT trips rely on buses operating under fragmented concession models. Congestion pricing and employer transport contributions—proven effective internationally—remain unexplored in Mexico. Successful implementation requires interinstitutional coordination, political will, and transparent resource allocation frameworks."
+url: "https://es.wri.org/publicaciones/analisis-de-los-mecanismos-financieros-para-la-sostenibilidad-del-transporte-publico"
+status: searchable
+summary: "Mexico's urban public transit depends on fare revenue for 93% of trips (buses/vans), losing over $2 billion USD between April 2020–September 2021 across 75 metropolitan areas. Seven financing mechanisms are identified: transit system revenues, public asset charges, taxes, government funding, private finance, developers, and international cooperation. Congestion pricing and employer payroll contributions don't yet exist in Mexico but represent untapped opportunities. Carbon tax revenues—totaling 41 billion pesos through 2020—should be earmarked for transit. Interinstitutional coordination, political will, and transparency are essential prerequisites for implementation."
 ---
 
 # Análisis de los mecanismos financieros para la sostenibilidad del transporte público en ciudades mexicanas

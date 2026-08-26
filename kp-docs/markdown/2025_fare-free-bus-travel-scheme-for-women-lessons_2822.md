@@ -3,17 +3,20 @@ doc_id: 2025_fare-free-bus-travel-scheme-for-women-lessons_2822
 source_pdf: kp-docs/askwri-kps/2025_fare-free-bus-travel-scheme-for-women-lessons_2822.pdf
 extraction_method: cache-plaintext
 char_count: 119627
-title: "Fare-free Bus Travel Scheme for Women: Lessons from Delhi"
+title: "Fare-Free Bus Travel Scheme for Women: Lessons From Delhi"
+title_en: "Fare-Free Bus Travel Scheme for Women: Lessons From Delhi"
 authors: Jamba, Harshita; Devaraj, Aravinda; Kanuri, Chaitanya
-date_published: 3/17/2025
+date_published: 2025-03-17
+year_published: 2025
+publication_title: "Fare-Free Bus Travel Scheme for Women: Lessons From Delhi"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/fare-free-bus-travel-scheme-women-lessons-delhi"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.23.00055"
-summary: "Delhi's fare-free public transport (FFPT) scheme for women, launched in 2019, has significantly increased female bus ridership from 33% to 42% by 2023, particularly benefiting low-income women who reported saving up to INR 500 monthly. Employing a mixed-methods approach, the study analyzed quantitative data from 2,010 women and qualitative insights from interviews, revealing enhanced access to education and employment opportunities. Despite these gains, challenges such as harassment and overcrowding persist, necessitating improved service quality and staff sensitization. The findings underscore the importance of gender-focused transport policies in promoting women's mobility and empowerment in urban settings."
+url: "https://wri-india.org/research/fare-free-bus-travel-scheme-women-lessons-delhi"
+status: searchable
+summary: "Delhi's fare-free bus scheme raised women's ridership share from 33% to 42% (2019–2023). Half of surveyed women save at least INR 500 monthly; domestic workers save 80% of prior transport costs. The scheme doubled accessible opportunities by enabling longer, more frequent trips (median 10.52 km). Eliminating transfer penalties reduced multi-leg trip costs by ~55%. Despite gains, 59% report hostile behavior from male crew or passengers, and overcrowding and poor enforcement of women's reserved seats persist. Recommendations include expanding the bus fleet, increasing service frequency, sensitizing staff, and adopting gender-disaggregated data monitoring."
 ---
 
 # Fare-free Bus Travel Scheme for Women: Lessons from Delhi

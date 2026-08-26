@@ -3,17 +3,20 @@ doc_id: 2021_medindo-mp25-com-sensores-de-baixo-custo_6821
 source_pdf: kp-docs/askwri-kps/2021_medindo-mp25-com-sensores-de-baixo-custo_6821.pdf
 extraction_method: cache-plaintext
 char_count: 56773
-title: Medindo MP2,5 com Sensores de Baixo Custo
+title: Measuring PM₂.₅ with Low-Cost Sensors
+title_en: Measuring PM₂.₅ with Low-Cost Sensors
 authors: Contreras, Seth; Dye, Tim; Marcelo, Audrei; Campos, Marco Siqueira; Albuquerque, Cristina; Tavares, Virginia; Jotz, Matheus
-date_published: 2/8/2021
+date_published: 2021-02-08
+year_published: 2021
+publication_title: Medindo MP2,5 com Sensores de Baixo Custo
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: Portuguese
-url: "https://www.wribrasil.org.br/publicacoes/medindo-mp25-com-sensores-de-baixo-custo"
+language: en
+languages: [en, pt]
 doi: "https://doi.org/10.46830/wripn.19.00035"
-summary: "WRI Brasil evaluated AirBeam2 low-cost PM2.5 sensors during São Paulo's Car-Free Friday initiative (September–November 2018), deploying 30 sensors in fixed and mobile configurations across the city's historic center. Collocation against CETESB reference stations showed strong sensor-to-sensor correlation (R²>0.94) and acceptable reference agreement (R²≈0.9 for daily means). Fixed sensors revealed significantly lower PM2.5 differences between car-free and non-car-free zones on Car-Free Fridays, suggesting the initiative positively impacts local air quality. Mobile sensors generated pollution hotspot maps. Key recommendations include mandatory pre/post collocation, backup sensors, municipal partnerships for site access, and treating low-cost sensors as complementary—not replacement—monitoring tools."
+url: "https://www.wribrasil.org.br/publicacoes/medindo-mp25-com-sensores-de-baixo-custo"
+status: searchable
+summary: "Low-cost AirBeam2 sensors showed strong mutual correlation (R²>0.94) and reasonable agreement with São Paulo's reference monitoring station (R²≈0.68 hourly; ≈0.90 daily). Fixed sensors deployed across São Paulo's historic center revealed PM2.5 concentrations were slightly higher inside the Car-Free Zone than outside, but the gap narrowed significantly on Car-Free Fridays—suggesting the initiative reduces local pollution. Mobile sensors identified spatial hotspots worth further investigation. Key recommendations: always collocate sensors against reference instruments before and after deployment, maintain backup units, secure institutional partnerships for site access, and train all participants on standardized protocols."
 ---
 
 # Medindo MP2,5 com Sensores de Baixo Custo

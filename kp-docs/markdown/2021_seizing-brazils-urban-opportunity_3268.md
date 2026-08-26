@@ -4,15 +4,18 @@ source_pdf: kp-docs/askwri-kps/2021_seizing-brazils-urban-opportunity_3268.pdf
 extraction_method: cache-plaintext
 char_count: 128607
 title: Seizing Brazil’s Urban Opportunity
+title_en: "Seizing Brazil's Urban Opportunity: Prioritising Urban Transport and Housing Investments for Inclusion and Resilience"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing Brazil’s Urban Opportunity
 article_type: Report
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English, Portuguese
+language: en
+languages: [en, pt]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-brazils-urban-opportunity/"
-doi: No DOI listed
-summary: "Brazil's cities, home to 87% of the population and generating 63% of GDP, face compounding crises: economic stagnation, COVID-19 devastation, deep inequality, and accelerating climate risks. Urban sprawl consumed 1,603 km² between 2000–2014, while car dependency drives severe congestion and pollution. Low-carbon urban measures could cut emissions 35% by 2030 and 88% by 2050, yielding net present value of US$369.7 billion and 4.5 million jobs. Transport holds 45% of abatement potential. Key recommendations include establishing a national urban strategy, reforming housing programmes to prevent peripheral concentration of poverty, prioritizing multimodal electrified transport, developing metropolitan governance frameworks, and realigning fiscal incentives toward low-carbon investment."
+status: searchable
+summary: "Brazil's cities could cut urban GHG emissions 35% by 2030 and 88% by 2050 through low-carbon transport, buildings, and land-use measures, generating net returns of US$369.7 billion and 4.5 million jobs by 2030. Transport holds 45% of abatement potential. Required investments of US$1.7 trillion would be offset by cost savings alone. Key recommendations include establishing a national urban strategy, reforming housing programmes to avoid peripheral sprawl, prioritizing multimodal electrified transit, developing metropolitan governance, expanding city-level climate finance, and realigning fiscal incentives toward low-carbon sectors."
 ---
 
 # Seizing Brazil’s Urban Opportunity

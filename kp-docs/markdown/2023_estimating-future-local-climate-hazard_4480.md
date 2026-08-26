@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_estimating-future-local-climate-hazard_4480.
 extraction_method: cache-plaintext
 char_count: 76123
 title: Estimating Future Local Climate Hazard Probabilities
+title_en: Estimating Future Local Climate Hazard Probabilities
 authors: Wong, Ted; Switzer, Paul
-date_published: 11/28/2023
+date_published: 2023-11-28
+year_published: 2023
+publication_title: Estimating Future Local Climate Hazard Probabilities
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/estimating-future-local-climate-hazard-probabilities"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.22.00074"
-summary: This note describes methods for selecting and calibrating downscaled global climate models and using the modeled projections to generate probability models of complex climate hazard indicators.
+url: "https://www.wri.org/research/estimating-future-local-climate-hazard-probabilities"
+status: searchable
+summary: A probabilistic method using downscaled CMIP6 climate models estimates future local climate hazard frequencies with quantified uncertainty. Three best-performing models are selected by comparing quarterly seasonal averages against ERA5 observations (1980–2014) using RMSE, constrained to different model families to avoid shared-code bias. Percentile-percentile calibration aligns model distributions to observed data before scanning future time series for hazard counts. Bayesian inference then generates predictive distributions of event frequencies. Applied to Kolkata, selected models were NorESM2-LM, ACCESS-ESM1-5, and MIROC-ES2L. Results support user-defined hazard thresholds across agriculture, infrastructure, and public health planning.
 ---
 
 # Estimating Future Local Climate Hazard Probabilities

@@ -3,17 +3,19 @@ doc_id: 2018_resilient-and-affordable-housing-for-all-lessons_5955
 source_pdf: kp-docs/askwri-kps/2018_resilient-and-affordable-housing-for-all-lessons_5955.pdf
 extraction_method: cache-plaintext
 char_count: 53800
-title: "Resilient and affordable housing for all: Lessons on house building from Kochi and Trivandrum, India"
+title: "Resilient and Affordable Housing for All: Lessons on House Building From Kochi and Trivandrum, India"
+title_en: "Resilient and Affordable Housing for All: Lessons on House Building from Kochi and Trivandrum, India"
 authors: Gillard, Ross; Datey, Abhijit; Sudmant, Andrew; Oates, Lucy; Gouldson, Andy
-date_published: 12/1/2018
+date_published: 2018-12-01
+year_published: 2018
+publication_title: "Resilient and Affordable Housing for All: Lessons on House Building From Kochi and Trivandrum, India"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/resilient-and-affordable-housing-for-all-lessons-on-house-building-from-kochi-and-trivandrum-india/"
-doi: No DOI listed
-summary: This paper analyses lessons from Kochi and Trivandrum, Kerala, India, where municipal government and community partnerships on house building projects have led to better quality new housing stock while reducing costs and environmental impacts.
+status: searchable
+summary: "Kerala's participatory housing model achieved 100% occupancy at Rs. 144,000 per unit—less than half the national average of Rs. 293,000. Applied nationwide, this would save Rs. 118 billion or fund 816,000 additional homes. Replication could cut total affordable housing costs 58%, from Rs. 7 trillion to Rs. 2.9 trillion. Key enablers: women's organization Kudumbashree and sustainable architecture using rat-trap masonry, filler slab roofing, and jali walls reducing steel and concrete use. Recommendations include integrating housing with land-use policy, mainstreaming climate adaptation, training professionals in sustainable design, mandating community partnerships, and leveraging private investment through demonstrated cost efficiency."
 ---
 
 # Resilient and affordable housing for all: Lessons on house building from Kochi and Trivandrum, India

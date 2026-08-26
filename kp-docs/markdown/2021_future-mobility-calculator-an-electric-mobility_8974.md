@@ -3,17 +3,19 @@ doc_id: 2021_future-mobility-calculator-an-electric-mobility_8974
 source_pdf: kp-docs/askwri-kps/2021_future-mobility-calculator-an-electric-mobility_8974.pdf
 extraction_method: cache-plaintext
 char_count: 106772
-title: "Future Mobility Calculator: An electric mobility infrastructure tool"
+title: "Future Mobility Calculator: An Electric Mobility Infrastructure Tool"
+title_en: "Future Mobility Calculator: An Electric Mobility Infrastructure Assessment Tool Technical Note"
 authors: Kothari, Vishant; Sclar, Ryan; Jackson, Eleanor; Werthmann, Emmett; Orbea, Jone
-date_published: 3/30/2021
+date_published: 2021-03-30
+year_published: 2021
+publication_title: "Future Mobility Calculator: An Electric Mobility Infrastructure Tool"
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/future-mobility-calculator-an-electric-mobility-infrastructure-tool/"
-doi: No DOI listed
-summary: The Future Mobility Calculator (FMC) is an Excel-based tool designed to assess the infrastructure needs and costs associated with electric vehicle (EV) adoption in urban settings. By inputting city-specific data and projected electrification scenarios for 2035 and 2050, users can estimate the quantity of charging stations required, electricity demand, and potential emissions reductions. The tool emphasizes the importance of tailored planning for EV infrastructure to enhance resource management and political support for electrification initiatives. Ultimately, the FMC aids city planners and policymakers in making informed decisions regarding sustainable urban mobility and energy systems.
+status: searchable
+summary: "The FMC quantifies EV charging infrastructure, costs, and social benefits for urban passenger mobility through 2050, covering four vehicle modes: private cars, two-wheelers, public buses, and shared fleets. Output accuracy depends heavily on key inputs: population growth rate, 2020 vehicle stock, modal split, occupancy rates, trip length, charger power, and cost values. Over 500 default data points drawn from IPCC, IEA, World Bank, and ICCT fill data gaps across four city typologies defined by density and income. Emission factors cover only tailpipe and electricity generation; braking and tire friction, autonomous vehicles, freight, and smart charging are excluded."
 ---
 
 # Future Mobility Calculator: An electric mobility infrastructure tool

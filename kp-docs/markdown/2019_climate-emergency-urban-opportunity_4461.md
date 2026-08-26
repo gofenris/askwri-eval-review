@@ -4,15 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_climate-emergency-urban-opportunity_4461.pdf
 extraction_method: cache-plaintext
 char_count: 419012
 title: Climate Emergency, Urban Opportunity
+title_en: "Climate Emergency, Urban Opportunity: How National Governments Can Secure Economic Prosperity and Avert Climate Catastrophe by Transforming Cities"
 authors: Coalition for Urban Transitions
-date_published: 9/19/2019
+date_published: 2019-09-19
+year_published: 2019
+publication_title: Climate Emergency, Urban Opportunity
 article_type: Report
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/climate-emergency-urban-opportunity/"
-doi: No DOI listed
-summary: Cities are pivotal in addressing the climate emergency, as they account for over 75% of carbon emissions and host more than half the global population. Implementing low-carbon strategies in urban areas could potentially reduce greenhouse gas emissions by nearly 90% by 2050, yielding an economic benefit of approximately $23.9 trillion. The report emphasizes the necessity for national governments to prioritize urban transformation in their climate strategies, advocating for inclusive, zero-carbon cities that enhance economic growth and social equity. It highlights the urgent need for coordinated policies and investments to realize these goals effectively.
+status: searchable
+summary: Low-carbon measures can cut urban greenhouse gas emissions by nearly 90% by 2050, with 58% savings from buildings, 21% transport, 16% materials efficiency, and 5% waste. Required investments of US$1.83 trillion annually yield returns of US$2.80 trillion by 2030 and US$6.98 trillion by 2050—a net present value of US$23.9 trillion. Zero-carbon cities could support 87 million additional jobs by 2030. Fewer than two in five countries have national urban strategies, and only seven combine urban policy with climate mitigation commitments. National governments must embed cities in net-zero strategies, align fiscal and transport policies, fund sustainable infrastructure, and ensure a just transition.
 ---
 
 # Climate Emergency, Urban Opportunity

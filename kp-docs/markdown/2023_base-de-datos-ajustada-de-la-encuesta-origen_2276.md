@@ -3,17 +3,20 @@ doc_id: 2023_base-de-datos-ajustada-de-la-encuesta-origen_2276
 source_pdf: kp-docs/askwri-kps/2023_base-de-datos-ajustada-de-la-encuesta-origen_2276.pdf
 extraction_method: cache-plaintext
 char_count: 96614
-title: Base de datos ajustada de la Encuesta Origen-Destino para la Zona Metropolitana del Valle de México, 2017
+title: Base de Datos Ajustada de la Encuesta Origen-Destino para la Zona Metropolitana del Valle de México
+title_en: Adjusted Database of the Origin-Destination Survey for the Metropolitan Area of Mexico Valley, 2017
 authors: Santana, José Luis; Mendoza, Marco Antonio; Escalante, David; Hernández, Ana Itzel
-date_published: 10/10/2023
+date_published: 2023-10-10
+year_published: 2023
+publication_title: Base de Datos Ajustada de la Encuesta Origen-Destino para la Zona Metropolitana del Valle de México
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
-url: "https://es.wri.org/publicaciones/base-de-datos-ajustada-de-la-encuesta-origen-destino-para-la-zona-metropolitana-del"
+language: es
+languages: [es]
 doi: "https://doi.org/10.46830/wriwp.19.00078"
-summary: WRI Mexico reprocessed the 2017 Origin-Destination Survey (EOD-2017) for the Mexico City Metropolitan Area (ZMVM) to correct significant representational biases. The original survey underrepresented women (by 2.1%), peripheral municipality residents, and lower-income, less-educated populations. The methodology consolidated 194 original districts into 54 analysis units, recalculated expansion factors using vehicle ownership data, demographic variables, and automated transit passenger counts, and estimated additional trip variables including distance and cost. Private vehicle fleets were underreported by 32%. Reprocessed datasets are published openly to improve transport planning accuracy and better capture care-related travel and gender-differentiated mobility patterns across the ZMVM.
+url: "https://es.wri.org/publicaciones/base-de-datos-ajustada-de-la-encuesta-origen-destino-para-la-zona-metropolitana-del"
+status: searchable
+summary: "The 2017 Origin-Destination Survey for Mexico City's metropolitan area underrepresents women (2.1% below census figures), peripheral municipality residents (1.8% gap), and lower-educated populations. Private vehicle fleets were underreported by 32%, with only 3.3 million vehicles estimated versus a projected 4.9 million. Households with 3–4 members were underrepresented by 4.93% outside Mexico City. Reprocessing reduced 194 original districts to 54 analytical units and generated 378 new expansion factors by age-sex group. Authorities should establish continuous mobility data collection systems with sociodemographic disaggregation and maintain updated vehicle registries."
 ---
 
 # Base de datos ajustada de la Encuesta Origen-Destino para la Zona Metropolitana del Valle de México, 2017

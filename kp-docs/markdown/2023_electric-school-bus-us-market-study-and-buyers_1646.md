@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_electric-school-bus-us-market-study-and-buye
 extraction_method: cache-plaintext
 char_count: 150636
 title: "Electric School Bus U.S. Market Study and Buyer’s Guide: A Resource for School Bus Operators Pursuing Fleet Electrification"
+title_en: "Electric School Bus US Market Study: A Resource for School Districts and Other School Bus Operators for Pursuing Fleet Electrification"
 authors: Wang, Jessica; Kothari, Vishant; Werthmann, Emmett; Jackson, Eleanor; Henderson, Lidia; Huntington, Alissa
-date_published: 7/24/2023
+date_published: 2023-07-24
+year_published: 2023
+publication_title: "Electric School Bus U.S. Market Study and Buyer’s Guide: A Resource for School Bus Operators Pursuing Fleet Electrification"
 article_type: Issue Brief
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/electric-school-bus-us-market-study-and-buyers-guide-resource-school-bus-operators"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriib.21.00135.v3"
-summary: Momentum for electric school buses (ESBs) is rapidly increasing, with over 12,000 commitments from 1,514 districts across the U.S. as of June 2024. The study highlights the health benefits of ESBs, which produce zero tailpipe emissions, thus reducing diesel exhaust pollution linked to respiratory issues in children. While upfront costs remain higher than diesel buses, substantial funding opportunities exist, and ESBs can lead to lower operational costs over time. The research emphasizes the importance of collaboration with utilities and charging infrastructure providers to facilitate successful fleet electrification.
+url: "https://www.wri.org/research/electric-school-bus-us-market-study-and-buyers-guide-resource-school-bus-operators"
+status: searchable
+summary: "As of June 2024, 1,514 districts committed to 12,167 electric school buses (ESBs) across 49 states, with 3,429 delivered or operating and 180,000+ students riding them. ESBs save an average $6,000 annually in operational costs versus diesel and emit half the greenhouse gas emissions. Twenty-six models are available with ranges of 100–300 miles. Seven states have enacted fleet electrification mandates. Federal funding includes $5 billion through EPA's Clean School Bus Program and $1 billion via the Inflation Reduction Act. Manufacturers are expanding capacity fivefold by decade's end. Early utility coordination and charge management software are essential for successful deployment."
 ---
 
 # Electric School Bus U.S. Market Study and Buyer’s Guide: A Resource for School Bus Operators Pursuing Fleet Electrification

@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2015_cities-safer-by-design_8831.pdf
 extraction_method: cache-plaintext
 char_count: 207552
 title: Cities Safer by Design
+title_en: "Cities Safer by Design: Guidance and Examples to Promote Traffic Safety Through Urban and Street Design"
 authors: Welle, Ben; Li, Wei; Adriazola-Steil, Claudia; King, Robin; Obelheiro, Marta; Sarmiento, Claudio; Liu, Qingnan
-date_published: 7/23/2015
+date_published: 2015-07-23
+year_published: 2015
+publication_title: Cities Safer by Design
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/publication/cities-safer-design"
-doi: No DOI listed
-summary: "Traffic fatalities, particularly among vulnerable road users, are a pressing global issue, with 1.24 million deaths annually, primarily in urban areas. \"Cities Safer by Design\" provides evidence-based strategies for urban and street design that prioritize pedestrian and cyclist safety while reducing vehicle speeds. The guide outlines key design principles and real-world examples from various cities, emphasizing the need for comprehensive street networks that enhance safety and accessibility. By adopting these practices, cities can improve public health, promote sustainable transport, and foster economic growth, ultimately creating safer urban environments for all."
+status: searchable
+summary: Urban street and community design can dramatically reduce the 1.24 million annual traffic deaths worldwide. Mixed land uses, smaller blocks, and nearby public facilities reduce vehicle travel exposure. Traffic calming measures—speed humps, chicanes, chokers, and raised intersections—lower vehicle speeds. Protected bicycle networks, cycle tracks, and safe junction designs reduce cyclist casualties. Quality sidewalks, pedestrian zones, and plazas improve safety for walkers. Redesigned arterials with refuge islands, lead pedestrian intervals, and reduced crossing distances protect all users. Safe transit access eliminates physical barriers near stations and stops.
 ---
 
 # Cities Safer by Design

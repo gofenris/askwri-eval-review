@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2022_urban-blue-green-conundrum-a-10-city-study-o
 extraction_method: cache-plaintext
 char_count: 178449
 title: "Urban Blue-Green Conundrum: A 10-City Study on the Impacts of Urbanization on Natural Infrastructure in India"
+title_en: "Urban Blue-Green Conundrum: A 10-City Study on the Impacts of Urbanization on Natural Infrastructure in India"
 authors: Goswami, Sahana; Basak, Samrat; Malik, Aakash; Palanichamy, Raj Bhagat
-date_published: 12/19/2022
+date_published: 2022-12-19
+year_published: 2022
+publication_title: "Urban Blue-Green Conundrum: A 10-City Study on the Impacts of Urbanization on Natural Infrastructure in India"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/urban-blue-green-conundrum-10-city-study-impacts-urbanization-natural-infrastructure-india"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.19.00062"
-summary: This working paper seeks to expand our knowledge of urbanization and its impacts on the surrounding natural landscapes in India. We study the urbanized region of India’s 10 most populated cities to examine the relationship between urban (built-up) expansion and changes in blue-green infrastructure such as surface waters, green cover, and recharge zones.
+url: "https://www.wri.org/research/urban-blue-green-conundrum-10-city-study-impacts-urbanization-natural-infrastructure-india"
+status: searchable
+summary: "Between 2000–2015, built-up area across India's 10 most populated cities grew 47% in core zones and 134% in peripheries. Surface water fell 15%, losing 307 sq. km—equivalent to 900 billion liters of storage. Some 44% of new development occupied high or very high groundwater recharge zones, diverting an estimated 300 billion liters annually from aquifers—enough to meet 20% of new urban water demand. Six cities show green cover losses exceeding gains in core areas. Authorities should redirect development away from high-recharge and flood-risk zones, and integrate nature-based solutions—restored wetlands, rain gardens, green roofs—into urban planning frameworks."
 ---
 
 # Urban Blue-Green Conundrum: A 10-City Study on the Impacts of Urbanization on Natural Infrastructure in India

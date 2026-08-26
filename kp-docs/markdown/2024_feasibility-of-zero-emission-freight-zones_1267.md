@@ -3,17 +3,19 @@ doc_id: 2024_feasibility-of-zero-emission-freight-zones_1267
 source_pdf: kp-docs/askwri-kps/2024_feasibility-of-zero-emission-freight-zones_1267.pdf
 extraction_method: cache-plaintext
 char_count: 113020
-title: "Feasibility of zero emission freight zones: scenario analysis and risk assessment"
+title: 近零排放货运区可行性研究：情景与风险分析
+title_en: "Feasibility of Zero Emission Freight Zones: Scenario Analysis and Risk Assessment"
 authors: Xue, Lulu; Chen, Ke
-date_published: 3/5/2024
+date_published: 2023-12-26
+year_published: 2023
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/feasibility-of-zero-emission-freight-zones-in-Beijing-Scenario-analysis-and-risk-assessment"
+language: zh
+languages: [zh, en]
 doi: "https://doi.org/10.46830/wrirpt.23.00076"
-summary: To further incentivize the adoption of zero-emission trucks (ZETs), Chinese cities would need more proactive policies like zero-emission freight zones (ZEFZs). Considering goods and freight transportation is central to a city’s economy and social life, the design and implementation of ZEFZs must avoid disruption of the city’s goods supply and the increase of logistic costs, and to ensure inclusive transition of small carriers and financial sustainability for city governments.
+url: "https://wri.org.cn/research/feasibility-of-zero-emission-freight-zones-in-Beijing-Scenario-analysis-and-risk-assessment"
+status: searchable
+summary: "Using Beijing's Second Ring Road as the pilot zone, the \"moderate scenario\" restricting fossil-fuel light-duty trucks from 2024 delivers the best cost-effectiveness: cumulative reductions of 1,199–3,365 tonnes of pollutants and 210,000–470,000 tonnes of CO₂ in 2024–2025, at a cost of RMB 100–300 million. The recommended policy carries a medium risk score (0.41). Key mitigations include a minimum six-month transition period, expanded EV truck permit quotas within the Fifth Ring Road, purchase or operating subsidies prioritizing micro-enterprises, and upgraded charging and hydrogen infrastructure near the Second Ring Road."
 ---
 
 # Feasibility of zero emission freight zones: scenario analysis and risk assessment

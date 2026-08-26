@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_the-evolution-of-bike-sharing-10-questions-o
 extraction_method: cache-plaintext
 char_count: 167737
 title: "The Evolution of Bike Sharing: 10 Questions on the Emergence of New Technologies, Opportunities, and Risks"
+title_en: "The Evolution of Bike Sharing: 10 Questions on the Emergence of New Technologies, Opportunities, and Risks"
 authors: Moon, Christopher; Sharpin, Anna Bray; Lanza, Iván De La; Khan, Azra; Re, Luca Lo; Maassen, Anne
-date_published: 1/14/2019
+date_published: 2019-01-14
+year_published: 2019
+publication_title: "The Evolution of Bike Sharing: 10 Questions on the Emergence of New Technologies, Opportunities, and Risks"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/evolution-bike-sharing"
-doi: No DOI listed
-summary: This working paper seeks to provide decision makers at the city level a series of frequently asked questions and responses in order to assess the adoption and implementation of bike sharing. It is not designed to be a comprehensive guide to bike-sharing implementation, nor is it meant to provide prescriptive recommendations; rather, it offers questions and answers objectively in order to assist city officials to navigate through the recent developments and innovations of new and improved technologies, data, and business models relating to bike sharing.
+status: searchable
+summary: Cities must proactively regulate bike-sharing schemes as dockless and e-bike technologies reshape urban mobility. Success requires matching BSS scale to city size, integrating stations with public transit, and diversifying revenue through sponsorship, advertising, and municipal budgets. Public-private partnerships must clearly define operations, maintenance, and data-sharing obligations. Regulatory frameworks are critical for dockless schemes, where sidewalk overcrowding and vandalism pose risks. Safety audits of collision rates, cycling infrastructure, and road design must precede implementation. Monitoring frameworks should track mobility, equity, health, and financial performance.
 ---
 
 # The Evolution of Bike Sharing: 10 Questions on the Emergence of New Technologies, Opportunities, and Risks

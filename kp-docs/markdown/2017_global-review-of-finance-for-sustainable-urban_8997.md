@@ -3,17 +3,19 @@ doc_id: 2017_global-review-of-finance-for-sustainable-urban_8997
 source_pdf: kp-docs/askwri-kps/2017_global-review-of-finance-for-sustainable-urban_8997.pdf
 extraction_method: cache-plaintext
 char_count: 219963
-title: Global Review of Finance For Sustainable Urban Infrastructure
+title: Global Review of Finance for Sustainable Urban Infrastructure
+title_en: Global Review of Finance for Sustainable Urban Infrastructure
 authors: Floater, Graham; Dowling, Dan; Chan, Denise; Ulterino, Matthew; Braunstein, Juergen; McMinn, Tim; Ahmad, Ehtisham
-date_published: 12/1/2017
+date_published: 2017-12-01
+year_published: 2017
+publication_title: Global Review of Finance for Sustainable Urban Infrastructure
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/global-review-of-finance-for-sustainable-urban-infrastructure/"
-doi: No DOI listed
-summary: This paper is a background review representing part of the initial phase of the Financing the Urban Transition work programme. The review builds on a growing body of research that highlights both the importance of national sustainable infrastructure and the need to develop more effective and efficient financing mechanisms for delivering compact, connected cities that meet the UN’s Sustainable Development Goals. While progress has been made in both these areas over the last five years, there remains a policy gap between the international/national level and the municipal level.
+status: searchable
+summary: Closing the global urban infrastructure gap requires $3.4–6 trillion annually over 15 years, yet investment deficits grow by over $1 trillion yearly. Some 93% of low-income countries hold sub-investment-grade ratings, blocking market access. Less than 16% of countries grant taxation autonomy to local governments, and 56% prohibit municipal borrowing. Private and institutional investors hold $120 trillion in assets but remain underallocated to infrastructure. Low-carbon compact cities could generate $16.6 trillion in savings by 2050. Governments must strengthen fiscal transfers, tailor finance instruments to city-specific creditworthiness, and blend public, private, and institutional capital.
 ---
 
 # Global Review of Finance For Sustainable Urban Infrastructure

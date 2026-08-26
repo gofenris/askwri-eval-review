@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2023_accelerating-the-production-and-use-of-green
 extraction_method: cache-plaintext
 char_count: 135966
 title: Accelerating the Production and Use of Green Hydrogen
+title_en: Accelerating the Production and Use of Green Hydrogen
 authors: Nallapaneni, Anuraag; Munjal, Guncha; Mulukutla, Pawan; Saxena, Jatin
-date_published: 7/20/2023
+date_published: 2023-07-20
+year_published: 2023
+publication_title: Accelerating the Production and Use of Green Hydrogen
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://wri-india.org/research/accelerating-production-and-use-green-hydrogen"
-doi: No DOI listed
-summary: "This report focuses on three key aspects that G20 nations should prioritize to establish and accelerate the adoption of green hydrogen. The primary focus areas identified in this report include:"
+status: searchable
+summary: G20 nations must focus on three priorities to scale green hydrogen. Supply chains require channeling investment into renewable energy infrastructure, tracking manufacturing and trade data, and reducing dependence on critical minerals like platinum. A globally harmonized certification framework must define hydrogen by source, certify renewable energy inputs to prevent double counting, and enable transparent compliance tracking. Collaborative R&I partnerships should streamline funding mechanisms and integrate cooperation into decision-making. By 2050, electrolysis could supply 60% of global hydrogen demand, requiring 5,000 GW of electrolyzer capacity.
 ---
 
 # Accelerating the Production and Use of Green Hydrogen

@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_calculating-indicators-from-global-geospatia
 extraction_method: cache-plaintext
 char_count: 148250
 title: Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment
+title_en: Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment
 authors: Mackres, Eric; Shabou, Saif; Wong, Ted
-date_published: 3/29/2023
+date_published: 2023-03-29
+year_published: 2023
+publication_title: Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/calculating-indicators-global-geospatial-datasets-urban-environment"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.22.00123"
-summary: This technical note discusses methods for using these data in combination with locally meaningful jurisdictional boundaries to calculate local measurements of indicators on several themes—including access to urban amenities, air quality, biodiversity, flooding, climate change mitigation, heat, and land protection and restoration—relevant to urban decision-makers, researchers, and other stakeholders.
+url: "https://www.wri.org/research/calculating-indicators-global-geospatial-datasets-urban-environment"
+status: searchable
+summary: "Open-source global geospatial data can generate comparable urban indicators across seven themes: access to amenities, air quality, biodiversity, flooding, greenhouse gas emissions, heat, and land protection. Methods use zonal statistics applied to administrative boundaries via Google Earth Engine, with most data from remote sensing and crowdsourced platforms including OpenStreetMap and iNaturalist. Key metrics include recreational space per capita, population within 400m of green space or tree cover exceeding 10%, PM2.5 as a percentage of WHO thresholds, habitat connectivity coherence scores, and sector-disaggregated emissions with social costs. Indicators are scalable to any city at low marginal cost and align with SDG 11 targets."
 ---
 
 # Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment

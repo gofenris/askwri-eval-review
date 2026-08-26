@@ -3,17 +3,19 @@ doc_id: 2021_open-communication-protocols-vehicle-grid_1665
 source_pdf: kp-docs/askwri-kps/2021_open-communication-protocols-vehicle-grid_1665.pdf
 extraction_method: cache-plaintext
 char_count: 32945
-title: Open Communication Protocols Vehicle Grid Integration China Global Experiences
+title: 建立电动汽车与电网协同的通信协议体系： 国际经验借鉴、国内外对比与对策建议
+title_en: "Open Communication Protocols for Vehicle Grid Integration in China: Global Experiences and Local Recommendations"
 authors: Xue, Lulu; Xiong, Ying; Zhu, Jin
-date_published: 1/4/2021
+date_published: 2021-04-01
+year_published: 2021
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/open-communication-protocols-vehicle-grid-integration-china-global-experiences"
-doi: No DOI listed
-summary: Establishing open communication protocols for Vehicle Grid Integration (VGI) is crucial for enhancing the synergy between electric vehicles (EVs) and the power grid in China. The study identifies significant gaps in the current communication protocols, particularly in standardization, cybersecurity, and interoperability, which hinder effective VGI implementation. Recommendations include revising existing standards, promoting a unified protocol framework, and ensuring robust cybersecurity measures to facilitate seamless communication among EVs, charging stations, and utilities. Strengthening these protocols is essential for optimizing grid management, supporting renewable energy integration, and fostering a competitive charging industry.
+language: zh
+languages: [zh, en]
+doi: 10.46830/wriwp.20.00081
+url: "https://wri.org.cn/research/open-communication-protocols-vehicle-grid-integration-china-global-experiences"
+status: searchable
+summary: "China's EV-grid communication protocols lack standardization across all layers: GB/T 27930 doesn't support vehicle-grid integration (VGI), EVSE-CPO protocols remain largely proprietary, and cybersecurity protections are weak system-wide. Recommendations include amending GB/T 27930 to support managed charging and V2G, expanding the open T/CEC 102 protocol, establishing a unified grid-distributed resource standard, and systematically strengthening cybersecurity. Implementation should include rigorous conformance testing, official product certification, and mandatory utility data sharing to enable interoperability across vehicles, chargers, operators, and grid entities."
 ---
 
 # Open Communication Protocols Vehicle Grid Integration China Global Experiences

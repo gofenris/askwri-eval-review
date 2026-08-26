@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_unaffordable-and-undrinkable-rethinking-urba
 extraction_method: cache-plaintext
 char_count: 250848
 title: "Unaffordable and Undrinkable: Rethinking Urban Water Access in the Global South"
+title_en: "Unaffordable and Undrinkable: Rethinking Urban Water Access in the Global South"
 authors: Mitlin, Diana; Beard, Victoria A.; Satterthwaite, David; Du, Jillian
-date_published: 8/13/2019
+date_published: 2019-08-13
+year_published: 2019
+publication_title: "Unaffordable and Undrinkable: Rethinking Urban Water Access in the Global South"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/unaffordable-and-undrinkable-rethinking-urban-water-access-global-south"
-doi: No DOI listed
-summary: In 2015, UNICEF and the World Health Organization reported that over 90% of the world’s population used improved drinking water sources. But new research suggests the indicators used by UNICEF/WHO grossly overestimated the state of water access, especially in cities of the global south. Analysis of 15 cities shows that vast segments of the urban population in the global south lack access to safe, reliable and affordable water. On average, almost half of all households in the studied cities lacked still lack access to piped utility water.
+status: searchable
+summary: "Nearly half of urban households in 15 Global South cities lack piped water access. Sub-Saharan African cities average 22% piped coverage; South Asian cities 63%; Latin American cities 97%. Twelve of 15 cities have intermittent supply—as low as one hour weekly in some informal settlements—raising contamination risk. Tanker truck water costs up to 52 times piped rates. Informal settlement residents in Kampala spend 11.7% of income on piped water alone, far exceeding the recommended 3–5% threshold. Decades of privatization and corporatization failed low-income populations. Recommended actions: extend piped networks, fix intermittency, subsidize connections, and support community-led informal settlement upgrading."
 ---
 
 # Unaffordable and Undrinkable: Rethinking Urban Water Access in the Global South

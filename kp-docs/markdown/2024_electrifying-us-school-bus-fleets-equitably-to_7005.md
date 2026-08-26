@@ -3,17 +3,20 @@ doc_id: 2024_electrifying-us-school-bus-fleets-equitably-to_7005
 source_pdf: kp-docs/askwri-kps/2024_electrifying-us-school-bus-fleets-equitably-to_7005.pdf
 extraction_method: cache-plaintext
 char_count: 148821
-title: Electrifying US School Bus Fleets Equitably to Reduce Air Pollution Exposure in Underserved Communities
+title: Electrifying U.S. School Bus Fleets Equitably to Reduce Air Pollution Exposure in Underserved Communities
+title_en: Electrifying US School Bus Fleets Equitably to Reduce Air Pollution Exposure in Underserved Communities
 authors: Lazer, Leah; Freehafer, Lydia; Worker, Jesse; Achury, Alejandra; Shrestha, Rajat; Brown, Charles T.; Kodakkandathil, Vineesh; Zepka, Brian
-date_published: 5/8/2024
+date_published: 2024-05-08
+year_published: 2024
+publication_title: Electrifying U.S. School Bus Fleets Equitably to Reduce Air Pollution Exposure in Underserved Communities
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/electrifying-us-school-bus-fleets-equitably-reduce-air-pollution-exposure-underserved"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.22.00124"
-summary: Electrifying U.S. school bus fleets is crucial for reducing air pollution exposure in underserved communities, particularly those with higher concentrations of low-income households and residents of color. The analysis reveals that older, more polluting diesel buses disproportionately serve these vulnerable populations, exacerbating health disparities. Utilizing datasets from over 80% of U.S. states, the report highlights that many electric school buses (ESBs) are being deployed in districts facing the worst air quality. Recommendations emphasize leveraging federal funding to prioritize the transition to cleaner buses in the most affected areas, ensuring equitable access to healthier transportation for all students.
+url: "https://www.wri.org/research/electrifying-us-school-bus-fleets-equitably-reduce-air-pollution-exposure-underserved"
+status: searchable
+summary: Older, more polluting diesel school buses are disproportionately concentrated in districts with higher shares of low-income households and residents of color. Districts with the highest minority shares are four times more likely to have pre-2010 buses than those with the lowest. Conversely, 68% of committed electric school buses are in districts with the highest shares of students of color. Without targeted prioritization criteria, electric buses concentrate in wealthier districts. Recommendations include prioritizing oldest bus replacements, making fleet data publicly available semiannually, and continuing federal and state funding programs targeting disadvantaged communities.
 ---
 
 # Electrifying US School Bus Fleets Equitably to Reduce Air Pollution Exposure in Underserved Communities

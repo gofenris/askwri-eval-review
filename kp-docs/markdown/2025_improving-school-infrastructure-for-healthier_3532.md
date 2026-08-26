@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_improving-school-infrastructure-for-healthie
 extraction_method: cache-plaintext
 char_count: 28593
 title: Improving School Infrastructure for Healthier Students and Communities
+title_en: Improving School Infrastructure for Healthier Students and Communities
 authors: Roboff, Katherine; Gander, Sue
-date_published: 3/17/2025
+date_published: 2025-03-17
+year_published: 2025
+publication_title: Improving School Infrastructure for Healthier Students and Communities
 article_type: Expert Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/improving-school-infrastructure-healthier-students-and-communities"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrien.24.00141"
-summary: Public school infrastructure in the U.S. is critically underfunded, negatively impacting student health, academic performance, and community safety. The document outlines necessary investments in building maintenance, energy efficiency, and transportation, emphasizing the need for federal and state support for clean energy initiatives and green school grounds. Key recommendations include maintaining clean energy tax credits and promoting electric school buses to reduce pollution. Addressing these infrastructure challenges can lead to improved health outcomes for students, particularly in underserved communities, while also generating long-term cost savings for school districts.
+url: "https://www.wri.org/research/improving-school-infrastructure-healthier-students-and-communities"
+status: searchable
+summary: Congress should preserve clean energy tax credits (Sections 48/48E, 45W, 30C) and the elective pay provision enabling tax-exempt districts to claim credits directly. Governors should fund building efficiency, solar, green schoolyards, and zero-emission bus transitions—prioritizing underserved communities. States permitting power purchase agreements account for 90% of school solar capacity. Centralized state procurement, infrastructure bank financing, and technical assistance reduce administrative burdens on districts. These investments yield cost savings, improved air quality, better academic outcomes, and stronger community emergency resilience.
 ---
 
 # Improving School Infrastructure for Healthier Students and Communities

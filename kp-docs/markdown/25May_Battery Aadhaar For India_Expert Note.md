@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 30911
 title: "Battery Aadhaar for India: Potential Pathways for a Domestic Battery Data Management Framework"
+title_en: "Battery Aadhaar for India: Potential Pathways for a Domestic Battery Data Management Framework"
 authors: Parveen Kumar; Chaitanya Kanuri
 date_published: 2026-05-25
 year_published: 2026
 article_type: Expert Note
 wri_primary_office: WRI India
 language: en
+languages: [en]
 doi: 10.46830/wrien.25.00072
 status: searchable
+summary: This expert note proposes “Battery Aadhaar,” an India-specific digital identity and data-management framework to enable end-to-end battery traceability and advance a circular battery value chain. Motivated by rising battery demand and import dependence, the paper argues that standardized, interoperable battery data would improve responsible sourcing, safety, performance monitoring, reuse/repurposing decisions, recycling outcomes, and regulatory oversight. It reviews global precedents (EU battery passport, China and South Korea UINs), and India’s evolving policy landscape (Battery Waste Management Rules, BPAN draft guidelines). Key components include prioritized static and dynamic data attributes, decentralized governance and platform design, secure technologies (BMS/IoT, DIDs/SSIs, verifiable credentials, cloud/blockchain, AI/analytics), and aligned regulations to ensure privacy, interoperability, and domestic data stewardship. The note highlights cost and MSME barriers, potential business models, and recommends inclusive stakeholder engagement, pilots, impact assessments, capacity building, and a decentralized, technology-neutral approach to ensure scalability and long-term sustainability.
 ---
 
 WRI INDIA

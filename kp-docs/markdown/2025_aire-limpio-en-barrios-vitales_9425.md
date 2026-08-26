@@ -3,17 +3,20 @@ doc_id: 2025_aire-limpio-en-barrios-vitales_9425
 source_pdf: kp-docs/askwri-kps/2025_aire-limpio-en-barrios-vitales_9425.pdf
 extraction_method: cache-plaintext
 char_count: 157549
-title: Aire limpio en Barrios Vitales
+title: Aire Limpio en Barrios Vitales
+title_en: "Clean Air in Vital Neighborhoods: Air Quality Impact Indicators"
 authors: Meneses, Sandra; Cano, Daniel; Cárdenas, Beatriz; Grajales, John Freddy; Cruz, Gustavo Alfonso Romero; Durán, Edison Yesid Ortiz; Hernández, Ana Milena Quinchara
-date_published: 5/9/2025
+date_published: 2025-05-09
+year_published: 2025
+publication_title: Aire Limpio en Barrios Vitales
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Colombia
-wri_programs: Cities
-language: Spanish
+language: es
+languages: [es]
+doi: 10.46830/wripn.23.00085
 url: "https://es.wri.org/publicaciones/aire-limpio-en-barrios-vitales"
-doi: No DOI listed
-summary: "Bogotá's Barrios Vitales program uses tactical urbanism to reclaim vehicle space for pedestrians, with San Felipe as the first pilot neighborhood (0.60 km²). Three air quality impact indicators were evaluated before and after the January–February 2022 intervention: vehicular emissions, microenvironmental PM₂.₅ concentrations, and multi-neighborhood atmospheric concentrations. Vehicle traffic increased 40% post-intervention, largely attributed to post-COVID economic recovery rather than the intervention itself. Sensor data showed significant variability, limiting conclusions. The study recommends longer monitoring periods, rigorous sensor calibration, and institutionalizing air quality indicators in all urban mobility projects across Latin America."
+status: searchable
+summary: "Tactical urbanism in Bogotá's San Felipe neighborhood reduced private vehicle use by 28%, cut road incidents by 46%, and decreased vehicle speeds by 19%, while increasing pedestrian and cycling trips by 5%. However, vehicular emissions rose an estimated 40% post-intervention, largely attributable to post-COVID traffic rebound rather than the intervention itself. Microenvironmental PM2.5 data showed high variability, weakening conclusions. Atmospheric pollutant concentrations showed a declining trend but were influenced by city-wide factors. Longer-term studies with better-calibrated sensors are recommended to robustly assess air quality impacts of neighborhood-scale urban interventions."
 ---
 
 # Aire limpio en Barrios Vitales

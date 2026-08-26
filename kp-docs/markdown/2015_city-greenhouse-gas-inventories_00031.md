@@ -7,12 +7,16 @@ parse_model: mistral-ocr-latest
 char_count: 33274
 title: 中国城市温室气体清单应用的领域、挑战和建议
 title_en: Uses, Challenges and Recommendations for the Application of City Greenhouse Gas Inventories in China
-authors: Jiang, Xiaoqian; Fang, Weiquan
+authors: Jiang, Xiaoqian; Fong, Wee Kean
+date_published: 2015-04-07
 year_published: 2015
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/uses-challenges-and-recommendations-application-city-greenhouse-gas-inventories-china"
+status: searchable
+summary: "This World Resources Institute working paper (2015) shows that city greenhouse gas inventories in China can do more than “take stock”: they can support local target setting and assessment, and quantify how policies, economic change and energy shifts affect emissions. The authors identify two main uses — informing and policing emissions targets, and supporting detailed emissions-impact analysis across sectors and energy choices — but find uptake remains limited. Three linked barriers explain why: weak data and statistical systems plus poor interdepartmental coordination and funding; inventory limitations such as long time lags and missing sectoral or electricity-consumption detail; and low awareness or priority among city managers. The paper documents current practice (about 60 cities had or were preparing inventories by late 2014, often under higher-level mandate) and recommends strengthening the institutional support for inventories, improving their timeliness and content, and changing management mindsets so inventories are routinely used for analysis and decision support."
 ---
 
 世界资源研究所

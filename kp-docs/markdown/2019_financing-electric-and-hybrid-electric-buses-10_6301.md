@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_financing-electric-and-hybrid-electric-buses
 extraction_method: cache-plaintext
 char_count: 118860
 title: "Financing Electric and Hybrid-Electric Buses: 10 Questions City Decision-Makers Should Ask"
+title_en: "Financing Electric and Hybrid-Electric Buses: 10 Questions City Decision-Makers Should Ask"
 authors: Moon, Christopher; Maassen, Anne; Li, Xiangyi; Castellanos, Sebastian
-date_published: 2/10/2019
+date_published: 2019-02-10
+year_published: 2019
+publication_title: "Financing Electric and Hybrid-Electric Buses: 10 Questions City Decision-Makers Should Ask"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/financing-electric-and-hybrid-electric-buses"
-doi: No DOI listed
-summary: Electric and hybrid-electric buses present significant environmental and economic benefits for urban transit, including lower emissions and potential cost savings over their lifetime despite higher initial costs. The research identifies ten critical questions for city decision-makers, addressing procurement strategies, financing options, and the roles of various stakeholders, including utility companies. By analyzing 26 case studies from 22 cities, the authors highlight diverse implementation experiences and emphasize the need for flexible financing models and investment incentives to overcome upfront cost barriers. This guidance aims to facilitate informed decision-making for cities considering the adoption of electric bus fleets.
+status: searchable
+summary: "Electric and hybrid-electric buses offer lower total cost of ownership than diesel buses despite higher upfront costs, with fully electric buses potentially reducing CO₂ emissions by up to 75%. Three funding approaches exist: public budget purchases, debt financing (concessional loans, green bonds), and leasing. Leasing models are expanding, with manufacturers offering battery-only leases to reduce operator risk. Utility companies are entering the market, purchasing buses and leasing them to operators, as seen in Santiago. Key success factors include TCO-based investment decisions, flexible procurement frameworks, and training operators. Tax incentives, grants, and credit guarantees help offset adoption costs."
 ---
 
 # Financing Electric and Hybrid-Electric Buses: 10 Questions City Decision-Makers Should Ask

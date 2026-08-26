@@ -8,10 +8,15 @@ char_count: 74728
 title: 城市的交通“净零”排放：路径分析方法、关键举措和对策建议
 title_en: "Achieving Net Zero Carbon Emissions of Transportation Sector: Analytical Framework, Key Actions and Policy Suggestions for Chinese Cities"
 authors: Xi, Wenyi; Jiang, Hui; Lu, Lu; Jiang, Xiaoqian
+date_published: 2020-04-01
+year_published: 2020
 article_type: Report
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/achieving-net-zero-carbon-emission-transportation-sector"
+status: searchable
+summary: This report shows how Chinese cities can map practical pathways to achieve net-zero carbon emissions in their transportation sector and why that matters for meeting Paris Agreement goals and easing urban pollution and congestion. It presents a clear analytical method that applies the ASIF framework (Activity, Structure, Intensity, Fuel) and draws on the LEAP model (Long-range Energy Alternatives Planning System) to build scenarios and set parameters for future emissions. The study focuses on operational carbon (direct exhaust and indirect electricity use), offers step-by-step guidance for inventory, scenario design and parameter choices, and ranks mitigation measures by potential. Highest-impact actions include adopting new-energy sources, multimodal freight, energy-saving technologies and improved fuel quality. It also finds industry-led technical measures generally yield larger reductions than local planning actions. Near-term recommendations emphasize building refined accounting systems and improving efficiency and transport structure; mid- to long-term priorities are vehicle electrification, developing zero-emission fuels for long-haul transport and applying carbon removal to address residual emissions.
 ---
 
 世界资源研究所

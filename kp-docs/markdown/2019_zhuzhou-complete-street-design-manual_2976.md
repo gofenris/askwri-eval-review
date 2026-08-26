@@ -3,17 +3,18 @@ doc_id: 2019_zhuzhou-complete-street-design-manual_2976
 source_pdf: kp-docs/askwri-kps/2019_zhuzhou-complete-street-design-manual_2976.pdf
 extraction_method: cache-plaintext
 char_count: 55617
-title: Zhuzhou Complete Street Design Manual
-authors: Li, Wei; Liu, Daizong; Yang, Lvye; Chen, Yong; Zhang, Zhaoxi; Quan, Mengqi; Zhong, Hongmei; Hu, Xiaowei; Ma, Yanli; Yuan, Xuyang; Li, Yining; Wang, Zhuyun; Wu, Youqi; Qing, Yanjing
-date_published: 1/7/2019
+title: 株洲市街道设计导则
+title_en: Zhuzhou Complete Street Design Manual
+authors: Xue, Lulu; Liu, Daizong; Yang, Lvye; Chen, Yong; Zhang, Zhaoxi; Quan, Mengqi; Zhong, Hongmei; Hu, Xiaowei; Ma, Yanli; Yuan, Xuyang; Li, Yining; Wang, Zhuyun; Wu, Youqi; Qing, Yanjing
+date_published: 2019-07-01
+year_published: 2019
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/zhuzhou-complete-street-design-manual"
-doi: No DOI listed
-summary: Streets are at the center of urban life. Streets consist of a small fraction of urban spaces, but they play a vital role to facilitate urban mobility, social interactions, and economic vibrancy. Although in China, the concept of “complete street” has been adopted in a few Chinese cities, it has yet been mainstreamed in small- and medium-sized Chinese cities. Given the unique spatial characteristics of these small Chinese cities, designing complete streets requires contextualizes solutions.
+language: zh
+languages: [zh]
+url: "https://wri.org.cn/research/zhuzhou-complete-street-design-manual"
+status: searchable
+summary: Zhuzhou, a 1.24 million-resident Chinese city, has only 12% car modal share yet private vehicles dominate street space—green-mode users (76% of trips) occupy just one-quarter of street area, with pedestrian and cycling space frequently seized for parking. The manual recommends shifting street design from traffic engineering toward integrated public space design, prioritizing people over cars. It classifies streets by traffic grade and land use, provides detailed design guidance for five zones (building frontages, sidewalks, buffer zones, carriageways, and conflict zones), and calls for cross-departmental coordination among planning, construction, traffic, landscaping, and municipal authorities to implement complete streets citywide.
 ---
 
 # Zhuzhou Complete Street Design Manual

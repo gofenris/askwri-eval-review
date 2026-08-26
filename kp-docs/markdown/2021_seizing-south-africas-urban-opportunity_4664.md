@@ -4,15 +4,18 @@ source_pdf: kp-docs/askwri-kps/2021_seizing-south-africas-urban-opportunity_4664
 extraction_method: cache-plaintext
 char_count: 96913
 title: Seizing South Africa’s Urban Opportunity
+title_en: "Seizing South Africa's Urban Opportunity: Tackling Urban Poverty and Inequality Through Decarbonisation and Resilience-Building"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing South Africa’s Urban Opportunity
 article_type: Report
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-south-africas-urban-opportunity/"
-doi: No DOI listed
-summary: "South Africa's cities house two-thirds of its population and generate 58% of GDP, yet remain deeply unequal, spatially fragmented, and climate-vulnerable. Urban sprawl expanded 1,464 km² between 2000–2014, mostly onto biodiverse habitats. Modelling shows low-carbon measures in buildings, transport, and waste could cut urban GHG emissions 54% by 2030 and 92% by 2050, yielding US$216.3 billion net present value and 656,000 jobs by 2030. Key recommendations include enabling municipal clean energy procurement, centering pro-poor measures in climate strategy, prioritizing mobility for lower-income residents, reforming housing toward compact sub-centre development, providing differentiated support for metro and intermediate cities, and restoring urban ecosystems."
+status: searchable
+summary: "Low-carbon measures in South African cities could cut urban GHG emissions 54% by 2030 and 92% by 2050, supporting 656,000 jobs in 2030 and yielding net present value of US$216.3 billion by 2050. Six policy priorities emerge: accelerate municipal clean energy procurement; center pro-poor measures in the just transition strategy; prioritize mobility for lower-income residents; shift housing toward smaller-scale, well-connected projects; provide targeted support for cities of varying sizes; and protect urban ecosystems. Decarbonizing electricity supply is essential, unlocking 50.5% of total abatement potential."
 ---
 
 # Seizing South Africa’s Urban Opportunity

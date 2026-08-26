@@ -3,17 +3,19 @@ doc_id: 2017_rail-plus-property-development-in-china-the-pilot_7681
 source_pdf: kp-docs/askwri-kps/2017_rail-plus-property-development-in-china-the-pilot_7681.pdf
 extraction_method: cache-plaintext
 char_count: 149883
-title: "Rail Plus Property Development in China: the Pilot Case of Shenzhen"
+title: "Rail Plus Property Development in China: The Pilot Case of Shenzhen"
+title_en: "Rail Plus Property Development in China: The Pilot Case of Shenzhen"
 authors: Xue, Lulu; Fang, Wanli
-date_published: 7/3/2017
+date_published: 2017-07-03
+year_published: 2017
+publication_title: "Rail Plus Property Development in China: The Pilot Case of Shenzhen"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/rail-plus-property-development-china-pilot-case-shenzhen"
-doi: No DOI listed
-summary: China’s cities face significant challenges in financing the growth of urban transit infrastructure. The current practice of financing urban metro or subway projects through municipal fiscal revenues (partly from land concession fees) and government-backed bank loans is not only inadequate to meet the demand, but also exacerbates deep-seated problems. In a variety of approaches that aim to alleviate the financing problems of local governments, Rail plus Property (R+P) development offers a promising solution.
+status: searchable
+summary: Rail Plus Property (R+P) development can partly or fully close metro funding gaps by capturing land value appreciation near transit stations—residential property values within 400–800m of stations rise 17–27% in Shenzhen. Current financing through land leases and government-backed loans is unsustainable and fuels urban sprawl and debt. Shenzhen succeeded through innovative cost-sharing arrangements, integrated transit and land-use planning, and phased land-lease payments. Key reforms needed include allowing metro companies to acquire land at pre-rail prices, permitting installment-based land payments, enabling for-profit development above stations, and establishing cross-departmental coordination mechanisms to align planning and financing.
 ---
 
 # Rail Plus Property Development in China: the Pilot Case of Shenzhen

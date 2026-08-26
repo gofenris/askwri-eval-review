@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2017_connected-urban-growth-public-private_1272.p
 extraction_method: cache-plaintext
 char_count: 145436
 title: "Connected Urban Growth: Public-Private Collaborations for Transforming Urban Mobility"
+title_en: "Connected Urban Growth: Public-Private Collaborations for Transforming Urban Mobility"
 authors: Canales, Diego; Bouton, Shannon; Trimble, Elaine; Thayne, Julia; Fernandes, Larissa; Shastry, Srikanth; Knupfer, Stefan; Powell, Martin
-date_published: 11/1/2017
+date_published: 2017-11-01
+year_published: 2017
+publication_title: "Connected Urban Growth: Public-Private Collaborations for Transforming Urban Mobility"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/connected-urban-growth-public-private-collaborations-for-transforming-urban-mobility/"
-doi: No DOI listed
-summary: New mobility services could improve the lives of all urban inhabitants. This first ever global survey finds that applying three types of new mobility services – electric, on-demand minibuses, subsidized shared rides, and trip-planning and ticketing apps – can make public transport more affordable, accessible and sustainable, if integrated properly.
+status: searchable
+summary: Public-private partnerships in 70+ cities can leverage three new mobility applications to improve urban transit. Dynamic trip-planning apps could cut GHG emissions by 500,000 tonnes annually across London, Mexico City, and San Francisco, reducing total transport emissions by 6%. On-demand electric minibuses could slash GHG and PM10 emissions by 80% and NOx by 95% per route. First/last-mile ride-sharing subsidies reduce per-journey emissions 55–80%. Both app and minibus investments recover costs within two years. Cities should establish open transit datasets, consistent data-sharing policies, clear performance targets, and balance short-term mobility improvements with long-term infrastructure investment.
 ---
 
 # Connected Urban Growth: Public-Private Collaborations for Transforming Urban Mobility

@@ -3,16 +3,19 @@ doc_id: 2021_seizing-mexicos-urban-opportunity_3303
 source_pdf: kp-docs/askwri-kps/2021_seizing-mexicos-urban-opportunity_3303.pdf
 extraction_method: cache-plaintext
 char_count: 95117
-title: Seizing Mexico’s Urban Opportunity
+title: "Seizing Mexico’s Urban Opportunity: How Urban Transformation Can Reduce Poverty and Inequality and Build Resilience"
+title_en: "Seizing Mexico’s Urban Opportunity: How Urban Transformation Can Reduce Poverty and Inequality and Build Resilience"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing Mexico’s Urban Opportunity
 article_type: Report
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English, Spanish
+language: en
+languages: [en, es]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-mexicos-urban-opportunity/"
-doi: No DOI listed
-summary: "Mexico's highly urbanized economy (80% urban population, 90% of GVA) faces persistent poverty, inequality, and sprawl. Urban areas expanded 1,821 km² between 2000–2014, driven by peripheral social housing construction, doubling vehicle numbers, and inadequate transit. Low-carbon measures in buildings, transport, and waste could cut urban GHG emissions 34% by 2030 and 87% by 2050, requiring US$963B in investments but yielding US$208.8B net present value and 526,000 jobs. Key recommendations include establishing metropolitan planning authorities, redirecting housing subsidies toward well-located stock, prioritizing just decarbonization transitions, and scaling social housing production programs to reduce poverty."
+status: searchable
+summary: "Mexico's cities generate 90% of GVA but suffer severe sprawl, inequality, and informality. Low-carbon measures in buildings, transport, and waste could cut urban GHG emissions 34% by 2030 and 87% by 2050, requiring US$963 billion in investments but yielding US$208.8 billion net present value in savings and 526,000 jobs by 2030. Four priority recommendations: create metropolitan authorities for integrated land-use and transport planning; expand well-located affordable social housing with mass transit; prioritize a just transition to net-zero cities protecting marginalized populations; and scale social housing production programs embedding low-carbon strategies to reduce poverty."
 ---
 
 # Seizing Mexico’s Urban Opportunity

@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_dataset-of-us-school-bus-depots_6105.pdf
 extraction_method: cache-plaintext
 char_count: 77492
 title: Dataset of U.S. School Bus Depots
+title_en: Dataset of U.S. School Bus Depots
 authors: Shao, Yang; Lazer, Leah; Taff, Gregory
-date_published: 4/1/2024
+date_published: 2024-04-01
+year_published: 2024
+publication_title: Dataset of U.S. School Bus Depots
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/dataset-us-school-bus-depots"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.22.00019"
-summary: A novel dataset of 11,309 school bus depots across the contiguous U.S. was created using high-resolution aerial imagery from the National Agriculture Imagery Program, employing an object-based approach to detect clusters of school buses. The dataset reveals that over half of these depots are located within 350 meters of schools, highlighting potential air pollution hotspots. Accuracy assessments showed a 15.2% omission error rate compared to reference datasets, indicating reliable data quality. This dataset is crucial for analyzing environmental justice issues, guiding electrification efforts, and informing utility planning for future electricity demands from electric school buses.
+url: "https://www.wri.org/research/dataset-us-school-bus-depots"
+status: searchable
+summary: Using aerial imagery and object-based remote sensing, 11,309 school bus depots were identified across the 48 contiguous U.S. states and Washington, DC. Fifty-one percent (5,730) are located at or within 350 meters of a school, raising concerns about student exposure to diesel exhaust. The dataset achieved a 15.2% omission error rate when validated against records from two private transportation companies. Most enclosed depots were likely missed. Key attributes include distance to nearest school, census tract demographics, electric utility, PM2.5 and ozone levels, and income data—enabling equity analysis and electricity grid planning for school bus electrification.
 ---
 
 # Dataset of U.S. School Bus Depots

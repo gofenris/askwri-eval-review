@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_assessing-the-viability-of-using-autoricksha
 extraction_method: cache-plaintext
 char_count: 97813
 title: Assessing the Viability of Using Autorickshaws for Urban Freight Delivery in India
+title_en: Assessing the Viability of Using Autorickshaws for Urban Freight Delivery in India
 authors: Rao, Rohan; Maiti, Sudeept; Mulukutla, Pawan
-date_published: 5/17/2023
+date_published: 2023-05-17
+year_published: 2023
+publication_title: Assessing the Viability of Using Autorickshaws for Urban Freight Delivery in India
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/assessing-viability-using-autorickshaws-urban-freight-delivery-india"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.22.00111"
-summary: It is estimated that, between 2020 and 2030, India’s freight activity will increase fivefold (NITI Aayog et al. 2021). To meet the rising demand cost-effectively, we need to explore new forms of micro-mobility-based, last-mile freight modes with a focus on low-emissions cargo transportation and optimize existing vehicle stocks.
+url: "https://wri-india.org/research/assessing-viability-using-autorickshaws-urban-freight-delivery-india"
+status: searchable
+summary: "Dual-use autorickshaws could raise driver incomes ~15%, reduce logistics costs for SMEs, and cut emissions. Surveying 608 drivers across Bengaluru, Delhi, Hyderabad, Lucknow, and Pune, drivers reported 1–4 hours of daily downtime usable for freight. Autorickshaws can carry up to 300 kg, filling the unserved 30–350 kg payload gap, at roughly half the cost of cargo three-wheelers. Two-thirds of MSMEs and retailers partially load vehicles on over 50% of trips, confirming demand for smaller-capacity alternatives. Recommendations: establish an expert committee on safety standards, build driver capacity, run pilots tracking utilization and income, and transition from ICE to electric autorickshaws long-term."
 ---
 
 # Assessing the Viability of Using Autorickshaws for Urban Freight Delivery in India

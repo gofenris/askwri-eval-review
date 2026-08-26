@@ -3,17 +3,20 @@ doc_id: 2022_developing-an-electric-mobility-roadmap_8409
 source_pdf: kp-docs/askwri-kps/2022_developing-an-electric-mobility-roadmap_8409.pdf
 extraction_method: cache-plaintext
 char_count: 200853
-title: "Developing an Electric Mobility Roadmap: International Experiences from Subnational Case Studies for Vietnamese Cities"
+title: "Developing an Electric Mobility Roadmap: International Experiences From Subnational Case Studies for Vietnamese Cities"
+title_en: "Developing an Electric Mobility Roadmap: International Experiences From Subnational Case Studies for Vietnamese Cities"
 authors: Liu, Kangjie; Ly, Stephanie; Jackson, Eleanor; Steimer, Hamilton; Cassius, Sarah; Li, Xiangyi; Myers, Erika; Duarte, Lorenzo Hernandez; Freehafer, Lydia
-date_published: 12/8/2022
+date_published: 2022-12-08
+year_published: 2022
+publication_title: "Developing an Electric Mobility Roadmap: International Experiences From Subnational Case Studies for Vietnamese Cities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/developing-electric-mobility-roadmap-international-experiences-subnational-case-studies"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.21.00009"
-summary: "Developing electric mobility roadmaps is essential for Vietnamese cities to decarbonize their transport sectors. The study reviews international case studies and outlines a four-phase approach for roadmap creation: planning, visioning, development, and implementation. Key findings suggest that while Vietnamese cities are emerging EV adopters, they should adopt a broader scope that includes climate action and air quality improvements, prioritizing electric buses over private vehicles. Effective stakeholder engagement and tailored policy packages are crucial for successful implementation, emphasizing the need for collaboration among local governments, manufacturers, and civil society."
+url: "https://www.wri.org/research/developing-electric-mobility-roadmap-international-experiences-subnational-case-studies"
+status: searchable
+summary: "Vietnamese cities should adopt broader transport decarbonization roadmaps rather than narrow EV-focused ones, prioritizing e-bus electrification over private vehicles to advance climate goals and reduce air pollution. Motorcycles and mopeds—65 million in Vietnam by 2020—cause 90% of CO emissions and should be central targets. Emerging EV adopters typically favor EV-uptake or manufacturing roadmaps, but Vietnam's climate commitments justify a wider scope. Effective roadmaps require four phases: preparation, visioning, development, and implementation. Success depends on proactive stakeholder engagement, scenario modeling, dedicated funding, and policy packages targeting charging infrastructure, regulatory measures, and public awareness."
 ---
 
 # Developing an Electric Mobility Roadmap: International Experiences from Subnational Case Studies for Vietnamese Cities

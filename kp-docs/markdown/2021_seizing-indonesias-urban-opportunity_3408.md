@@ -4,15 +4,18 @@ source_pdf: kp-docs/askwri-kps/2021_seizing-indonesias-urban-opportunity_3408.pd
 extraction_method: cache-plaintext
 char_count: 96545
 title: Seizing Indonesia’s Urban Opportunity
+title_en: "Seizing Indonesia's Urban Opportunity: Compact, Connected, Clean and Resilient Cities as Drivers of Sustainable Development"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing Indonesia’s Urban Opportunity
 article_type: Report
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English, Bahasa
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-indonesias-urban-opportunity/"
-doi: No DOI listed
-summary: "Indonesia's rapid urbanization—55% urban in 2018, projected 75% by 2050—underperforms economically, yielding only 4% GDP per capita growth per urbanization percentage point versus 10% in China. Cities face severe congestion, air pollution, housing deficits, and flood risks worsened by land subsidence. New modeling shows existing low-carbon measures could cut urban GHG emissions 50% by 2030 and 96% by 2050, requiring US$1 trillion in incremental investment but generating US$2.7 trillion net present value and 2.3 million jobs. Priority recommendations include scaling sustainable mobility, restoring coastal ecosystems, accelerating clean electricity transition, and leveraging Smart Cities initiatives with equitable access for smaller municipalities and low-income residents."
+status: searchable
+summary: "Indonesia could cut urban GHG emissions 50% by 2030 and 96% by 2050 using existing low-carbon measures, requiring US$1 trillion in incremental investment but yielding US$2.7 trillion net present value and 2.3 million jobs by 2030. Four priority actions stand out: invest in sustainable urban mobility and transit-oriented development; restore coastal ecosystems including mangroves and peatlands; accelerate clean electricity transition, which underpins over half the abatement potential; and leverage Smart Cities initiatives with equitable access for smaller cities and low-income residents. Cities under one million hold three-quarters of Indonesia's emissions abatement potential."
 ---
 
 # Seizing Indonesia’s Urban Opportunity

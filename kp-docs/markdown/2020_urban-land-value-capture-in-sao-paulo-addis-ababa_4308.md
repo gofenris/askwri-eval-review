@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2020_urban-land-value-capture-in-sao-paulo-addis-
 extraction_method: cache-plaintext
 char_count: 203732
 title: "Urban Land Value Capture in São Paulo, Addis Ababa, and Hyderabad: Differing Interpretations, Equity Impacts, and Enabling Conditions"
+title_en: "Urban Land Value Capture in São Paulo, Addis Ababa, and Hyderabad: Differing Interpretations, Equity Impacts, and Enabling Conditions"
 authors: Mahendra, Anjali; King, Robin; Gray, Erin; Hart, Maria; Azeredo, Laura; Betti, Luana; Prakash, Surya; Deb, Amartya; Ashebir, Elleni; Ibrahim, Asmaa
-date_published: 12/17/2020
+date_published: 2020-12-17
+year_published: 2020
+publication_title: "Urban Land Value Capture in São Paulo, Addis Ababa, and Hyderabad: Differing Interpretations, Equity Impacts, and Enabling Conditions"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/urban-land-value-capture-sao-paulo-addis-ababa-and-hyderabad-differing-interpretations"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.18.00137"
-summary: This paper presents analysis of the fiscal and equity impacts of urban land value capture instruments based on three case studies from the global south. These include the Lideta redevelopment in Addis Ababa, Ethiopia; the Outer Ring Road in Hyderabad, India; and Água Espraiada Urban Operation in São Paulo, Brazil. It combines desk research with interviews of local key informants with deep knowledge of the policy and market dynamics in the three cities and representing different perspectives.
+url: "https://www.wri.org/research/urban-land-value-capture-sao-paulo-addis-ababa-and-hyderabad-differing-interpretations"
+status: searchable
+summary: "São Paulo's CEPAC mechanism raised BRL 2.9 billion, meeting economic goals, but only 33.7% of revenues benefited low-income families while 59.6% funded road infrastructure favoring wealthier residents. Displaced low-income families received insufficient alternative housing. Addis Ababa's leasehold system and Hyderabad's ring road development fees generated minimal public economic or equity benefits due to incomplete implementation and poor data. Successful LVC requires equitable financing plans, transparent property valuation, updated cadastres, local capacity building, long-term political support, and shared public-private accountability."
 ---
 
 # Urban Land Value Capture in São Paulo, Addis Ababa, and Hyderabad: Differing Interpretations, Equity Impacts, and Enabling Conditions

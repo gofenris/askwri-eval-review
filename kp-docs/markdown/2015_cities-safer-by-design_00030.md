@@ -5,9 +5,18 @@ extraction_method: postgres-full-text
 parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 89722
-title: 2015_cities-safer-by-design_00030
+title: 设计让城市更安全
+title_en: Cities Safer by Design
+authors: Welle, Ben; Liu, Qingnan; Li, Wei; Adriazola-Steil, Claudia; King, Robin; Obelheiro, Marta
+date_published: 2015-05-23
+year_published: 2015
+article_type: Report
+wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/cities-safer-design"
+status: searchable
+summary: This World Resources Institute Ross Center guide shows that cities can sharply reduce road deaths and injuries by redesigning streets and neighborhoods to favor walking, cycling and high-quality transit. It gathers global evidence and practical, tested measures—compact mixed land use, smaller blocks, connected street grids, narrower vehicle lanes, traffic calming (speed bumps, chicanes, curb extensions, raised crosswalks, roundabouts), safer arterial corridors, protected bicycle networks and accessible transit stops—that reduce people’s exposure to crashes and slow vehicle speeds. The publication links safer design to public health, equity and lower emissions, notes stark facts from the World Health Organization (about 1.24 million annual road deaths, 90% in low- and middle-income countries, and a projected rise by 2030), and recommends performance monitoring (deaths per 100,000, Killed or Seriously Injured, exposure measures) and hotspot analysis. A practical 1.0 “trial” edition, it offers case studies, audit tools and guidance for planners, engineers and policymakers to test, adapt and scale solutions locally.
 ---
 
 ![img-0.jpeg](img-0.jpeg)

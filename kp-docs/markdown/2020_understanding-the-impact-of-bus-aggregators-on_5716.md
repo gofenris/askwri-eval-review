@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2020_understanding-the-impact-of-bus-aggregators-
 extraction_method: cache-plaintext
 char_count: 125149
 title: Understanding the Impact of Bus Aggregators on Urban Mobility in India’s National Capital Region
+title_en: "Understanding the Impact of Bus Aggregators on Urban Mobility in India's National Capital Region"
 authors: Chadha, Jyot; Shetty, Ojas; Shastry, Srikanth
-date_published: 7/2/2020
+date_published: 2020-07-02
+year_published: 2020
+publication_title: Understanding the Impact of Bus Aggregators on Urban Mobility in India’s National Capital Region
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/understanding-impact-bus-aggregators-urban-mobility-indias-national-capital-region"
-doi: No DOI listed
-summary: Demand-responsive bus services, particularly Shuttl in Delhi-NCR, have been shown to significantly reduce urban transportation emissions and congestion by shifting commuters from private vehicles. An intercept survey revealed that 67% of Shuttl users previously relied on car-based modes, indicating a substantial potential for improving air quality and reducing road congestion. The study highlights the distinct market segment targeted by bus aggregators, primarily high-income commuters, and suggests that these services can coexist with public transit by catering to different user needs. Policymakers are encouraged to consider integrating such models into existing transportation frameworks to enhance urban mobility.
+status: searchable
+summary: Shuttl users in Delhi-NCR shifted primarily from private cars (51%) and other car-based modes (16%), with 29% shifting from metro and only 2% from public buses. Operations reduced CO₂ emissions by 14,022 tons/year and removed an estimated 4,312 passenger car units from peak-hour roads daily. Bus aggregators serve high-income, white-collar commuters on very long trips (30+ km), not public bus riders, meaning coexistence is feasible. Regulators should reform frameworks around performance metrics, permit new entrants, and recognize distinct market segments rather than treating aggregators as unfair competition to public transit.
 ---
 
 # Understanding the Impact of Bus Aggregators on Urban Mobility in India’s National Capital Region

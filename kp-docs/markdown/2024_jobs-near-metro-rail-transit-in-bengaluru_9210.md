@@ -4,15 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_jobs-near-metro-rail-transit-in-bengaluru_92
 extraction_method: cache-plaintext
 char_count: 172319
 title: "Jobs Near Metro Rail Transit in Bengaluru: Enabling an Accessible and Productive City"
+title_en: "Jobs Near Metro Rail Transit in Bengaluru: Enabling an Accessible and Productive City"
 authors: Chanchani, Radha; Dhindaw, Jaya; Bhagat, Raj; Palanichamy, Jyoti; Pai, Madhav; Deb, Amartya
-date_published: 9/9/2024
+date_published: 2024-09-09
+year_published: 2024
+publication_title: "Jobs Near Metro Rail Transit in Bengaluru: Enabling an Accessible and Productive City"
 article_type: Working Paper
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/jobs-near-metro-rail-transit-bengaluru-enabling-accessible-and-productive-city"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.23.00120"
-summary: "Mapping 2023 data on 4.6 million registered formal jobs in the Bengaluru Metropolitan Area, the study finds 28% lie within 500m of a metro station and 59% within 1,000m across the 172km operational and under-construction network. Large enterprises (2% of firms) account for 60% of jobs, concentrated in suburban and peripheral areas. Key barriers to transit-adjacent job growth include unsuitable properties, restrictive development regulations, and inadequate infrastructure. Recommendations include setting aspirational job-density benchmarks in the Revised Master Plan 2041 (referencing Hong Kong's 57% within 500m), offering location-efficient incentives, expanding feeder services, and designating a nodal coordination agency for TOD implementation."
+url: "https://wri-india.org/research/jobs-near-metro-rail-transit-bengaluru-enabling-accessible-and-productive-city"
+status: searchable
+summary: "Of Bengaluru's 4.6 million mapped formal jobs, 28% lie within 500m of a metro station and 59% within 1,000m. Large enterprises (2% of firms) account for 60% of jobs, with 64% located in suburban and peripheral areas. Key barriers to transit-adjacent job growth include unsuitable properties, unfavorable development regulations, and inadequate infrastructure. The Revised Master Plan 2041 should set job-density targets matching Hong Kong's benchmark (57% within 500m). Recommendations include location-efficient incentives, public-private partnerships for infrastructure, value capture financing, and designating a nodal agency to coordinate TOD implementation along transit corridors."
 ---
 
 # Jobs Near Metro Rail Transit in Bengaluru: Enabling an Accessible and Productive City

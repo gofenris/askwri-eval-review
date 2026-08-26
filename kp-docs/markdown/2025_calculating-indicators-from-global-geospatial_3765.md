@@ -4,15 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_calculating-indicators-from-global-geospatia
 extraction_method: cache-plaintext
 char_count: 202320
 title: Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment
+title_en: Calculating Indicators From Global Geospatial Datasets to Benchmark and Track Changes in the Urban Environment
 authors: Mackres, Eric; Shabou, Saif; Wong, Ted
-date_published: 10/29/2025
+date_published: 2025-10-29
+year_published: 2025
+publication_title: Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment
 article_type: Technical Note
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/calculating-indicators-global-geospatial-datasets-urban-environment"
+language: en
+languages: [en]
 doi: "http://doi.org/10.46830/writn.22.00123v2"
-summary: "Global geospatial datasets—from remote sensing, crowdsourcing, and urban sensors—can generate standardized, comparable urban indicators across seven themes: access to amenities, air quality, biodiversity, flooding, greenhouse gas emissions, heat, and land protection. Using zonal statistics applied to open-source datasets within locally defined administrative boundaries, indicators are calculated for entire cities and subareas, enabling within-city equity analysis disaggregated by age, sex, and informality. Methods align with SDGs, the 15-minute city concept, and 3-30-300 urban greening guidelines. The open-source framework supports low-cost replication globally, particularly benefiting data-scarce regions."
+url: "https://www.wri.org/research/calculating-indicators-global-geospatial-datasets-urban-environment"
+status: searchable
+summary: "Open-source global geospatial datasets can generate comparable urban indicators across seven themes: access to amenities, air quality, biodiversity, flooding, greenhouse gas emissions, heat, and land protection. Indicators are calculated using zonal statistics applied to administrative boundaries at city and district levels, enabling intra-city comparisons and benchmarking against SDGs, the 15-minute city concept, and the 3-30-300 urban greening rule. Methods use WorldPop, OpenStreetMap, Meta-WRI Canopy Height, and Google Earth Engine data. Results are disaggregated by age, sex, and informality of settlement. All scripts are open-source via the Cities Indicators Framework, with outputs accessible through a public dashboard."
 ---
 
 # Calculating Indicators From Global Geospatial Data Sets for Benchmarking and Tracking Change in the Urban Environment

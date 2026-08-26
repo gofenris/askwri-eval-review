@@ -4,15 +4,18 @@ source_pdf: kp-docs/askwri-kps/2021_seizing-indias-urban-opportunity_1949.pdf
 extraction_method: cache-plaintext
 char_count: 109879
 title: Seizing India’s Urban Opportunity
+title_en: "Seizing India's Urban Opportunity: Mobilising National Missions to Unleash the Full Potential of Climate Smart Cities"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing India’s Urban Opportunity
 article_type: Report
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-indias-urban-opportunity/"
-doi: No DOI listed
-summary: "India's rapid urbanization—461 million urban residents in 2018, projected 877 million by 2050—presents both economic opportunity and climate risk. Cities already contribute 63% of GDP, but face sprawl, housing deficits, informal employment (90.7%), and climate threats including floods causing $79.5 billion in damages (1998–2017). Modeling shows low-carbon measures in buildings, transport, and waste could cut urban emissions 89% by 2050, yielding $1.6 trillion net present value and 8.2 million jobs by 2030, requiring $3.6 trillion incremental investment. Over half the abatement potential lies in cities under one million residents. Key recommendations include aligning national missions—PMAY, Smart Cities, Atal Mission—with ClimateSmart Cities frameworks, scaling energy efficiency in housing, strengthening small-city governance, and prioritizing sustainable transport for the urban poor."
+status: searchable
+summary: "India's urban emissions could fall 89% by 2050 through low-carbon measures in buildings, transport, and waste, saving 1,784 Mt CO₂e. Required investments of US$3.6 trillion would yield US$1.6 trillion net present value in savings and 8.2 million jobs by 2030. Over half the abatement potential lies in cities under one million residents. Four priority recommendations: align national infrastructure with Climate Smart Cities goals; scale up clean energy in housing programs; strengthen small and mid-sized city governments; and expand sustainable transport investment prioritizing the urban poor. COVID stimulus should redirect away from high-carbon industries toward resilient, inclusive growth."
 ---
 
 # Seizing India’s Urban Opportunity

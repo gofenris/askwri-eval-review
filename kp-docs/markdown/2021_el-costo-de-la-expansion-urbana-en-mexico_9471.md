@@ -3,16 +3,19 @@ doc_id: 2021_el-costo-de-la-expansion-urbana-en-mexico_9471
 source_pdf: kp-docs/askwri-kps/2021_el-costo-de-la-expansion-urbana-en-mexico_9471.pdf
 extraction_method: cache-plaintext
 char_count: 200244
-title: El costo de la expansión urbana en México
+title: El Costo de la Expansión Urbana en México
+title_en: The Cost of Urban Expansion in Mexico
 authors: Zubicaray, Gorka; Lorelei, Díaz; Brito, Ramírez Reyes; Berumen, Abraham; Mackres, Eric
-date_published: 7/21/2021
+date_published: 2021-07-21
+year_published: 2021
+publication_title: El Costo de la Expansión Urbana en México
 article_type: Working Paper
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
+language: es
+languages: [es]
 url: "https://urbantransitions.global/es/publication/el-costo-de-la-expansion-urbana-en-mexico/"
-doi: No DOI listed
-summary: The report analyzes the economic costs associated with urban expansion in eight Mexican metropolitan areas, revealing that such growth can exceed 1% of the national GDP annually. It employs a model that assesses construction costs, emissions, displacement expenses, and the provision of basic services, highlighting that urban structure significantly influences these costs. The findings indicate that without intervention, cities may face unsustainable financial burdens by 2050, necessitating a 48% to 244% increase in municipal spending to maintain current service levels. Recommendations emphasize the importance of strategic housing localization and densification to mitigate costs and enhance urban sustainability.
+status: searchable
+summary: Urban sprawl costs Mexican cities over 1% of GDP annually in public services and household commuting expenses. By 2050, four cities—Culiacán, Reynosa, Tijuana, and Tuxtla Gutiérrez—would need to increase municipal spending 48–244% just to maintain current service levels. Locating new housing near employment centers would reduce commuting costs by an average 5.6%, reaching 8.3% annually by 2050. Densification alone reduces total costs ~10% but raises household commuting expenses 5.3%. Combining location and densification policies maximizes benefits. Low-density peripheral housing inflates infrastructure construction costs in most cities studied.
 ---
 
 # El costo de la expansión urbana en México

@@ -3,17 +3,20 @@ doc_id: 2022_guia-de-entornos-caminables-seguros_2940
 source_pdf: kp-docs/askwri-kps/2022_guia-de-entornos-caminables-seguros_2940.pdf
 extraction_method: cache-plaintext
 char_count: 290373
-title: Guía de entornos caminables seguros
+title: Guía de Entornos Caminables Seguros
+title_en: "Guide to Safe Walkable Environments: Design Guidelines for Access to Urban Facilities and Public Transport in Mexican Cities"
 authors: Pérez, Tania; López, Sandra; Martínez, Ana María; Janka, Laura; Aguirre, Paola; Tafoya, Yetzi
-date_published: 8/7/2022
+date_published: 2022-08-07
+year_published: 2022
+publication_title: Guía de Entornos Caminables Seguros
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
-url: "https://es.wri.org/publicaciones/guia-de-entornos-caminables-seguros"
+language: es
+languages: [es]
 doi: "https://doi.org/10.46830/wrigb.21.00114"
-summary: "This guide provides urban design guidelines for Mexican cities (100,000–500,000 inhabitants) to create safe, walkable environments improving access to key urban facilities: schools, parks, markets, and health centers. It challenges car-centric street design paradigms, repositioning streets as inclusive public spaces integrating pedestrian, cycling, and public transit infrastructure. Using spatial analysis of facility access patterns and gender-inclusive perspectives, it adapts international design frameworks to Mexican contexts. Recommendations cover pedestrian infrastructure, green infrastructure, cycling lanes, public transit stops, and traffic calming measures, targeting local decision-makers in urban development, public works, and mobility planning."
+url: "https://es.wri.org/publicaciones/guia-de-entornos-caminables-seguros"
+status: searchable
+summary: Safe, walkable urban environments require shifting street design away from vehicle-speed priorities toward pedestrian-centered public space. For Mexican cities of 100,000–500,000 inhabitants, sidewalks should anchor walking promotion, public transit connectivity, and green space. Schools, parks, markets, and health centers each demand tailored street design addressing gender inclusion and universal accessibility. Key infrastructure recommendations cover pedestrian zones, cycling lanes, traffic calming measures (speed reducers, lane diets, chicanes, mini-roundabouts), permeable pavements, tree-lined streets, and well-positioned transit stops. Cross-cutting gender and social inclusion criteria apply throughout all interventions.
 ---
 
 # Guía de entornos caminables seguros

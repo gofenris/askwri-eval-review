@@ -3,17 +3,19 @@ doc_id: 2021_mexico-frontrunners-creating-safe-affordable-and_5127
 source_pdf: kp-docs/askwri-kps/2021_mexico-frontrunners-creating-safe-affordable-and_5127.pdf
 extraction_method: cache-plaintext
 char_count: 83735
-title: "Mexico Frontrunners | Creating safe, affordable and sustainable housing in cities: Lessons from EcoCasa in Hermosillo"
+title: "Creating Safe, Affordable and Sustainable Housing in Cities: Lessons from EcoCasa in Hermosillo (Mexico Frontrunners)"
+title_en: "Creating Safe, Affordable and Sustainable Housing in Cities: Lessons from EcoCasa in Hermosillo, Mexico"
 authors: Oates, Lucy; Luviano-Ortiz, Jesus R; Balderas Torres, Arturo; Sudmant, Andrew; Gouldson, Andy
-date_published: 2/26/2021
+date_published: 2021-02-26
+year_published: 2021
+publication_title: "Creating Safe, Affordable and Sustainable Housing in Cities: Lessons from EcoCasa in Hermosillo (Mexico Frontrunners)"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/mexico-frontrunners/"
-doi: No DOI listed
-summary: These policy briefs explore innovative approaches in Mexican cities that are addressing the challenges presented by urbanisation and the climate emergency. Focusing on eco-housing in Hermosillo, sustainable cycling in Mexico City and Guadalajara and climate change adaptation in Xalapa, they offer a blueprint for other urban areas in Mexico and around the world.
+status: searchable
+summary: "Mexico's EcoCasa program financed 79 developers to build 57,859 energy-efficient low-income homes for 267,456 residents, with an estimated lifetime mitigation potential of 1,812 ktCO₂e. Between 2013–2019, homes may have saved nearly 2Mt of CO₂. The Sisevive-EcoCasa evaluation tool has since been used to plan over 325,000 homes. Recommendations include better integration of land-use and housing policy, stronger national building standards with expanded scope, mainstreaming housing's social function into policy design, and scaling green finance through housing bodies and community banks to reduce reliance on government subsidies."
 ---
 
 # Mexico Frontrunners | Creating safe, affordable and sustainable housing in cities: Lessons from EcoCasa in Hermosillo

@@ -3,17 +3,19 @@ doc_id: 2019_costs-and-emissions-appraisal-tool-for-transit_4706
 source_pdf: kp-docs/askwri-kps/2019_costs-and-emissions-appraisal-tool-for-transit_4706.pdf
 extraction_method: cache-plaintext
 char_count: 56177
-title: Costs and Emissions Appraisal Tool for Transit Buses (Technical Note)
+title: Costs and Emissions Appraisal Tool for Transit Buses
+title_en: Costs and Emissions Appraisal Tool for Transit Buses
 authors: Cooper, Erin; Kenney, Erin; Velásquez, Juan Miguel; Li, Xiangyi; Tun, Thet Hein
-date_published: 3/25/2019
+date_published: 2019-03-25
+year_published: 2019
+publication_title: Costs and Emissions Appraisal Tool for Transit Buses
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/costs-and-emissions-appraisal-tool-transit-buses"
-doi: No DOI listed
-summary: The Costs and Emissions Appraisal Tool for Transit Buses enables transit agencies to evaluate the financial viability and emissions impact of different bus fleet configurations. By allowing users to compare costs and emissions of up to six bus types based on customizable inputs or default data from Brazil and the U.S., the Tool aids in identifying the most sustainable options for transitioning to cleaner fleets. Its flexibility and comparative analysis capabilities make it particularly beneficial for agencies in developing countries, facilitating informed decision-making during project scoping. Future updates aim to expand default data to better serve a wider range of locations.
+status: searchable
+summary: The Excel-based tool compares costs and emissions for two bus fleets of up to three bus types each, defined by fuel type, engine technology, and length. Default data cover Brazil and the United States; Brazilian discount rates range 9.4–9.9%, while US rates reach 12%. Electric buses cost up to $800,000 versus $153,000 for standard diesel. Operations and maintenance costs remain hardest to capture in developing countries. Public discount rates of 8–15% apply in the Global South versus 3–7% in high-income countries. Future versions will expand defaults to additional developing-country locations based on user feedback.
 ---
 
 # Costs and Emissions Appraisal Tool for Transit Buses (Technical Note)

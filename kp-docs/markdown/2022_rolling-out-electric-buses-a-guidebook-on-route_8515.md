@@ -3,17 +3,20 @@ doc_id: 2022_rolling-out-electric-buses-a-guidebook-on-route_8515
 source_pdf: kp-docs/askwri-kps/2022_rolling-out-electric-buses-a-guidebook-on-route_8515.pdf
 extraction_method: cache-plaintext
 char_count: 131657
-title: "Rolling out Electric Buses: A guidebook on route prioritization and implementation planning."
+title: "Rolling Out Electric Buses: A Guidebook on Route Prioritization and Implementation Planning"
+title_en: "Rolling Out Electric Buses: A Guidebook on Route Prioritization and Implementation Planning"
 authors: Mulukutla, Pawan; Pai, Madhav; Das, Shyamasis; Ray, Anirudh
-date_published: 3/28/2022
+date_published: 2022-03-28
+year_published: 2022
+publication_title: "Rolling Out Electric Buses: A Guidebook on Route Prioritization and Implementation Planning"
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/rolling-out-electric-buses"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrigb.21.00113"
-summary: Electrification of public bus transport in India is essential for achieving sustainable urban mobility and meeting climate targets, yet current adoption rates of electric buses (e-buses) remain low. The guidebook presents a six-step framework for transit agencies to effectively prioritize routes for e-bus implementation, addressing technical and financial considerations such as route characteristics, charging methods, and operational sustainability. It emphasizes the need for a phased transition rather than a one-time shift to ensure service quality and operational feasibility. By providing a structured decision-making tool, the guidebook aims to facilitate better planning and coordination among transit agencies, e-bus manufacturers, and policymakers, ultimately enhancing the deployment of zero-emission buses.
+url: "https://wri-india.org/research/rolling-out-electric-buses"
+status: searchable
+summary: "India's e-bus adoption remains minuscule and must scale urgently. Three core barriers impede rollout: poor planning integration of route characteristics with e-bus operation, vague procurement tenders lacking route and depot data, and over-reliance on overnight charging that inflates battery costs. A six-step framework addresses technical feasibility and financial sustainability for route prioritization. Daytime opportunity charging can reduce battery size and procurement costs. State authorities should provide land and concessional electricity rates. Agencies must treat electrification as a phased journey toward 100% electric fleets, periodically reassessing route eligibility as market conditions evolve."
 ---
 
 # Rolling out Electric Buses: A guidebook on route prioritization and implementation planning.

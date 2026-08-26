@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_climate-resilient-cities-assessing-different
 extraction_method: cache-plaintext
 char_count: 432247
 title: "Climate Resilient Cities: Assessing Differential Vulnerability to Climate Hazards in Urban India"
+title_en: "Climate Resilient Cities: Assessing Differential Vulnerability to Climate Hazards in Urban India"
 authors: Rangwala, Lubaina; Chatterjee, Sudeshna; Agarwal, Avni; Khanna, Bhanu; Uri, Ike; Shetty, Bina; Palanichamy, Raj Bhagat; Ramesh, Ananya
-date_published: 2/26/2024
+date_published: 2024-02-26
+year_published: 2024
+publication_title: "Climate Resilient Cities: Assessing Differential Vulnerability to Climate Hazards in Urban India"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/publication/climate-resilient-cities-assessing-differential-vulnerability-climate-hazards-urban"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.22.00055"
-summary: "Based on WRI India’s work in Maharashtra, Karnataka and Kerala, the report drives the case for integrating equity into climate action planning, enabling Indian city officials, planners, consultants and community members to deepen their understanding of urban climate hazards, its causes and its impact on communities. The report introduces the Climate Hazard and Vulnerability Assessment (CHVA) framework, which is divided into three parts: Hazard Identification and Assessment, Exposure Analysis, and Vulnerability Assessment."
+url: "https://wri-india.org/publication/climate-resilient-cities-assessing-differential-vulnerability-climate-hazards-urban"
+status: searchable
+summary: "India's urban climate vulnerability is shaped more by socioeconomic inequality than hazard exposure alone. Over 70% of Mumbai's landslide-prone areas fall within informal settlements. The CHVA framework assesses hazards, exposure, and vulnerability through sensitivity and adaptive capacity lenses using census and participatory data. Five key recommendations emerge: open-source data repositories coordinated across agencies; community-based assessments to ground-truth city data; institutionalized capacity-building and interdepartmental coordination; accelerated adaptation in high-risk communities; and integrating social drivers of vulnerability into planning to prevent maladaptation and advance climate justice."
 ---
 
 # Climate Resilient Cities: Assessing Differential Vulnerability to Climate Hazards in Urban India

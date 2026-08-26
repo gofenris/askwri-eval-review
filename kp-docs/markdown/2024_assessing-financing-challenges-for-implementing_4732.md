@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_assessing-financing-challenges-for-implement
 extraction_method: cache-plaintext
 char_count: 112628
 title: Assessing Financing Challenges for Implementing the Large-scale Electric Bus Program in India
+title_en: Assessing Financing Challenges for Implementing the Large-Scale Electric Bus Program in India
 authors: Pandey, Manish Dutta; Kp, Aswathy; Mulukutla, Pawan
-date_published: 9/9/2024
+date_published: 2024-09-09
+year_published: 2024
+publication_title: Assessing Financing Challenges for Implementing the Large-scale Electric Bus Program in India
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/assessing-financing-challenges-implementing-large-scale-electric-bus-program-india"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.23.00087"
-summary: "India's ambitious plan to deploy 50,000–60,000 electric buses (e-buses) faces significant financing challenges, primarily due to high collateral demands from lenders and the financial instability of public transport agencies (PTAs). This working paper draws on stakeholder interviews and a literature review to identify these constraints and suggests that payment security mechanisms and improved transparency could mitigate risks for private operators. The findings emphasize the need for reforms to enhance PTAs' financial health and operational efficiency to attract private investment. Addressing these challenges is crucial for scaling up e-bus deployment and achieving national climate targets."
+url: "https://wri-india.org/research/assessing-financing-challenges-implementing-large-scale-electric-bus-program-india"
+status: searchable
+summary: "Deploying 50,000–60,000 e-buses requires US$7.75 billion in debt financing, but commercial lenders demand heavy collateral via corporate guarantees, limiting operators' ability to scale. Loan tenures of 5–7 years mismatched against 10–12-year concessions create negative cash flows. PTA payment delays compound financial stress. Lenders lack audited PTA financial data, preventing risk assessment. Key recommendations: establish payment security mechanisms modeled on India's solar sector, include e-buses in infrastructure sub-sector classifications to unlock priority lending, improve PTA financial transparency, and pursue banking reforms enabling project cash flow-based financing rather than recourse-based collateral."
 ---
 
 # Assessing Financing Challenges for Implementing the Large-scale Electric Bus Program in India

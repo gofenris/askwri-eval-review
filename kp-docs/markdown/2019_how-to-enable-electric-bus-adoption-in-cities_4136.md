@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2019_how-to-enable-electric-bus-adoption-in-citie
 extraction_method: cache-plaintext
 char_count: 27660
 title: How to Enable Electric Bus Adoption in Cities Worldwide
+title_en: "How to Enable Electric Bus Adoption in Cities Worldwide: A Guiding Report for City Transit Agencies and Bus Operating Entities"
 authors: Li, Xiangyi; Gorguinpour, Camron; Sclar, Ryan; Castellanos, Sebastian
-date_published: 5/21/2019
+date_published: 2019-05-21
+year_published: 2019
+publication_title: How to Enable Electric Bus Adoption in Cities Worldwide
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/how-enable-electric-bus-adoption-cities-worldwide"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.18.00123"
-summary: Electric bus adoption is crucial for cities aiming to reduce air pollution and greenhouse gas emissions. Analyzing 16 case studies from diverse global cities, this report identifies enabling factors such as structured pilot programs, comprehensive cost-benefit analyses, and actionable scaling targets. It emphasizes the importance of transit agencies in the planning and implementation phases, recommending a systematic approach to overcome technological, financial, and institutional barriers. The findings provide a practical framework for cities, particularly in the global South, to accelerate the transition to electric bus fleets and achieve sustainability goals.
+url: "https://www.wri.org/research/how-enable-electric-bus-adoption-cities-worldwide"
+status: searchable
+summary: "Cities should follow nine steps toward full e-bus adoption: assess policy landscape, analyze costs and benefits, launch structured pilots, update financial analyses, and set time-bound targets—then scale via long-term infrastructure plans, formalized procurement, operator training, and end-of-life battery management. Cities fall into five readiness stages (0–4), each requiring tailored actions from transit agencies, operators, and utilities. Nearly all current large-scale e-bus deployments are in China and Europe. Charging infrastructure costs are routinely underestimated. Responsible battery retirement plans are essential to reduce environmental harm and financial uncertainty."
 ---
 
 # How to Enable Electric Bus Adoption in Cities Worldwide

@@ -6,14 +6,18 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 141962
 title: 迈向碳中和目标：中国道路交通领域中长期减排战略
-title_en: "Toward Carbon Neutrality: China’s Road Transport Sector Mid- and Long-Term Emission Reduction Strategy"
+title_en: "Decarbonizing China's Road Transport Sector: Strategies toward Carbon Neutrality"
 authors: Xue, Lulu; Liu, Daizong
-year_published: 2021
+date_published: 2022-05-25
+year_published: 2022
 article_type: Report
 wri_primary_office: WRI China
 language: zh
+languages: [zh]
 doi: 10.46830/wrirpt.21.00145cn
+url: "https://wri.org.cn/research/decarbonizing-china-road-transport-sector"
 status: searchable
+summary: This study shows that China can largely decarbonize road transport by combining vehicle electrification, transport-structure changes and efficiency improvements — a result that matters for meeting national carbon peak and 2060 carbon neutrality goals and for energy security and air quality. Using five scenarios, the authors find road transport greenhouse gas (GHG) emissions will likely peak between 2025 and 2035; under stated policies they could peak before 2030, and with proactive structural measures as early as 2025. By 2060 emissions could fall 50 percent under current policies or as much as 95 percent under a deep decarbonization scenario that pairs full new energy vehicle (NEV) deployment with structural shifts and power and hydrogen decarbonization. Vehicle electrification has the largest long‑term mitigation potential, while near‑term gains come fastest from transport‑structure optimization. The report estimates cumulative low‑carbon investments of 39–83 trillion Chinese yuan (CNY) from 2020–2060, notes cost differences across pathways, and flags methane leakage from natural‑gas vehicles as a key uncertainty.
 ---
 
 WRI CHINA

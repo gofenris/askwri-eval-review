@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2018_ahmedabad-town-planning-schemes-for-equitabl
 extraction_method: cache-plaintext
 char_count: 87019
 title: "Ahmedabad: Town Planning Schemes for Equitable Development—Glass Half Full or Half Empty?"
+title_en: "Ahmedabad: Town Planning Schemes for Equitable Development—Glass Half Full or Half Empty?"
 authors: Mahadevia, Darshini; Pai, Madhav; Mahendra, Anjali
-date_published: 8/29/2018
+date_published: 2018-08-29
+year_published: 2018
+publication_title: "Ahmedabad: Town Planning Schemes for Equitable Development—Glass Half Full or Half Empty?"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/ahmedabad-town-planning-schemes-equitable-development-glass-half-full-or-half-empty"
-doi: No DOI listed
-summary: This case study in the World Resources Report, “Towards a More Equal City,” examines transformative urban change in Ahmedabad, India, by analyzing the land pooling and readjustment mechanism called Town Planning Scheme (TPS). This paper reviews the evidence on whether the TPS mechanism has enabled transformative change with equitable outcomes in Ahmedabad City—and if so, how.
+status: searchable
+summary: "Ahmedabad's Town Planning Scheme (TPS) generated 49 sq km of public land across 154 sq km, enabling 80,000 social housing units—including 33,000 under JNNURM—distributed citywide rather than peripherally. Road coverage increased from 18% to 24% between planning periods, outperforming Mumbai, Kolkata, Pune, and Hyderabad. The 1999 GTPUD Act amendment was the critical trigger, enabling immediate road land possession and a public land bank for infrastructure financing. Key limitations include exclusion of tenants and informal occupants from negotiations, financing gaps for public amenities, farmer opposition in greenfield sites, and state-level approval delays reducing reserved public land from 9.6% (2010) to 6.9% (2017)."
 ---
 
 # Ahmedabad: Town Planning Schemes for Equitable Development—Glass Half Full or Half Empty?

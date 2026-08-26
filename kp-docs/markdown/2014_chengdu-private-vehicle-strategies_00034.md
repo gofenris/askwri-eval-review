@@ -8,11 +8,15 @@ char_count: 12863
 title: 成都市小汽车拥有与使用政策战略研究
 title_en: Smart Strategies for Private Vehicle Ownership and Usage in Chengdu
 authors: Zhao, Jing; Song, Su; Xue, Lulu; Zhang, Haitao
+date_published: 2014-11-10
 year_published: 2014
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
+languages: [zh]
+url: "https://wri.org.cn/research/smart-strategies-private-vehicle-ownership-and-usage-chengdu"
 status: searchable
+summary: "The World Resources Institute working paper shows that Chengdu’s rapid private vehicle growth, if left unchecked, will deepen traffic congestion, worsen air quality and raise greenhouse gas emissions. It finds Chengdu’s motorization already exceeded about 200 vehicles per 1,000 people by 2012 and projects much larger increases by 2020–2030 without intervention. Comparing successful international Transport Demand Management (TDM) cases—including Singapore, Tokyo, Hong Kong, Shanghai, London, New York and Beijing—the authors conclude Chengdu’s TDM measures have been late and too weak. They recommend a three-stage strategy: Phase 1 uses regulatory tools to act quickly (an annual new-vehicle quota of roughly 110,000, stricter parking management with suggested average parking fees of 10 RMB/hour and fines of 100 RMB, peak-period driving restrictions, and limits on government vehicles); Phase 2 shifts toward market-based charges and vehicle taxes to fund transit; Phase 3 adopts mature measures such as congestion charging, low-emission zones, dynamic pricing supported by intelligent transport systems and transit-oriented land use. The paper offers practical policy options for policymakers to move Chengdu toward transit-dominant, lower-emission mobility."
 ---
 
 世界资源研究所

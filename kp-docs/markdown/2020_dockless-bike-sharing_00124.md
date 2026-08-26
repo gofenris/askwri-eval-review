@@ -8,11 +8,15 @@ char_count: 5856
 title: 共享单车如何影响城市
 title_en: "How Dockless Bike-Sharing Changes Lives: An Analysis of Chinese Cities"
 authors: Jiang, Hui; Song, Su; Zou, Xuan; Lu, Lu
+date_published: 2020-09-01
 year_published: 2020
 article_type: Report
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/how-dockless-bike-sharing-changes-lives"
+status: searchable
+summary: "This report from the World Resources Institute examines how dockless bike‑sharing has reshaped Chinese cities and why it matters for mobility, health, emissions and urban management. Based on surveys of 8,218 users in 12 cities and reviews of policy cases, the study shows dockless bikes strengthened last‑mile connections (54% of trips link to other modes; 91% of those link to public transit), and replaced 17–45% of short private motorized trips in the sampled cities. Nationwide figures cited include about 23 million shared bikes at peak (about 19.5 million by end of 2019) and roughly 235 million users. The authors estimate shared bikes reduce about 4.8 million tonnes of CO2 annually and may avert about 60,000 premature deaths each year through increased physical activity. Major downsides are safety and parking: only 7% of respondents feel cycling is safe, and the report estimates that about two-thirds of cycling deaths were attributable to shared-bike use. Recommended actions include fleet limits, performance metrics, parking standards and enforcement, geofencing technology, safer cycling infrastructure and public education."
 ---
 
 # 共享单车如何影响城市

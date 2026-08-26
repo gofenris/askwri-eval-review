@@ -3,16 +3,20 @@ doc_id: 2025_roadmap-to-100-electrifying-the-full-us-school_7216
 source_pdf: kp-docs/askwri-kps/2025_roadmap-to-100-electrifying-the-full-us-school_7216.pdf
 extraction_method: cache-plaintext
 char_count: 116850
-title: "Roadmap to 100: Electrifying the full US school bus fleet"
+title: "Roadmap to 100: Electrifying the Full U.S. School Bus Fleet"
+title_en: "Roadmap to 100: Electrifying the Full US School Bus Fleet"
 authors: Todd, Amy; Walton, Todd
-date_published: 11/25/2025
+date_published: 2025-11-25
+year_published: 2025
+publication_title: "Roadmap to 100: Electrifying the Full U.S. School Bus Fleet"
 article_type: Working Paper
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/roadmap-100-electrifying-full-us-school-bus-fleet"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.25.00026"
-summary: "Nearly 90% of US school buses run on diesel, disproportionately harming low-income communities and communities of color. Based on a 2024 national summit with 200+ stakeholders and follow-up interviews, three core barriers impede full electrification: a ~$120,000 total cost of ownership gap versus diesel, complex charging infrastructure deployment, and workforce/misperception challenges. Solutions require coordinated action across districts, utilities, OEMs, policymakers, and financiers—prioritizing aggregated procurement, proactive grid planning (especially rural and tribal areas), managed charging, V2G revenue streams, and equity-centered workforce development."
+url: "https://www.wri.org/research/roadmap-100-electrifying-full-us-school-bus-fleet"
+status: searchable
+summary: Nearly 90% of US school buses run on diesel, with ESBs costing ~$270,000 more upfront than diesel models, exceeding lifetime operational savings of ~$150,000. Seven states have enacted electrification mandates; combined policies could reach 70% ESB sales share by 2035. Key barriers include high total cost of ownership, fragmented charging infrastructure, grid constraints in rural and tribal areas, and workforce shortages. Recommended actions include aggregated procurement to drive down prices, proactive utility grid planning, interoperability standards for chargers, blended public-private financing targeting underserved districts, and expanded technician training programs with standardized curricula.
 ---
 
 # Roadmap to 100: Electrifying the full US school bus fleet

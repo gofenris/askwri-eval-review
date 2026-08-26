@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_improving-metro-access-in-india_1276.pdf
 extraction_method: cache-plaintext
 char_count: 119575
 title: Improving Metro Access in India
+title_en: "Improving Metro Access in India: Evidence From Three Cities"
 authors: M, Sowmya; Maiti, Sudeept; Mukherjee, Aloke; Balachandran, Archana; Ganesh, Prasanna Kumar
-date_published: 7/14/2023
+date_published: 2023-07-14
+year_published: 2023
+publication_title: Improving Metro Access in India
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/improving-metro-access-india"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.23.00009"
-summary: Poor access (last-mile connectivity) to metro rail systems in India has contributed to lower-than-planned ridership, causing the underutilization of over US$25 billion in investments in the sector. There is little understanding of what metro commuters seek from their last-mile commute. This paper draws from a three-city survey of 7,200 metro commuters to understand current metro user demographics and last-mile choices and preferences. Our data shows that Indian metro systems attract young, middle-income commuters. Indian metro commuters are highly sensitive to last-mile wait times and costs.
+url: "https://wri-india.org/research/improving-metro-access-india"
+status: searchable
+summary: "Poor last-mile connectivity has caused Indian metro ridership to fall to 10% of projections, underutilizing $25 billion in investments. A survey of 7,200 commuters across Delhi, Bengaluru, and Nagpur found metro users are predominantly aged 19–35 with monthly household incomes of INR 10,000–40,000. Affluent users have not shifted from private vehicles, while low-income users are priced out. Commuters rely on walking and shared paratransit due to price sensitivity. Women pay more despite shorter trips, avoiding waits by choosing costlier modes. Acceptable wait times are under 10 minutes. Recommendations: prioritize high-frequency, low-cost shared services and improve pedestrian infrastructure."
 ---
 
 # Improving Metro Access in India

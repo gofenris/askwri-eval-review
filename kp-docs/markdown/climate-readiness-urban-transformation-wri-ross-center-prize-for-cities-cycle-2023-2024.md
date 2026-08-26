@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 145773
 title: "Climate Readiness As a Driver of Urban Transformation: Lessons From the WRI Ross Center Prize for Cities Cycle 2023–2024"
+title_en: "Climate Readiness As a Driver of Urban Transformation: Lessons From the WRI Ross Center Prize for Cities Cycle 2023–2024"
 authors: Anne Maassen; Jen Shin; Ian French; Meghna Ray
 date_published: 2026-04-21
 year_published: 2026
 article_type: Working Paper
 wri_primary_office: WRI Global
 language: en
+languages: [en]
 doi: 10.46830/wriwp.25.00116
 status: searchable
+summary: "This working paper analyzes five finalists from the 2023–2024 WRI Ross Center Prize for Cities to show how “climate readiness” can drive broader urban transformation. Using a comparative qualitative case study, the authors find that climate-focused initiatives generated benefits well beyond hazard reduction, improving safety, mobility, public space, ecosystems, community cohesion, governance coordination, and public narratives. Initiatives expanded influence through recognizable scaling processes—scaling deep (norms and routines), scaling out (spatial/operational expansion), scaling up (institutional embedding), and related diffusion dynamics. The paper proposes seven interdependent “infrastructures” of climate readiness: governance; human and organizational capacity; knowledge and learning; societal relationships; physical setting; technology and data; and financial continuity. These infrastructures enable projects to take root, persist, and scale. Drawing on these findings, it offers six practical priority actions for practitioners, including diagnosing context, recognizing project phases, designing for spillover, early governance anchors, iterative learning, and investing in routines and resources. The study notes limitations from its purposive sample and reflexive approach."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

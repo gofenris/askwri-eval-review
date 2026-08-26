@@ -3,16 +3,20 @@ doc_id: 2021_safe-bicycle-lane-design-principles-responding-to_3441
 source_pdf: kp-docs/askwri-kps/2021_safe-bicycle-lane-design-principles-responding-to_3441.pdf
 extraction_method: cache-plaintext
 char_count: 138131
-title: "Safe Bicycle Lane Design Principles: Responding to Cycling Needs in Cities during COVID and Beyond"
+title: "Safe Bicycle Lane Design Principles: Responding to Cycling Needs in Cities During COVID and Beyond"
+title_en: "Safe Bicycle Lane Design Principles: Responding to Cycling Needs in Cities During COVID and Beyond"
 authors: Adriazola-Steil, Claudia; Pérez-Barbosa, David; Batista, Bruno; Luke, Nikita; Li, Wei; Bray Sharpin, Anna; Bech, Lotte; Colbeck, Jason; Erikson, Anne; Harms, Lucas; Hartmann, Anders; McLeod, Ken; Nout, Lennart
-date_published: 11/8/2021
+date_published: 2021-11-08
+year_published: 2021
+publication_title: "Safe Bicycle Lane Design Principles: Responding to Cycling Needs in Cities During COVID and Beyond"
 article_type: Guidebook
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/safe-bicycle-lane-design-principles"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrigb.20.00063"
-summary: "COVID-19 dramatically accelerated urban cycling demand globally, with ~330 cities across 50 countries implementing emergent bike lanes by mid-2020. Safe design requires matching infrastructure type to vehicle operating speeds, maintaining network coherence, and prioritizing separation where speeds exceed safe thresholds. Success is measured by women, children, and family ridership. Five core requirements apply: safety, directness, coherence, comfort, and attractiveness. Temporary lanes should meet permanent safety standards, integrate with existing networks, manage conflict zones, enforce against parking infractions, and include community engagement to build support for permanent infrastructure."
+url: "https://www.wri.org/research/safe-bicycle-lane-design-principles"
+status: searchable
+summary: "Temporary bike lanes must meet safe design standards and not compromise safety, as they shape travel patterns long-term. Lane design should match vehicle speeds; where separation is impossible, speed management tools like bumps or enforcement must reduce speeds safely. A coherent network integrating new lanes with existing infrastructure, destinations, and public transport is essential. Success is measured by women, children, and family ridership. Five requirements guide effective networks: safety, directness, coherence, comfort, and attractiveness. Cities should enforce parking violations, communicate throughout implementation, and use temporary lanes to build the case for permanent infrastructure."
 ---
 
 # Safe Bicycle Lane Design Principles: Responding to Cycling Needs in Cities during COVID and Beyond

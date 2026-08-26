@@ -3,17 +3,20 @@ doc_id: 2025_trinta-anos-de-expansao-vertical-e-horizontal-em_9049
 source_pdf: kp-docs/askwri-kps/2025_trinta-anos-de-expansao-vertical-e-horizontal-em_9049.pdf
 extraction_method: cache-plaintext
 char_count: 66419
-title: Trinta anos de expansão vertical e horizontal em cidades brasileiras
+title: Trinta Anos de Expansão Vertical e Horizontal em Cidades Brasileiras
+title_en: "Thirty Years of Vertical and Horizontal Expansion in Brazilian Cities: Characterization of Changes in Built Volume Using Optical Sensors and Scatterometers"
 authors: Iablonovski, Guilherme; Evers, Henrique
-date_published: 3/27/2025
+date_published: 2025-03-27
+year_published: 2025
+publication_title: Trinta Anos de Expansão Vertical e Horizontal em Cidades Brasileiras
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: Portuguese
-url: "https://www.wribrasil.org.br/publicacoes/trinta-anos-expansao-vertical-horizontal-cidades-brasileiras"
+language: pt
+languages: [pt]
 doi: "https://doi.org/10.46830/wriwp.23.00156"
-summary: Over 30 years (1993–2020), Brazilian urban growth split roughly between horizontal sprawl (45%) and vertical/stable expansion (55%). Large metropolises—São Paulo, Rio de Janeiro, Brasília, Belo Horizonte—drove nearly all vertical growth, while medium-sized cities like Manaus, Natal, and Campo Grande expanded almost exclusively outward. Most small urban concentrations remained stable or grew moderately horizontally. Built volume grew faster than population across most cities, suggesting inefficient construction typologies with more space per fewer residents. The study combined optical satellite data (MapBiomas/Landsat) with microwave scatterometer radar sensors (ERS, QuickSCAT, ASCAT) to measure both horizontal and vertical urban dimensions—a methodological first for Brazil at national scale.
+url: "https://www.wribrasil.org.br/publicacoes/trinta-anos-expansao-vertical-horizontal-cidades-brasileiras"
+status: searchable
+summary: Over 30 years (1993–2020), Brazilian urban population growth was absorbed roughly equally through horizontal sprawl (45%) and vertical/stable densification (55%). Nearly all vertical growth occurred in large metropolises—São Paulo, Rio de Janeiro, Brasília, Belo Horizonte—while medium-sized cities like Manaus, Natal, and Campo Grande expanded almost exclusively horizontally. Most urban concentrations saw built volume grow faster than population, suggesting inefficient building typologies dedicating more space to fewer residents. Stable areas (40% of urban territory) absorbed 20% of population growth, indicating demographic densification without additional construction—the most resource-efficient outcome observed.
 ---
 
 # Trinta anos de expansão vertical e horizontal em cidades brasileiras

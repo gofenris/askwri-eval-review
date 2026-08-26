@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_completing-the-trip-establishing-a-global_14
 extraction_method: cache-plaintext
 char_count: 30610
 title: "Completing the Trip: Establishing a Global Quantified Climate Goal for the Transport Sector"
+title_en: "Completing the Trip: Establishing a Global Quantified Climate Goal for the Transport Sector"
 authors: Zhang, Yiqian; Welle, Ben
-date_published: 6/16/2025
+date_published: 2025-06-16
+year_published: 2025
+publication_title: "Completing the Trip: Establishing a Global Quantified Climate Goal for the Transport Sector"
 article_type: Expert Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/wrien.25.00021
 url: "https://www.wri.org/research/completing-trip-establishing-global-quantified-climate-goal-transport-sector"
-doi: No DOI listed
-summary: "Establishing a global quantified climate goal for the transport sector is essential to achieve the Paris Agreement targets, necessitating a 59% reduction in emissions by 2050. The proposed goal includes transitioning to 35% green fuels and a 25% reduction in energy consumption by 2035, emphasizing electrification and modal shifts towards public transport and active mobility. The analysis draws on the International Energy Agency's recommendations and highlights the need for cohesive international commitments to guide national climate strategies. Implementing such targets can enhance accountability and drive investment in sustainable transport solutions, ultimately facilitating a comprehensive decarbonization pathway."
+status: searchable
+summary: Countries should commit to shifting transport to 35% green fuels and cutting energy consumption 25% below 2022 levels by 2035. Road transport emissions can fall 25% by 2030 and 50% by 2035 through electrification, modal shifts, and renewable integration. EVs need expanded charging infrastructure, phased ICE bans, and targeted subsidies. Aviation and shipping require sustainable fuels and stricter standards. Public transport, walking, cycling, and rail must be prioritized, as electric buses emit roughly half the emissions per passenger-kilometer of private cars. Only 49 countries currently have renewable energy targets for transport—far too few to drive the needed transition.
 ---
 
 # Completing the Trip: Establishing a Global Quantified Climate Goal for the Transport Sector

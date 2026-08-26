@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2020_the-economic-case-for-greening-the-global_45
 extraction_method: cache-plaintext
 char_count: 159972
 title: "The Economic Case for Greening the Global Recovery through Cities: 7 priorities for national governments"
+title_en: "The Economic Case for Greening the Global Recovery Through Cities: Seven Priorities for National Governments"
 authors: Gulati, Manisha; Becqué, Renilde; Godfrey, Nick; Akhmouch, Aziza; Cartwright, Anton; Eis, Jason; Huq, Saleemul; Jacobs, Michael; King, Robin; Rode, Philipp
-date_published: 9/14/2020
+date_published: 2020-09-14
+year_published: 2020
+publication_title: "The Economic Case for Greening the Global Recovery through Cities: 7 priorities for national governments"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/the-economic-case-for-greening-the-global-recovery-through-cities/"
-doi: No DOI listed
-summary: Cities have been at the epicentre of the COVID-19 pandemic, but they also offer an opportunity to accelerate the transition to a resilient, equitable and low-carbon future. This paper explores seven priorities for national governments, as well as three cross-cutting measures, which can yield substantial economic dividends, rapidly create and protect millions of jobs for vulnerable populations and deliver quick and durable health and environmental benefits for citizens, all whilst contributing to long-term urban resilience.
+status: searchable
+summary: "National governments should direct COVID-19 stimulus toward seven urban investment priorities: green construction and retrofits, clean mobility, renewable energy, active transport, nature-based solutions, waste management, and clean technology R&D. These sectors could unlock US$24 trillion in economic dividends by 2050 and support 87 million jobs by 2030. Yet only 7% of measured stimulus reached relevant city sectors, with just 16% of that being green. Fiscal, governance, and financial reforms must accompany investments. National governments control one-third of urban mitigation potential and must partner with cities, whose revenues are shrinking while expenditure demands rise."
 ---
 
 # The Economic Case for Greening the Global Recovery through Cities: 7 priorities for national governments

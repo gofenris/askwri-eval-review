@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 121909
 title: "Driving a Just EV Transition in India: Supply Chain Practices for Large Automotive Manufacturing Enterprises"
+title_en: "Driving a Just EV Transition in India: Supply Chain Practices for Large Automotive Manufacturing Enterprises"
 authors: Priya Bansal; Priyal Shah; Tavleen Singh; Chaitanya Kanuri; Ashwini Hingne; Anuradha Ranganath
 date_published: 2026-05-29
 year_published: 2026
 article_type: Working Paper
 wri_primary_office: WRI India
 language: en
+languages: [en]
 doi: 10.46830/wriwp.25.00053
 status: searchable
+summary: This working paper examines how India’s rapid EV transition—targeting 30% of vehicle sales by 2030 and projected to reach 50–65% by 2035—will reshape automotive supply chains and disproportionately affect micro, small, and medium enterprises (MSME) component suppliers. MSMEs currently produce 75–80% of ICEV component volumes but lack capacities for EV parts, while 60–70% of EV components are imported. The authors find a clear business case for original equipment manufacturers (OEMs) and large Tier‑1 suppliers to adopt a “partner” approach that supports MSMEs to ensure a just transition and strengthen supply‑chain resilience. Benefits for large enterprises include long‑run cost efficiencies, better quality/cost/delivery control, accelerated innovation and R&D, sustained export competitiveness, and alignment with localization mandates. MSME barriers identified include financing shortfalls, tooling and testing costs, skill and technology gaps, and uncertain demand. Recommended practices include supplier capability programs, technology transfer and contract R&D, financing and de‑risking mechanisms, digital integration for visibility, demand aggregation, and practical steps like embedded engineering support and standardized guide drawings.
 ---
 
 WRI INDIA

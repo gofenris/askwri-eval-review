@@ -3,17 +3,18 @@ doc_id: 2019_toward-net-zero-emissions-in-the-road-transport_1735
 source_pdf: kp-docs/askwri-kps/2019_toward-net-zero-emissions-in-the-road-transport_1735.pdf
 extraction_method: cache-plaintext
 char_count: 63107
-title: Toward Net Zero Emissions in the Road Transport Sector in China
+title: 中国道路交通2050年“净零”排放路径研究
+title_en: "Toward \"Net Zero\" Emissions in the Road Transport Sector in China"
 authors: Xue, Lulu; Jin, Yana; Yu, Rujie; Liu, Yong; Ren, Huanhuan
-date_published: 1/11/2019
+date_published: 2019-11-01
+year_published: 2019
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/toward-net-zero-emissions-road-transport-sector-china"
-doi: No DOI listed
-summary: The transport sector is second largest source of emissions in China, accounting for 9% of the country’s CO2 emissions. While CO2 emissions from the largest source, the power sector, have plateaued since 2017, the transport sector continues to grow steadily. According to a study carried out by the Energy Research Institute of the NDRC (2016), emissions from China’s transport sector will probably peak after 2035, five years later than China NDC’s target.
+language: zh
+languages: [zh]
+url: "https://wri.org.cn/research/toward-net-zero-emissions-road-transport-sector-china"
+status: searchable
+summary: "Under current policies, China's road transport emissions can peak by 2035, driven by slowing passenger vehicle growth and rapid EV adoption. However, electrification alone cannot achieve net zero. Modal shift—moving freight from road to rail and water—offers decarbonization potential equivalent to electrification. Heavy trucks, responsible for 40% of road emissions, remain hardest to decarbonize, requiring deep freight modal shifts plus electric or hydrogen fuel cell adoption. Post-2030, grid decarbonization becomes critical. Banning internal combustion engines in passenger vehicles and achieving high renewable energy penetration are essential for a 1.5°C-aligned pathway."
 ---
 
 # Toward Net Zero Emissions in the Road Transport Sector in China

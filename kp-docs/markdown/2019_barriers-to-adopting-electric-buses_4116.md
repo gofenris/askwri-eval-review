@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_barriers-to-adopting-electric-buses_4116.pdf
 extraction_method: cache-plaintext
 char_count: 28214
 title: Barriers to Adopting Electric Buses
+title_en: Barriers to Adopting Electric Buses
 authors: Sclar, Ryan; Gorguinpour, Camron; Castellanos, Sebastian; Li, Xiangyi
-date_published: 5/21/2019
+date_published: 2019-05-21
+year_published: 2019
+publication_title: Barriers to Adopting Electric Buses
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/barriers-adopting-electric-buses"
-doi: No DOI listed
-summary: Electric buses (e-buses) present a significant opportunity for cities to reduce air pollution and greenhouse gas emissions, yet their adoption faces substantial barriers. A comprehensive analysis of 16 case studies across six continents revealed key obstacles, including technological limitations, rigid financial structures, and inadequate institutional support. The report emphasizes the need for policymakers to understand these barriers to facilitate smoother transitions to e-bus fleets. By learning from both successful and unsuccessful implementations, cities can avoid common pitfalls and accelerate the adoption of electric buses, ultimately contributing to climate goals.
+status: searchable
+summary: Analysis of 16 global case studies, focused on the Global South, identifies six key barriers to electric bus adoption across three categories. Technological barriers include critical knowledge gaps for cost-benefit analysis and operational planning, plus range, power, and charging infrastructure limitations. Financial barriers stem from rigid procurement models that favor low upfront costs, disadvantaging e-buses despite lower lifetime ownership costs. Institutional barriers involve weak political leadership, absent enabling policies, and insufficient land and authority for infrastructure. E-bus sales grew 80-fold from 2011–2017, yet 99% operate in China, signaling that remaining obstacles are contextual, not purely technical.
 ---
 
 # Barriers to Adopting Electric Buses

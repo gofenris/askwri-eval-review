@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2017_confronting-the-urban-housing-crisis-in-the_
 extraction_method: cache-plaintext
 char_count: 172359
 title: "Confronting the Urban Housing Crisis in the Global South: Adequate, Secure, and Affordable Housing"
+title_en: "Confronting the Urban Housing Crisis in the Global South: Adequate, Secure, and Affordable Housing"
 authors: King, Robin; Orloff, Mariana; Virsilas, Terra; Pande, Tejas
-date_published: 12/7/2017
+date_published: 2017-12-07
+year_published: 2017
+publication_title: "Confronting the Urban Housing Crisis in the Global South: Adequate, Secure, and Affordable Housing"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/confronting-urban-housing-crisis-global-south-adequate-secure-and-affordable-housing"
-doi: No DOI listed
-summary: Well-located, secure and affordable housing is lacking in many cities and is only projected to get worse – it is estimated that 1.6 billion people will lack adequate housing by 2025. Good housing is fundamental to physical and financial security, economic productivity, healthy communities, and human well-being. Addressing the affordable housing gap should be a priority for cities, as it offers the trifold benefits of improved economic productivity, environmental sustainability and equity for cities.
+status: searchable
+summary: "The global affordable housing gap affects 330 million urban households and will reach 440 million by 2025. Three scalable approaches are recommended: participatory in-situ upgrading of informal settlements rather than forced relocation; expanding rental housing through improved legal frameworks and well-structured subsidies that avoid ownership bias; and converting under-utilized inner-city land to affordable housing through realistic building codes and community ownership models. Private-sector-led mass housing has failed the poor, concentrating construction in high-end segments. Women, migrants, and ethnic minorities face compounded barriers even where housing rights are legally protected."
 ---
 
 # Confronting the Urban Housing Crisis in the Global South: Adequate, Secure, and Affordable Housing

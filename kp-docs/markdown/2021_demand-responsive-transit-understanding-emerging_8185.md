@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_demand-responsive-transit-understanding-emer
 extraction_method: cache-plaintext
 char_count: 140107
 title: "Demand Responsive Transit: Understanding Emerging Solutions"
+title_en: "Demand Responsive Transit: Understanding Emerging Solutions"
 authors: Pérez, Tania; Freiberg, German; Bueno, Leonardo; Pizzol, Bruna; Escalante, David
-date_published: 8/7/2021
+date_published: 2021-08-07
+year_published: 2021
+publication_title: "Demand Responsive Transit: Understanding Emerging Solutions"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: English
-url: "https://es.wri.org/publicaciones/demand-responsive-transit"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.20.00061"
-summary: SinopsisDemand Responsive Transit adapts well to users’ needs and can increase efficiency in situations where regular public transport systems are more cost­ly. However, as DRTs are constantly evolving, the concept and its applications and benefits can be hard to grasp.
+url: "https://es.wri.org/publicaciones/demand-responsive-transit"
+status: searchable
+summary: "DRT works best in low-density areas where fixed routes are costly. In high-income countries, DRT emerges from public policy, integrates with transit networks, and is government-regulated. In developing countries, it arises from private sector initiatives targeting underserved niches or higher-willingness-to-pay riders, typically without fare integration. Six service types are identified: paratransit, corporate/university, intercity, specific destination, night, and general public. A global review of 151 cases shows most DRTs concentrate in Europe, the US, and Australia, with limited developing-country presence. General public schemes show the greatest overlap with conventional transit."
 ---
 
 # Demand Responsive Transit: Understanding Emerging Solutions

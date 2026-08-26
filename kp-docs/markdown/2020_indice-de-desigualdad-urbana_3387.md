@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2020_indice-de-desigualdad-urbana_3387.pdf
 extraction_method: cache-plaintext
 char_count: 210911
 title: Índice de Desigualdad Urbana
+title_en: Urban Inequality Index
 authors: Brito, Mauricio; Zubicaray, Gorka; Macias, Jorge A.; Ramírez, Lorelei; Jacquin, Céline
-date_published: 12/18/2020
+date_published: 2020-12-18
+year_published: 2020
+publication_title: Índice de Desigualdad Urbana
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI México
-wri_programs: Cities
-language: Spanish
+language: es
+languages: [es]
 url: "https://es.wri.org/publicaciones/indice-de-desigualdad-urbana"
-doi: No DOI listed
-summary: "WRI Mexico developed the Urban Inequality Index (IDU) to measure sociospatial segregation in 147 Mexican cities with over 50,000 inhabitants. The methodology combines two dimensions: an Urban Social Inclusion Index (IISU) measuring household-level deprivations, and spatial accessibility analysis measuring proximity to employment, education, health, food supply, open spaces, and cultural facilities. Applied to Mexico City's metropolitan area, results reveal stark inequalities: the highest social stratum accesses 25 times more jobs and 70 times more public universities than the lowest. Only 39% of residents have access to public hospital beds, and 18.66% to mass transit stations. The three most vulnerable social groups face compounded spatial disadvantages, confirming that socioeconomic and territorial inequalities reinforce each other. The index serves as an evidence-based planning tool enabling authorities to evaluate infrastructure investments, transport networks, and urban policies for their progressive or regressive distributional effects across demographic groups."
+status: searchable
+summary: "In Mexico City's metropolitan area, the wealthiest social group accesses 25 times more formal employment than the poorest. Access to public higher education is 70 times greater for top-income residents. Only 39% of the population can reach a public hospital bed, and just 19% have access to mass transit. Open space coverage reaches 61%, but only 41% access the recommended 15m² per capita. Inequality sharpens from the middle social stratum downward, with the three most vulnerable groups facing both lower incomes and worse spatial access. Results support using the Urban Inequality Index as an evidence-based planning tool to guide transport, housing, and infrastructure investments toward reducing territorial segregation."
 ---
 
 # Índice de Desigualdad Urbana

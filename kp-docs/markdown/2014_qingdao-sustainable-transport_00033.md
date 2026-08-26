@@ -8,11 +8,15 @@ char_count: 70890
 title: 青岛低碳和可持续交通发展战略研究
 title_en: "Low-Carbon and Sustainable Transport for Qingdao: A Strategic Study"
 authors: Xue, Lulu; Zhang, Haitao
+date_published: 2014-11-10
 year_published: 2014
 article_type: Working Paper
 wri_primary_office: WRI China
 language: zh
-status: needs_review
+languages: [zh]
+url: "https://wri.org.cn/research/low-carbon-and-sustainable-transport-qingdao-strategic-study"
+status: searchable
+summary: "This World Resources Institute working paper shows that Qingdao’s rapid motorization, fragmented planning and weak public-transport capacity are putting its 2020 low‑carbon and livability goals at risk. The report documents rising car ownership (about 1.76 million vehicles by mid‑2012, nearly 980,000 private cars), growing transport carbon dioxide emissions (motor vehicles were 21.7% of city CO2 in 2009 and could reach about 29.3% by 2020 under a business‑as‑usual scenario), slower central‑city speeds (21.7 km/h in 2010) and large congestion costs (about 1.8 billion yuan in 2011). It identifies root causes: disconnected land‑use and transport planning, reliance on road expansion, inadequate bus and rail integration, weak walking and cycling infrastructure, fragmented institutions and road‑biased financing. To respond, the paper urges five strategic actions: commit to the low‑carbon target, implement an integrated “reduce‑shift‑optimize” package, align land use with transit and promote transit‑oriented development (TOD), strengthen demand management (parking pricing and vehicle controls), reform transport governance and build sustainable financing and monitoring systems."
 ---
 
 世界资源研究所

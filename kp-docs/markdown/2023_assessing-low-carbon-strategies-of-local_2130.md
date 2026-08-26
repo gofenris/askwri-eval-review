@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2023_assessing-low-carbon-strategies-of-local_213
 extraction_method: cache-plaintext
 char_count: 159932
 title: Assessing Low-Carbon Strategies of Local Governments Through the Lens of Climate Policy Coverage
-authors: Lin, Jiaying; Qiu, Shiyong
-date_published: 9/21/2023
+title_en: Assessing Low-Carbon Strategies of Local Governments Through the Lens of Climate Policy Coverage
+authors: Lin, Jiaying; Qiu, Shiyong; Liu, Siyi; Liu, Daizong
+date_published: 2023-09-20
+year_published: 2023
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/ASSESSING-LOW-CARBON-STRATEGIES-OF-LOCAL-GOVERNMENTS-THROUGH-THE-LENS-OF-CLIMATE-POLICY-COVERAGE"
-doi: "https://doi.org/10.46830/wriwp.22.00092"
-summary: "This study establishes the City Climate Policy Assessment Framework, drawing from the American Council for an Energy-Efficient Economy’s City Clean Energy Scorecard and an analysis of 12 sample cities in China and abroad. The framework evaluates city climate policies across seven key areas: community-wide initiatives, building policy, transportation policy, energy and water utilities, waste management, local government operations, and green finance."
+language: en
+languages: [en, zh]
+doi: "https://doi.org/10.46830/wriwp.22.00092en"
+url: "https://www.wri.org/research/assessing-low-carbon-strategies-local-governments-through-lens-climate-policy-coverage"
+status: searchable
+summary: "London, Shanghai, and Shenzhen lead among 12 sampled cities in climate policy coverage. Cities score highest in local government operations and energy/water utilities, with greater variation in buildings, transportation, and community-wide initiatives. Over three-quarters of cities target carbon neutrality before 2050, with Copenhagen and London aiming 20+ years ahead of national goals. Local policies account for 85%+ of cities' scores. Key recommendations: cities must align sectoral goals with overall targets, strengthen data collection and information disclosure systems, and close large green finance gaps by diversifying funding sources and building supportive market environments for climate investment."
 ---
 
 # Assessing Low-Carbon Strategies of Local Governments Through the Lens of Climate Policy Coverage

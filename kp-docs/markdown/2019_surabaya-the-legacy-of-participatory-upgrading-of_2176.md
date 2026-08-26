@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_surabaya-the-legacy-of-participatory-upgradi
 extraction_method: cache-plaintext
 char_count: 121681
 title: "Surabaya: The Legacy of Participatory Upgrading of Informal Settlements"
+title_en: "Surabaya: The Legacy of Participatory Upgrading of Informal Settlements"
 authors: Das, Ashok; King, Robin
-date_published: 11/13/2019
+date_published: 2019-11-13
+year_published: 2019
+publication_title: "Surabaya: The Legacy of Participatory Upgrading of Informal Settlements"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/surabaya-legacy-participatory-upgrading-informal-settlements"
-doi: No DOI listed
-summary: This case study in the World Resources Report (WRR), Towards a More Equal City, describes the history of Surabaya, Indonesia’s inclusive housing policy and how the Kampung Improvement Program (KIP) became a model for in situ slum upgrading efforts both nationwide and internationally. KIPs put residents at the heart of upgrading work and brought basic infrastructure and services to traditional urban neighborhoods called kampung.
+status: searchable
+summary: "Surabaya's Kampung Improvement Program (KIP) directly improved 1.15 million residents' lives using just $35–$75 per person, raising drinking water access from 15% to 80% and toilet access from under 20% to 65%. KIP reduced Indonesia's urban poverty by an estimated 70–75%. Post-decentralization challenges now threaten these gains: rising land values, resource constraints, technocratic planning, and exclusionary treatment of migrants undermine progress. The shift toward rusunawa rental apartments over community-led upgrading represents a neoliberal retreat. Sustaining pro-poor outcomes requires bold local leadership, university-government collaboration, stronger civil society engagement, and inclusive policies for undocumented migrants."
 ---
 
 # Surabaya: The Legacy of Participatory Upgrading of Informal Settlements

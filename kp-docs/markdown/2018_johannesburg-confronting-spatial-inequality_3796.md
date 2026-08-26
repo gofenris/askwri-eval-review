@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2018_johannesburg-confronting-spatial-inequality_
 extraction_method: cache-plaintext
 char_count: 106059
 title: "Johannesburg: Confronting Spatial Inequality"
+title_en: "Johannesburg: Confronting Spatial Inequality"
 authors: Pieterse, Edgar; Owens, Kate
-date_published: 12/18/2018
+date_published: 2018-12-18
+year_published: 2018
+publication_title: "Johannesburg: Confronting Spatial Inequality"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/johannesburg-confronting-spatial-inequality"
-doi: No DOI listed
-summary: This case study in the World Resources Report, “Towards a More Equal City,” examines transformative urban change in Johannesburg, South Africa, through transit-oriented development (TOD). The paper reviews the evidence on whether Johannesburg’s TOD strategy has helped reduce spatial inequality in the city—and if so, how.
+status: searchable
+summary: "South Africa's redistributive housing worsened spatial inequality by isolating poor communities from economic opportunity. Johannesburg's 2013 Corridors of Freedom program addressed this by integrating BRT transit with mixed-income, high-density development along three corridors, directing 14% of public capital expenditure there by 2018–2020. Key recommendations: link informal and formal housing markets; target social rental housing to transit-willing groups like students; integrate BRT with informal minibus networks; and establish multi-stakeholder forums to insulate long-term programs from political disruption. Institutional coordination across agencies proved as critical as technical planning."
 ---
 
 # Johannesburg: Confronting Spatial Inequality

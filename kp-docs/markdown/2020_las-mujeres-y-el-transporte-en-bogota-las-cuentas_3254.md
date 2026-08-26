@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2020_las-mujeres-y-el-transporte-en-bogota-las-cu
 extraction_method: cache-plaintext
 char_count: 170703
 title: "Las Mujeres y el transporte en Bogotá: las cuentas"
+title_en: "Women and Transport in Bogotá: The Numbers"
 authors: Moscoso, Marina; López, José Segundo; Montoya Robledo, Valentina; Quiñones Sánchez, Lina Marcela; Gómez, Laura Daniela; Lleras, Natalia; Adriazola-Steil, Claudia; Vega, Juliana
-date_published: 3/1/2020
+date_published: 2020-03-01
+year_published: 2020
+publication_title: "Las Mujeres y el transporte en Bogotá: las cuentas"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Colombia
-wri_programs: Cities
-language: Spanish
+language: es
+languages: [es]
 url: "https://despacio.org/portfolio/las-mujeres-y-el-transporte-en-bogota-las-cuentas/"
-doi: No DOI listed
-summary: "Gender disparities in Bogotá's transportation system reveal that women, particularly those from low-income areas, face significant accessibility challenges and longer commuting times. The study employs a mixed-methods approach, analyzing mobility surveys and public data, highlighting that women are underrepresented in transport planning roles, which affects safety and inclusivity. Findings indicate that women experience higher risks of harassment and road safety issues, emphasizing the need for gender-sensitive policies. The research advocates for improved data collection and policy frameworks to enhance women's mobility experiences and safety in urban transport."
+status: searchable
+summary: Women in Bogotá face significant transport inequities. Low-income women spend 16% more time commuting than men in the same income group, and nearly twice as long as high-income women. Despite making 52% of all trips, women represent only 20% of traffic fatalities, while men face 5x higher fatal risk per trip. Female cyclists dropped from 25% to 21% of all cyclists between 2011–2015. 85% of surveyed women reported sexual harassment during daily trips, most frequently on bicycles and buses. Female bus drivers have 60% fewer crash injuries and half the fatal crashes of male drivers. Road safety measures on local roads would better protect women; arterial-road focus prioritizes male victims.
 ---
 
 # Las Mujeres y el transporte en Bogotá: las cuentas

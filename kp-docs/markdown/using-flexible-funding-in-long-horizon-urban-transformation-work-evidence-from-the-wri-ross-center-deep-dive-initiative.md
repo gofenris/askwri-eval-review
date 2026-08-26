@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 106612
 title: "Using Flexible Funding in Long-Horizon Urban Transformation Work: Evidence from the WRI Ross Center Deep Dive Cities Initiative"
+title_en: "Using Flexible Funding in Long-Horizon Urban Transformation Work: Evidence from the WRI Ross Center Deep Dive Cities Initiative"
 authors: Anne Maassen; Clare Blackwell; Pablo Lazo
 date_published: 2026-07-21
 year_published: 2026
 article_type: Working Paper
 wri_primary_office: WRI Global
 language: en
+languages: [en]
 doi: 10.46830/wriwp.25.00009
 status: searchable
+summary: "The paper analyzes WRI Ross Center’s Deep Dive Cities Initiative, a six-year (2020–26) internal program that deployed flexible multiyear funding alongside project grants to support long-horizon, cross-sector urban transformation. Using documentary records and interviews across seven offices, the qualitative case study examines how flexible funding—defined as support not tightly tied to predefined activities or timelines—was used in four recurring modes: seed (testing entry), add-on (layering adjacent agendas), policy life-cycle (sustaining planning into early implementation), and gap funding (bridging short disruptions). Findings show flexible funds expanded discretion over timing, sequencing, and scope, enabling experimentation, knowledge products, and continuity, but introduced trade-offs around strategic coherence, accountability, staff capacity, and decisions about when to continue engagement. The paper frames five practice-relevant questions for intermediaries and stresses that the analysis is analytical rather than evaluative, not generalizable beyond the single-case, and shaped by limitations including insider positionality, underrepresentation of stalled projects, and pandemic-era confounders."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

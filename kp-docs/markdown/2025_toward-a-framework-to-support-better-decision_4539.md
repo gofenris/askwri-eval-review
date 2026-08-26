@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_toward-a-framework-to-support-better-decisio
 extraction_method: cache-plaintext
 char_count: 42750
 title: "Toward a Framework to Support Better Decision-making in India’s Mobility Planning: Supply, Demand, and Performance"
+title_en: "Toward a Framework to Support Better Decision-Making in India’s Mobility Planning: Supply, Demand, and Performance"
 authors: Pai, Madhav; Mulukutla, Pawan; Mukherjee, Aloke
-date_published: 3/9/2025
+date_published: 2025-03-09
+year_published: 2025
+publication_title: "Toward a Framework to Support Better Decision-making in India’s Mobility Planning: Supply, Demand, and Performance"
 article_type: Expert Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
+doi: 10.46830/wrien.25.00012
 url: "https://wri-india.org/research/toward-framework-support-better-decision-making-indias-mobility-planning-supply-demand-and"
-doi: No DOI listed
-summary: India’s cities face rising congestion, pollution and inequity as private vehicle use grows. Despite major investments in metros and e-buses, mobility planning often remains ad hoc and project-driven. This WRI India Expert Note introduces a demand–supply–performance framework to guide data-driven, long-term decision-making. By aligning commuter demand with infrastructure supply and evaluating outcomes through performance indicators, the note drives the shift to sustainable, efficient and equitable mobility planning across Indian cities.
+status: searchable
+summary: "India's urban mobility planning requires a demand–supply–performance framework to counter rising private motorization and declining public transport ridership. Two-wheeler mode shares doubled in cities like Bhubaneswar (30% to 55%) and Delhi (5% to 14%) between 2007–2023. Key recommendations include mandating periodic travel demand surveys, integrating origin-destination matrices disaggregated by mode, purpose, and demographics, and embedding GIS-based road connectivity analysis. Central government schemes should condition funding on framework-driven data collection. Proof-of-concept cities should pilot indicator tracking before incorporating findings into Comprehensive Mobility Plans."
 ---
 
 # Toward a Framework to Support Better Decision-making in India’s Mobility Planning: Supply, Demand, and Performance

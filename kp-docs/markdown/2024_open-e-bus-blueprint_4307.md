@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2024_open-e-bus-blueprint_4307.pdf
 extraction_method: cache-plaintext
 char_count: 99099
 title: Open E-Bus Blueprint
+title_en: Open E-Bus Blueprint
 authors: Mulukutla, Pawan; Pai, Madhav; Bhat, Rajit K.; Bachu, Prashant; Dubedi, Avinash; Varma, Dr Pramod; Nair, Sujith; Sinha, Anirban
-date_published: 10/30/2024
+date_published: 2024-10-30
+year_published: 2024
+publication_title: Open E-Bus Blueprint
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/open-e-bus-blueprint"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.24.00042"
-summary: "The \"Open E-Bus Blueprint\" outlines a framework for electrifying India's bus fleet, aiming to transition 800,000 buses to electric by 2030. It emphasizes leveraging Digital Public Infrastructure (DPI) principles to create a standardized, vendor-agnostic system that enhances communication and integration among stakeholders, thereby reducing costs and improving operational efficiency. The paper identifies challenges such as fragmented operations and the need for clear information standards, proposing a collaborative approach to address these issues. By fostering innovation and scalability, the blueprint aims to facilitate a smoother transition to electric buses and associated infrastructure."
+url: "https://wri-india.org/research/open-e-bus-blueprint"
+status: searchable
+summary: "India's fragmented bus ecosystem—with proprietary, siloed systems and absent data standards—drives up costs and blocks scalable e-bus deployment toward the 800,000-bus electrification target. A Digital Public Infrastructure (DPI) approach, termed the \"open e-bus blueprint,\" offers the solution: vendor-agnostic, specification-driven building blocks for scheduling, tracking, ticketing, vehicle health, and battery management. These modular components integrate with existing DPIs like UPI and ONDC, enabling unbundled contracts, smarter charging infrastructure placement, green financing, carbon credit verification, and workforce credentialing—while reducing vendor lock-in and lowering operational costs across public and private operators."
 ---
 
 # Open E-Bus Blueprint

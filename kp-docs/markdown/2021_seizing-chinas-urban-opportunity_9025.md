@@ -3,16 +3,19 @@ doc_id: 2021_seizing-chinas-urban-opportunity_9025
 source_pdf: kp-docs/askwri-kps/2021_seizing-chinas-urban-opportunity_9025.pdf
 extraction_method: cache-plaintext
 char_count: 102456
-title: Seizing China’s Urban Opportunity
+title: "Seizing China's Urban Opportunity: Cities at the Heart of the 14th Five-Year Plan and a National Vision for Net-Zero Emissions"
+title_en: "Seizing China's Urban Opportunity: Cities at the Heart of the 14th Five-Year Plan and a National Vision for Net-Zero Emissions"
 authors: Coalition for Urban Transitions
-date_published: 3/17/2021
+date_published: 2021-03-17
+year_published: 2021
+publication_title: Seizing China’s Urban Opportunity
 article_type: Report
-wri_primary_office: WRI Global
-wri_programs: Cities
-language: English, Chinese
+wri_primary_office: WRI China
+language: en
+languages: [en, zh]
 url: "https://urbantransitions.global/en/publication/seizing-the-urban-opportunity/seizing-chinas-urban-opportunity/"
-doi: No DOI listed
-summary: "China's cities generate 90% of GDP and house 837 million people, rising to 80% of population by 2050, but face severe air pollution, congestion, sprawl, and growing climate risks. Modeling across buildings, transport, and waste sectors shows urban GHG emissions could fall 48% by 2030 and 89% by 2050 versus baseline, requiring US$5.5 trillion in incremental investment but yielding US$7.7 trillion net present value and 15 million jobs. Over half the abatement potential lies in cities under one million residents. Key recommendations include embedding sustainable cities in 14th Five-Year Plan implementation, prioritizing building efficiency retrofits in stimulus spending, supporting small and mid-sized city development, and scaling nature-based resilience solutions including the Sponge City Programme."
+status: searchable
+summary: "China's cities could cut GHG emissions 48% by 2030 and 89% by 2050 using proven low-carbon measures, requiring US$5.5 trillion in incremental investment but yielding US$7.7 trillion net present value and 15 million jobs by 2030. Over half the abatement potential lies in cities under one million residents. Four priority recommendations: embed sustainable cities in the 14th Five-Year Plan targeting urban emissions peaks by 2025; prioritize energy-efficient building retrofits in stimulus spending; support small and mid-sized cities for compact growth; and scale nature-based solutions, including expanding Sponge City standards to 80% of urban areas by 2030."
 ---
 
 # Seizing China’s Urban Opportunity

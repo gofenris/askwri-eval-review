@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2018_prepared-communities-implementing-the-urban_
 extraction_method: cache-plaintext
 char_count: 184876
 title: "Prepared Communities: Implementing the Urban Community Resilience Assessment in Vulnerable Neighborhoods of Three Cities"
+title_en: "Prepared Communities: Implementing the Urban Community Resilience Assessment in Vulnerable Neighborhoods of Three Cities"
 authors: Rangwala, Lubaina; Burke, Lauretta; Wihanesta, Retno; Elias-Trostmann, Katerina; Chandra, Mandakini
-date_published: 12/17/2018
+date_published: 2018-12-17
+year_published: 2018
+publication_title: "Prepared Communities: Implementing the Urban Community Resilience Assessment in Vulnerable Neighborhoods of Three Cities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/prepared-communities"
-doi: No DOI listed
-summary: Climate change affects poor and marginalized communities first and hardest. Particularly in cities, a lack of access to basic services, a long history of unsustainable urban development, and political exclusion render the urban poor one of the most vulnerable groups to climate induced natural hazards and disasters. Yet strategies focused on reducing these people’s vulnerability to climate change often overlook crucial differences in their needs and situations.
+status: searchable
+summary: "Pilot testing WRI's Urban Community Resilience Assessment in Rio de Janeiro, Surat, and Semarang revealed significant variations in risk perception: 74% of Rio respondents viewed climate hazards as life threats, versus 65% in Surat and 38% in Semarang. Men perceived greater risk than women across all cities. Key limitations include insufficient political leadership, high implementation costs, and data inconsistencies. Recommendations include developing online peer-learning communities, integrating UCRA baselines into city-wide resilience strategies, and using participatory workshops to co-develop locally relevant resilience actions with vulnerable communities."
 ---
 
 # Prepared Communities: Implementing the Urban Community Resilience Assessment in Vulnerable Neighborhoods of Three Cities

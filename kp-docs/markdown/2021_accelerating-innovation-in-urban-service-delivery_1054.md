@@ -3,17 +3,20 @@ doc_id: 2021_accelerating-innovation-in-urban-service-delivery_1054
 source_pdf: kp-docs/askwri-kps/2021_accelerating-innovation-in-urban-service-delivery_1054.pdf
 extraction_method: cache-plaintext
 char_count: 182240
-title: "Accelerating Innovation in Urban Service Delivery in Indian Cities: Lessons from TheCityFix Labs India"
+title: "Accelerating Innovation in Urban Service Delivery in Indian Cities: Lessons From TheCityFix Labs India"
+title_en: "Accelerating Innovation in Urban Service Delivery in Indian Cities: Lessons From TheCityFix Labs India"
 authors: Dhindaw, Jaya; Kumar, Aarathi; Jain, Monica
-date_published: 8/17/2021
+date_published: 2021-08-17
+year_published: 2021
+publication_title: "Accelerating Innovation in Urban Service Delivery in Indian Cities: Lessons From TheCityFix Labs India"
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/accelerating-innovation-urban-service-delivery-indian-cities-lessons-thecityfix-labs-india"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wripn.20.00114"
-summary: This practice note looks at the WRI India approach of developing a powerful value accelerator platform to scale innovative solutions for gaps in service delivery in collaboration with the quadruple helix stakeholders of government, private sector, academia and citizens. This note assesses the existing innovation ecosystem and the potential for pilot projects to mobilise investment and spark policy reform for the successful delivery of sustainable urban services. This note also sheds light on the enabling conditions needed to deliver sustainable infrastructure, and issues that must be addressed to enable innovative small players and new entrants to participate.
+url: "https://www.wri.org/research/accelerating-innovation-urban-service-delivery-indian-cities-lessons-thecityfix-labs-india"
+status: searchable
+summary: TheCityFix Labs India accelerated 10 enterprises in water, waste, and energy, resulting in nine pilot discussions with state and national agencies and four companies raising over US$20 million in combined private financing. Key barriers identified include absent water sector mandates, city-specific waste management dependencies, voluntary energy efficiency standards, and complex procurement processes excluding smaller firms. Recommendations include reforming procurement to encourage start-up participation, establishing a social stock exchange for impact companies, creating anchor institutions to coordinate fragmented government efforts, and expanding multi-stakeholder platforms to pool resources and break institutional silos.
 ---
 
 # Accelerating Innovation in Urban Service Delivery in Indian Cities: Lessons from TheCityFix Labs India

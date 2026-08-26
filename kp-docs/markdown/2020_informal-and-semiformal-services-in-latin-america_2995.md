@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2020_informal-and-semiformal-services-in-latin-am
 extraction_method: cache-plaintext
 char_count: 270219
 title: "Informal and Semiformal Services in Latin America: An Overview of Public Transportation Reforms"
+title_en: "Informal and Semiformal Services in Latin America: An Overview of Public Transportation Reforms"
 authors: Tun, Thet Hein; Welle, Benjamin; Hidalgo, Darío; Albuquerque, Cristina; Castellanos, Sebastián; Sclar, Ryan; Escalante, David
-date_published: 11/10/2020
+date_published: 2020-11-10
+year_published: 2020
+publication_title: "Informal and Semiformal Services in Latin America: An Overview of Public Transportation Reforms"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://publications.iadb.org/en/informal-and-semiformal-services-latin-america-overview-public-transportation-reforms"
+language: en
+languages: [en]
 doi: "http://dx.doi.org/10.18235/0002831"
-summary: The paper examines the integral role of semi-formal and informal transport services as viable and legitimate public transport options in Latin America. While the region is well-known as the “cradle of bus rapid transit,” the prevalence of semi-formal transport is often overlooked or scrutinized in a negative light. Based on the authors decades of experience as practitioners, using extensive literature review and six case studies, we critically analyze the advantages and disadvantages of bus reforms and alternative approaches such as mapping and use of technology.
+url: "https://publications.iadb.org/en/informal-and-semiformal-services-latin-america-overview-public-transportation-reforms"
+status: searchable
+summary: Semiformal and informal transit serve over half of Latin American public transport trips, particularly for low-income and peripheral communities. BRT-based reforms reduce emissions and improve safety but raise fares and increase transfers. Smaller-scale alternatives—mapping, digitalization, driver training, cooperative formation, fleet renewal, and app-based services—reduce negative externalities without full-scale reform. Where funding and institutional capacity are insufficient, gradual improvement outperforms rushed formalization. Semiformal services will persist and warrant direct investment.
 ---
 
 # Informal and Semiformal Services in Latin America: An Overview of Public Transportation Reforms

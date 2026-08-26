@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2025_panduan-pelaksanaan-inventarisasi-pohon-perk
 extraction_method: cache-plaintext
 char_count: 97850
 title: Panduan Pelaksanaan Inventarisasi Pohon Perkotaan
+title_en: Implementation Guide for Urban Tree Inventory
 authors: Sahab, Ahmad; Lipu, Bergita Gusti; Afwani, Muhammad Zayyanul; Wihanesta, Retno
-date_published: 12/3/2025
+date_published: 2025-12-03
+year_published: 2025
+publication_title: Panduan Pelaksanaan Inventarisasi Pohon Perkotaan
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Indonesia
-wri_programs: Cities
-language: Bahasa
-url: "https://wri-indonesia.org/id/publikasi/panduan-pelaksanaan-inventarisasi-pohon-perkotaan"
+language: id
+languages: [id, en]
 doi: "https://doi.org/10.46830/wrigb.23.00034"
-summary: "Urban trees provide critical ecological, social, economic, and aesthetic benefits, yet most Indonesian cities lack systematic tree management due to limited data and no standardized guidelines. This guide provides technical and non-technical direction for conducting urban tree inventories across four stages: planning, field data collection, data recapitulation and analysis, and data integration into local government geoportals. It recommends combining field measurement methods with GIS-based spatial analysis as a cost- and time-efficient approach adaptable to varying city resources. Methodology was developed iteratively through literature review, city government consultations, expert review, and field pilots in Jakarta, Denpasar, Medan, Pekanbaru, and Makassar (2022–2023)."
+url: "https://wri-indonesia.org/id/publikasi/panduan-pelaksanaan-inventarisasi-pohon-perkotaan"
+status: searchable
+summary: "Urban tree management across most Indonesian cities remains suboptimal due to limited data on tree quantity, location, and health. A combination of field measurement and GIS-based spatial analysis is recommended as the most effective and resource-efficient inventory method. Four implementation stages are prescribed: planning, technical data collection, data recapitulation and analysis, and geoportal integration. Methods were field-tested with city governments in Jakarta, Denpasar, Medan, Pekanbaru, and Makassar during 2022–2023. Local government agencies responsible for urban trees should lead inventory efforts, calibrating methods to available resources."
 ---
 
 # Panduan Pelaksanaan Inventarisasi Pohon Perkotaan

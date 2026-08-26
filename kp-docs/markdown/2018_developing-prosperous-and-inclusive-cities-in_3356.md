@@ -3,17 +3,19 @@ doc_id: 2018_developing-prosperous-and-inclusive-cities-in_3356
 source_pdf: kp-docs/askwri-kps/2018_developing-prosperous-and-inclusive-cities-in_3356.pdf
 extraction_method: cache-plaintext
 char_count: 128018
-title: Developing Prosperous and Inclusive Cities in Africa – National Urban Policies to the Rescue?
+title: Developing Prosperous and Inclusive Cities in Africa—National Urban Policies to the Rescue?
+title_en: Developing Prosperous and Inclusive Cities in Africa - National Urban Policies to the Rescue?
 authors: Cartwright, Anton; Palmer, Ian; Taylor, Anna; Pieterse, Edgar; Parnell, Susan; Colenbrander, Sarah
-date_published: 9/1/2018
+date_published: 2018-09-01
+year_published: 2018
+publication_title: Developing Prosperous and Inclusive Cities in Africa—National Urban Policies to the Rescue?
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/developing-prosperous-and-inclusive-cities-in-africa-national-urban-policies-to-the-rescue/"
-doi: No DOI listed
-summary: New research by the African Centre for Cities for the Coalition for Urban Transitions sets out the specific role African national governments can play to to guide the transformation of cities, support municipal authorities, and unlock major investment for infrastructure.
+status: searchable
+summary: "National Urban Policies (NUPs) can unlock Africa's urbanization dividend, but only if tailored to local realities. At least 18 African countries have NUPs, mostly post-2011 and donor-funded. Six priorities emerge: legally codifying local government mandates and budgets; establishing urban rights frameworks; improving data on informal economies; aligning spatial and tenure strategies to curb sprawl; adopting modular infrastructure over capital-intensive megaprojects (urban Africans pay 29% service premiums versus peers); and clarifying fiscal transfers to attract private investment. Poorly designed NUPs risk reinforcing centralized control rather than empowering local governments."
 ---
 
 # Developing Prosperous and Inclusive Cities in Africa – National Urban Policies to the Rescue?

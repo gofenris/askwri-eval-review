@@ -3,17 +3,20 @@ doc_id: 2023_financial-analysis-of-charging-station-fact_2082
 source_pdf: kp-docs/askwri-kps/2023_financial-analysis-of-charging-station-fact_2082.pdf
 extraction_method: cache-plaintext
 char_count: 113588
-title: Financial Analysis of Charging station (FACt)
+title: "Financial Analysis of Charging station (FACt): A Tool for Easy Financial Evaluation of Deploying Public Charging Infrastructure on India"
+title_en: "Financial Analysis of Charging Station (FACt): A Tool for Easy Financial Evaluation of Public Charging Infrastructure Deployment in India"
 authors: Mulukutla, Pawan; Das, Shyamasis; Bansal, Priya
-date_published: 3/27/2023
+date_published: 2023-03-27
+year_published: 2023
+publication_title: "Financial Analysis of Charging station (FACt): A Tool for Easy Financial Evaluation of Deploying Public Charging Infrastructure on India"
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/financial-analysis-charging-station-fact"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.22.00085"
-summary: FACt is an innovative Excel-based tool designed to facilitate the financial evaluation of public charging infrastructure for electric vehicles in India. By providing a comprehensive analysis of project costs, internal rates of return, and sensitivity to variable changes, it empowers stakeholders such as financial institutions and policymakers to assess the viability of charging stations. The tool addresses the existing knowledge gap regarding the business case for public charging stations, enabling cities to identify financial barriers and develop targeted policies. Its user-friendly design and adaptability to various contexts make it a unique resource for enhancing EV infrastructure deployment in India.
+url: "https://wri-india.org/research/financial-analysis-charging-station-fact"
+status: searchable
+summary: An Excel-based tool for preliminary financial assessment of public charging stations in India. Key outputs include project IRR, cost breakdowns (capital equipment, ancillary infrastructure, electricity, land rental, operator costs), sensitivity analysis with ±10–20% variable ranges, and 10-year revenue projections for charge point operators, distribution utilities, and landowners. A solver function identifies parameter changes needed to reach hurdle rates. Default values reflect Indian tariff structures, Ministry of Power charger standards, and State Bank of India lending rates. Electricity and land costs represent the largest operating cost shares over the project period.
 ---
 
 # Financial Analysis of Charging station (FACt)

@@ -12,7 +12,9 @@ year_published: 2020
 article_type: Report
 wri_primary_office: WRI Mexico
 language: es
-status: needs_review
+languages: [es]
+status: searchable
+summary: "This report shows that Mexican cities, which are home to two-thirds of the population, face critical challenges, including air quality, water supply, sociospatial inequality, and unplanned urban expansion, all of which hinder the transition toward sustainable and resilient cities. Within the framework of the Coalition for Urban Transformation in Mexico, led by WRI Mexico, the report identifies six federal-level action areas to enable the transition to a compact, connected, coordinated, clean, and equitable urban model: housing, land management, sustainable mobility, resilience and risk management, metropolitan governance, and urban finance. The report highlights shortcomings in current federal public policy, including a housing policy oriented toward low-density peripheral developments, the absence of land reserves, the lack of integration of cadastral information, budgetary rules that constrain investment in sustainable mobility, reactive risk management, and weak, voluntary metropolitan governance. The report recommends a consolidated federal policy based on shared responsibility among the three levels of government, progressive federal support according to local capacities, and the integration of policy instruments to achieve the sustainability of the urban development model."
 ---
 
 # Acciones federales para la planeación urbana:

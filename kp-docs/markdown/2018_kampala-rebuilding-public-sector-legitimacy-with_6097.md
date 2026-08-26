@@ -3,17 +3,19 @@ doc_id: 2018_kampala-rebuilding-public-sector-legitimacy-with_6097
 source_pdf: kp-docs/askwri-kps/2018_kampala-rebuilding-public-sector-legitimacy-with_6097.pdf
 extraction_method: cache-plaintext
 char_count: 105386
-title: "Kampala: Rebuilding Public Sector Legitimacy with A New Approach to Sanitation Services"
+title: "Kampala: Rebuilding Public Sector Legitimacy With a New Approach to Sanitation Services"
+title_en: "Kampala: Rebuilding Public Sector Legitimacy with a New Approach to Sanitation Services"
 authors: Lwasa, Shuaib; Owens, Kate
-date_published: 10/31/2018
+date_published: 2018-10-31
+year_published: 2018
+publication_title: "Kampala: Rebuilding Public Sector Legitimacy With a New Approach to Sanitation Services"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/kampala-rebuilding-public-sector-legitimacy-new-approach-sanitation-services"
-doi: No DOI listed
-summary: This case study in the World Resources Report, “Towards a More Equal City,” examines transformative urban change in Kampala, Uganda, by following its sanitation reforms. The research follows the political process that created favorable conditions for the implementation of innovative solutions to sanitation service provision. This paper also reviews the evidence on whether the sanitation reform triggered a transformative change with equitable outcomes in the city of Kampala overall.
+status: searchable
+summary: "Kampala's water utility (NWSC) increased human waste treated from 2,460 m³ to 80,927 m³ between 2003 and 2015—over 30 times—despite negligible growth in sewer connections. Reforms succeeding a late-1990s legitimacy crisis included establishing a pro-poor unit, performance-based incentives, and multi-stakeholder partnerships with NGOs, community groups, and small businesses. The Gulper vacuum technology enabled affordable fecal sludge collection in dense informal settlements. Customer satisfaction rose from 61% (2009) to 84% (2017). Key barriers include projectization mentality, a fragmented private sector, and limited information sharing among stakeholders."
 ---
 
 # Kampala: Rebuilding Public Sector Legitimacy with A New Approach to Sanitation Services

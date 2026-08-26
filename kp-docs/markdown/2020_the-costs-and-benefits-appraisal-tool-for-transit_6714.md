@@ -3,17 +3,20 @@ doc_id: 2020_the-costs-and-benefits-appraisal-tool-for-transit_6714
 source_pdf: kp-docs/askwri-kps/2020_the-costs-and-benefits-appraisal-tool-for-transit_6714.pdf
 extraction_method: cache-plaintext
 char_count: 123832
-title: The Costs and Benefits Appraisal Tool for Transit Buses (Working Paper)
+title: The Costs and Benefits Appraisal Tool for Transit Buses
+title_en: The Costs and Benefits Appraisal Tool for Transit Buses
 authors: Li, Xiangyi; Gao, Jun; Song, Su
-date_published: 10/11/2020
+date_published: 2020-10-11
+year_published: 2020
+publication_title: The Costs and Benefits Appraisal Tool for Transit Buses
 article_type: Technical Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/costs-and-benefits-appraisal-tool-transit-buses"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/writn.19.00147"
-summary: The Costs and Benefits Appraisal Tool for Transit Buses (“the Tool”) is an updated version of the Costs and Emissions Appraisal Tool for Transit Buses. It aims to inform bus operators and city officials of the costs, emissions, and social benefits associated with bus fleets using different fuel types. The Tool’s outputs can help bus operators make the most cost-efficient decisions when making a clean bus upgrade, allow transit agencies to validate information provided by bus operators, and inform city officials of the social benefits of a low-carbon transit fleet.
+url: "https://www.wri.org/research/costs-and-benefits-appraisal-tool-transit-buses"
+status: searchable
+summary: "The updated webtool covers bus fleets in China, the EU, United States, Brazil, India, and Mexico, comparing diesel, CNG, LNG, and battery electric buses across procurement, operational, and maintenance costs. It calculates total cost of ownership, tailpipe and upstream emissions, and monetized social costs from air pollution and carbon. Electric bus replacement ratios of 1:1 to 2:1 are recommended for scenario testing. Social costs use localized, PPP-adjusted factors per pollutant tonne. Charging infrastructure costs—procurement, construction, and operations—are included separately. Users are encouraged to input local data rather than rely on defaults."
 ---
 
 # The Costs and Benefits Appraisal Tool for Transit Buses (Working Paper)

@@ -3,17 +3,20 @@ doc_id: 2024_real-world-electric-bus-operation-trend-in_3497
 source_pdf: kp-docs/askwri-kps/2024_real-world-electric-bus-operation-trend-in_3497.pdf
 extraction_method: cache-plaintext
 char_count: 117184
-title: "Real-world Electric Bus Operation: Trend in Technology, Performance, Degradation, and Lifespan of Batteries"
+title: "Real-World Electric Bus Operation: Trend in Technology, Performance, Degradation, and Lifespan of Batteries"
+title_en: "Real-World Electric Bus Operation: Trend in Technology, Performance, Degradation, and Lifespan of Batteries"
 authors: Kumar, Dr Parveen; Mulukutla, Pawan; Doshi, Priyansh
-date_published: 12/1/2024
+date_published: 2024-12-01
+year_published: 2024
+publication_title: "Real-World Electric Bus Operation: Trend in Technology, Performance, Degradation, and Lifespan of Batteries"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/real-world-electric-bus-operation-trend-technology-performance-degradation-and-lifespan"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.22.00097"
-summary: Battery lifespan in electric buses (e-buses) is significantly affected by external conditions, with accelerated degradation under high temperatures and improper charging practices leading to reduced operational capacity and increased total cost of ownership. This working paper analyzes real-world data and experimental findings on battery technologies, particularly lithium-ion variants, to assess their performance under varying climates, especially in India. Recommendations include optimizing battery sizing, implementing efficient thermal management systems, and adopting advanced battery management systems for real-time monitoring. The findings emphasize the need for tailored strategies and policies to enhance battery longevity and economic viability in the growing e-bus market.
+url: "https://wri-india.org/research/real-world-electric-bus-operation-trend-technology-performance-degradation-and-lifespan"
+status: searchable
+summary: "LFP batteries suit shorter routes and hot climates; NMC suits longer duty cycles. Fast charging reduces NMC lifespan by 10%. LFP reaches end-of-life (80% capacity) in 4,000 cycles at 25°C but only 2,000 at 45°C; NMC completes life in 1,200 cycles at 34°C and 500 at 46°C. Battery degradation reduces e-bus range by 26% over lifetime. A 20% reduction in battery life raises total cost of ownership by 2.2%; a 10–30% range decrease raises TCO by 13–30%. Recommendations: keep SoC below 80%, avoid fast charging except for LTO batteries, deploy thermal management systems, and establish data-sharing frameworks for India-specific battery standards."
 ---
 
 # Real-world Electric Bus Operation: Trend in Technology, Performance, Degradation, and Lifespan of Batteries

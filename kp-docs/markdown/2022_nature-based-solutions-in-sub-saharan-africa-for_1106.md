@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2022_nature-based-solutions-in-sub-saharan-africa
 extraction_method: cache-plaintext
 char_count: 83424
 title: Nature-Based Solutions in Sub-Saharan Africa for Climate and Water Resilience
+title_en: "Nature-Based Solutions in Sub-Saharan Africa for Climate and Water Resilience: A Methodology for Evaluating the Regional Status of Investments in Nature-Based Solutions From a Scan of Multilateral Development Bank Portfolios"
 authors: Oliver, Emmie; Marsters, Lizzie
-date_published: 3/11/2022
+date_published: 2022-03-11
+year_published: 2022
+publication_title: Nature-Based Solutions in Sub-Saharan Africa for Climate and Water Resilience
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/nature-based-solutions-sub-saharan-africa-climate-and-water-resilience"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.22.00159"
-summary: This technical note outlines the methodology used to create a region-wide dataset of projects that have implemented NBS for climate- and water-resilience objectives in two multilateral development bank (MDB) portfolios — the World Bank and the African Development Bank.
+url: "https://www.wri.org/research/nature-based-solutions-sub-saharan-africa-climate-and-water-resilience"
+status: searchable
+summary: A scan of World Bank and African Development Bank portfolios identified 85 NBS projects in Sub-Saharan Africa (2012–2021), totaling ~$12.1 billion, with NBS components valued at ~$4.5 billion. East Africa led with 36 projects; Ethiopia, Ghana, and Malawi had the most. Water and sanitation was the primary benefiting sector (54 projects), followed by agriculture (38). Sixty-four percent of projects integrated green-gray approaches; 36% were purely green. Forests dominated water-focused interventions; mangroves led coastal projects; urban parks addressed flood risk. Rural residents were the most common beneficiaries. NBS for adaptation represented only 1.4–3.4% of international public climate finance in 2018, far below what targets require.
 ---
 
 # Nature-Based Solutions in Sub-Saharan Africa for Climate and Water Resilience

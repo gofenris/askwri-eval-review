@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2022_zero-emission-delivery-zones-decarbonizing-u
 extraction_method: cache-plaintext
 char_count: 100524
 title: "Zero-Emission Delivery Zones: Decarbonizing Urban Freight and Goods Delivery in U.S. Cities"
+title_en: "Zero-Emission Delivery Zones: Decarbonizing Urban Freight and Goods Delivery in U.S. Cities"
 authors: Steimer, Hamilton; Kothari, Vishant; Cassius, Sarah
-date_published: 11/14/2022
+date_published: 2022-11-14
+year_published: 2022
+publication_title: "Zero-Emission Delivery Zones: Decarbonizing Urban Freight and Goods Delivery in U.S. Cities"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI US
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/zero-emission-delivery-zones-us-cities"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.22.00022"
-summary: Zero-Emission Delivery Zones (ZEDZs) are proposed as a solution to mitigate the negative impacts of urban freight, such as air pollution and greenhouse gas emissions, particularly affecting low-income communities. The research employs qualitative analysis, including literature reviews and interviews with over 15 stakeholders, to identify best practices from existing ZEDZ implementations in cities like Rotterdam and Santa Monica. Key recommendations emphasize early stakeholder engagement, a stepwise implementation approach, supportive policies, and prioritizing equity throughout the ZEDZ planning process. These insights aim to guide U.S. cities in effectively transitioning to zero-emission delivery systems while addressing social and economic disparities.
+url: "https://www.wri.org/research/zero-emission-delivery-zones-us-cities"
+status: searchable
+summary: Urban freight disproportionately pollutes low-income communities near roads and distribution centers. ZEDZs—zones restricting access to zero-emission delivery vehicles only—are the recommended policy response. Cities should engage stakeholders early, adopt a stepwise approach toward mandatory zones, provide purchase subsidies and charging infrastructure, and prioritize equity for small carriers and freight-dependent businesses. Rotterdam, Santa Monica, Los Angeles, and Seattle offer early lessons. Poorly designed exemptions can undermine effectiveness. State and federal enabling legislation is needed, as U.S. cities currently lack legal authority for mandatory ZEDZs.
 ---
 
 # Zero-Emission Delivery Zones: Decarbonizing Urban Freight and Goods Delivery in U.S. Cities

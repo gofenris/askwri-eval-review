@@ -3,17 +3,20 @@ doc_id: 2022_decarbonizing-chinas-road-transport-sector_2101
 source_pdf: kp-docs/askwri-kps/2022_decarbonizing-chinas-road-transport-sector_2101.pdf
 extraction_method: cache-plaintext
 char_count: 240913
-title: "Decarbonizing China's road transport sector: strategies towards carbon neutrality"
+title: "Decarbonizing China's Road Transport Sector: Strategies Towards Carbon Neutrality"
+title_en: "Decarbonizing China's Road Transport Sector: Strategies Toward Carbon Neutrality"
 authors: Xue, Lulu; Liu, Daizong
-date_published: 5/25/2022
+date_published: 2022-05-25
+year_published: 2022
+publication_title: "Decarbonizing China's Road Transport Sector: Strategies Towards Carbon Neutrality"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/decarbonizing-chinas-road-transport-sector-strategies-toward-carbon-neutrality"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrirpt.21.00145"
-summary: "Decarbonizing China's road transport sector is crucial for achieving carbon neutrality by 2060, with potential GHG emissions reductions of 50-95% from 2020 levels depending on policy implementation. Utilizing the Low Emissions Analysis Platform (LEAP) model, the study identifies that vehicle electrification offers the greatest long-term decarbonization potential, while structural changes are more effective in the near term. Significant investments of 39-83 trillion CNY are required to transition effectively, emphasizing the need for enhanced structural changes and electrification strategies. The findings highlight the importance of ambitious policy measures to align with national carbon peaking and neutrality goals, particularly in freight transport, which could yield substantial emissions reductions."
+url: "https://www.wri.org/research/decarbonizing-chinas-road-transport-sector-strategies-toward-carbon-neutrality"
+status: searchable
+summary: "China's road transport emissions can peak before 2030 under stated policies or by 2025 with stronger measures. Full decarbonization—95% reduction from 2020 levels by 2060—requires 100% NEV passenger car sales by 2035, 100% HDT sales by 2050, plus freight mode shifts and improved occupancy. Vehicle electrification offers 48% of cumulative reductions, while structural changes dominate near-term gains through 2035. Required investment totals 39–83 trillion CNY by 2060, with the lowest-cost pathway at 675 CNY per tonne CO₂eq. Air pollutants will decline once China 6 standards are enforced."
 ---
 
 # Decarbonizing China's road transport sector: strategies towards carbon neutrality

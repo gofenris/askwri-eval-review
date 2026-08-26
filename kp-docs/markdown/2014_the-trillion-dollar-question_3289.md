@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2014_the-trillion-dollar-question_3289.pdf
 extraction_method: cache-plaintext
 char_count: 42303
 title: The Trillion Dollar Question
+title_en: "The Trillion Dollar Question: Tracking Public and Private Investment in Transport"
 authors: Lefevre, Benoit; Leipziger, David; Raifman, Matthew
-date_published: 1/15/2014
+date_published: 2014-01-15
+year_published: 2014
+publication_title: The Trillion Dollar Question
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/trillion-dollar-question"
-doi: No DOI listed
-summary: This paper attempts to quantify capital investment in transport around the world. Distinguishing public and private investment at the national and international level is the first step needed to shift investment towards more sustainable, low-carbon modes and systems.
+status: searchable
+summary: Annual global transport capital investment totals US$1.4–2.1 trillion, with private sources comprising slightly more than half. Public investment ranges from US$569–905 billion, nearly all from domestic budgets; international ODA contributes just 2%, while climate funds provide under 0.1%. Private investment reaches US$814 billion–1.2 trillion, with three-quarters concentrated in high-income countries. The US, China, and Japan account for roughly half of public spending. Private participation in developing-country transport grew 400% from 2000–2012. Shifting investment toward sustainable, low-carbon transport requires leveraging public finance strategically and establishing stable investment climates to attract private capital.
 ---
 
 # The Trillion Dollar Question

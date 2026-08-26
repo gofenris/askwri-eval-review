@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_synergizing-land-value-capture-and-transit_4
 extraction_method: cache-plaintext
 char_count: 137229
 title: "Synergizing Land Value Capture and Transit-Oriented Development: A Study of Bengaluru Metro"
+title_en: "Synergizing Land Value Capture and Transit-Oriented Development: A Study of Bengaluru Metro"
 authors: Dhindaw, Jaya; Kumaraswamy, Sree Kumar; Prakash, Surya; Chanchani, Radha; Deb, Amartya
-date_published: 1/6/2021
+date_published: 2021-01-06
+year_published: 2021
+publication_title: "Synergizing Land Value Capture and Transit-Oriented Development: A Study of Bengaluru Metro"
 article_type: Practice Note
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/synergizing-land-value-capture-tod"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wripn.20.00082"
-summary: The Government of Karnataka and Bangalore Metro Rail Corporation Limited are exploring ways to offset the heavy economic burden of expanding the metro rail transit network in Bengaluru. Land value capture (LVC) is a public financing strategy that can recover a portion of the real estate value that development along the metro corridor generates for private property owners. Deployed effectively, LVC can help fund the growth of mass transit and allied infrastructure.
+url: "https://www.wri.org/research/synergizing-land-value-capture-tod"
+status: searchable
+summary: "Bengaluru Metro's loan repayment burden could span four decades, making land value capture (LVC) critical yet largely unimplemented. Metro proximity boosted real estate values—inner-city Indiranagar shifted toward commercial use while peripheral Thalagattapura emerged as a housing market. Fragmented land ownership, small plot sizes, and a 150m TOD radius limit LVC potential. Betterment Levy and Premium FAR mechanisms remain unconsidered. Recommendations include empowering BMRCL with financial and planning authority, establishing a Unified Metropolitan Transport Authority, ring-fenced reinvestment of LVC revenues into local improvements, and revising master plan provisions to incentivize plot amalgamation and expand TOD zones citywide."
 ---
 
 # Synergizing Land Value Capture and Transit-Oriented Development: A Study of Bengaluru Metro

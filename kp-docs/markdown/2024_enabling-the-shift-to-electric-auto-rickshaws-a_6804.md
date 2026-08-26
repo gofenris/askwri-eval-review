@@ -3,17 +3,20 @@ doc_id: 2024_enabling-the-shift-to-electric-auto-rickshaws-a_6804
 source_pdf: kp-docs/askwri-kps/2024_enabling-the-shift-to-electric-auto-rickshaws-a_6804.pdf
 extraction_method: cache-plaintext
 char_count: 215192
-title: "Enabling the Shift to Electric Auto-Rickshaws: A Guidebook for Electrification of Auto-rickshaw Fleets in Indian Cities"
+title: "Enabling the Shift to Electric Auto-Rickshaws: A Guidebook for Electrification of Auto-Rickshaw Fleets in Indian Cities"
+title_en: "Enabling the Shift to Electric Auto-Rickshaws: A Guidebook for Electrification of Auto-Rickshaw Fleets in Indian Cities"
 authors: Gounder, Kanika; Kanuri, Chaitanya
-date_published: 4/16/2024
+date_published: 2024-04-16
+year_published: 2024
+publication_title: "Enabling the Shift to Electric Auto-Rickshaws: A Guidebook for Electrification of Auto-Rickshaw Fleets in Indian Cities"
 article_type: Guidebook
-sub_tag: Transport decarbonization
 wri_primary_office: WRI India
-wri_programs: Cities
-language: English
-url: "https://wri-india.org/research/enabling-shift-electric-auto-rickshaws-guidebook-electrification-auto-rickshaw-fleets"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wrigb.22.00087"
-summary: The guidebook outlines a comprehensive roadmap for transitioning auto-rickshaw fleets in Indian cities to electric vehicles, emphasizing their role in reducing urban pollution and enhancing sustainable mobility. It identifies key barriers to electrification, such as financing challenges and the need for robust charging infrastructure, while recommending government incentives and policy frameworks to support this shift. Case studies from cities like Kochi and Delhi illustrate successful implementation strategies. The document serves as a practical resource for stakeholders aiming to foster environmentally friendly urban transport solutions.
+url: "https://wri-india.org/research/enabling-shift-electric-auto-rickshaws-guidebook-electrification-auto-rickshaw-fleets"
+status: searchable
+summary: Indian cities need coordinated policy, financing, and infrastructure for electric auto-rickshaw adoption. State governments should set electrification targets, streamline permits, and waive registration taxes. Charging networks require spatial demand analysis with battery swapping prioritized for high-utilization fleets. Financing barriers demand government-backed loan guarantees, subsidized interest rates, and Battery-as-a-Service models. Case studies from Amritsar, Kochi, and Delhi show that bundling driver training, dedicated charging hubs, and cooperative ownership structures significantly improves adoption outcomes.
 ---
 
 # Enabling the Shift to Electric Auto-Rickshaws: A Guidebook for Electrification of Auto-rickshaw Fleets in Indian Cities

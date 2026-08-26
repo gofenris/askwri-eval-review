@@ -3,17 +3,19 @@ doc_id: 2021_zero-emission-logistic-vehicles-promotion_1319
 source_pdf: kp-docs/askwri-kps/2021_zero-emission-logistic-vehicles-promotion_1319.pdf
 extraction_method: cache-plaintext
 char_count: 30340
-title: "Zero-Emission Logistic Vehicles Promotion Challenges and Experiences: Beijing Case Study"
-authors: Qiu, Shiyong; Xue, Lulu; Jing, Cai; Jiaqi, Chen; Liying, Song; Zheng, Wu
-date_published: 1/4/2021
+title: 城市新能源物流车推广的挑战与经验：北京的启示
+title_en: "Zero-Emission Logistic Vehicles Promotion Challenges and Experiences: Beijing Case Study"
+authors: Qiu, Shiyong; Xue, Lulu; Cai, Jing; Chen, Jiaqi; Song, Liying; Wu, Zheng
+date_published: 2021-08-24
+year_published: 2021
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/zero-emission-logistic-vehicles-promotion-challenges-and-experiences-beijing-case-study"
-doi: No DOI listed
-summary: Although urban logistic vehicles constitute less than 10% of vehicles on the road in most cities, they account for a disproportionate amount of transport-related CO2 emissions and pollutants. Hence, transitioning to zero-emission logistic vehicles is a key measure for cities to achieve cleaner air and to prevent climate change.
+language: zh
+languages: [zh, en]
+doi: 10.46830/wriwp.20.00083
+url: "https://wri.org.cn/research/zero-emission-logistic-vehicles-promotion-challenges-and-experiences-beijing-case-study"
+status: searchable
+summary: "Beijing's electric logistic vehicles cost 13–16 million CNY more per vehicle than diesel when accounting for operational losses (1.48:1 vehicle ratio needed). Road access privileges and operational subsidies—not purchase subsidies—drive adoption; Beijing's 2019 policy achieved 90% electric share in inner-city light logistics by September 2020. Key barriers: high fault rates, inadequate after-sales services, fragmented operators, strict shipper time windows, and 5:1 vehicle-to-charger ratio. Governments should pilot zero-emission freight zones, establish quality standards, set electrification targets, expand charging infrastructure, consolidate delivery routes, and promote financial leasing models."
 ---
 
 # Zero-Emission Logistic Vehicles Promotion Challenges and Experiences: Beijing Case Study

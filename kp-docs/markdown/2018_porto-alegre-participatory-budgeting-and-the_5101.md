@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2018_porto-alegre-participatory-budgeting-and-the
 extraction_method: cache-plaintext
 char_count: 99636
 title: "Porto Alegre: Participatory Budgeting and the Challenge of Sustaining Transformative Change"
+title_en: "Porto Alegre: Participatory Budgeting and the Challenge of Sustaining Transformative Change"
 authors: Abers, Rebecca; King, Robin; Votto, Daniely; Brandão, Igor
-date_published: 6/13/2018
+date_published: 2018-06-13
+year_published: 2018
+publication_title: "Porto Alegre: Participatory Budgeting and the Challenge of Sustaining Transformative Change"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://www.wri.org/research/porto-alegre-participatory-budgeting-and-challenge-sustaining-transformative-change"
-doi: No DOI listed
-summary: "This case study in the World Resources Report, \"Towards a More Equal City,\" examines transformative urban change in Porto Alegre, Brazil, through the lens of participatory budgeting. The research focuses on whether and how transformative change has taken place in the city between 1990 and the present."
+status: searchable
+summary: "Porto Alegre's participatory budgeting (PB) successfully included the poor in decisions, broke clientelism, and redistributed infrastructure—sewer connections rose from 46% to 85% of households by 2002, and 300km of roads were paved between 1988–2002, disproportionately benefiting poorer regions. However, declining political commitment undermined these gains. The PB proved effective for small-scale, neighborhood infrastructure but failed to connect citizens to long-term city planning. Sustaining transformative change requires broad stakeholder participation, adequate financing, institutions resilient to political shifts, and genuine commitment to implementing community proposals."
 ---
 
 # Porto Alegre: Participatory Budgeting and the Challenge of Sustaining Transformative Change

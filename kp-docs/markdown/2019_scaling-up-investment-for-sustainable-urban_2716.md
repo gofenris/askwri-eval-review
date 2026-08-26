@@ -4,16 +4,18 @@ source_pdf: kp-docs/askwri-kps/2019_scaling-up-investment-for-sustainable-urban_
 extraction_method: cache-plaintext
 char_count: 171524
 title: "Scaling Up Investment for Sustainable Urban Infrastructure: A Guide to National and Subnational Reform"
+title_en: "Scaling Up Investment for Sustainable Urban Infrastructure: A Guide to National and Subnational Reform"
 authors: Ahmad, Ehtisham; Dowling, Dan; Chan, Denise; Colenbrander, Sarah; Godfrey, Nick
-date_published: 4/20/2019
+date_published: 2019-04-20
+year_published: 2019
+publication_title: "Scaling Up Investment for Sustainable Urban Infrastructure: A Guide to National and Subnational Reform"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/scaling-up-investment-for-sustainable-urban-infrastructure-a-guide-to-national-and-subnational-reform/"
-doi: No DOI listed
-summary: Scaling up investment for sustainable urban infrastructure necessitates a coordinated approach between national and subnational governments to effectively mobilize resources exceeding US$1 trillion annually. The paper advocates for a comprehensive fiscal policy framework that combines various tax instruments, such as income and carbon taxes, with innovative financing mechanisms like public-private partnerships and land-based financing. It emphasizes the importance of establishing robust multilevel tax systems and regulatory frameworks to ensure equitable and sustainable urban growth. By addressing fiscal preconditions and enhancing local government capacities, this approach aims to drive cleaner economic development while minimizing fiscal and climate risks.
+status: searchable
+summary: Closing a $1 trillion annual sustainable urban infrastructure gap requires coordinated national-subnational fiscal reform, not isolated financing instruments. National governments should deploy complementary VAT, income taxes, and carbon pricing ($40–$80/tonne) to build revenue bases enabling subnational borrowing. Local governments need own-source revenues—property taxes, piggyback surcharges on national taxes, user fees—to anchor credit access for municipal bonds and PPPs. Debt financing, PPPs, and land-based instruments can scale investment only after fiscal, regulatory, institutional, and technical preconditions are met. Liabilities must be tracked across all government tiers using international standards.
 ---
 
 # Scaling Up Investment for Sustainable Urban Infrastructure: A Guide to National and Subnational Reform

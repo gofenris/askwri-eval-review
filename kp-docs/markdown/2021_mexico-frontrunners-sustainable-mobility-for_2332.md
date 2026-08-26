@@ -3,17 +3,19 @@ doc_id: 2021_mexico-frontrunners-sustainable-mobility-for_2332
 source_pdf: kp-docs/askwri-kps/2021_mexico-frontrunners-sustainable-mobility-for_2332.pdf
 extraction_method: cache-plaintext
 char_count: 103767
-title: "Mexico Frontrunners | Sustainable mobility for sustainable cities: Lessons from cycling schemes in Mexico City and Guadalajara, Mexico"
+title: "Sustainable Mobility for Sustainable Cities: Lessons From Cycling Schemes in Mexico City and Guadalajara, Mexico (Mexico Frontrunners)"
+title_en: "Sustainable Mobility for Sustainable Cities: Lessons from Cycling Schemes in Mexico City and Guadalajara, Mexico"
 authors: Balderas Torres, Arturo; Zafra Ortega, Andrea; Sudmant, Andrew; Gouldson, Andy
-date_published: 2/26/2021
+date_published: 2021-02-26
+year_published: 2021
+publication_title: "Sustainable Mobility for Sustainable Cities: Lessons From Cycling Schemes in Mexico City and Guadalajara, Mexico (Mexico Frontrunners)"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
+language: en
+languages: [en]
 url: "https://urbantransitions.global/en/publication/mexico-frontrunners/"
-doi: No DOI listed
-summary: Sustainable urban mobility is essential for enhancing livability in cities, as evidenced by the public bicycle-sharing schemes (PBSS) in Mexico City and Guadalajara, which serve as critical components of urban transport infrastructure. The research utilized semi-structured interviews, surveys, and analysis of open data to assess the impact of these cycling initiatives, revealing significant public health benefits and potential for scaling up to save thousands of lives. Despite currently covering only a small portion of urban areas, these schemes promote active transport and resilience against disruptions, such as fuel shortages. Policy recommendations emphasize the need for integrated transport planning and infrastructure expansion to maximize the benefits of cycling in urban environments.
+status: searchable
+summary: "EcoBici and MiBici cover 3% and 5% of their respective metropolitan areas and complement public transit. During Mexico's 2019 fuel shortage, MiBici saw dramatic ridership spikes, demonstrating resilience. COVID-19 caused historic drops, though public schemes outlasted private operators. Expanding comparable schemes across Mexico's 20 cities with populations over 500,000 could save thousands of lives annually through improved air quality and physical activity. Policy recommendations include integrating cycling infrastructure into urban planning, improving road safety, enhancing interoperability with transit, and establishing national government support for sustainable mobility."
 ---
 
 # Mexico Frontrunners | Sustainable mobility for sustainable cities: Lessons from cycling schemes in Mexico City and Guadalajara, Mexico

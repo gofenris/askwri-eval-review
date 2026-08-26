@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 186007
 title: Mapping Scenarios and Estimating the Potential for Heat-Resilient Infrastructure in Cities
+title_en: Mapping Scenarios and Estimating the Potential for Heat-Resilient Infrastructure in Cities
 authors: Elizabeth Jane Wesley; Eric Mackres; Kurt Shickman; Clemens Janssen; Madeline Mulder; Theodore Wong
 date_published: 2026-03-16
 year_published: 2026
 article_type: Technical Note
 wri_primary_office: WRI Global
 language: en
+languages: [en]
 doi: 10.46830/writn.24.00028
 status: searchable
+summary: "This technical note introduces a scalable, open-source framework for mapping and quantifying heat-resilient infrastructure across cities. It couples a new high-resolution land-use/land-cover dataset with remotely sensed layers (albedo, tree canopy, fractional vegetation, land-surface temperature) to build three nested scenario levels: technical (maximum feasible), achievable (benchmarked to high-performing areas), and program (policy-driven). The workflow produces spatially explicit scenario maps and “potentials,” i.e., area-wide estimates of changes in surface characteristics under full implementation. Example applications include street-tree planting, cool roofs, reflective pavements/walls, shade structures, and greenspace interventions. Outputs are designed to be flexible, adaptable, and scalable for neighborhood-to-city analyses and to support practitioners by translating complex data into actionable insights. The framework is integrated with thermal-comfort modeling and the Cool Cities Lab interactive tool. Notably, cost is not yet incorporated and is prioritized for future development."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

@@ -8,11 +8,15 @@ char_count: 31211
 title: 50 años de la Ciclovía de Bogotá
 title_en: "50 Years of Bogotá's Ciclovía"
 authors: Alejandra Achury; Daniel Cano; Sandra Meneses
-year_published: 2024
+date_published: 2026-03-11
+year_published: 2026
 article_type: Acta de Conferencia
 wri_primary_office: WRI Colombia
 language: es
-status: needs_review
+languages: [es]
+url: "https://es.wri.org/publicaciones/50-anos-de-la-ciclovia-de-bogota"
+status: searchable
+summary: This conference proceedings document shows that Bogotá’s Ciclovia program, which began operating in 1974 by closing main roads to vehicular traffic on Sundays, has become a cultural, social, and public policy driver. The publication summarizes the discussions and key lessons from the commemorative academic event organized by Universidad de los Andes with the support of WRI Colombia, and documents how the Bogotá model inspired initiatives such as CicLAvia in Los Angeles, Ciclodia in Lima, and Open Streets in Cape Town. These examples demonstrate tangible impacts, including high levels of public participation, the promotion of sustainable transportation modes, local job creation (approximately 15.75 jobs per kilometer along the Ciclovia), and increased sales for local businesses (up to 57% during CicLAvia events). The report highlights the crucial role of activists, regional networks, and public-private partnerships in financing and sustaining these activities. Drawing on data related to infrastructure and participation, the proceedings conclude that open streets programs serve as urban laboratories for activating and reimagining public space.
 ---
 
 ![img-0.jpeg](img-0.jpeg)

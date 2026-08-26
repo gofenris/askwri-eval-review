@@ -6,14 +6,17 @@ parse_backend: mistral
 parse_model: mistral-ocr-latest
 char_count: 132342
 title: "Vertical Integration: Bridging National and Local Climate Adaptation in Indonesia, Brazil and India"
+title_en: "Vertical Integration: Bridging National and Local Climate Adaptation in Indonesia, Brazil and India"
 authors: Wira A. Swadana; Rebecca Carter; Miriam Garcia; Vivek Venkataramani; Farijzal Arrafisena; Hallyena Risfenti; Antonio Ouro; Retno Wihanesta; Egi Suarga; Henrique Evers; Courtnae Bailey
 date_published: 2026-06-29
 year_published: 2026
 article_type: Working Paper
 wri_primary_office: WRI Global
 language: en
+languages: [en]
 doi: 10.46830/wriwp.25.00069
 status: searchable
+summary: "This working paper shows that large, decentralized countries must strengthen connections between national and local governments to deliver effective climate adaptation. Focusing on Indonesia, Brazil and India, the authors find common barriers—fragmented governance, uneven technical capacity, and financing and data shortfalls—that prevent national plans from reaching vulnerable communities. Using qualitative case studies, literature review and stakeholder engagement conducted January–September 2025, the study demonstrates that vertical integration (alignment across planning, implementation and monitoring) would make adaptation more locally relevant, accountable and financeable. It recommends four practical reforms: clarify mandates and create binding coordination protocols across sectors and levels of government; invest in capacity building for sub‑national officials; harmonize risk assessment, data systems and monitoring to improve accountability; and design financial mechanisms that allow funds to flow to local actors in a traceable way. The paper argues these steps will help translate national commitments into tangible resilience on the ground and support countries’ reporting under the United Nations Framework Convention on Climate Change."
 ---
 
 ![img-0.jpeg](img-0.jpeg)

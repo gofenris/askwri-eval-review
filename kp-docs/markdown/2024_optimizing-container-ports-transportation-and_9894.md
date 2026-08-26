@@ -3,17 +3,19 @@ doc_id: 2024_optimizing-container-ports-transportation-and_9894
 source_pdf: kp-docs/askwri-kps/2024_optimizing-container-ports-transportation-and_9894.pdf
 extraction_method: cache-plaintext
 char_count: 108086
-title: "Optimizing container ports’ transportation and Distribution systems toward a low-carbon future: A Shenzhen port case study"
-authors: Renjie, Wang; Daoyuan, Yang; Xing, Chang; Xiaoyu, Tan; Youkai, Xing; Xiaoyi, Li; Xue, Lulu; Chen, Ke
-date_published: 7/26/2024
+title: 集装箱港集疏运体系低碳发展潜力研究：深圳港的启示
+title_en: "Optimizing Container Ports' Transportation and Distribution Systems Toward a Low-Carbon Future: A Shenzhen Port Case Study"
+authors: Wang, Renjie; Yang, Daoyuan; Chang, Xing; Tan, Xiaoyu; Xing, Youkai; Li, Xiaoyi; Xue, Lulu; Chen, Ke
+date_published: 2024-08-05
+year_published: 2024
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI China
-wri_programs: Cities
-language: Chinese
-url: "https://wri.org.cn/en/research/Optimizing-container-ports-transportation-and-Distribution-systems-toward-a-low-carbon-future"
+language: zh
+languages: [zh]
 doi: "https://doi.org/10.46830/wrirpt.23.00130"
-summary: To tackle the socio-environmental challenges associated with container ports’ transportation and distribution systems, this study uses Shenzhen Port—the third-largest container port globally—as an example.
+url: "https://wri.org.cn/research/Optimizing-container-ports-transportation-and-Distribution-systems-toward-a-low-carbon-future"
+status: searchable
+summary: "Rail modal shift delivers greatest CO₂ and air pollutant reductions at Shenzhen's Yantian Port, where road transport handles 82% of container throughput. Meeting Shenzhen's 2035 targets—rail and water exceeding 50%—cuts well-to-wheel CO₂ by 50%; with 95% new-energy trucks, reductions reach 71%. The 2025 scenario cuts only 1%. Water transport reduces CO₂ but increases NOₓ, PM2.5, HC, and SO₂, requiring low-carbon vessel fuels and emission control zones. No single measure achieves deep decarbonization; authorities must expand rail and port infrastructure, develop cargo sources, improve intermodal coordination, and accelerate new-energy truck adoption."
 ---
 
 # Optimizing container ports’ transportation and Distribution systems toward a low-carbon future: A Shenzhen port case study

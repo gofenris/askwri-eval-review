@@ -3,17 +3,20 @@ doc_id: 2021_ruas-completas-no-brasil-promovendo-uma-mudanca_5028
 source_pdf: kp-docs/askwri-kps/2021_ruas-completas-no-brasil-promovendo-uma-mudanca_5028.pdf
 extraction_method: cache-plaintext
 char_count: 255658
-title: "Ruas Completas no Brasil: Promovendo uma mudança de paradigma"
+title: "Ruas Completas no Brasil: Promovendo uma Mudança de Paradigma"
+title_en: "Complete Streets in Brazil: Promoting a Paradigm Shift"
 authors: Bonini, Ana Paula Hoppe; Turbay, André; Rosa, Ashiley Adelaide; Araújo, Betina; Frankl, Carla Choma; Redondo, Débora; Zampieri, Fábio Lúcio Lopes; Tavares, Fabrício; Balestro, Fernanda; Lima, Fernando Tadeu de Araújo; Lentino, Izabella; Torres, Jair Gustavo de Mello; Oliveira, Marcelo José Vieira; Valente, Marcelo; Lemos, Maria Fernanda; Santos, Paula Manoela dos; Rosa, Michelle da Silveira; Lima, Ronaldo; Rodrigues, Ronaldo; Santos, Paula Manoela dos; Samios, Ariadne; Batista, Bruno
-date_published: 7/7/2021
+date_published: 2021-07-07
+year_published: 2021
+publication_title: "Ruas Completas no Brasil: Promovendo uma Mudança de Paradigma"
 article_type: Report
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Brasil
-wri_programs: Cities
-language: Portuguese
-url: "https://www.wribrasil.org.br/publicacoes/ruas-completas-no-brasil"
+language: pt
+languages: [pt]
 doi: "https://doi.org/10.46830/wrirpt.19.00106"
-summary: "Brazil's car-centric urban development has endangered pedestrians and cyclists while reducing quality of life. Complete Streets redesign urban spaces to safely accommodate all users regardless of mode, ability, or income. Since 2017, WRI Brasil and the National Mayors' Front supported 21 cities implementing complete streets pilots. Eight case studies—spanning São Paulo, Salvador, Juiz de Fora, Porto Alegre, Campinas, São José dos Campos, Curitiba, and Niterói—demonstrate the concept's broad applicability. Results include 92% user approval ratings, zero traffic fatalities, and speed reductions of 17 km/h. Successful implementation requires cross-departmental coordination, community participation, and impact monitoring. Tactical urbanism enables low-cost, phased transformation before permanent infrastructure investment."
+url: "https://www.wribrasil.org.br/publicacoes/ruas-completas-no-brasil"
+status: searchable
+summary: Eight Brazilian cities demonstrated that complete streets—redesigned to prioritize pedestrians, cyclists, and transit users—deliver measurable safety and quality-of-life gains. In Salvador, zero traffic deaths occurred post-intervention, with the lowest injury crashes in eight years. In Juiz de Fora, average speeds dropped 17 km/h and incidents fell 43%. In Porto Alegre, 91% of residents approved changes. In Niterói, 35% of car-only road space was reallocated to collective transport, expanding pedestrian areas by 20%. Successful implementation requires coordinated diagnosis, design, implementation, and impact measurement across municipal agencies, with community participation throughout.
 ---
 
 # Ruas Completas no Brasil: Promovendo uma mudança de paradigma

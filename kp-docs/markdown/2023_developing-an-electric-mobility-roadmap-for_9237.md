@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2023_developing-an-electric-mobility-roadmap-for_
 extraction_method: cache-plaintext
 char_count: 137085
 title: "Developing an Electric Mobility Roadmap for Vietnam: Global Experiences From National Case Studies"
+title_en: "Developing an Electric Mobility Roadmap for Vietnam: Global Experiences from National Case Studies"
 authors: Liu, K. Zé; Ly, Stephanie; Ghanadan, Linus; Ding, Yifan; Jackson, Eleanor; Steimer, Hamilton; Cassius, Sarah; Li, Xiangyi; Freehafer, Lydia
-date_published: 5/15/2023
+date_published: 2023-05-15
+year_published: 2023
+publication_title: "Developing an Electric Mobility Roadmap for Vietnam: Global Experiences From National Case Studies"
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/electric-mobility-roadmap-vietnam-case-studies"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.21.00172"
-summary: "Vietnam's transition to electric mobility (e-mobility) is informed by lessons from eight international case studies, emphasizing the importance of stakeholder engagement, clear timelines, and localized strategies. The paper outlines a structured approach for developing an actionable e-mobility roadmap that includes targets for reducing emissions, enhancing local industry, and building necessary infrastructure. Key recommendations include prioritizing predominant vehicle types for electrification and incorporating hybrid technologies as transitional solutions. The findings suggest that effective implementation will require ongoing monitoring and flexibility to adapt to changing conditions, ultimately supporting Vietnam's climate commitments and transportation decarbonization goals."
+url: "https://www.wri.org/research/electric-mobility-roadmap-vietnam-case-studies"
+status: searchable
+summary: "Effective e-mobility roadmaps must be concrete, actionable, localized, and flexible. Stakeholder inclusion from the start—spanning government ministries, research institutions, and industry—is critical. Governments should prioritize electrifying the most prevalent vehicle type: China focused on transit buses, Taiwan on motorcycles. Hybrid vehicles should be positioned as transitional technology toward full electrification, as Malaysia explicitly does. National EV portals like India's e-AMRIT accelerate adoption by centralizing financing options. Subnational governments must offer complementary subsidies and zero-emission zones. Battery manufacturers need early engagement given supply's impact on EV costs."
 ---
 
 # Developing an Electric Mobility Roadmap for Vietnam: Global Experiences From National Case Studies

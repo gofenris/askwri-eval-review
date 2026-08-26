@@ -4,16 +4,19 @@ source_pdf: kp-docs/askwri-kps/2021_steering-a-green-healthy-and-inclusive-recov
 extraction_method: cache-plaintext
 char_count: 152807
 title: Steering a Green, Healthy, and Inclusive Recovery Through Transport
+title_en: Steering a Green, Healthy, and Inclusive Recovery Through Transport
 authors: Fried, Travis; Welle, Ben; Avelleda, Sergio
-date_published: 6/24/2021
+date_published: 2021-06-24
+year_published: 2021
+publication_title: Steering a Green, Healthy, and Inclusive Recovery Through Transport
 article_type: Working Paper
-sub_tag: Transport decarbonization
 wri_primary_office: WRI Global
-wri_programs: Cities
-language: English
-url: "https://www.wri.org/research/green-recovery-transportation"
+language: en
+languages: [en]
 doi: "https://doi.org/10.46830/wriwp.20.00134"
-summary: The pandemic and resulting economic fallout have upended mobility. This report, with the Transport Decarbonisation Alliance (TDA), evaluates how countries, cities, and companies have allocated funds, directed policies, or launched actions that impact the transport sector. It provides evidence of how these interventions could shape long-term economic recovery that addresses climate, health, safety, and equity goals.
+url: "https://www.wri.org/research/green-recovery-transportation"
+status: searchable
+summary: "Of $298B in global transport stimulus (March 2020–February 2021), only 44% targeted environmentally positive subsectors. Five priority action areas can drive decarbonization while creating jobs: stabilizing public transport (which generates 15–21 more jobs per $1M than road-building); expanding walking and cycling infrastructure; accelerating EV adoption alongside renewable energy transition; shifting passengers and freight to rail; and funding clean R&D with just-transition workforce programs. Green recovery could yield 52 million new jobs globally by 2030, with 20% from low-carbon transport. Countries, cities, and companies must align stimulus spending with NDC commitments ahead of COP26."
 ---
 
 # Steering a Green, Healthy, and Inclusive Recovery Through Transport
