@@ -476,6 +476,7 @@ def _(MARKDOWN_DIR, selected_query, yaml):
         {
             "external_id": doc_id,
             "title": (meta := _parse_frontmatter(doc_id)).get("title", doc_id),
+            "title_en": meta.get("title_en", ""),
             "authors": meta.get("authors", ""),
             "date_published": meta.get("date_published", ""),
             "article_type": meta.get("article_type", ""),
@@ -521,6 +522,9 @@ def _(a, div, p, span):
         "font-size:0.95rem; color:#adb5bd; font-style:italic; line-height:1.55; "
         "margin:0 0 0.75rem 0; max-width:65ch;"
     )
+    _title_native_style = (
+        "font-size:0.95rem; font-style:italic; color:#6c757d; margin:0 0 0.4rem 0; line-height:1.3;"
+    )
 
 
     def render_doc_info(example):
@@ -537,10 +541,24 @@ def _(a, div, p, span):
         else:
             summary_el = p("No summary available", style=_summary_missing_style)
 
+        # Prefer the English title as the primary heading, but also surface the
+        # original-language title (when different) so reviewers looking at
+        # non-English documents can still see the source title.
+        _title_native = (example.get("title") or "").strip()
+        _title_en = (example.get("title_en") or "").strip()
+        _primary_title = _title_en or _title_native
+        _show_native = bool(_title_native) and _title_native.lower() != _primary_title.lower()
+
+        _title_els = [
+            p(_primary_title,
+              style="font-size:1.25rem; font-weight:600; color:#1a1a1a; margin:0 0 0.25rem 0; line-height:1.3;"),
+        ]
+        if _show_native:
+            _title_els.append(p(_title_native, style=_title_native_style))
+
         return str(
             div(
-                p(example["title"],
-                  style="font-size:1.25rem; font-weight:600; color:#1a1a1a; margin:0 0 0.25rem 0; line-height:1.3;"),
+                *_title_els,
                 p(example["authors"],
                   style="font-size:0.85rem; color:#6c757d; margin:0 0 0.6rem 0;"),
                 p(f"Date Published: {example['date_published']}",
@@ -555,7 +573,6 @@ def _(a, div, p, span):
                 klass="molabel-doc-context",
             )
         )
-
 
     return (render_doc_info,)
 
