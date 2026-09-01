@@ -15,24 +15,62 @@
           "2025_zero-emission-heavy-duty-trucks_00015",
           "2025_charging-toward-2035-policies-to-accelerate-zero_7455"
         ],
-        "expected_document_ids": [
-          "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
-          "7c2e200e-9c01-4acd-b5ef-a18041a7f258"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_14",
+            "page": 7,
+            "text_snippet": "在测算新能源重卡的成本回收期与TCO过程中，本研究识别并量化的关键决策变量不仅限于成本项，还包括里程焦虑、载质量损失等非成本因素，以全面反映运输企业（尤其是小微运输企业）的采购决策考量。\n\n其次，为评估需求侧政策对新能源重卡推广的作用，本文构建了两类政策情景（见表ES-1）：第一类为现有政策情景，涵盖“以旧换新”补贴与新能源汽车车辆购置税减免等政策；第二类为强化政策情景，包括额外政策，如新能源重卡道路通行费减免、充电基础设施加速部署等。",
+            "text_snippet_translation_en": "In estimating ZET payback periods and TCO, this study identifies and quantifies key decision variables beyond cost items alone, including non-cost factors such as range anxiety and payload loss, to fully reflect the purchasing considerations of transport enterprises (especially micro and small transport enterprises). Second, to evaluate the effect of demand-side policies on ZET adoption, this paper constructs two categories of policy scenarios (see Table ES-1): the first is the current-policy scenario, covering policies such as the trade-in subsidy and the new-energy vehicle purchase-tax exemption; the second is the enhanced-policy scenario, which includes additional policies such as road-toll relief for ZETs and accelerated deployment of charging infrastructure.",
+            "supports_key_fact": "The study evaluates two policy scenario categories beyond the no-policy baseline: current-policy (covering the trade-in subsidy and the purchase-tax exemption) and enhanced-policy (additional measures such as road-toll relief and accelerated charging infrastructure)."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_25",
+            "page": 8,
+            "text_snippet": "来源：WRI作者汇总。\n\n6\n\nWRI.ORG.CN\n\n## 主要研究结论\n\n本文测算了MY2025—2035期间，新能源重卡在区域运输场景与长途运输场景中的成本回收期。TCO与市场渗透率，并将5年内回收成本作为区域运输场景中新能源重卡具备成本竞争力的阈值，在长途运输场景中，该阈值设定为4年内回收成本。\n\n主要研究结果如下：\n\n**第一，无政策情景下，区域运输场景中新能源重卡的市场渗透率在MY2030前有望达到2%~17%的水平；但长途运输场景中，新能源重卡的推广在MY2035前仅处于起步阶段，市场渗透率持续处于低位。**\n\n在区域与长途运输场景中，新能源半挂牵引车的推广潜力明显高于新能源重型载货汽车。",
+            "text_snippet_translation_en": "Source: compiled by WRI authors. [p.6, WRI.ORG.CN] ## Key findings. This paper estimates ZET payback periods, TCO, and market penetration in the regional-transport and long-haul-transport applications over MY2025-2035, using a payback period within 5 years as the cost-competitiveness threshold for regional transport, and within 4 years for long-haul transport. The main findings are as follows: **First, under the no-policy scenario, ZET market penetration in the regional-transport application is expected to reach 2%-17% by MY2030; but in the long-haul-transport application, ZET adoption remains at an early stage through MY2035, with market penetration persistently low.** In both the regional and long-haul applications, the adoption potential of zero-emission semi-tractors is markedly higher than that of zero-emission heavy cargo (straight) trucks.",
+            "supports_key_fact": "Under the no-policy scenario, regional transport is projected to reach 2%-17% market penetration by MY2030, while long-haul transport remains at a nascent stage with persistently low penetration through MY2035."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_209",
+            "page": 62,
+            "text_snippet": "而新能源汽车车辆购置税减免与氢燃料电池汽车示范城市群补贴的作用相对有限(见图18):\n\n- 实施“以旧换新”补贴后,区域运输场景下,长年行驶里程的纯电动半挂牵引车将在MY2027实现5年内回收成本——较无政策情景提前三年,其市场渗透率预计将在MY2027上升至10%。\n- 新能源汽车车辆购置税减免虽有助于缩短成本回收期,但效果较为有限,未能使纯电动半挂牵引车在MY2025—2027期间具备成本竞争力。\n\n- 氢燃料电池汽车示范城市群补贴虽可降低氢燃料电池重卡的购置成本,但对高昂运营成本的改善作用有限。在本研究假设下,",
+            "text_snippet_translation_en": "By contrast, the new-energy vehicle purchase-tax exemption and the hydrogen fuel-cell vehicle demonstration-city-cluster subsidy have relatively limited effects (see Figure 18): - After the trade-in subsidy is implemented, in the regional-transport application, high-annual-mileage battery-electric semi-tractors will achieve a payback period within 5 years by MY2027 - three years earlier than under the no-policy scenario - with market penetration projected to rise to 10% by MY2027. - The new-energy vehicle purchase-tax exemption, while helping to shorten the payback period somewhat, has a relatively limited effect, and does not make battery-electric semi-tractors cost-competitive during MY2025-2027. - The hydrogen fuel-cell vehicle demonstration-city-cluster subsidy can lower the purchase cost of fuel-cell trucks, but has a limited effect on improving their high operating costs. Under this study's assumptions, [text continues]",
+            "supports_key_fact": "Under the current-policy scenario, the trade-in subsidy alone lifts the market penetration of high-annual-mileage battery-electric semi-tractors in regional transport to about 10% by MY2027 (three years earlier than the no-policy trajectory)."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_29",
+            "page": 9,
+            "text_snippet": "若缺乏后续政策支持，其市场渗透率可能出现回落（见图ES-2）。\n\n**第三，与现有政策相比，本研究所分析的强化政策有望显著提升新能源重卡在区域运输场景中的市场渗透率；而在长途运输场景中，则需要更强有力且持续的政策支持，方可在MY2035前达到一定的市场渗透率。具体而言：**\n\n在现有政策与强化政策叠加作用下，新能源重卡在区域运输场景中的市场渗透率呈现强劲增长——预计在MY2027—2030期间，其市场渗透率有望超过50%（见图ES-3）。",
+            "text_snippet_translation_en": "Without continued policy support after that, market penetration could decline again (see Figure ES-2). **Third, compared with current policy, the enhanced policies analyzed in this study are expected to significantly increase ZET market penetration in the regional-transport application; in the long-haul-transport application, stronger and sustained policy support is needed to reach a meaningful level of market penetration by MY2035. Specifically:** Under the combined effect of current and enhanced policy, ZET market penetration in the regional-transport application shows strong growth - projected to exceed 50% during MY2027-2030 (see Figure ES-3).",
+            "supports_key_fact": "Under the enhanced-policy scenario (current + enhanced combined), regional-transport penetration is projected to exceed 50% during MY2027-2030, while long-haul penetration grows slowly until a sharp acceleration in MY2032-2035 - indicating long-haul needs sustained policy support through 2035 to reach meaningful levels."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_30",
+            "page": 9,
+            "text_snippet": "在强化政策推动下，新能源重卡在长途运输场景中的市场渗透率，虽可能在MY2035达到较高市场渗透率，但其显著增长主要出现在MY2032—2035间（见图ES-4）。这表明针对长途运输的政策支持可能需持续至2035年左右才显效。\n\n图 ES-2 | 现有政策情景下新能源重卡的市场渗透率（区域运输场景，MY2024—2035）\n\n![img-7.jpeg](img-7.jpeg)\n\n驶向2035：中国新能源重卡在区域与长途运输场景中的推广潜力研究 | 7\n\n图 ES-2 | 现有政策情景下新能源重卡的市场渗透率 (区域运输场景, MY2024—2035) (续)\n\n![img-8.jpeg](img-8.jpeg)\n\n重型载货汽车: AVKT=60,000 km (RD)\n\n![img-9.jpeg](img-9.jpeg)\n\n重型载货汽车: AVKT=100,000 km (RD)\n\n!",
+            "text_snippet_translation_en": "Under enhanced policy, ZET market penetration in the long-haul-transport application, while it may reach a relatively high level by MY2035, sees its significant growth occur mainly between MY2032 and MY2035 (see Figure ES-4). This indicates that policy support for long-haul transport may need to be sustained through around 2035 before it takes full effect. [Followed by Figure ES-2 caption/image references: ZET market penetration under the current-policy scenario, regional-transport application, MY2024-2035.]",
+            "supports_key_fact": "Under the enhanced-policy scenario (current + enhanced combined), regional-transport penetration is projected to exceed 50% during MY2027-2030, while long-haul penetration grows slowly until a sharp acceleration in MY2032-2035 - indicating long-haul needs sustained policy support through 2035 to reach meaningful levels."
+          }
+        ]
       },
       "synthesis_ground_truth": {
-        "canonical_answer": "The document projects new energy heavy-duty truck penetration in China through 2035 under three policy scenarios: no-policy, current-policy, and enhanced-policy (current policy combined with additional enhancements). Under the no-policy scenario, regional transport penetration reaches 2%-17% by MY2030, while long-haul penetration remains at a nascent, low level all the way through MY2035. Under the current-policy scenario, the trade-in subsidy lifts long-range BEV semi-tractor penetration in regional transport to roughly 10% by MY2027. Under the enhanced-policy scenario, regional transport penetration exceeds 50% during MY2027-2030, while long-haul growth stays slow until a sharp acceleration in MY2032-2035 - implying that sustained policy support is needed through 2035 for long-haul penetration to reach meaningful levels.",
+        "canonical_answer": "The report models three scenarios - no-policy, current-policy, and enhanced-policy (which adds further demand-side measures beyond the current-policy scenario) - to project zero-emission heavy-duty truck market penetration in China through 2035. Without new policy, regional-transport penetration is projected to reach only 2%-17% by MY2030, while long-haul adoption remains at a nascent, low-level stage through MY2035. The trade-in subsidy under current policy is projected to lift high-annual-mileage battery-electric semi-tractor penetration in regional transport to about 10% by MY2027. Under the combined current + enhanced policy scenario, regional-transport penetration is projected to exceed 50% during MY2027-2030, whereas long-haul penetration grows slowly until an acceleration in MY2032-2035, indicating that long-haul policy support needs to be sustained through 2035.",
         "key_facts": [
-          "Three scenarios are modeled: no-policy, current-policy, and enhanced-policy (current + enhanced combined).",
-          "No-policy scenario: regional transport reaches 2%-17% penetration by MY2030; long-haul stays at a nascent, low level all the way through MY2035.",
-          "Current-policy scenario: the trade-in subsidy lifts long-range BEV semi-tractor penetration in regional transport to ~10% by MY2027.",
-          "Enhanced-policy scenario: regional transport penetration exceeds 50% during MY2027-2030; long-haul growth stays slow until a sharp acceleration in MY2032-2035, implying sustained policy support is needed through 2035 for long-haul to reach meaningful levels."
+          "The study evaluates two policy scenario categories beyond the no-policy baseline: current-policy (covering the trade-in subsidy and the purchase-tax exemption) and enhanced-policy (additional measures such as road-toll relief and accelerated charging infrastructure).",
+          "Under the no-policy scenario, regional transport is projected to reach 2%-17% market penetration by MY2030, while long-haul transport remains at a nascent stage with persistently low penetration through MY2035.",
+          "Under the current-policy scenario, the trade-in subsidy alone lifts the market penetration of high-annual-mileage battery-electric semi-tractors in regional transport to about 10% by MY2027 (three years earlier than the no-policy trajectory).",
+          "Under the enhanced-policy scenario (current + enhanced combined), regional-transport penetration is projected to exceed 50% during MY2027-2030, while long-haul penetration grows slowly until a sharp acceleration in MY2032-2035 - indicating long-haul needs sustained policy support through 2035 to reach meaningful levels."
         ]
       },
       "source_document_id": "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 1); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q2_bev-diesel-truck-tco-china",
@@ -44,23 +82,37 @@
           "2025_zero-emission-heavy-duty-trucks_00015",
           "2025_charging-toward-2035-policies-to-accelerate-zero_7455"
         ],
-        "expected_document_ids": [
-          "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
-          "7c2e200e-9c01-4acd-b5ef-a18041a7f258"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_26",
+            "page": 9,
+            "text_snippet": "**\n\n在区域与长途运输场景中，新能源半挂牵引车的推广潜力明显高于新能源重型载货汽车。这主要是因为新能源载货汽车与柴油载货汽车之间有更大的TCO成本差：一方面，新能源重型载货汽车的载质量损失问题比新能源半挂牵引车更为突出；另一方面，柴油重型载货汽车本身能耗更低、购置成本也低于柴油半挂牵引车，进一步增加了新能源重型载货汽车推广的难度。\n\n在技术路线方面，纯电动重卡在区域运输场景中更具成本竞争力，预计将占据主导地位。",
+            "text_snippet_translation_en": "[Continuing from the previous bolded finding.] In both the regional and long-haul applications, the adoption potential of zero-emission semi-tractors is markedly higher than that of zero-emission heavy cargo (straight) trucks. This is mainly because there is a larger TCO gap between zero-emission and diesel straight (cargo) trucks: on one hand, the payload-loss problem of zero-emission straight trucks is more pronounced than for zero-emission semi-tractors; on the other hand, diesel straight trucks themselves consume less energy and have lower purchase costs than diesel semi-tractors, which further increases the difficulty of promoting zero-emission straight trucks. In terms of technology pathway, battery electric trucks are more cost-competitive in the regional-transport application and are expected to dominate.",
+            "supports_key_fact": "Battery electric trucks are more cost-competitive than diesel trucks in regional transport and are projected to dominate that market segment. | The TCO gap versus diesel is larger for heavy cargo (straight) trucks than for semi-tractors, because cargo trucks face bigger payload losses and diesel cargo trucks already have lower baseline energy consumption and purchase costs than diesel semi-tractors."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_213",
+            "page": 64,
+            "text_snippet": "研究结果表明，在本文所分析的现有政策中，“以旧换新”补贴和氢燃料电池汽车示范城市群补贴对区域运输场景中新能源重卡购买阶段的资本支出影响最为显著，导致其在MY2025—2030期间出现明显波动（见图19）。对短续航里程纯电动重卡而言，这一现象尤为突出：\n\n- “以旧换新”补贴后，短续航里程纯电动重卡与柴油重卡的车辆资本支出差距将由MY2027的15万~26万元缩小至3.5万~12万元。然而，该政策将于2028年终止，此后两者差距将再次扩大至13万元以上，直至MY2030才会回落至10万元以内。",
+            "text_snippet_translation_en": "The results show that among the current policies analyzed in this study, the trade-in subsidy and the hydrogen fuel-cell vehicle demonstration-city-cluster subsidy have the most significant effect on capex during the ZET purchase phase in the regional-transport application, causing notable fluctuation during MY2025-2030 (see Figure 19). This is especially pronounced for short-range battery electric trucks: - After the trade-in subsidy, the capex gap between short-range battery electric trucks and diesel trucks narrows from CNY 150,000-260,000 in MY2027 to CNY 35,000-120,000. However, this policy expires in 2028, after which the gap widens again to over CNY 130,000, not falling back below CNY 100,000 until MY2030.",
+            "supports_key_fact": "For a short-range battery electric truck versus a comparable diesel heavy-duty truck in regional transport, the capex gap narrows from CNY 150,000-260,000 in MY2027 to CNY 35,000-120,000 with the trade-in subsidy, then widens back above CNY 130,000 once the subsidy ends in 2028, not dropping below CNY 100,000 again until MY2030."
+          }
+        ]
       },
       "synthesis_ground_truth": {
-        "canonical_answer": "Battery electric heavy-duty trucks are more cost-competitive than diesel in regional transport in China and are projected to dominate that segment. The total-cost-of-ownership and capex gap between electric and diesel is larger for heavy cargo trucks than for semi-tractors, because cargo trucks suffer bigger payload losses from electrification and diesel cargo trucks already have lower baseline purchase and energy costs. For a short-range battery electric heavy truck versus its diesel equivalent, the capex gap is CNY 150k-260k in MY2027, narrowing to CNY 35k-120k with the trade-in subsidy, then widening back above CNY 130k once that subsidy ends in 2028, not dropping below CNY 100k again until MY2030.",
+        "canonical_answer": "Battery electric trucks (BETs) are found to be more cost-competitive than diesel in regional transport and are projected to dominate that segment. The total-cost-of-ownership gap versus diesel is wider for heavy cargo (straight) trucks than for semi-tractors, mainly because zero-emission cargo trucks suffer larger payload losses and because diesel cargo trucks already have lower baseline energy use and purchase costs than diesel semi-tractors. For a short-range battery electric truck versus a comparable diesel heavy-duty truck in regional transport, the capex gap narrows from CNY 150,000-260,000 in MY2027 to CNY 35,000-120,000 once the trade-in subsidy applies, then widens back above CNY 130,000 after the subsidy expires in 2028, not falling back below CNY 100,000 until MY2030.",
         "key_facts": [
-          "BEVs are more cost-competitive than diesel in regional transport and are projected to dominate there.",
-          "The TCO/capex gap is larger for heavy cargo trucks than for semi-tractors, because cargo trucks suffer bigger payload losses and diesel cargo trucks already have lower baseline purchase/energy costs.",
-          "Concrete capex gap (short-range BEV vs. diesel heavy truck): CNY 150k-260k (MY2027) narrows to CNY 35k-120k with the trade-in subsidy, then widens back above CNY 130k once that subsidy ends in 2028, not dropping below CNY 100k again until MY2030."
+          "Battery electric trucks are more cost-competitive than diesel trucks in regional transport and are projected to dominate that market segment.",
+          "The TCO gap versus diesel is larger for heavy cargo (straight) trucks than for semi-tractors, because cargo trucks face bigger payload losses and diesel cargo trucks already have lower baseline energy consumption and purchase costs than diesel semi-tractors.",
+          "For a short-range battery electric truck versus a comparable diesel heavy-duty truck in regional transport, the capex gap narrows from CNY 150,000-260,000 in MY2027 to CNY 35,000-120,000 with the trade-in subsidy, then widens back above CNY 130,000 once the subsidy ends in 2028, not dropping below CNY 100,000 again until MY2030."
         ]
       },
       "source_document_id": "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 1); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q3_regional-vs-longhaul-adoption",
@@ -72,23 +124,61 @@
           "2025_zero-emission-heavy-duty-trucks_00015",
           "2025_charging-toward-2035-policies-to-accelerate-zero_7455"
         ],
-        "expected_document_ids": [
-          "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
-          "7c2e200e-9c01-4acd-b5ef-a18041a7f258"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_209",
+            "page": 62,
+            "text_snippet": "而新能源汽车车辆购置税减免与氢燃料电池汽车示范城市群补贴的作用相对有限(见图18):\n\n- 实施“以旧换新”补贴后,区域运输场景下,长年行驶里程的纯电动半挂牵引车将在MY2027实现5年内回收成本——较无政策情景提前三年,其市场渗透率预计将在MY2027上升至10%。\n- 新能源汽车车辆购置税减免虽有助于缩短成本回收期,但效果较为有限,未能使纯电动半挂牵引车在MY2025—2027期间具备成本竞争力。\n\n- 氢燃料电池汽车示范城市群补贴虽可降低氢燃料电池重卡的购置成本,但对高昂运营成本的改善作用有限。在本研究假设下,",
+            "text_snippet_translation_en": "By contrast, the new-energy vehicle purchase-tax exemption and the hydrogen fuel-cell vehicle demonstration-city-cluster subsidy have relatively limited effects (see Figure 18): - After the trade-in subsidy is implemented, in the regional-transport application, high-annual-mileage battery-electric semi-tractors will achieve a payback period within 5 years by MY2027 - three years earlier than under the no-policy scenario - with market penetration projected to rise to 10% by MY2027. - The new-energy vehicle purchase-tax exemption, while helping to shorten the payback period somewhat, has a relatively limited effect, and does not make battery-electric semi-tractors cost-competitive during MY2025-2027. - The hydrogen fuel-cell vehicle demonstration-city-cluster subsidy can lower the purchase cost of fuel-cell trucks, but has a limited effect on improving their high operating costs. Under this study's assumptions, [text continues]",
+            "supports_key_fact": "Regional transport moves much faster toward competitiveness: with the trade-in subsidy, high-annual-mileage battery electric semi-tractors reach a 5-year payback by MY2027, and penetration crosses 50% during MY2027-2030 under the combined current-plus-enhanced policy scenario."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_29",
+            "page": 9,
+            "text_snippet": "若缺乏后续政策支持，其市场渗透率可能出现回落（见图ES-2）。\n\n**第三，与现有政策相比，本研究所分析的强化政策有望显著提升新能源重卡在区域运输场景中的市场渗透率；而在长途运输场景中，则需要更强有力且持续的政策支持，方可在MY2035前达到一定的市场渗透率。具体而言：**\n\n在现有政策与强化政策叠加作用下，新能源重卡在区域运输场景中的市场渗透率呈现强劲增长——预计在MY2027—2030期间，其市场渗透率有望超过50%（见图ES-3）。",
+            "text_snippet_translation_en": "Without continued policy support after that, market penetration could decline again (see Figure ES-2). **Third, compared with current policy, the enhanced policies analyzed in this study are expected to significantly increase ZET market penetration in the regional-transport application; in the long-haul-transport application, stronger and sustained policy support is needed to reach a meaningful level of market penetration by MY2035. Specifically:** Under the combined effect of current and enhanced policy, ZET market penetration in the regional-transport application shows strong growth - projected to exceed 50% during MY2027-2030 (see Figure ES-3).",
+            "supports_key_fact": "Regional transport moves much faster toward competitiveness: with the trade-in subsidy, high-annual-mileage battery electric semi-tractors reach a 5-year payback by MY2027, and penetration crosses 50% during MY2027-2030 under the combined current-plus-enhanced policy scenario."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_25",
+            "page": 8,
+            "text_snippet": "来源：WRI作者汇总。\n\n6\n\nWRI.ORG.CN\n\n## 主要研究结论\n\n本文测算了MY2025—2035期间，新能源重卡在区域运输场景与长途运输场景中的成本回收期。TCO与市场渗透率，并将5年内回收成本作为区域运输场景中新能源重卡具备成本竞争力的阈值，在长途运输场景中，该阈值设定为4年内回收成本。\n\n主要研究结果如下：\n\n**第一，无政策情景下，区域运输场景中新能源重卡的市场渗透率在MY2030前有望达到2%~17%的水平；但长途运输场景中，新能源重卡的推广在MY2035前仅处于起步阶段，市场渗透率持续处于低位。**\n\n在区域与长途运输场景中，新能源半挂牵引车的推广潜力明显高于新能源重型载货汽车。",
+            "text_snippet_translation_en": "Source: compiled by WRI authors. [p.6, WRI.ORG.CN] ## Key findings. This paper estimates ZET payback periods, TCO, and market penetration in the regional-transport and long-haul-transport applications over MY2025-2035, using a payback period within 5 years as the cost-competitiveness threshold for regional transport, and within 4 years for long-haul transport. The main findings are as follows: **First, under the no-policy scenario, ZET market penetration in the regional-transport application is expected to reach 2%-17% by MY2030; but in the long-haul-transport application, ZET adoption remains at an early stage through MY2035, with market penetration persistently low.** In both the regional and long-haul applications, the adoption potential of zero-emission semi-tractors is markedly higher than that of zero-emission heavy cargo (straight) trucks.",
+            "supports_key_fact": "Long-haul transport lags substantially, remaining nascent under the no-policy scenario through MY2035, with real growth only emerging in MY2032-2035 even under the enhanced-policy scenario."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_30",
+            "page": 9,
+            "text_snippet": "在强化政策推动下，新能源重卡在长途运输场景中的市场渗透率，虽可能在MY2035达到较高市场渗透率，但其显著增长主要出现在MY2032—2035间（见图ES-4）。这表明针对长途运输的政策支持可能需持续至2035年左右才显效。\n\n图 ES-2 | 现有政策情景下新能源重卡的市场渗透率（区域运输场景，MY2024—2035）\n\n![img-7.jpeg](img-7.jpeg)\n\n驶向2035：中国新能源重卡在区域与长途运输场景中的推广潜力研究 | 7\n\n图 ES-2 | 现有政策情景下新能源重卡的市场渗透率 (区域运输场景, MY2024—2035) (续)\n\n![img-8.jpeg](img-8.jpeg)\n\n重型载货汽车: AVKT=60,000 km (RD)\n\n![img-9.jpeg](img-9.jpeg)\n\n重型载货汽车: AVKT=100,000 km (RD)\n\n!",
+            "text_snippet_translation_en": "Under enhanced policy, ZET market penetration in the long-haul-transport application, while it may reach a relatively high level by MY2035, sees its significant growth occur mainly between MY2032 and MY2035 (see Figure ES-4). This indicates that policy support for long-haul transport may need to be sustained through around 2035 before it takes full effect. [Followed by Figure ES-2 caption/image references: ZET market penetration under the current-policy scenario, regional-transport application, MY2024-2035.]",
+            "supports_key_fact": "Long-haul transport lags substantially, remaining nascent under the no-policy scenario through MY2035, with real growth only emerging in MY2032-2035 even under the enhanced-policy scenario."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_27",
+            "page": 9,
+            "text_snippet": "在技术路线方面，纯电动重卡在区域运输场景中更具成本竞争力，预计将占据主导地位。而在长途运输场景（尤其是半挂牵引车）中，最优技术路线仍存在不确定性：在日行驶里程较短、时效要求低且承运轻抛货（即无载质量损失）的长途运输中，纯电动重卡更具优势；而在日行驶里程长、时效要求高$^{2}$且承运重货的长途运输中，氢燃料电池重卡的经济性更为突出。\n\n**第二，本研究评估的现行政策能有效提升新能源重卡市场渗透率，尤其对区域运输场景中年行驶里程较长的纯电动半挂牵引车效果最为显著（见图ES-2）。",
+            "text_snippet_translation_en": "In terms of technology pathway, battery electric trucks are more cost-competitive in the regional-transport application and are expected to dominate. In the long-haul-transport application (especially for semi-tractors), the optimal technology pathway remains uncertain: for long-haul routes with shorter daily mileage, low time-sensitivity, and light cargo (i.e. no payload loss), battery electric trucks have the advantage; for long-haul routes with longer daily mileage, high time-sensitivity, and heavy cargo, fuel-cell trucks are more economical. **Second, the current policies evaluated in this study effectively raise ZET market penetration, with the strongest effect on high-annual-mileage battery electric semi-tractors in the regional-transport application (see Figure ES-2).",
+            "supports_key_fact": "The optimal technology also differs by application: battery electric trucks dominate regional transport, while in long-haul, BEVs are more competitive on shorter-daily-mileage, low-time-sensitivity, light-cargo (no payload-loss) routes, and fuel-cell trucks (FCEVs) are more competitive on longer-daily-mileage, time-sensitive, heavy-cargo routes."
+          }
+        ]
       },
       "synthesis_ground_truth": {
-        "canonical_answer": "Zero-emission truck adoption potential differs substantially between regional and long-haul transport in China. Regional transport moves much faster toward competitiveness: battery electric semis hit a 5-year payback by MY2027 with subsidies, and penetration crosses 50% during MY2027-2030 under an enhanced-policy scenario. Long-haul transport lags substantially, remaining nascent under a no-policy scenario through MY2035, with real growth only emerging in MY2032-2035 even under enhanced policy. The technology split also differs: battery electric vehicles dominate regional transport, while in long-haul, BEVs work best for shorter-daily-mileage, low-time-sensitivity, light-cargo routes, and fuel-cell trucks (FCEVs) are more competitive for long-daily-mileage, time-sensitive, heavy-cargo routes.",
+        "canonical_answer": "Regional transport moves toward zero-emission competitiveness much faster than long-haul: with the current-policy trade-in subsidy, high-annual-mileage battery electric semi-tractors reach a 5-year payback by MY2027, and under the combined current-plus-enhanced policy scenario, regional penetration exceeds 50% during MY2027-2030. Long-haul transport lags substantially - it remains nascent under the no-policy scenario through MY2035, and even under enhanced policy its real growth only emerges in MY2032-2035. The optimal technology also differs: battery electric trucks dominate regional transport, while in long-haul, BETs are more competitive on shorter-daily-mileage, low-time-sensitivity, light-cargo (no payload-loss) routes, and fuel-cell trucks are more economical on longer-daily-mileage, time-sensitive, heavy-cargo routes.",
         "key_facts": [
-          "Regional transport moves much faster toward competitiveness: BEV semis hit a 5-year payback by MY2027 with subsidies, and penetration crosses 50% by MY2027-2030 under enhanced policy.",
-          "Long-haul lags substantially: nascent under no-policy through MY2035; even with enhanced policy, real growth only emerges MY2032-2035.",
-          "Technology split also differs: BEVs dominate regional transport; in long-haul, BEVs work best for shorter-daily-mileage, low-time-sensitivity, light-cargo routes, while fuel-cell trucks (FCEVs) are more competitive for long-daily-mileage, time-sensitive, heavy-cargo routes."
+          "Regional transport moves much faster toward competitiveness: with the trade-in subsidy, high-annual-mileage battery electric semi-tractors reach a 5-year payback by MY2027, and penetration crosses 50% during MY2027-2030 under the combined current-plus-enhanced policy scenario.",
+          "Long-haul transport lags substantially, remaining nascent under the no-policy scenario through MY2035, with real growth only emerging in MY2032-2035 even under the enhanced-policy scenario.",
+          "The optimal technology also differs by application: battery electric trucks dominate regional transport, while in long-haul, BEVs are more competitive on shorter-daily-mileage, low-time-sensitivity, light-cargo (no payload-loss) routes, and fuel-cell trucks (FCEVs) are more competitive on longer-daily-mileage, time-sensitive, heavy-cargo routes."
         ]
       },
       "source_document_id": "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 1); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q4_bev-payback-periods",
@@ -100,24 +190,54 @@
           "2025_zero-emission-heavy-duty-trucks_00015",
           "2025_charging-toward-2035-policies-to-accelerate-zero_7455"
         ],
-        "expected_document_ids": [
-          "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
-          "7c2e200e-9c01-4acd-b5ef-a18041a7f258"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_166",
+            "page": 45,
+            "text_snippet": "[img-48.jpeg](img-48.jpeg)\n\n骏向2035: 中国新能源重卡在区域与长途运输场景中的推广潜力研究 | 43\n\n# 预计MY2030—2034期间，新能源重卡在区域运输场景中具备成本竞争力，但在长途运输场景中仍处于推广初期\n\n本章测算了MY2024—2035期间，在无任何激励政策的情况下，新能源重卡在区域运输场景与长途运输场景中的成本回收期与市场渗透率。研究重点为判断区域运输场景中新能源重卡成本回收期何时缩短至5年以内，以及长途运输场景中何时降至4年以内——这两个时间点被视为运输企业更可能购买新能源重卡的关键阈值，并在此基础上预测其在各场景下的市场渗透率。",
+            "text_snippet_translation_en": "[Image reference.] Charging toward 2035: Policies to accelerate zero-emission heavy-duty trucks in China's regional and long-haul freight | 43. # ZETs are projected to become cost-competitive in the regional-transport application by MY2030-2034, but remain at an early adoption stage in the long-haul-transport application. This chapter estimates ZET payback periods and market penetration in the regional and long-haul applications over MY2024-2035 with no incentive policy in place. The research focus is determining when the ZET payback period in the regional-transport application shortens to within 5 years, and when it drops to within 4 years in the long-haul-transport application - these two thresholds are treated as the points at which transport enterprises become more likely to purchase ZETs - and forecasting market penetration on this basis.",
+            "supports_key_fact": "The study defines truck cost-competitiveness thresholds as a payback period of 5 years or less for regional transport and 4 years or less for long-haul transport."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_209",
+            "page": 62,
+            "text_snippet": "而新能源汽车车辆购置税减免与氢燃料电池汽车示范城市群补贴的作用相对有限(见图18):\n\n- 实施“以旧换新”补贴后,区域运输场景下,长年行驶里程的纯电动半挂牵引车将在MY2027实现5年内回收成本——较无政策情景提前三年,其市场渗透率预计将在MY2027上升至10%。\n- 新能源汽车车辆购置税减免虽有助于缩短成本回收期,但效果较为有限,未能使纯电动半挂牵引车在MY2025—2027期间具备成本竞争力。\n\n- 氢燃料电池汽车示范城市群补贴虽可降低氢燃料电池重卡的购置成本,但对高昂运营成本的改善作用有限。在本研究假设下,",
+            "text_snippet_translation_en": "By contrast, the new-energy vehicle purchase-tax exemption and the hydrogen fuel-cell vehicle demonstration-city-cluster subsidy have relatively limited effects (see Figure 18): - After the trade-in subsidy is implemented, in the regional-transport application, high-annual-mileage battery-electric semi-tractors will achieve a payback period within 5 years by MY2027 - three years earlier than under the no-policy scenario - with market penetration projected to rise to 10% by MY2027. - The new-energy vehicle purchase-tax exemption, while helping to shorten the payback period somewhat, has a relatively limited effect, and does not make battery-electric semi-tractors cost-competitive during MY2025-2027. - The hydrogen fuel-cell vehicle demonstration-city-cluster subsidy can lower the purchase cost of fuel-cell trucks, but has a limited effect on improving their high operating costs. Under this study's assumptions, [text continues]",
+            "supports_key_fact": "With the trade-in subsidy, high-annual-mileage battery electric semi-tractors in regional transport reach the 5-year payback threshold by MY2027, three years earlier than under the no-policy scenario. | The vehicle purchase-tax exemption alone is not enough to make battery electric semi-tractors competitive during MY2025-2027."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_176",
+            "page": 48,
+            "text_snippet": "对于载货汽车而言, 纯电动重卡则较氢燃料电池重卡更具成本竞争力。与区域运输场景类似, 在缺乏政策支持的情况下, 长途运输中纯电动重卡的BET400_MCS成本回收期仍长于BET400_DCFC与BET800, 主要原因仍是充电成本偏高与里程焦虑问题突出。\n\n在长途运输场景中, 新能源半挂牵引车同样较新能源载货汽车更具有成本竞争力 (见图11):\n\n- 到MY2035, 在长途运输场景中, 长年行驶里程的新能源半挂牵引车成本竞争力较为明显, 但短年行驶里程的新能源半挂牵引车经济性欠佳; 在长年行驶里程工况下, 到MY2035, 纯电动重卡与氢燃料电池重卡均接近具备成本竞争力,",
+            "text_snippet_translation_en": "For cargo (straight) trucks, battery electric trucks are more cost-competitive than fuel-cell trucks. As in the regional-transport application, without policy support, the payback period for battery electric trucks on the BET400_MCS pathway in long-haul remains longer than for BET400_DCFC and BET800, again mainly due to high charging costs and range anxiety. In the long-haul-transport application, zero-emission semi-tractors are likewise more cost-competitive than zero-emission cargo trucks (see Figure 11): - By MY2035, in long-haul transport, zero-emission semi-tractors with high annual mileage show fairly clear cost-competitiveness, while those with low annual mileage remain uneconomical; under high-annual-mileage conditions, by MY2035 both battery electric and fuel-cell trucks approach cost-competitiveness,",
+            "supports_key_fact": "In long-haul transport, by MY2035, high-annual-mileage battery electric and fuel-cell semi-tractors both approach roughly a 5-year payback, while low-annual-mileage semi-tractors remain around a 10-year payback; heavy cargo (straight) trucks do not reach competitiveness even by MY2035 (battery electric: 6-7 years; fuel cell: more than 10 years)."
+          },
+          {
+            "doc_id": "2025_zero-emission-heavy-duty-trucks_00015",
+            "chunk_id": "2025_zero-emission-heavy-duty-trucks_00015_chunk_177",
+            "page": 48,
+            "text_snippet": "在长年行驶里程工况下, 到MY2035, 纯电动重卡与氢燃料电池重卡均接近具备成本竞争力, 两者的回收期约在5年左右¹⁰; 但在短年行驶里程工况下, 到MY2035, 其成本回收期仍较长 (约为10年)。\n- 与新能源半挂牵引车相比, 新能源载货汽车面临的成本挑战更为显著; 即便到MY2035, 其在长途运输场景中仍不具备经济可行性。其中, 纯电动重卡的经济性略优于氢燃料电池重卡——预计到MY2035, 纯电动载货汽车的回收期预计为6~7年; 而氢燃料电池载货汽车的回收期预计超过10年。长途运输场景下新能源载货汽车回收期较长的原因与区域运输场景一致。\n\n46 | WRI.ORG.",
+            "text_snippet_translation_en": "under high-annual-mileage conditions, by MY2035 both battery electric and fuel-cell trucks approach cost-competitiveness, with payback periods of around 5 years for both¹⁰; but under low-annual-mileage conditions, by MY2035 the payback period remains long (about 10 years). - Compared with zero-emission semi-tractors, zero-emission cargo (straight) trucks face more significant cost challenges; even by MY2035, they remain economically unviable in long-haul transport. Battery electric trucks are somewhat more economical than fuel-cell trucks - by MY2035, the payback period for battery electric cargo trucks is expected to be 6-7 years, while for fuel-cell cargo trucks it is expected to exceed 10 years. The longer payback period for zero-emission cargo trucks in long-haul is due to the same reasons as in regional transport.",
+            "supports_key_fact": "In long-haul transport, by MY2035, high-annual-mileage battery electric and fuel-cell semi-tractors both approach roughly a 5-year payback, while low-annual-mileage semi-tractors remain around a 10-year payback; heavy cargo (straight) trucks do not reach competitiveness even by MY2035 (battery electric: 6-7 years; fuel cell: more than 10 years)."
+          }
+        ]
       },
       "synthesis_ground_truth": {
-        "canonical_answer": "The study defines truck competitiveness thresholds as a payback period of 5 years or less for regional transport and 4 years or less for long-haul transport. With the trade-in subsidy, long-range battery electric semi-tractors in China reach the 5-year payback threshold by MY2027, three years earlier than in the no-policy case. The vehicle purchase-tax exemption alone is not enough to make battery electric semis competitive during MY2025-2027. In long-haul transport, by MY2035 both battery electric and fuel-cell heavy cargo trucks on shorter-daily-mileage routes approach roughly a 5-year payback.",
+        "canonical_answer": "The study defines a truck as cost-competitive when its payback period versus a diesel truck is within 5 years for regional transport or within 4 years for long-haul transport. With the trade-in subsidy, high-annual-mileage battery electric semi-tractors in regional transport reach the 5-year payback threshold by MY2027, three years earlier than under the no-policy scenario, while the vehicle purchase-tax exemption alone is not enough to make battery electric semi-tractors competitive during MY2025-2027. In long-haul transport, by MY2035 high-annual-mileage battery electric and fuel-cell semi-tractors both approach roughly a 5-year payback, whereas low-annual-mileage semi-tractors remain around a 10-year payback; heavy cargo (straight) trucks fare worse, with battery electric cargo trucks still needing 6-7 years and fuel-cell cargo trucks needing more than 10 years even by MY2035.",
         "key_facts": [
-          "The study defines competitiveness thresholds as ≤5-year payback for regional transport and ≤4-year payback for long-haul.",
-          "With the trade-in subsidy, long-range BEV semi-tractors reach the 5-year payback threshold by MY2027 - three years earlier than the no-policy case.",
-          "The vehicle purchase-tax exemption alone is not enough to make BEV semis competitive during MY2025-2027.",
-          "In long-haul, by MY2035 both BEV and FCEV heavy cargo trucks on shorter-daily-mileage routes approach roughly a 5-year payback."
+          "The study defines truck cost-competitiveness thresholds as a payback period of 5 years or less for regional transport and 4 years or less for long-haul transport.",
+          "With the trade-in subsidy, high-annual-mileage battery electric semi-tractors in regional transport reach the 5-year payback threshold by MY2027, three years earlier than under the no-policy scenario.",
+          "The vehicle purchase-tax exemption alone is not enough to make battery electric semi-tractors competitive during MY2025-2027.",
+          "In long-haul transport, by MY2035, high-annual-mileage battery electric and fuel-cell semi-tractors both approach roughly a 5-year payback, while low-annual-mileage semi-tractors remain around a 10-year payback; heavy cargo (straight) trucks do not reach competitiveness even by MY2035 (battery electric: 6-7 years; fuel cell: more than 10 years)."
         ]
       },
       "source_document_id": "00be4a1d-33cc-4b56-a4d5-d15af0a5cc27",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2025_zero-emission-heavy-duty-trucks_00015) has a possible English twin (2025_charging-toward-2035-policies-to-accelerate-zero_7455). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 1); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q5_bikeshare-trip-substitution",

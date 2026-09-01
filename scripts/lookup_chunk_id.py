@@ -104,15 +104,36 @@ def fetch_chunks(conn_str: str, external_id: str) -> list[dict[str, Any]]:
 _WHITESPACE_RE = re.compile(r"\s+")
 _MD_EMPHASIS_RE = re.compile(r"[*_#`]")
 
+# OCR'd zh source text is inconsistent about full-width vs half-width
+# punctuation even within the same document (observed directly: the same
+# sentence style appears with ASCII "," in some places and "，" in others).
+# An LLM re-transcribing a "verbatim" quote by hand tends to silently
+# normalize to one style, which breaks exact substring matching against the
+# source even though the actual words are unchanged. Fold both directions so
+# matching doesn't depend on which variant either side happens to use.
+_FULLWIDTH_TO_HALFWIDTH = str.maketrans(
+    "，。：；！？（）【】“”‘’—",
+    ",.:;!?()[]\"\"''-",
+)
+
+
+_SPACE_AROUND_PUNCT_RE = re.compile(r"\s*([,.:;!?()\[\]\"'-])\s*")
+
 
 def normalize(text: str) -> str:
     """Make a quote and a chunk's stored text directly comparable: strip
     markdown emphasis characters a human/LLM might have accidentally carried
-    over while copying a quote, collapse all whitespace runs (including
-    newlines) to single spaces, and trim. Case-folding is harmless for
-    CJK/Spanish text and helps for any Latin-script content."""
+    over while copying a quote, fold full-width CJK punctuation to its
+    half-width equivalent (see above), collapse all whitespace runs
+    (including newlines) to single spaces, drop whitespace immediately
+    around punctuation (this OCR'd text is also inconsistent about e.g.
+    ", " vs "," after a comma - observed directly in the same document), and
+    trim. Case-folding is harmless for CJK/Spanish text and helps for any
+    Latin-script content."""
     text = _MD_EMPHASIS_RE.sub("", text)
+    text = text.translate(_FULLWIDTH_TO_HALFWIDTH)
     text = _WHITESPACE_RE.sub(" ", text)
+    text = _SPACE_AROUND_PUNCT_RE.sub(r"\1", text)
     return text.strip().lower()
 
 
@@ -159,6 +180,14 @@ class MatchResult:
     match_method: str  # "exact" | "ngram" | "none"
     score: float
     low_confidence: bool
+    # The chunk's own text, byte-accurate from the DB. Callers should prefer
+    # this over whatever quote string was used to find the match as the
+    # authoritative `text_snippet` - it's guaranteed to match what's actually
+    # indexed, whereas a human/LLM-retyped "verbatim" quote can silently
+    # drift (e.g. full-width/half-width punctuation swaps observed in zh
+    # OCR'd text - normalize() above corrects for this during MATCHING, but
+    # the quote string itself is not corrected).
+    chunk_text: str | None = None
 
 
 def find_matching_chunk(quote: str, chunks: list[dict[str, Any]]) -> MatchResult:
@@ -195,6 +224,7 @@ def find_matching_chunk(quote: str, chunks: list[dict[str, Any]]) -> MatchResult
             match_method="exact",
             score=1.0,
             low_confidence=False,
+            chunk_text=best["text"],
         )
 
     # Pass 2: n-gram containment fallback, scored against every chunk.
@@ -210,6 +240,7 @@ def find_matching_chunk(quote: str, chunks: list[dict[str, Any]]) -> MatchResult
         match_method="ngram",
         score=round(best_score, 4),
         low_confidence=best_score < LOW_CONFIDENCE_THRESHOLD,
+        chunk_text=best["text"],
     )
 
 
@@ -283,6 +314,10 @@ def cmd_batch(conn_str: str, input_path: Path, output_path: Path) -> None:
         entry["page"] = result.page
         entry["match_method"] = result.match_method
         entry["score"] = result.score
+        # Authoritative, byte-accurate source text for this chunk - prefer
+        # this over the (possibly hand-retyped) "quote" field when writing
+        # the final fixture's text_snippet. See MatchResult.chunk_text.
+        entry["chunk_text"] = result.chunk_text
         if result.low_confidence:
             flagged.append(entry.get("id", entry["external_id"]))
     output_path.write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
