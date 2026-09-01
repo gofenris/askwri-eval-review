@@ -110,7 +110,7 @@ per-test-case content that requires reading the source document.
 | Cluster | Source doc (`external_id`, lang)                                         | Test cases   | Size (chars) | Est. chunks | Status |
 | ------- | ---------------------------------------------------------------------- | ------------ | ------------ | ----------- | ------ |
 | 1       | `2025_zero-emission-heavy-duty-trucks_00015` (zh)                        | q1-q4        | 255,135      | ~800        | ✅ done (commit `adf8b00`) |
-| 2       | `2020_dockless-bike-sharing_00124` (zh)                                  | q5-q7        | 16,818       | ~52         | pending — do this next |
+| 2       | `2020_dockless-bike-sharing_00124` (zh)                                  | q5-q7        | 16,818       | ~52         | ✅ done (commit `357dc81`) |
 | 3       | `2024_optimizing-container-ports-transportation-and_9894` (zh)           | q8-q10       | 203,150      | ~635        | pending |
 | 4       | `2022_impactos-economicos-pandemia-covid19-transporte-publico_0070` (es) | q11-q12, q16 | 106,619      | ~330        | pending |
 | 5       | `2023_analisis-de-los-mecanismos-financieros-para-la_3765` (es)          | q13-q15, q16 | 90,473       | ~282        | pending |
@@ -165,7 +165,18 @@ session against two real OCR artifacts found in the trucks document (see
 "Refined workflow" below) — this hardening is generic and already applies to
 all future clusters, no further action needed for it specifically.
 
-**Sessions 2-5 (one per remaining cluster, one commit each): use the
+**Session 2 (cluster 2: bike-sharing, q5-q7) — DONE.** Committed in
+`357dc81`. All 3 test cases now have real `expected_passages` (10 lookups,
+all exact matches, zero low-confidence — this doc has none of the OCR
+punctuation quirks the trucks document had). Caught one real imprecision in
+q7's `key_facts`/`canonical_answer` (an unsupported "changing the broader
+urban mobility ecosystem" clause tacked onto the source's actual "多赢
+方案"/"multi-win" framing) and corrected it. Also exercised the
+`expected_passages` dedup rule for the first time: q6's 3 facts and 3 of
+q7's 4 facts each collapse onto one shared chunk, merged via `" | "` per
+the "Refined workflow" step 9 below.
+
+**Sessions 3-5 (one per remaining cluster, one commit each): use the
 "Refined workflow" section below**, not the original generic 5-step list this
 section used to have — that version undersold how much manual
 verification the quote-matching step actually needs.
