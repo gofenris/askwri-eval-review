@@ -249,11 +249,33 @@
           "2020_dockless-bike-sharing_00124",
           "2020_how-dockless-bike-sharing-changes-lives-an_2277"
         ],
-        "expected_document_ids": [
-          "98cc253e-8d96-4499-b67a-38baffe2f3f2",
-          "416a01af-1c79-4db1-a356-182f0577f844"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2020_dockless-bike-sharing_00124",
+            "chunk_id": "2020_dockless-bike-sharing_00124_chunk_5",
+            "page": 4,
+            "text_snippet": "通过一系列研究，报告旨在回答三个问题：\n\n- ■ 问题1：共享单车是否改变了人们的出行行为？它是如何使人们从其他交通方式转向单车出行的？\n- ■ 问题2：共享单车如何影响城市公共健康、碳排放和出行安全？\n- ■ 问题3：城市可以如何改进共享单车的管理手段？\n\n报告在12个研究城市调研采集共计8,218份共享单车用户的出行数据，分析城市中居民使用共享单车的出行特征与行为转变。基于问卷结果，研究结合了健康影响评估、减排估算和道路安全风险评估等方法，综合评估共享单车在不同维度对城市的影响。基于共享单车的对城市建成环境的主要挑战，报告回顾了12个研究城市共60多项相关的政策法规和案例研究，总结了有效的实施经验，并为城市提供了政策与管理建议。\n\n![img-5.jpeg](img-5.",
+            "text_snippet_translation_en": "Through a series of studies, the report aims to answer three questions: Question 1: Has bike-sharing changed people's travel behavior, and how does it cause people to shift from other transport modes to bike-sharing? Question 2: How does bike-sharing affect urban public health, carbon emissions, and travel safety? Question 3: How can cities improve bike-sharing management? The report collected travel data from a total of 8,218 bike-share users surveyed across 12 study cities, analyzing residents' bike-sharing travel characteristics and behavioral shifts. Based on the survey results, the study combined health-impact assessment, emissions-reduction estimation, and road-safety risk assessment methods to comprehensively evaluate bike-sharing's impact on cities across different dimensions. Based on the main challenges bike-sharing poses to the urban built environment, the report reviewed more than 60 related policies/regulations and case studies from the 12 study cities, summarized effective implementation experience, and provided cities with policy and management recommendations.",
+            "supports_key_fact": "Based on survey data from 8,218 bike-share users across 12 Chinese cities."
+          },
+          {
+            "doc_id": "2020_dockless-bike-sharing_00124",
+            "chunk_id": "2020_dockless-bike-sharing_00124_chunk_8",
+            "page": 5,
+            "text_snippet": "### 共享单车的影响\n\n研究显示在不同经济水平、气候条件和发展阶段中国城市的使用者对于共享单车在出行特征、使用偏好和服务痛点发掘上显示高度一致性。进一步量化分析显示，共享单车不仅可以增强与公共交通的连通性、取代短途机动车出行，还可以改善城市环境与公共健康，是解决城市最后一公里出行的多赢方案。\n\n### 出行行为转变：\n\n- 尽管12个研究城市经济社会发展特点不尽相同，但研究结果表明共享单车对的出行行为影响在12个研究城市具有同质性。\n- 调查结果显示，54%的共享单车用户使用共享单车连接其他交通方式，其中91%的骑行用于连接公共交通。\n- 12个城市中，有17%~45%的共享单车出行代替了原本的私人机动车出行，包括小汽车、出租车、网约车和摩托车。",
+            "text_snippet_translation_en": "Impacts of bike-sharing: research shows that users across Chinese cities with different economic levels, climate conditions, and stages of development display high consistency in travel characteristics, usage preferences, and identified service pain points. Further quantitative analysis shows that bike-sharing can not only strengthen connectivity with public transit and substitute for short-distance motorized-vehicle trips, but also improve the urban environment and public health - it is a 'multi-win' solution for last-mile urban travel. Shifts in travel behavior: (1) although the 12 study cities differ in economic and social development characteristics, results show bike-sharing's effect on travel behavior is consistent across all 12 cities; (2) survey results show 54% of bike-share users use bike-sharing to connect with other transport modes, of which 91% of that connecting use is to link with public transit; (3) across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips that would otherwise have been made, including private cars, taxis, ride-hailing, and motorcycles.",
+            "supports_key_fact": "54% of bike-share users use bike-sharing to connect with other transport modes; of those, 91% of that connecting use is to link with public transit."
+          },
+          {
+            "doc_id": "2020_dockless-bike-sharing_00124",
+            "chunk_id": "2020_dockless-bike-sharing_00124_chunk_9",
+            "page": 5,
+            "text_snippet": "- 12个城市中，有17%~45%的共享单车出行代替了原本的私人机动车出行，包括小汽车、出租车、网约车和摩托车。\n\n### 减少碳排放：\n\n- 虽然大部分共享单车骑行是用于替代由步行和公共交通完成的短距离出行，但是部分骑行仍可通过取代私人机动车出行，每年减少约480万吨二氧化碳排放，相当于680万英亩森林一年对二氧化碳的吸收。\n\n### 改善公共健康：\n\n- 适当的骑行时间和强度所带来的健康效益远超空气污染造成的健康风险。相对于不运动带来的健康风险，共享骑行作为一种积极的活动方式，在全国2.35亿共享单车用户中，每年可以避免约6万人的早亡风险。\n\n图ES-1 | 共享单车影响评估分析框架\n\n![img-6.jpeg](img-6.",
+            "text_snippet_translation_en": "Across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips that would otherwise have been made, including private cars, taxis, ride-hailing, and motorcycles. Reducing carbon emissions: although most bike-share rides substitute for short-distance trips otherwise made by walking or public transit, some rides still reduce CO2 emissions by substituting for private motorized trips - by about 4.8 million tonnes per year, equivalent to the annual CO2 absorption of 6.8 million acres of forest. Improving public health: the health benefits of appropriate cycling duration and intensity far outweigh the health risks from air pollution; relative to the health risks of physical inactivity, bike-sharing as an active-travel mode can, across the nation's 235 million bike-share users, avert an estimated 60,000 premature deaths per year.",
+            "supports_key_fact": "Across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips - including private cars, taxis, ride-hailing, and motorcycles."
+          }
+        ]
       },
       "synthesis_ground_truth": {
         "canonical_answer": "In China, dockless bike-sharing meaningfully substitutes for private motorized trips, based on survey data from 8,218 bike-share users across 12 Chinese cities. About 54% of bike-share users use bike-sharing to connect with other transport modes, and of that connecting use, 91% is to link with public transit. Across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips - including private cars, taxis, ride-hailing, and motorcycles.",
@@ -265,7 +287,7 @@
       },
       "source_document_id": "98cc253e-8d96-4499-b67a-38baffe2f3f2",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2020_dockless-bike-sharing_00124) has a possible English twin (2020_how-dockless-bike-sharing-changes-lives-an_2277). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2020_dockless-bike-sharing_00124) has a possible English twin (2020_how-dockless-bike-sharing-changes-lives-an_2277). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 2); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q6_bikeshare-co2-reduction",
@@ -277,11 +299,17 @@
           "2020_dockless-bike-sharing_00124",
           "2020_how-dockless-bike-sharing-changes-lives-an_2277"
         ],
-        "expected_document_ids": [
-          "98cc253e-8d96-4499-b67a-38baffe2f3f2",
-          "416a01af-1c79-4db1-a356-182f0577f844"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2020_dockless-bike-sharing_00124",
+            "chunk_id": "2020_dockless-bike-sharing_00124_chunk_9",
+            "page": 5,
+            "text_snippet": "- 12个城市中，有17%~45%的共享单车出行代替了原本的私人机动车出行，包括小汽车、出租车、网约车和摩托车。\n\n### 减少碳排放：\n\n- 虽然大部分共享单车骑行是用于替代由步行和公共交通完成的短距离出行，但是部分骑行仍可通过取代私人机动车出行，每年减少约480万吨二氧化碳排放，相当于680万英亩森林一年对二氧化碳的吸收。\n\n### 改善公共健康：\n\n- 适当的骑行时间和强度所带来的健康效益远超空气污染造成的健康风险。相对于不运动带来的健康风险，共享骑行作为一种积极的活动方式，在全国2.35亿共享单车用户中，每年可以避免约6万人的早亡风险。\n\n图ES-1 | 共享单车影响评估分析框架\n\n![img-6.jpeg](img-6.",
+            "text_snippet_translation_en": "Across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips that would otherwise have been made, including private cars, taxis, ride-hailing, and motorcycles. Reducing carbon emissions: although most bike-share rides substitute for short-distance trips otherwise made by walking or public transit, some rides still reduce CO2 emissions by substituting for private motorized trips - by about 4.8 million tonnes per year, equivalent to the annual CO2 absorption of 6.8 million acres of forest. Improving public health: the health benefits of appropriate cycling duration and intensity far outweigh the health risks from air pollution; relative to the health risks of physical inactivity, bike-sharing as an active-travel mode can, across the nation's 235 million bike-share users, avert an estimated 60,000 premature deaths per year.",
+            "supports_key_fact": "Most bike-share trips substitute for walking or public transit trips (not emissions-reducing), but the portion that substitutes for private motorized trips does reduce emissions. | That substitution effect reduces CO2 emissions by approximately 4.8 million tonnes per year. | The report frames this as equivalent to the annual CO2 absorption of about 6.8 million acres of forest."
+          }
+        ]
       },
       "synthesis_ground_truth": {
         "canonical_answer": "Bike-sharing in China reduces CO2 emissions primarily through the share of trips that substitute for private motorized trips, since most bike-share trips substitute for walking or public transit trips and are not themselves emissions-reducing. The substitution effect for private motorized trips reduces CO2 emissions by approximately 4.8 million tonnes per year, which the report frames as equivalent to the annual CO2 absorption of about 6.8 million acres of forest.",
@@ -293,7 +321,7 @@
       },
       "source_document_id": "98cc253e-8d96-4499-b67a-38baffe2f3f2",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2020_dockless-bike-sharing_00124) has a possible English twin (2020_how-dockless-bike-sharing-changes-lives-an_2277). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2020_dockless-bike-sharing_00124) has a possible English twin (2020_how-dockless-bike-sharing-changes-lives-an_2277). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 2); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q7_bikeshare-travel-behavior",
@@ -305,24 +333,38 @@
           "2020_dockless-bike-sharing_00124",
           "2020_how-dockless-bike-sharing-changes-lives-an_2277"
         ],
-        "expected_document_ids": [
-          "98cc253e-8d96-4499-b67a-38baffe2f3f2",
-          "416a01af-1c79-4db1-a356-182f0577f844"
-        ],
-        "expected_passages": []
+        "expected_document_ids": [],
+        "expected_passages": [
+          {
+            "doc_id": "2020_dockless-bike-sharing_00124",
+            "chunk_id": "2020_dockless-bike-sharing_00124_chunk_8",
+            "page": 5,
+            "text_snippet": "### 共享单车的影响\n\n研究显示在不同经济水平、气候条件和发展阶段中国城市的使用者对于共享单车在出行特征、使用偏好和服务痛点发掘上显示高度一致性。进一步量化分析显示，共享单车不仅可以增强与公共交通的连通性、取代短途机动车出行，还可以改善城市环境与公共健康，是解决城市最后一公里出行的多赢方案。\n\n### 出行行为转变：\n\n- 尽管12个研究城市经济社会发展特点不尽相同，但研究结果表明共享单车对的出行行为影响在12个研究城市具有同质性。\n- 调查结果显示，54%的共享单车用户使用共享单车连接其他交通方式，其中91%的骑行用于连接公共交通。\n- 12个城市中，有17%~45%的共享单车出行代替了原本的私人机动车出行，包括小汽车、出租车、网约车和摩托车。",
+            "text_snippet_translation_en": "Impacts of bike-sharing: research shows that users across Chinese cities with different economic levels, climate conditions, and stages of development display high consistency in travel characteristics, usage preferences, and identified service pain points. Further quantitative analysis shows that bike-sharing can not only strengthen connectivity with public transit and substitute for short-distance motorized-vehicle trips, but also improve the urban environment and public health - it is a 'multi-win' solution for last-mile urban travel. Shifts in travel behavior: (1) although the 12 study cities differ in economic and social development characteristics, results show bike-sharing's effect on travel behavior is consistent across all 12 cities; (2) survey results show 54% of bike-share users use bike-sharing to connect with other transport modes, of which 91% of that connecting use is to link with public transit; (3) across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips that would otherwise have been made, including private cars, taxis, ride-hailing, and motorcycles.",
+            "supports_key_fact": "The study found high consistency in travel-behavior effects across all 12 cities, despite differing economic/social development levels. | 54% of users ride to connect with other transport modes, primarily public transit (91% of connecting trips). | The report frames bike-sharing as a \"multi-win\" solution for last-mile urban travel: it strengthens connectivity with public transit, substitutes for short-distance motorized-vehicle trips, and improves the urban environment and public health."
+          },
+          {
+            "doc_id": "2020_dockless-bike-sharing_00124",
+            "chunk_id": "2020_dockless-bike-sharing_00124_chunk_9",
+            "page": 5,
+            "text_snippet": "- 12个城市中，有17%~45%的共享单车出行代替了原本的私人机动车出行，包括小汽车、出租车、网约车和摩托车。\n\n### 减少碳排放：\n\n- 虽然大部分共享单车骑行是用于替代由步行和公共交通完成的短距离出行，但是部分骑行仍可通过取代私人机动车出行，每年减少约480万吨二氧化碳排放，相当于680万英亩森林一年对二氧化碳的吸收。\n\n### 改善公共健康：\n\n- 适当的骑行时间和强度所带来的健康效益远超空气污染造成的健康风险。相对于不运动带来的健康风险，共享骑行作为一种积极的活动方式，在全国2.35亿共享单车用户中，每年可以避免约6万人的早亡风险。\n\n图ES-1 | 共享单车影响评估分析框架\n\n![img-6.jpeg](img-6.",
+            "text_snippet_translation_en": "Across the 12 cities, 17%-45% of bike-share trips replaced private motorized trips that would otherwise have been made, including private cars, taxis, ride-hailing, and motorcycles. Reducing carbon emissions: although most bike-share rides substitute for short-distance trips otherwise made by walking or public transit, some rides still reduce CO2 emissions by substituting for private motorized trips - by about 4.8 million tonnes per year, equivalent to the annual CO2 absorption of 6.8 million acres of forest. Improving public health: the health benefits of appropriate cycling duration and intensity far outweigh the health risks from air pollution; relative to the health risks of physical inactivity, bike-sharing as an active-travel mode can, across the nation's 235 million bike-share users, avert an estimated 60,000 premature deaths per year.",
+            "supports_key_fact": "17%-45% of bike-share trips (varying by city) displace private motorized trips (cars, taxis, ride-hailing, motorcycles)."
+          }
+        ]
       },
       "synthesis_ground_truth": {
-        "canonical_answer": "Dockless bike-sharing has a substantial and consistent effect on travel behavior across Chinese cities: the study found high consistency in these effects across all 12 cities, despite differing economic and social development levels. 54% of users ride to connect with other transport modes, primarily public transit (91% of connecting trips), while 17%-45% of bike-share trips (varying by city) displace private motorized trips such as cars, taxis, ride-hailing, and motorcycles. Overall, the report frames bike-sharing as a \"last-mile\" solution that both strengthens public transit connectivity and substitutes for short private-vehicle trips - changing the broader urban mobility ecosystem, not just individual trip choices.",
+        "canonical_answer": "Dockless bike-sharing has a substantial and consistent effect on travel behavior across Chinese cities: the study found high consistency in these effects across all 12 cities, despite differing economic and social development levels. 54% of users ride to connect with other transport modes, primarily public transit (91% of connecting trips), while 17%-45% of bike-share trips (varying by city) displace private motorized trips such as cars, taxis, ride-hailing, and motorcycles. Overall, the report frames bike-sharing as a \"multi-win\" solution for last-mile urban travel: it strengthens connectivity with public transit, substitutes for short-distance motorized-vehicle trips, and improves the urban environment and public health.",
         "key_facts": [
           "The study found high consistency in travel-behavior effects across all 12 cities, despite differing economic/social development levels.",
           "54% of users ride to connect with other transport modes, primarily public transit (91% of connecting trips).",
           "17%-45% of bike-share trips (varying by city) displace private motorized trips (cars, taxis, ride-hailing, motorcycles).",
-          "Overall, the report frames bike-sharing as a \"last-mile\" solution that both strengthens public transit connectivity and substitutes for short private-vehicle trips - changing the broader urban mobility ecosystem, not just individual trip choices."
+          "The report frames bike-sharing as a \"multi-win\" solution for last-mile urban travel: it strengthens connectivity with public transit, substitutes for short-distance motorized-vehicle trips, and improves the urban environment and public health."
         ]
       },
       "source_document_id": "98cc253e-8d96-4499-b67a-38baffe2f3f2",
       "source_language": "zh",
-      "note": "Source doc (zh, external_id 2020_dockless-bike-sharing_00124) has a possible English twin (2020_how-dockless-bike-sharing-changes-lives-an_2277). canonical_answer/key_facts drafted from reviewer's docreview notes."
+      "note": "Source doc (zh, external_id 2020_dockless-bike-sharing_00124) has a possible English twin (2020_how-dockless-bike-sharing-changes-lives-an_2277). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the zh source document (docreview_20260807.md doc review 2); expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). Pending AskWRI expert review."
     },
     {
       "id": "q8_yantian-port-mode-shift-targets",
