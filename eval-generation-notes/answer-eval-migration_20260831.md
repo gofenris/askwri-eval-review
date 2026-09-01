@@ -111,7 +111,7 @@ per-test-case content that requires reading the source document.
 | ------- | ---------------------------------------------------------------------- | ------------ | ------------ | ----------- | ------ |
 | 1       | `2025_zero-emission-heavy-duty-trucks_00015` (zh)                        | q1-q4        | 255,135      | ~800        | ✅ done (commit `adf8b00`) |
 | 2       | `2020_dockless-bike-sharing_00124` (zh)                                  | q5-q7        | 16,818       | ~52         | ✅ done (commit `357dc81`) |
-| 3       | `2024_optimizing-container-ports-transportation-and_9894` (zh)           | q8-q10       | 203,150      | ~635        | pending |
+| 3       | `2024_optimizing-container-ports-transportation-and_9894` (zh)           | q8-q10       | 203,150      | ~635        | ✅ done (commit `a1ac2e0`) |
 | 4       | `2022_impactos-economicos-pandemia-covid19-transporte-publico_0070` (es) | q11-q12, q16 | 106,619      | ~330        | pending |
 | 5       | `2023_analisis-de-los-mecanismos-financieros-para-la_3765` (es)          | q13-q15, q16 | 90,473       | ~282        | pending |
 
@@ -176,7 +176,30 @@ urban mobility ecosystem" clause tacked onto the source's actual "多赢
 q7's 4 facts each collapse onto one shared chunk, merged via `" | "` per
 the "Refined workflow" step 9 below.
 
-**Sessions 3-5 (one per remaining cluster, one commit each): use the
+**Session 3 (cluster 3: container ports, q8-q10) — DONE.** Committed in
+`a1ac2e0`. All 3 test cases now have real `expected_passages` (25 lookups
+across 7/12/6 passages for q8/q9/q10 — this cluster's facts are denser and
+more granular than q1-q7's, hence more passages per question). 26/29 quotes
+matched exactly; the 3 n-gram fallbacks were all genuine artifacts in the
+`document_chunks` text itself (an OCR "水中中转"/"水水中转" typo, and two
+chunk-internal line breaks landing mid-word) rather than transcription
+errors, and all resolved unambiguously. Caught two real errors carried over
+from the prior LLM-drafted facts: (1) a fabricated railway name
+("Yantian-Pinghunan railway") that doesn't match either of the two real
+railways the source discusses (平盐铁路 Ping-Yan, retrofitted; 平南铁路
+Pingnan, demolished) — fixed across q8/q9; (2) an imprecise "2035 BAU
+baseline of 392" figure in q10 that only existed as jumbled numeric labels
+inside a chart's OCR'd text (this doc's extraction_method is
+cache-plaintext, which drops chart structure) — reworded to keep only the
+figures confirmed in clean prose. This is this document's second
+same-source-passage collision worth noting for future reference: unlike
+clusters 1-2 where OCR punctuation/spacing was the main hazard, this
+document's `document_chunks` text itself has a few uncorrected
+typos/line-break artifacts baked in from ingestion — the n-gram fallback
+handled them correctly, so no special handling was needed beyond trusting
+`low_confidence=false` results even when `match_method` isn't `exact`.
+
+**Sessions 4-5 (one per remaining cluster, one commit each): use the
 "Refined workflow" section below**, not the original generic 5-step list this
 section used to have — that version undersold how much manual
 verification the quote-matching step actually needs.
