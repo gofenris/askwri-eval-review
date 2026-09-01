@@ -1,6 +1,10 @@
 # Answer Mode Eval Migration — Quote-First Passage Ground Truth (2026-08-31)
 
-Status: planning complete, execution not yet started.
+Status: Session 0 (tooling) and Session 1 (cluster 1, q1-q4) complete. Sessions
+2-5 (clusters 2-5, q5-q16) not yet started. **New session starting: read this
+file in full before doing anything else** — the "Refined workflow" section
+below supersedes the original per-cluster steps in "Session plan" with what
+was actually learned executing cluster 1; follow that version.
 
 ## Goal
 
@@ -103,13 +107,13 @@ per-test-case content that requires reading the source document.
 
 ## Document / cluster mapping (5 source documents, 16 test cases)
 
-| Cluster | Source doc (`external_id`, lang)                                         | Test cases   | Size (chars) | Est. chunks |
-| ------- | ---------------------------------------------------------------------- | ------------ | ------------ | ----------- |
-| 1       | `2025_zero-emission-heavy-duty-trucks_00015` (zh)                        | q1-q4        | 255,135      | ~800        |
-| 2       | `2020_dockless-bike-sharing_00124` (zh)                                  | q5-q7        | 16,818       | ~52         |
-| 3       | `2024_optimizing-container-ports-transportation-and_9894` (zh)           | q8-q10       | 203,150      | ~635        |
-| 4       | `2022_impactos-economicos-pandemia-covid19-transporte-publico_0070` (es) | q11-q12, q16 | 106,619      | ~330        |
-| 5       | `2023_analisis-de-los-mecanismos-financieros-para-la_3765` (es)          | q13-q15, q16 | 90,473       | ~282        |
+| Cluster | Source doc (`external_id`, lang)                                         | Test cases   | Size (chars) | Est. chunks | Status |
+| ------- | ---------------------------------------------------------------------- | ------------ | ------------ | ----------- | ------ |
+| 1       | `2025_zero-emission-heavy-duty-trucks_00015` (zh)                        | q1-q4        | 255,135      | ~800        | ✅ done (commit `adf8b00`) |
+| 2       | `2020_dockless-bike-sharing_00124` (zh)                                  | q5-q7        | 16,818       | ~52         | pending — do this next |
+| 3       | `2024_optimizing-container-ports-transportation-and_9894` (zh)           | q8-q10       | 203,150      | ~635        | pending |
+| 4       | `2022_impactos-economicos-pandemia-covid19-transporte-publico_0070` (es) | q11-q12, q16 | 106,619      | ~330        | pending |
+| 5       | `2023_analisis-de-los-mecanismos-financieros-para-la_3765` (es)          | q13-q15, q16 | 90,473       | ~282        | pending |
 
 `q16` spans clusters 4 and 5 — handle it during whichever of those two sessions
 finishes second (needs quotes from both docs).
@@ -142,31 +146,116 @@ Suggested location: `scripts/lookup_chunk_id.py`.
 
 ## Session plan
 
-**Session 0 (tooling):**
-1. Write the chunk-lookup script per spec above.
-2. Validate per "Validation" above (identity test + bike-sharing trial run).
+**Session 0 (tooling) — DONE.** Wrote `scripts/lookup_chunk_id.py` per spec
+above. Validated via identity round-trip self-test
+(`--self-test 2020_dockless-bike-sharing_00124`) and two real quotes from the
+bike-sharing doc, both resolving exactly. Committed in `e9bc67c` together with
+this plan doc and the Postgres schema reference notes.
 
-**Sessions 1-5 (one per cluster, one commit each):**
-For each cluster's source document:
-1. Delegate a subagent (Task tool) to read the full source markdown +
-   the relevant slice of `eval-generation-notes/docreview_20260807.md` +
-   that cluster's current `key_facts`, and return ONLY a compact structured
-   result: candidate verbatim quotes (source language), English translations,
-   and which existing/revised fact each supports. (Keeps the orchestrating
-   session's context small regardless of document size — critical for
-   clusters 1 and 3, ~200-255K chars each.)
-2. Review the subagent's output, finalize `canonical_answer`/`key_facts` and
-   the quote/translation/supports_key_fact triples for that cluster's test
-   cases.
-3. Run the chunk-lookup script for each `(external_id, quote)` pair to
-   populate `expected_passages`.
-4. Update `evalsets/evalset_answer_02.json` for that cluster's test cases only
-   (leave others untouched); update each test case's `note` field.
-5. Commit (mirroring the existing per-doc-review-batch commit granularity:
-   `95d8d52`, `a2d8705`, `cbd70e0`, `4688c9c`, `bcaa892`).
+**Session 1 (cluster 1: zero-emission trucks, q1-q4) — DONE.** Committed in
+`adf8b00`. All 4 test cases now have real `expected_passages` (13 total
+lookups, all exact matches, zero low-confidence) and quote-grounded
+`key_facts`/`canonical_answer`. Caught and corrected two real errors in the
+prior LLM-paraphrased `key_facts` in the process (see commit message for
+detail) — concrete evidence the quote-first approach is worth the extra
+effort, not just a formality.
+
+Also hardened `scripts/lookup_chunk_id.py`'s `normalize()` during this
+session against two real OCR artifacts found in the trucks document (see
+"Refined workflow" below) — this hardening is generic and already applies to
+all future clusters, no further action needed for it specifically.
+
+**Sessions 2-5 (one per remaining cluster, one commit each): use the
+"Refined workflow" section below**, not the original generic 5-step list this
+section used to have — that version undersold how much manual
+verification the quote-matching step actually needs.
 
 **Final step (after all 5 clusters):** bump `version`/`updated` at the top of
 `evalset_answer_02.json`, one commit.
+
+## Refined workflow (per cluster, learned executing Session 1)
+
+The original plan assumed a subagent's "verbatim quote" could be trusted
+as-is and fed straight into the lookup script. In practice, on real OCR'd zh
+text, roughly 2 of every 13 subagent-provided quotes did NOT match the source
+document exactly on the first try — not because the subagent misread the
+document, but because it silently normalized punctuation while transcribing
+(e.g. writing "，" where the OCR'd source actually has a bare "," in that
+spot, or adding/dropping a space next to a comma). The actual words were
+never wrong; only incidental formatting drifted. Do not skip the verification
+step below because of this.
+
+1. **Delegate a subagent** (Task tool, `general` type) to read the full source
+   markdown (`kp-docs/markdown/<external_id>.md`) + the relevant slice of
+   `eval-generation-notes/docreview_20260807.md` + that cluster's current
+   `key_facts`, and return a compact structured result per question: a
+   revised `canonical_answer`, and per `key_facts` bullet, a verbatim
+   source-language quote + English translation + notes on any revision (or a
+   flag if the existing fact looks wrong/unsupported — this is genuinely
+   useful, it caught 2 real errors in cluster 1). Keep this in the prompt
+   explicitly: it should flag suspected errors rather than force-fitting a
+   quote to an existing fact. Instruct it to return ONLY this structured
+   result, not large document excerpts, to keep the response compact.
+2. **Do not trust the subagent's quote strings as byte-exact.** Independently
+   verify every quote against the actual `kp-docs/markdown/<external_id>.md`
+   file, using punctuation/whitespace-normalized containment (exactly what
+   `lookup_chunk_id.py`'s `normalize()` does - full-width/half-width
+   punctuation folding, whitespace-around-punctuation folding). A quick way:
+   load the file, normalize it once, and check `normalize(quote) in
+   normalized_full_text` for every quote before touching the DB at all.
+3. **For quotes that fail verification:** don't try to fix the subagent's
+   transcription by hand-editing punctuation — instead, `grep` for a shorter,
+   distinctive fragment of the quote to find its real location in the file,
+   then pick a new anchor phrase (see next point) directly from the real
+   text at that location.
+4. **Prefer short (roughly 15-40 character), unique anchor phrases over
+   full-paragraph quotes** for the actual DB lookup. Check each anchor's
+   occurrence count in the normalized full document text is exactly 1 before
+   using it (ambiguous anchors risk silently matching the wrong passage in a
+   ~250K-char document). Short anchors also sidestep embedded noise that
+   breaks exact matching on longer spans - footnote markers
+   (`$^{2}$`, superscript digits), markdown table pipes, image reference
+   lines - none of which need to be reproduced perfectly since:
+5. **The final stored `text_snippet` is the chunk's actual DB text, not the
+   search anchor.** Once `scripts/lookup_chunk_id.py` finds the right chunk,
+   use its returned `chunk_text` field (byte-accurate from `document_chunks`)
+   as `text_snippet` - never the hand-typed anchor/quote. This is why steps
+   2-4 only need to find the *right chunk*, not reproduce it perfectly.
+6. **Split any multi-sentence "quote" that spans non-adjacent parts of the
+   document** (a subagent will sometimes join two supporting sentences with
+   "...") into separate atomic anchors before verification/lookup - exact
+   substring matching requires contiguity, so a joined quote will never match
+   as one unit even if both halves independently exist verbatim.
+7. **Run the lookup script in batch mode** (`--input`/`--output`, one entry
+   per `(test_case_id, fact_index, external_id, quote)`) once all anchors are
+   verified, rather than one-off `--external-id`/`--quote` calls - it's one
+   DB round-trip per unique `external_id` (cached), and surfaces every
+   low-confidence flag together for review before writing anything.
+8. **Translate the actual resolved `chunk_text`**, not just the short anchor
+   - the chunk is usually longer than the anchor phrase (it's a fixed
+   ~400-char window), and `text_snippet_translation_en` should cover what's
+   actually stored, not just the fragment that was searched for.
+9. **Deduplicate `expected_passages` by `chunk_id` within a test case.**
+   Adjacent key_facts often resolve to the same or an adjacent chunk (e.g.
+   two facts drawn from consecutive sentences in one paragraph); merge their
+   `supports_key_fact` strings with `" | "` rather than adding two entries
+   for the same chunk - this matters for any future chunk-level
+   precision/recall scoring, where a duplicated expected chunk would
+   artificially double-count.
+10. **Patch `evalsets/evalset_answer_02.json` via a small one-off Python
+    script**, not the Edit tool - the content includes long strings with
+    embedded zh/es text, quotation marks, and em-dashes that are error-prone
+    to hand-edit reliably. Load the file with `json.load`, replace only the
+    target cluster's test cases' `synthesis_ground_truth` and
+    `retrieval_ground_truth` fields plus `note`, `json.dump(...,
+    ensure_ascii=False, indent=2)` to match the file's existing style, and
+    diff the result before committing to confirm untouched test cases are
+    byte-identical.
+11. **Commit per cluster** (mirroring the existing per-doc-review-batch
+    commit granularity: `95d8d52`, `a2d8705`, `cbd70e0`, `4688c9c`,
+    `bcaa892`), including in the commit message any errors the quote-first
+    process caught in the previous `key_facts` - that's the concrete
+    evidence of this migration's value, worth preserving in history.
 
 ## Resuming after an interrupted session
 
