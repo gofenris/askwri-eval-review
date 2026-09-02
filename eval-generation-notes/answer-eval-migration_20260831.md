@@ -1,10 +1,8 @@
 # Answer Mode Eval Migration — Quote-First Passage Ground Truth (2026-08-31)
 
-Status: Session 0 (tooling) and Session 1 (cluster 1, q1-q4) complete. Sessions
-2-5 (clusters 2-5, q5-q16) not yet started. **New session starting: read this
-file in full before doing anything else** — the "Refined workflow" section
-below supersedes the original per-cluster steps in "Session plan" with what
-was actually learned executing cluster 1; follow that version.
+Status: Sessions 0-5 all complete (all 5 clusters, q1-q16). Remaining:
+the "Final step" (top-level `version`/`updated` bump) — not yet done, see
+bottom of "Session plan".
 
 ## Goal
 
@@ -112,8 +110,8 @@ per-test-case content that requires reading the source document.
 | 1       | `2025_zero-emission-heavy-duty-trucks_00015` (zh)                        | q1-q4        | 255,135      | ~800        | ✅ done (commit `adf8b00`) |
 | 2       | `2020_dockless-bike-sharing_00124` (zh)                                  | q5-q7        | 16,818       | ~52         | ✅ done (commit `357dc81`) |
 | 3       | `2024_optimizing-container-ports-transportation-and_9894` (zh)           | q8-q10       | 203,150      | ~635        | ✅ done (commit `a1ac2e0`) |
-| 4       | `2022_impactos-economicos-pandemia-covid19-transporte-publico_0070` (es) | q11-q12, q16 | 106,619      | ~330        | pending |
-| 5       | `2023_analisis-de-los-mecanismos-financieros-para-la_3765` (es)          | q13-q15, q16 | 90,473       | ~282        | pending |
+| 4       | `2022_impactos-economicos-pandemia-covid19-transporte-publico_0070` (es) | q11-q12, q16 | 106,619      | ~330        | ✅ done (commit `3366abe`) |
+| 5       | `2023_analisis-de-los-mecanismos-financieros-para-la_3765` (es)          | q13-q15, q16 | 90,473       | ~282        | ✅ done (commit `94dd3a9`) |
 
 `q16` spans clusters 4 and 5 — handle it during whichever of those two sessions
 finishes second (needs quotes from both docs).
@@ -199,10 +197,47 @@ typos/line-break artifacts baked in from ingestion — the n-gram fallback
 handled them correctly, so no special handling was needed beyond trusting
 `low_confidence=false` results even when `match_method` isn't `exact`.
 
-**Sessions 4-5 (one per remaining cluster, one commit each): use the
-"Refined workflow" section below**, not the original generic 5-step list this
-section used to have — that version undersold how much manual
-verification the quote-matching step actually needs.
+**Session 4 (cluster 4: Mexico COVID transport impacts, q11-q12, q16) — DONE.**
+Committed in `3366abe`. All 3 test cases now have real `expected_passages`
+(19 lookups across 8/5/6 passages for q11/q12/q16 - all exact matches, zero
+low-confidence). q16's `expected_external_ids` lists both this cluster's doc
+and cluster 5's financing doc (per the original docreview notes), but all of
+its key_facts trace only to this document, so it was handled here rather
+than in cluster 5 (both done in the same session anyway). Caught one real
+imprecision in q11's key_facts (the "supply falls in the same proportion as
+demand" assumption is scoped to the whole data-scarce bus/ECI segment in the
+source, not to the ECI model alone as the prior draft implied) - corrected.
+q12 and q16's facts were all already accurate. Also flagged (not corrected)
+a genuine internal inconsistency in the source document itself: prose states
+trains' worst-case pandemic demand drop was "up to 28 percent" while the
+document's own Tabla 2 shows trains falling to 33% of prior demand (a 67%
+drop) for the same period - the two figures likely describe different
+scopes (single system vs. pooled average across 5 train systems) but the
+document doesn't reconcile them, and no current key_fact depends on either
+number being "the" figure. Exercised the `expected_passages` dedup rule
+again: q12's chunk_9 and two of q16's chunks each collapse two distinct
+facts onto one chunk, merged via `" | "`.
+
+**Session 5 (cluster 5: Mexico transport financing mechanisms, q13-q15) —
+DONE.** Committed in `94dd3a9`. All 3 test cases now have real
+`expected_passages` (25 lookups across 7/5/6 passages for q13/q14/q15 - all
+exact matches, zero low-confidence). Unlike every prior cluster, no factual
+errors were found in the existing key_facts here - all 14 checked out
+verbatim against the source, only minor rewording for precision. Surfaced
+this migration's first genuine *chunk-resolution* gap (distinct from a
+low-confidence match): q14's key_facts[4] (2020 carbon-tax rates by fuel
+type) is verbatim-confirmable in `kp-docs/markdown/...` (the fuel-to-rate
+pairing required reconstructing via the source's own MXN/USD 20.12
+exchange-rate footnote, since the OCR'd table separates the fuel-name and
+numeric columns), but the corresponding `document_chunks` row renders that
+same table as an unindexed image (`img-5.jpeg`) rather than extracted text -
+no chunk in the live production DB contains these figures as text at all.
+Per the "Edge case" rule above, no `expected_passages` entry was fabricated
+for this fact; it's flagged in the test case's `note` for manual follow-up
+instead, while the fact itself is kept (it's still accurate per the source
+document). This is a different failure mode than cluster 3's OCR-mangled
+chart numbers: there the number existed as garbled chart-axis text; here
+the production chunk has no text for the table at all.
 
 **Final step (after all 5 clusters):** bump `version`/`updated` at the top of
 `evalset_answer_02.json`, one commit.
