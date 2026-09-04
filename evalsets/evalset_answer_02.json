@@ -2,7 +2,7 @@
   "name": "evalset-answer-02",
   "version": "3.1",
   "created": "2026-08-11",
-  "updated": "2026-09-02",
+  "updated": "2026-09-04",
   "description": "Evaluation dataset (generation 2) for AskWRI Answer mode evaluation - cross-lingual corpus (en/zh/es/pt). Test cases are built by manually reviewing one sampled KP at a time and drafting a high-level English query whose expected answer is that document, along with a draft answer. synthesis_ground_truth (canonical_answer/key_facts) and retrieval_ground_truth.expected_passages are quote-first: every key_fact and passage traces to a verbatim quote in the source document (native language, zh/es), independently resolved to a real document_chunks chunk_id via scripts/lookup_chunk_id.py (see eval-generation-notes/answer-eval-migration_20260831.md for the full methodology). Content is pending AskWRI expert review.",
   "test_cases": [
     {
@@ -1101,6 +1101,64 @@
       "source_document_id": "987353ab-9454-473f-8f00-eb767750dd24",
       "source_language": "es",
       "note": "Source doc (es, external_id 2022_impactos-economicos-pandemia-covid19-transporte-publico_0070, docreview_20260807.md doc review 6 - listed expected_documents for both this doc and 2023_analisis-de-los-mecanismos-financieros-para-la_3765, but all 4 key_facts trace only to this document; the financing document is not quote-sourced for this test case). canonical_answer/key_facts regenerated quote-first (2026-08-31) directly from the es source document; expected_passages resolved via direct DB lookup against document_chunks (non-circular - no retrieval/embedding service used). All 4 key_facts confirmed accurate; key_facts[3]'s 71%/68% September-2021 figures come from narrative prose (not Tabla 2) and were anchored there directly. Flagging a source-document inconsistency found during verification (not corrected, since it doesn't affect any current key_fact): prose states trains' worst-case demand drop was 'up to 28 percent' while Tabla 2 shows trains falling to 33% of prior demand (a 67% drop) for the same April-June 2020 period - the two figures likely describe different scopes (a single system vs. the pooled average across trains in 5 cities) but the document doesn't explicitly reconcile them. Pending AskWRI expert review."
+    },
+    {
+      "id": "q17_negative-offdomain-schengen-visa",
+      "question": "How do I apply for a Schengen tourist visa?",
+      "query_type": "negative",
+      "difficulty": "easy",
+      "note": "Negative case (spec §2.1): no corpus document answers this; the correct system behavior is to abstain (low-coverage warning) rather than synthesize. Clearly off-domain by construction. Draft pending expert review.",
+      "retrieval_ground_truth": {
+        "expected_external_ids": [],
+        "expected_document_ids": [],
+        "expected_passages": []
+      },
+      "synthesis_ground_truth": {
+        "canonical_answer": "",
+        "key_facts": []
+      }
+    },
+    {
+      "id": "q18_negative-offdomain-boiling-point",
+      "question": "What is the boiling point of water at sea level?",
+      "query_type": "negative",
+      "difficulty": "easy",
+      "note": "Negative case (spec §2.1): off-domain trivia; correct behavior is abstention. Draft pending expert review.",
+      "retrieval_ground_truth": {
+        "expected_external_ids": [],
+        "expected_document_ids": [],
+        "expected_passages": []
+      },
+      "synthesis_ground_truth": {
+        "canonical_answer": "",
+        "key_facts": []
+      }
+    },
+    {
+      "id": "q19_negative-neardomain-lagos-commute",
+      "question": "What was the average commute time in Lagos, Nigeria in 2023?",
+      "query_type": "negative",
+      "difficulty": "hard",
+      "note": "Negative case (spec §2.1), deliberately hard: topically adjacent to the corpus (urban mobility) but no corpus document reports this statistic; correct behavior is abstention. Reviewer should confirm no corpus doc answers it — reject if one does. Draft pending expert review.",
+      "retrieval_ground_truth": {
+        "expected_external_ids": [],
+        "expected_document_ids": [],
+        "expected_passages": []
+      },
+      "synthesis_ground_truth": {
+        "canonical_answer": "",
+        "key_facts": []
+      }
     }
+  ],
+  "twins": [
+    [
+      "2025_zero-emission-heavy-duty-trucks_00015",
+      "2025_charging-toward-2035-policies-to-accelerate-zero_7455"
+    ],
+    [
+      "2020_dockless-bike-sharing_00124",
+      "2020_how-dockless-bike-sharing-changes-lives-an_2277"
+    ]
   ]
 }
