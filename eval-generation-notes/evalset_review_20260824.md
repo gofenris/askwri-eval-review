@@ -71,3 +71,15 @@ requirement: `fortaleciendo-sinergias...`' summary describes it as an
 internal WRI multi-office report with "school environments" appearing as
 just one of several strategic lines of work -- "children and pollution"
 isn't necessarily a primary focus. 
+
+### d2 confirmation (2026-09-04)
+
+`evalset_cite_02` d2 (`d2_dockless-bike-sharing-discovery`):
+`2019_the-evolution-of-bike-sharing-10-questions-on-the_1977` : Both
+reviewers had skipped it (broken PDF link). Reviewing extracted
+text: includes a dedicated case study (Box 3, Beijing DBS
+regulation) plus Hangzhou/Guangzhou public-bike-share coverage. 
+
+Working URL/DOI for reviewer reference:
+https://www.wri.org/research/evolution-bike-sharing 
+https://doi.org/10.46830/wriwp.18.00035.
