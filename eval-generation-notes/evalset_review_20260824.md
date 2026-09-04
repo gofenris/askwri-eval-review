@@ -21,7 +21,7 @@ This document logs the expert (SME) review process conducted roughly
 WRI-affiliated series or coalitions (e.g., the Coalition for Urban
 Transitions) but formally authored by a partner organization (University of
 Leeds, LSE, OECD, African Centre for Cities, New Climate Economy). During
-review, one reviewer (Gorka) rejected several of these documents from
+review, one reviewer rejected several of these documents from
 expected-answer sets on the grounds that they weren't "written by WRI,"
 across both Cite mode queries (cite_01 q5, q7, q11; cite_02 d11, d12, d15)
 and, by extension, potentially Answer mode.
@@ -39,9 +39,8 @@ drawn within the eval sets.
 
 **Effect**: All documents disputed or excluded on authorship grounds are
 confirmed as correctly included in their respective `expected_document_ids`
-lists (cite_01: q5, q7, q11; cite_02: d11, d12, d15) — no removals, no
-additions. Per-test-case notes were added recording this decision;
-see each affected test case's `note` field:
+lists (cite_01: q5, q7, q11; cite_02: d11, d12, d15). Added note in each
+test case as follows: 
 
 > Authorship reviewed 2026-09-04: Document included regardless of
 > authorship affiliation.
@@ -53,3 +52,22 @@ Removed `2020_acciones-federales-planeacion-urbana_0152` from
 determined land value capture is not the document's primary focus, only
 cited as an illustrative example from other geographies. 6 -> 5 expected
 docs.
+
+### q3 additions (2026-09-04)
+
+`evalset_cite_01` q3 (`q3_children_pollution`): kept
+`2019_climate-emergency-urban-opportunity_4461` as expected (both
+reviewers ultimately said yes, though Gorka flagged it as a weak/borderline
+match -- minimal direct references to children/pollution).
+
+Added 2 candidate docs Gorka surfaced during that same review as
+comparably-thin-coverage precedents:
+- `2023_ciencia-participativa-accion-para-un-aire-limpio_6722`
+- `2026_fortaleciendo-sinergias-electromovilidad-calidad-aire_XXXX`
+
+**NEEDS FURTHER SME REVIEW**: both added on Gorka's recommendation. May
+require confirmation against this query's strict "primary focus"
+requirement: `fortaleciendo-sinergias...`' summary describes it as an
+internal WRI multi-office report with "school environments" appearing as
+just one of several strategic lines of work -- "children and pollution"
+isn't necessarily a primary focus. 

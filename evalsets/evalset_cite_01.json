@@ -65,7 +65,9 @@
         "2024_electrifying-us-school-bus-fleets-equitably-to_7005",
         "2022_impactar-tool-valuing-air-quality-health-impacts_4741",
         "2019_climate-emergency-urban-opportunity_4461",
-        "2025_improving-school-infrastructure-for-healthier_3532"
+        "2025_improving-school-infrastructure-for-healthier_3532",
+        "2023_ciencia-participativa-accion-para-un-aire-limpio_6722",
+        "2026_fortaleciendo-sinergias-electromovilidad-calidad-aire_XXXX"
       ],
       "expected_document_ids": [
         "c722bf92-0d45-4ca8-9851-036e2b3d2a56",
@@ -73,13 +75,15 @@
         "e762872f-f8e9-4dc6-b3e1-b8a271734028",
         "01829576-ced9-45a7-83d4-4cf2deb3e9e2",
         "dfcb9c66-209a-448a-ae0a-d05bbe8b9650",
-        "f6c66bd5-02f0-47b3-9ef0-0dc504a1fae5"
+        "f6c66bd5-02f0-47b3-9ef0-0dc504a1fae5",
+        "7f8a32fc-6de5-45de-b340-e0778bc1a595",
+        "6496521d-5746-47d4-8eb7-5e7bb4ad84d8"
       ],
       "source_document_id": "",
       "source_language": "",
       "difficulty": "hard",
       "query_type": "thematic_intersection",
-      "note": "query_type migrated 2026-08-12 from original 'thematic_intersection' (cite-golden-dataset.json taxonomy) to 'thematic_intersection' (evalset_cite_02.json taxonomy). 2026-08-18: re-added Improving School Infrastructure for Healthier Students and Communities -- back in corpus now."
+      "note": "query_type migrated 2026-08-12 from original 'thematic_intersection' (cite-golden-dataset.json taxonomy) to 'thematic_intersection' (evalset_cite_02.json taxonomy). 2026-08-18: re-added Improving School Infrastructure for Healthier Students and Communities -- back in corpus now. 2026-09-04: added 2 candidate docs surfaced by Gorka's SME review of _4461 (ciencia-participativa-accion-para-un-aire-limpio_6722, fortaleciendo-sinergias-electromovilidad-calidad-aire_XXXX) -- NEEDS FURTHER SME REVIEW: added on Gorka's recommendation, but relevance to this query's 'primary focus' requirement not independently confirmed; the second doc has no extracted body text available (metadata/summary only)."
     },
     {
       "id": "q4_climate_brazil",
