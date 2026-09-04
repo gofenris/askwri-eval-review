@@ -299,7 +299,7 @@
       "source_language": "",
       "difficulty": "easy",
       "query_type": "membership",
-      "note": "Contrast pair with d6: partnership/authoring-entity membership (broader) vs. named report series (narrower). Includes d6's 8 docs plus the 2019 precursor d6 excludes, plus docs with explicit 'in partnership with' / 'prepared for CUT' language. Excludes docs that only cite or acknowledge CUT in passing."
+      "note": "Contrast pair with d6: partnership/authoring-entity membership (broader) vs. named report series (narrower). Includes d6's 8 docs plus the 2019 precursor d6 excludes, plus docs with explicit 'in partnership with' / 'prepared for CUT' language. Excludes docs that only cite or acknowledge CUT in passing. Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
     },
     {
       "id": "d12_climate-hazards-heat-resilience-discovery",
@@ -339,7 +339,7 @@
       "source_language": "",
       "difficulty": "medium",
       "query_type": "topic_discovery",
-      "note": "Excluded as a distinct topic: Climate Emergency Urban Opportunity (decarbonization/mitigation-focused, not hazards/resilience), Untreated and Unsafe: Urban Sanitation Crisis, and Kampala sanitation services (sanitation governance, not climate hazards). 2026-08-17 corpus refresh added Mapping Scenarios for Heat-Resilient Infrastructure, Modeling Hyperlocal Heat Exposure, and Root Causes of the 2024 Rio Grande do Sul climate disaster (Brazil flood) -- all 3 confirmed on-topic and added; a 4th refresh doc on this exact topic, Flooding in Nairobi's Informal Settlements, went to d15 instead (thematic_intersection with informal settlements is a better fit there). wri-india-nup-report also scored well here but was excluded: climate vulnerability/resilience is just one of ~7 thematic chapters in an omnibus national policy report, not primary focus."
+      "note": "Excluded as a distinct topic: Climate Emergency Urban Opportunity (decarbonization/mitigation-focused, not hazards/resilience), Untreated and Unsafe: Urban Sanitation Crisis, and Kampala sanitation services (sanitation governance, not climate hazards). 2026-08-17 corpus refresh added Mapping Scenarios for Heat-Resilient Infrastructure, Modeling Hyperlocal Heat Exposure, and Root Causes of the 2024 Rio Grande do Sul climate disaster (Brazil flood) -- all 3 confirmed on-topic and added; a 4th refresh doc on this exact topic, Flooding in Nairobi's Informal Settlements, went to d15 instead (thematic_intersection with informal settlements is a better fit there). wri-india-nup-report also scored well here but was excluded: climate vulnerability/resilience is just one of ~7 thematic chapters in an omnibus national policy report, not primary focus. Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
     },
     {
       "id": "d13_low-cost-air-quality-monitoring-discovery",
@@ -413,7 +413,7 @@
       "source_language": "",
       "difficulty": "hard",
       "query_type": "thematic_intersection",
-      "note": "query_type thematic_intersection, with topics 'flooding risk' and 'informal settlements' as the two target concepts. Flooding in Nairobi's Informal Settlements added 2026-08-18 -- new document surfaced by the 2026-08-17 corpus refresh, direct title/executive-summary match confirmed via qmd vsearch (top result, score 0.72)."
+      "note": "query_type thematic_intersection, with topics 'flooding risk' and 'informal settlements' as the two target concepts. Flooding in Nairobi's Informal Settlements added 2026-08-18 -- new document surfaced by the 2026-08-17 corpus refresh, direct title/executive-summary match confirmed via qmd vsearch (top result, score 0.72). Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
     },
     {
       "id": "d16_urban-tree-inventory-discovery",

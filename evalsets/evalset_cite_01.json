@@ -14,22 +14,20 @@
         "2018_ahmedabad-town-planning-schemes-for-equitable_3120",
         "2020_urban-land-value-capture-in-sao-paulo-addis-ababa_4308",
         "2017_rail-plus-property-development-in-china-the-pilot_7681",
-        "2015_rail-plus-property-shenzhen_00032",
-        "2020_acciones-federales-planeacion-urbana_0152"
+        "2015_rail-plus-property-shenzhen_00032"
       ],
       "expected_document_ids": [
         "1c87b4ec-9f0f-4843-a5b4-9b627b558853",
         "152515b2-1b2b-4ed5-8e56-401291beb8e3",
         "a2a1b99c-7d98-4723-be7f-e6015410bb12",
         "c761e4c8-f3ff-487c-b2bd-c5fb777d9339",
-        "1a8822eb-b512-4368-b027-af35c84240ab",
-        "d24f1e12-50f0-46c6-bfb7-957e779701b4"
+        "1a8822eb-b512-4368-b027-af35c84240ab"
       ],
       "source_document_id": "",
       "source_language": "",
       "difficulty": "medium",
       "query_type": "topic_discovery",
-      "note": "query_type migrated 2026-08-12 from original 'topic_area' (cite-golden-dataset.json taxonomy) to 'topic_discovery' (evalset_cite_02.json taxonomy). 2026-08-19: added 2 zh/es cross-lingual documents found during the deferred cross-lingual-counterpart review -- 2015_rail-plus-property-shenzhen_00032 (zh), a confirmed translation-twin of the already-included 2017_rail-plus-property-development-in-china-the-pilot_7681 (same authors Xue/Fang, same report, per documents-list_20260817.txt's has_translations field and independently verified by reading both); and 2020_acciones-federales-planeacion-urbana_0152 (es), an independently-relevant Mexican federal urban-planning report with land value capture (recuperacion de plusvalias) as a substantial recurring theme, including a dedicated Sao Paulo CEPAC case study -- not a translation of an existing doc, added on its own merits. 4 -> 6 expected docs."
+      "note": "query_type migrated 2026-08-12 from original 'topic_area' (cite-golden-dataset.json taxonomy) to 'topic_discovery' (evalset_cite_02.json taxonomy). 2026-08-19: added 2 zh/es cross-lingual documents found during the deferred cross-lingual-counterpart review -- 2015_rail-plus-property-shenzhen_00032 (zh) (confirmed translation-twin) and 2020_acciones-federales-planeacion-urbana_0152 (es). 2026-09-04: updated after SME review, omitting one doc."
     },
     {
       "id": "q2_bangalore_geography",
@@ -81,7 +79,7 @@
       "source_language": "",
       "difficulty": "hard",
       "query_type": "thematic_intersection",
-      "note": "query_type migrated 2026-08-12 from original 'thematic_intersection' (cite-golden-dataset.json taxonomy) to 'thematic_intersection' (evalset_cite_02.json taxonomy). 2026-08-18: re-added Improving School Infrastructure for Healthier Students and Communities -- one of the original golden-dataset's expected docs, previously pruned as 'not in catalog' (a URL-typo/missing-doc issue at the time), now confirmed present and on-topic (explicitly discusses electric school buses reducing pollution to improve student health)."
+      "note": "query_type migrated 2026-08-12 from original 'thematic_intersection' (cite-golden-dataset.json taxonomy) to 'thematic_intersection' (evalset_cite_02.json taxonomy). 2026-08-18: re-added Improving School Infrastructure for Healthier Students and Communities -- back in corpus now."
     },
     {
       "id": "q4_climate_brazil",
@@ -145,7 +143,7 @@
       "source_language": "",
       "difficulty": "hard",
       "query_type": "topic_discovery",
-      "note": "Removed enabling-shift-electric-auto-rickshaws (not in catalog). query_type migrated 2026-08-12 from original 'fuzzy_topic' (cite-golden-dataset.json taxonomy) to 'topic_discovery' (evalset_cite_02.json taxonomy). 2026-08-18: dropped 2021_mexico-frontrunners-creating-safe-affordable-and_6429 -- confirmed permanently gone from the corpus (a duplicate ingest of _5127, which remains and still covers this doc), per the 2026-08-17 corpus refresh's own accounting. 10 -> 9 expected docs; no coverage lost. 2026-08-19: added 3 docs from the deferred cross-lingual-counterpart review -- 2020_dockless-bike-sharing_00124 (zh), a confirmed translation-twin of the already-included 2020_how-dockless-bike-sharing-changes-lives-an_2277 (same authors, same DOI 10.46830/wrirpt.18.00124); and the confirmed es/en translation pair 2025_seguridad-de-motociclistas-infraestructura-vias-urbanas_0030 / 2025_motorcycle-safety-and-urban-road-infrastructure_8478 (motorcyclist safety and urban road infrastructure design) -- NEEDS SME REVIEW: this pair wasn't a counterpart of an already-included doc, and motorcycles are a debatable fit for 'micromobility' (usually excluded by vehicle class in most definitions, though this eval set already includes motorized autorickshaws as a precedent) -- flagged, not yet confirmed on-topic by a subject-matter expert. 9 -> 12 expected docs."
+      "note": "Removed enabling-shift-electric-auto-rickshaws (not in corpus). 2026-08-18: dropped 2021_mexico-frontrunners-creating-safe-affordable-and_6429 -- duplicate ingest of _5127, which remains and still covers this doc; no coverage lost. 2026-08-19: added 3 docs from the deferred cross-lingual-counterpart review -- 2020_dockless-bike-sharing_00124 (zh) (translation-twin), 2025_seguridad-de-motociclistas-infraestructura-vias-urbanas_0030 / 2025_motorcycle-safety-and-urban-road-infrastructure_8478. NEEDS SME REVIEW: this pair wasn't a counterpart of an already-included doc, and motorcycles are a debatable fit for 'micromobility' (usually excluded by vehicle class in most definitions, though this eval set already includes motorized autorickshaws as a precedent). Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
     },
     {
       "id": "q6_school_bus_health",
@@ -173,7 +171,7 @@
       "source_language": "",
       "difficulty": "medium",
       "query_type": "thematic_intersection",
-      "note": "ImpactAr tool covers health impacts of bus fleet electrification, though not school buses specifically. query_type migrated 2026-08-12 from original 'intervention_impact' (cite-golden-dataset.json taxonomy) to 'thematic_intersection' (evalset_cite_02.json taxonomy). 2026-08-18: re-added Improving School Infrastructure for Healthier Students and Communities (see q3's note -- same restoration, same document, applies to both queries)."
+      "note": "ImpactAr tool covers health impacts of bus fleet electrification, though not school buses specifically. query_type changed to 'thematic_intersection'. 2026-08-18: re-added Improving School Infrastructure for Healthier Students and Communities."
     },
     {
       "id": "q7_jakarta_housing",
@@ -195,7 +193,7 @@
       "source_language": "",
       "difficulty": "hard",
       "query_type": "topic_discovery",
-      "note": "Updated from negative test (0 expected) to include adjacent/related docs per user guidance. Surabaya is other Indonesia city, rest are global scope housing solutions. query_type migrated 2026-08-12 from original 'solution_focused' (cite-golden-dataset.json taxonomy) to 'topic_discovery' (evalset_cite_02.json taxonomy)."
+      "note": "Updated from negative test (0 expected) to include adjacent/related docs per user guidance. Surabaya is other Indonesia city, rest are global scope housing solutions. query_type migrated to 'topic_discovery'. Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
     },
     {
       "id": "q8_hydrogen",
@@ -215,7 +213,7 @@
       "source_language": "",
       "difficulty": "medium",
       "query_type": "topic_discovery",
-      "note": "First 2 are directly on hydrogen, last 2 include hydrogen in energy analysis. Removed completing-trip (not in catalog). query_type migrated 2026-08-12 from original 'niche_technology' (cite-golden-dataset.json taxonomy) to 'topic_discovery' (evalset_cite_02.json taxonomy)."
+      "note": "First 2 are directly on hydrogen, last 2 include hydrogen in energy analysis. Removed completing-trip (not in catalog). query_type migrated to 'topic_discovery'."
     },
     {
       "id": "q9_world_resources_report",
@@ -295,7 +293,7 @@
       "source_language": "",
       "difficulty": "hard",
       "query_type": "date_constrained",
-      "note": "Date filter: 2020 onwards. Removed 5 docs not in catalog (as of the 169-doc-corpus era): rolling-out-electric-buses, access-climate-finance, assessing-financing-challenges, changing-demand-preference, financial-analysis-charging-station-fact. query_type migrated 2026-08-12 from original 'amorphous_temporal' (cite-golden-dataset.json taxonomy) to 'date_constrained' (evalset_cite_02.json taxonomy). FIXED 2026-08-13: removed 3 docs that predate the query's 'since 2020' cutoff (verified via date_published frontmatter, not just filename year): 2017_global-review-of-finance-for-sustainable-urban_8997/_8290 (12/1/2017) and 2019_climate-emergency-urban-opportunity_4461 (9/19/2019). This was a genuine date-filter bug inherited from cite-golden-dataset.json (v3.0), not a slug-vs-real-date mismatch -- flagged by Paul Lam. source_evalsets/cite-golden-dataset.json left untouched (frozen reference). 2026-08-18: all 5 previously-pruned docs above confirmed back in the current (206-doc) corpus, all post-2020-published, and all fit this query's own stated scope ('mostly electric buses and transportation') -- re-added. 2 -> 7 expected docs. 2026-08-19: added 3 es docs from the deferred cross-lingual-counterpart review, none e-bus-specific -- 2023_analisis-de-los-mecanismos-financieros-para-la_3765 (public-transport financing mechanisms in Mexican cities, date_published 5/30/2023) and 2022_impactos-economicos-pandemia-covid19-transporte-publico_0070 (COVID-19 pandemic's financial impact on Mexican public transport, year_published 2022) both clearly post-2020; 2020_acciones-federales-planeacion-urbana_0152 (federal urban-planning report discussing municipal financing mechanisms incl. land value capture, also added to q1) -- NEEDS SME REVIEW: year_published is 2020 with no exact month in the frontmatter, so it could not be confirmed against the 'since 2020' cutoff the way the 2026-08-13 fix required for other docs. 7 -> 10 expected docs."
+      "note": "Date filter: 2020 onwards. Removed 5 docs not in catalog, added back on 2026-08-18. query_type migrated to 'date_constrained'. FIXED 2026-08-13: removed 3 docs that predate the query's 'since 2020' cutoff (verified via date_published frontmatter). 2026-08-19: added 3 es docs from cross-lingual-counterpart review. 2020_acciones-federales-planeacion-urbana_0152 -- NEEDS SME REVIEW: year_published is 2020 with no exact month in the frontmatter."
     },
     {
       "id": "q11_urban_finance_exclude_ebuses",
@@ -331,7 +329,7 @@
       "source_language": "",
       "difficulty": "hard",
       "query_type": "topic_exclusion",
-      "note": "Urban finance minus electric buses. Removed seizing-the-urban-opportunity (not in catalog, as of the 169-doc-corpus era). 2026-07-22: removed 4 electric-bus expected_urls that contradicted the query's own exclusion clause (financing-electric-and-hybrid-electric-buses, assessing-financing-challenges-implementing-large-scale-electric-bus-program-india, rolling-out-electric-buses, the-future-of-urban-mobility-electric-bus-deployment-in-bogota-colombia). query_type migrated 2026-08-12 from original 'amorphous_exclusion' (cite-golden-dataset.json taxonomy) to 'topic_exclusion' (evalset_cite_02.json taxonomy). 2026-08-18: seizing-the-urban-opportunity confirmed back in the current corpus and re-added -- it's not about electric buses, so doesn't conflict with this query's exclusion clause (unlike the 4 removed 2026-07-22, which remain correctly excluded). 7 -> 8 expected docs. 2026-08-19: added the same 3 es docs as q10 (see q10's note for full rationale) -- same 'since 2020'-era finance docs, none e-bus-specific so none conflict with this query's exclusion clause: 2023_analisis-de-los-mecanismos-financieros-para-la_3765, 2022_impactos-economicos-pandemia-covid19-transporte-publico_0070, and 2020_acciones-federales-planeacion-urbana_0152 (also added to q1; NEEDS SME REVIEW per q10's note -- unrelated to this query's own exclusion clause, the open question is a date-cutoff ambiguity relevant to q10, not q11). 8 -> 11 expected docs."
+      "note": "Urban finance minus electric buses. 2026-07-22: removed 4 electric-bus KPS that contradicted the query's own exclusion clause (financing-electric-and-hybrid-electric-buses, assessing-financing-challenges-implementing-large-scale-electric-bus-program-india, rolling-out-electric-buses, the-future-of-urban-mobility-electric-bus-deployment-in-bogota-colombia). query_type migrated to 'topic_exclusion'. 2026-08-19: added the same 3 es docs as q10. Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
     }
   ],
   "metadata": {
