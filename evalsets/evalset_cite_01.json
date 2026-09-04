@@ -116,9 +116,7 @@
       "question": "How can cities implement micromobility solutions?",
       "task_description": "Retrieve papers that are about a not well-defined topic area (micromobility encompasses a range of technologies). Do not retrieve papers that clearly are about non 'micro', such as public transit, freight, and other non-mobility solutions.",
       "expected_external_ids": [
-        "2021_mexico-frontrunners-creating-safe-affordable-and_5127",
         "2021_mexico-frontrunners-sustainable-mobility-for_2332",
-        "2021_mexico-frontrunners-adapting-to-climate-change-in_8904",
         "2020_how-dockless-bike-sharing-changes-lives-an_2277",
         "2023_public-bicycle-sharing-in-india-lessons-learned_1422",
         "2023_assessing-the-environmental-impact-of-shared_4976",
@@ -126,13 +124,10 @@
         "2023_assessing-the-viability-of-using-autorickshaws_2146",
         "2019_guadalajara-revisiting-public-space-interventions_9381",
         "2020_dockless-bike-sharing_00124",
-        "2025_seguridad-de-motociclistas-infraestructura-vias-urbanas_0030",
-        "2025_motorcycle-safety-and-urban-road-infrastructure_8478"
+        "2024_enabling-the-shift-to-electric-auto-rickshaws-a_6804"
       ],
       "expected_document_ids": [
-        "6bf845bb-fe9b-4fb8-aa5b-194ac57e483a",
         "cfb24eb0-a4c6-481e-88c7-71fc140bfd93",
-        "7c980340-3d1e-42f4-a092-f45e06e4908b",
         "950b35ab-743f-41de-8212-0a1f75250453",
         "175f383e-349d-44fc-a06a-e4b7fb5d22cf",
         "4457e736-a988-43bb-8f36-96d953d3d88a",
@@ -140,14 +135,13 @@
         "5bed6c1f-674c-4d54-a9cf-0b7ca09007e0",
         "eb47ca8f-62c3-4b96-9499-3033b21b5bf0",
         "98cc253e-8d96-4499-b67a-38baffe2f3f2",
-        "5b78f24d-ba54-4b4e-b213-821162ce5f16",
-        "69cff58d-508f-4bd5-a7f9-4f35fe7fa94b"
+        "a59ea176-c0e9-4302-8a2b-b7b176f147c8"
       ],
       "source_document_id": "",
       "source_language": "",
       "difficulty": "hard",
       "query_type": "topic_discovery",
-      "note": "Removed enabling-shift-electric-auto-rickshaws (not in corpus). 2026-08-18: dropped 2021_mexico-frontrunners-creating-safe-affordable-and_6429 -- duplicate ingest of _5127, which remains and still covers this doc; no coverage lost. 2026-08-19: added 3 docs from the deferred cross-lingual-counterpart review -- 2020_dockless-bike-sharing_00124 (zh) (translation-twin), 2025_seguridad-de-motociclistas-infraestructura-vias-urbanas_0030 / 2025_motorcycle-safety-and-urban-road-infrastructure_8478. NEEDS SME REVIEW: this pair wasn't a counterpart of an already-included doc, and motorcycles are a debatable fit for 'micromobility' (usually excluded by vehicle class in most definitions, though this eval set already includes motorized autorickshaws as a precedent). Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation."
+      "note": "2026-08-19: added 3 docs from the deferred cross-lingual-counterpart review -- 2020_dockless-bike-sharing_00124 (zh) (translation-twin). Authorship reviewed 2026-09-04: Document included regardless of authorship affiliation. 2026-09-04: SME review 2023_assessing-the-viability-of-using-autorickshaws_2146 (SME-approved yes) though flagged for a second look. 2026-09-04: re-added 2024_enabling-the-shift-to-electric-auto-rickshaws-a_6804 b/c back in corpus."
     },
     {
       "id": "q6_school_bus_health",

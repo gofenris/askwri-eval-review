@@ -83,3 +83,41 @@ regulation) plus Hangzhou/Guangzhou public-bike-share coverage.
 Working URL/DOI for reviewer reference:
 https://www.wri.org/research/evolution-bike-sharing 
 https://doi.org/10.46830/wriwp.18.00035.
+
+### q5 cleanup (2026-09-04)
+
+`evalset_cite_01` q5 (`q5_micromobility`), 12 -> 8 expected docs. SME
+review (Gorka) surfaced content mismatches within the "Mexico Frontrunners"
+case-study series -- the evalset had swept in all 3 Mexico case studies,
+but only 1 is actually about micromobility:
+
+Removed:
+- `2021_mexico-frontrunners-creating-safe-affordable-and_5127` -- actual
+  topic is EcoCasa housing finance, not micromobility.
+- `2021_mexico-frontrunners-adapting-to-climate-change-in_8904` -- actual
+  topic is climate adaptation in mountain cities (Xalapa), not
+  micromobility.
+- `2025_seguridad-de-motociclistas-infraestructura-vias-urbanas_0030` /
+  `2025_motorcycle-safety-and-urban-road-infrastructure_8478` -- per the
+  NEEDS SME REVIEW flag already on this pair: motorcycles are generally
+  excluded from micromobility definitions, and the content itself is
+  road-safety/speed-management countermeasures, not micromobility
+  implementation.
+
+Kept:
+- `2021_mexico-frontrunners-sustainable-mobility-for_2332` -- the correct
+  Mexico Frontrunners case study (cycling schemes in Mexico City and
+  Guadalajara).
+- `2023_assessing-the-viability-of-using-autorickshaws_2146` -- SME
+  approved (yes, no notes). Flagging for a second look regardless: its
+  actual subject is autorickshaws for *urban freight delivery*, which this
+  query's task_description explicitly excludes ("do not retrieve papers...
+  about... freight"). Retained per SME judgment pending confirmation.
+
+Re-added:
+- `2024_enabling-the-shift-to-electric-auto-rickshaws-a_6804` -- previously
+  dropped from this test case as "not in corpus"; confirmed back in the
+  current corpus (`status: searchable`). Content is a guidebook for cities
+  on electrifying auto-rickshaw fleets (policy, financing, charging
+  infrastructure, case studies from Amritsar/Kochi/ Delhi) -- seems 
+  a good fit for this query.
