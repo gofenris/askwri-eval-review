@@ -15,6 +15,38 @@ Review Expected Documents (Cite Mode)
 * Use this link to start your review using the notebook
 * [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/gofenris/askwri-eval-review/blob/main/notebooks/review-evalset-answer.py/wasm?show-code=false)
 
+**Review System Output (Answer mode)**
+* Use this link to label stored system output captures for judge calibration
+* [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/gofenris/askwri-eval-review/blob/main/notebooks/review-system-output-answer.py/wasm?show-code=false)
+
+
+## Review workflow (Answer mode)
+
+1. **Review the evalset** with `notebooks/review-evalset-answer.py` (first
+   notebook above): per-passage, canonical-answer, and (on negative cases)
+   negative-case-validity yes/no/skip labels. It saves `annot-*.json` files
+   to `review-output/` and the shared Drive folder.
+2. **Ingest the labels.** The maintainer runs
+   `uv run scripts/ingest_review_status.py --evalset
+   evalsets/evalset_answer_02.json --annot review-output/ [--dry-run]`, which
+   writes `review_status` onto cases: all-yes cases become
+   `expert_approved`; a `no` drops the passage from `expected_passages` and
+   flags the affected facts in the case note; reviewer conflicts stay
+   `draft`. ALWAYS pass the whole annot directory (ingestion is idempotent,
+   but drops are irreversible and a partial directory can miss recorded
+   no-votes).
+3. **Judge calibration.** With `notebooks/review-system-output-answer.py`
+   (second notebook above), label stored harness captures (upload
+   `capture-<label>.json`), producing `labels-*.json` files consumed by the
+   app repo's answer-eval harness (the `--labels` flag lands with the harness
+   PR of this same program).
+
+For adding English twin passages to a fact whose source passage is zh/es,
+see [eval-generation-notes/twin-passages-workflow_20260904.md](eval-generation-notes/twin-passages-workflow_20260904.md).
+
+Tests run with `uv run pytest tests/ -v` (pytest is in the `dev` dependency
+group).
+
 
 ## Overview 
 
