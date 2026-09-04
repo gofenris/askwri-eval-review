@@ -13,7 +13,7 @@ This document logs the expert (SME) review process conducted roughly
 - Creation of new queries (none yet added as of this writing; may be
   incoming)
 
-## Major decisions
+## Decisions (Cite Mode)
 
 ### Authorship criterion (2026-09-04)
 
@@ -72,18 +72,6 @@ internal WRI multi-office report with "school environments" appearing as
 just one of several strategic lines of work -- "children and pollution"
 isn't necessarily a primary focus. 
 
-### d2 confirmation (2026-09-04)
-
-`evalset_cite_02` d2 (`d2_dockless-bike-sharing-discovery`):
-`2019_the-evolution-of-bike-sharing-10-questions-on-the_1977` : Both
-reviewers had skipped it (broken PDF link). Reviewing extracted
-text: includes a dedicated case study (Box 3, Beijing DBS
-regulation) plus Hangzhou/Guangzhou public-bike-share coverage. 
-
-Working URL/DOI for reviewer reference:
-https://www.wri.org/research/evolution-bike-sharing 
-https://doi.org/10.46830/wriwp.18.00035.
-
 ### q5 cleanup (2026-09-04)
 
 `evalset_cite_01` q5 (`q5_micromobility`), 12 -> 8 expected docs. SME
@@ -121,3 +109,43 @@ Re-added:
   on electrifying auto-rickshaw fleets (policy, financing, charging
   infrastructure, case studies from Amritsar/Kochi/ Delhi) -- seems 
   a good fit for this query.
+
+### q10 date cutoff (2026-09-04)
+
+q10's `2020_acciones-federales-planeacion-urbana_0152` date-cutoff
+ambiguity: year_published is 2020 with no exact month, ambiguous 
+whether it meets the "since 2020" cutoff. Retaining the document. 
+
+### d2 confirmation (2026-09-04)
+
+`evalset_cite_02` d2 (`d2_dockless-bike-sharing-discovery`):
+`2019_the-evolution-of-bike-sharing-10-questions-on-the_1977` : Both
+reviewers had skipped it (broken PDF link). Reviewing extracted
+text: includes a dedicated case study (Box 3, Beijing DBS
+regulation) plus Hangzhou/Guangzhou public-bike-share coverage. 
+
+Working URL/DOI for reviewer reference:
+https://www.wri.org/research/evolution-bike-sharing 
+https://doi.org/10.46830/wriwp.18.00035.
+
+## Summary of CITE evalset changes
+
+| Evalset | Added | Removed | Net |
+| ------- | ----- | ------- | --- |
+| cite_01 | 3     | 5       | -2  |
+| cite_02 | 0     | 0       | 0   |
+
+Total: 3 documents added, 5 documents removed, net -2 across both evalsets.
+
+For as many issues as we walked through, the net change is surprisingly
+small. Most of the work was actually documentation and policy (e.g. the
+authorship issue, and confirmations rather than changes). 
+
+That's a good sign, though. It means the evalsets were pretty sound to 
+begin with, and the review mostly caught genuine mistakes rather than 
+systemic issues. 
+
+## Decisions (Answer Mode) 
+
+`evalset_answer_02` has not been reviewed via this process yet. Review is
+planned for coming weeks. 
