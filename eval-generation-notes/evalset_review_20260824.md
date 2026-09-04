@@ -128,6 +128,17 @@ Working URL/DOI for reviewer reference:
 https://www.wri.org/research/evolution-bike-sharing 
 https://doi.org/10.46830/wriwp.18.00035.
 
+### "Skip" comments
+
+These were marked as "Skip". 
+* `Cite-02 d15`: Weiqi noted that _7058 is "not so focused on flooding risk".
+
+No changes were made due to these "skip" reviews. 
+
+### Not reviewed
+
+Empty reviews: d8, d9, d10 have no document reviews
+
 ## Summary of CITE evalset changes
 
 | Evalset | Added | Removed | Net |
