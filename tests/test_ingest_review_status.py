@@ -203,7 +203,7 @@ def test_conflicting_reviewers_leave_draft():
         _annot("q1_alpha", "fenris", [("a_chunk_1", "yes"), ("a_chunk_2", "yes")], answer="yes"),
         _annot("q1_alpha", "mlabel", [("a_chunk_1", "no"), ("a_chunk_2", "yes")], answer="yes"),
     ]
-    new_es, _ = ingest(es, annots)
+    new_es, report = ingest(es, annots)
     case = new_es["test_cases"][0]
     assert case["review_status"] == "draft"
     markers = _markers(case)
@@ -213,6 +213,44 @@ def test_conflicting_reviewers_leave_draft():
     assert len(drop) == 1 and "r=mlabel" in drop[0]
     assert len(conflict) == 1
     assert "fenris=yes" in conflict[0] and "mlabel=no" in conflict[0]
+    # the CLI report carries the same conflict detail (case id + labels)
+    conflict_report = [ln for ln in report if "conflicting labels on passage a_chunk_1" in ln]
+    assert len(conflict_report) == 1
+    assert conflict_report[0].startswith("case q1_alpha:")
+    assert "fenris=yes" in conflict_report[0] and "mlabel=no" in conflict_report[0]
+
+
+# --- 4b. answer/validity conflict -> draft, conflict in the report ------------
+
+
+def test_answer_conflict_reported_in_report_lines():
+    es = _evalset()
+    annots = [
+        _annot("q1_alpha", "fenris", [("a_chunk_1", "yes"), ("a_chunk_2", "yes")], answer="no"),
+        _annot("q1_alpha", "mlabel", [("a_chunk_1", "yes"), ("a_chunk_2", "yes")], answer="yes"),
+    ]
+    new_es, report = ingest(es, annots)
+    case = new_es["test_cases"][0]
+    assert case["review_status"] == "draft"
+    conflict_report = [ln for ln in report if "conflicting labels on canonical answer" in ln]
+    assert len(conflict_report) == 1
+    assert conflict_report[0].startswith("case q1_alpha:")
+    assert "fenris=no" in conflict_report[0] and "mlabel=yes" in conflict_report[0]
+
+
+def test_validity_conflict_reported_in_report_lines():
+    es = _evalset()
+    annots = [
+        _annot("q3_negative", "fenris", validity="no"),
+        _annot("q3_negative", "mlabel", validity="yes"),
+    ]
+    new_es, report = ingest(es, annots)
+    case = new_es["test_cases"][2]
+    assert case["review_status"] == "draft"
+    conflict_report = [ln for ln in report if "conflicting labels on negative-case validity" in ln]
+    assert len(conflict_report) == 1
+    assert conflict_report[0].startswith("case q3_negative:")
+    assert "fenris=no" in conflict_report[0] and "mlabel=yes" in conflict_report[0]
 
 
 # --- 5. skip is silent: no drop, no conflict, blocks approval ----------------

@@ -214,6 +214,10 @@ def ingest(evalset: dict, annots: list[dict]) -> tuple[dict, list[str]]:
                     f"[review {no_events[0]['ts']}] conflicting labels on "
                     f"passage {cid}: {pairs} — left draft"
                 )
+                report.append(
+                    f"case {qid}: conflicting labels on passage {cid}: "
+                    f"{pairs} — left draft"
+                )
 
         # --- answer / validity items ----------------------------------------
         is_negative = _case_is_negative(case)
@@ -243,6 +247,10 @@ def ingest(evalset: dict, annots: list[dict]) -> tuple[dict, list[str]]:
                 append_marker(
                     f"[review {no_events[0]['ts']}] conflicting labels on "
                     f"{item_name}: {pairs} — left draft"
+                )
+                report.append(
+                    f"case {qid}: conflicting labels on {item_name}: "
+                    f"{pairs} — left draft"
                 )
 
         # --- approval state machine ------------------------------------------
