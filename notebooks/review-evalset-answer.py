@@ -239,13 +239,25 @@ def _(dirty_query_ids, last_selected_query_id_box, mo, query_dropdown):
 
 
 @app.cell(hide_code=True)
-def _(mo):
+def _(selected_query):
+    # Mirrors the harness's isNegative (and ingest_review_status.py's
+    # _case_is_negative): a negative case has no expected docs and no key
+    # facts, so there are no passages or answer to review -- only case
+    # validity.
+    is_negative_case = (
+        not selected_query["retrieval_ground_truth"].get("expected_external_ids")
+    ) and (not selected_query["synthesis_ground_truth"].get("key_facts"))
+    return (is_negative_case,)
+
+
+@app.cell(hide_code=True)
+def _(is_negative_case, mo):
     mo.md(r"""
     ### Review expected passages
 
     For each passage below, confirm whether it actually supports the key fact
     it's meant to back.
-    """)
+    """) if not is_negative_case else None
     return
 
 
@@ -283,6 +295,18 @@ def _(MARKDOWN_DIR, selected_query, yaml):
         for passage in selected_query["retrieval_ground_truth"]["expected_passages"]
     ]
     return (passage_contexts,)
+
+
+@app.cell(hide_code=True)
+def _(selected_query):
+    negative_contexts = [
+        {
+            "query_id": selected_query["id"],
+            "question": selected_query["question"],
+            "note": selected_query.get("note", ""),
+        }
+    ]
+    return (negative_contexts,)
 
 
 @app.cell(hide_code=True)
@@ -338,8 +362,14 @@ def _(div, p, span):
                 ),
                 p("Source passage (native language):", style=_label_style),
                 p(example["text_snippet"], style=_native_style),
-                p("English translation:", style=_label_style),
-                p(example["text_snippet_translation_en"], style=_translation_style),
+                *(
+                    [
+                        p("English translation:", style=_label_style),
+                        p(example["text_snippet_translation_en"], style=_translation_style),
+                    ]
+                    if (example.get("text_snippet_translation_en") or "").strip()
+                    else []
+                ),
                 p("This passage is meant to support:", style=_label_style),
                 p(example["supports_key_fact"], style=_fact_style),
                 p("Does this passage actually support the stated key fact?",
@@ -352,21 +382,51 @@ def _(div, p, span):
 
 
 @app.cell(hide_code=True)
-def _(SimpleLabel, mo, passage_contexts, render_passage_card):
-    passage_widget = mo.ui.anywidget(SimpleLabel(examples=passage_contexts, render=render_passage_card))
-    passage_widget
-    return (passage_widget,)
+def _(div, p):
+    def render_negative_case_card(example):
+        _query_style = (
+            "font-size:0.85rem; color:#664d03; background:#fff3bf; border-radius:6px; "
+            "padding:0.5rem 0.8rem; margin:0 0 0.75rem 0; max-width:65ch;"
+        )
+        _label_style = "font-size:0.8rem; font-weight:600; color:#6c757d; margin:0 0 0.25rem 0;"
+        _note_style = (
+            "font-size:0.95rem; color:#333; line-height:1.6; margin:0 0 0.75rem 0; "
+            "padding:0.6rem 0.8rem; background:#f8f9fa; border-radius:6px; max-width:65ch;"
+        )
+
+        return str(
+            div(
+                p(f"Query: \u201c{example['question']}\u201d", style=_query_style),
+                p("note:", style=_label_style),
+                p(example["note"], style=_note_style),
+                p("Is this a valid negative case (AskWRI should NOT produce an answer)?",
+                  style="font-size:0.95rem; font-weight:600; color:#1a1a1a; margin:0.75rem 0 0 0; padding-top:0.5rem; border-top:1px solid #e9ecef;"),
+                klass="molabel-negative-case-context",
+            )
+        )
+
+    return (render_negative_case_card,)
 
 
 @app.cell(hide_code=True)
-def _(mo):
+def _(SimpleLabel, is_negative_case, mo, negative_contexts, passage_contexts, render_negative_case_card, render_passage_card):
+    # Negative cases have no expected_passages, so passage_contexts is []
+    # there and only the validity card is shown.
+    passage_widget = mo.ui.anywidget(SimpleLabel(examples=passage_contexts, render=render_passage_card))
+    negative_case_widget = mo.ui.anywidget(SimpleLabel(examples=negative_contexts, render=render_negative_case_card))
+    negative_case_widget if is_negative_case else passage_widget
+    return negative_case_widget, passage_widget
+
+
+@app.cell(hide_code=True)
+def _(is_negative_case, mo):
     mo.md(r"""
     ### Review synthesized answer
 
     Review the `canonical_answer` below: does it accurately and completely
     answer the query, based on the source document? `key_facts` are shown for
     context only and are not individually reviewed at this stage.
-    """)
+    """) if not is_negative_case else None
     return
 
 
@@ -417,9 +477,9 @@ def _(div, mo, p):
 
 
 @app.cell(hide_code=True)
-def _(SimpleLabel, mo, render_synthesis_card, synthesis_contexts):
+def _(SimpleLabel, is_negative_case, mo, render_synthesis_card, synthesis_contexts):
     synthesis_widget = mo.ui.anywidget(SimpleLabel(examples=synthesis_contexts, render=render_synthesis_card))
-    synthesis_widget
+    None if is_negative_case else synthesis_widget
     return (synthesis_widget,)
 
 
@@ -432,11 +492,16 @@ def _():
 
 
 @app.cell(hide_code=True)
-def _(dirty_query_ids, passage_widget, selected_query, synthesis_widget):
+def _(dirty_query_ids, negative_case_widget, passage_widget, selected_query, synthesis_widget):
     _ = passage_widget.value  # dependency: mark query dirty whenever passage annotation state changes
     _ = synthesis_widget.value  # dependency: mark query dirty whenever synthesis annotation state changes
+    _ = negative_case_widget.value  # dependency: mark query dirty whenever validity annotation state changes
 
-    if passage_widget.get_annotations() or synthesis_widget.get_annotations():
+    if (
+        passage_widget.get_annotations()
+        or synthesis_widget.get_annotations()
+        or negative_case_widget.get_annotations()
+    ):
         dirty_query_ids.add(selected_query["id"])
     return
 
@@ -454,8 +519,10 @@ def _(
     REPO_ROOT,
     REVIEW_OUTPUT_DIR,
     dirty_query_ids,
+    is_negative_case,
     json,
     mo,
+    negative_case_widget,
     passage_widget,
     re,
     reviewer_name_input,
@@ -498,6 +565,22 @@ def _(
         "reviewed_passages": _reviewed_passages,
         "synthesis_review": _synthesis_review,
     }
+
+    _negative_case_review = None
+    if is_negative_case:
+        _validity_annotations = negative_case_widget.get_annotations()
+        if _validity_annotations:
+            _val = _validity_annotations[0]
+            _negative_case_review = {
+                "label": _val["_label"],
+                "notes": _val["_notes"],
+                "timestamp": _val["_timestamp"],
+            }
+        # Negative cases carry no passage/synthesis review -- only validity.
+        _payload["reviewed_passages"] = []
+        _payload["synthesis_review"] = None
+        _payload["negative_case_review"] = _negative_case_review
+
     _filename = f"annot-{EVALSET_NAME}-{selected_query['id']}-by-{_reviewer}.json"
 
     REVIEW_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -524,6 +607,7 @@ def _(
     `{_annotations_path.relative_to(REPO_ROOT)}`
 
     Reviewed passages: {len(_reviewed_passages)} \u00b7 Synthesis reviewed: {"yes" if _synthesis_review else "no"}
+    {f"Validity reviewed: {'yes' if _negative_case_review else 'no'}" if is_negative_case else ""}
 
     {_submit_status}
     """)
@@ -555,19 +639,33 @@ def _(
 ):
     _ = save_button.value  # dependency: refresh whenever Save is clicked
 
+    # Same predicate as the notebook's is_negative_case / harness isNegative.
+    _negative_query_ids = {
+        tc["id"]
+        for tc in test_cases
+        if not (tc.get("retrieval_ground_truth") or {}).get("expected_external_ids")
+        and not (tc.get("synthesis_ground_truth") or {}).get("key_facts")
+    }
+
     _reviewed_by_query = {}
     for _path in sorted(saved_annot_paths):
         _data = json.loads(_path.read_text())
         _qid = _data["query_id"]
-        _prev = _reviewed_by_query.get(_qid, {"passages": False, "synthesis": False})
+        _prev = _reviewed_by_query.get(_qid, {"passages": False, "synthesis": False, "validity": False})
         _reviewed_by_query[_qid] = {
             "passages": _prev["passages"] or bool(_data.get("reviewed_passages")),
             "synthesis": _prev["synthesis"] or _data.get("synthesis_review") is not None,
+            "validity": _prev["validity"] or _data.get("negative_case_review") is not None,
         }
 
     _done_query_ids = {
-        _qid for _qid, _flags in _reviewed_by_query.items()
-        if _flags["passages"] and _flags["synthesis"]
+        _qid
+        for _qid, _flags in _reviewed_by_query.items()
+        if (
+            _flags["validity"]
+            if _qid in _negative_query_ids
+            else _flags["passages"] and _flags["synthesis"]
+        )
     }
 
     total_queries = len(test_cases)
