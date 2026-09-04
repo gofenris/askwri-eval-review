@@ -55,7 +55,7 @@ twins and never get twin passages.
    in the source edition's own framing) gets NO entry; flag it in the case's
    `note` with a `[twin-resolution YYYY-MM-DD]` line explaining what was
    skipped and why. Worked example: q7's "multi-win" fact has no EN
-   counterpart (zh-edition framing) — skipped and flagged in `bbca02e`.
+   counterpart (zh-edition framing) — skipped and flagged in `4b605dc`.
 
 ## DB access (two options, both verified working)
 
