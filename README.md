@@ -38,10 +38,14 @@ Review Expected Documents (Cite Mode)
 3. **Judge calibration.** With `notebooks/review-system-output-answer.py`
    (second notebook above), label stored harness captures (upload
    `capture-<label>.json`), producing `labels-*.json` files consumed by the
-   app repo's answer-eval harness via `run-score --labels`.
+   app repo's answer-eval harness (the `--labels` flag lands with the harness
+   PR of this same program).
 
 For adding English twin passages to a fact whose source passage is zh/es,
 see [eval-generation-notes/twin-passages-workflow_20260904.md](eval-generation-notes/twin-passages-workflow_20260904.md).
+
+Tests run with `uv run pytest tests/ -v` (pytest is in the `dev` dependency
+group).
 
 
 ## Overview 
