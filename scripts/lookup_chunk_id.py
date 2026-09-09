@@ -111,7 +111,11 @@ _MD_EMPHASIS_RE = re.compile(r"[*_#`]")
 # (evaluation/answer/normalize.ts): a link pattern would otherwise eat the
 # bracket half of an image and leave a stray '!'.
 _MD_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
-_MD_LINK_RE = re.compile(r"\[[^\]]*\]\([^)]*\)")
+# Orphan image placeholders: the leading ! can be lost at a chunk boundary.
+# Ordinary links carry evidence text and survive (mirror of normalize.ts).
+_MD_ORPHAN_IMAGE_RE = re.compile(
+    r"!?\[[^\]]*\.(?:jpe?g|png|gif|svg|webp)\]\([^)]*\)", re.IGNORECASE
+)
 
 # OCR'd zh source text is inconsistent about full-width vs half-width
 # punctuation even within the same document (observed directly: the same
@@ -140,8 +144,11 @@ def normalize(text: str) -> str:
     trim. Case-folding is harmless for CJK/Spanish text and helps for any
     Latin-script content."""
     text = _MD_EMPHASIS_RE.sub("", text)
-    text = _MD_IMAGE_RE.sub("", text)
-    text = _MD_LINK_RE.sub("", text)
+    # Images -> a space (matching extractPassage's cleanup on the serving
+    # side), so words on either side stay separated as they do in the
+    # served passage.
+    text = _MD_IMAGE_RE.sub(" ", text)
+    text = _MD_ORPHAN_IMAGE_RE.sub(" ", text)
     text = text.translate(_FULLWIDTH_TO_HALFWIDTH)
     text = _WHITESPACE_RE.sub(" ", text)
     text = _SPACE_AROUND_PUNCT_RE.sub(r"\1", text)
