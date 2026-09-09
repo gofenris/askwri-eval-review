@@ -147,10 +147,10 @@ def _(capture_file, json, mirror, mo, re):
     _capture = json.loads(_upload.contents.decode("utf-8"))
 
     mo.stop(
-        _capture.get("schema") != "answer-eval/capture@1",
+        _capture.get("schema") not in ("answer-eval/capture@1", "answer-eval/capture@2"),
         mo.callout(
             mo.md(
-                f"Expected schema `answer-eval/capture@1`, but the uploaded file "
+                f"Expected schema `answer-eval/capture@1` or `answer-eval/capture@2`, but the uploaded file "
                 f"declares `{_capture.get('schema')!r}`. Not a harness capture artifact."
             ),
             kind="danger",

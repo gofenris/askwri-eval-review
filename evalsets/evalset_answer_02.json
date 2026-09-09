@@ -1,14 +1,15 @@
 {
   "name": "evalset-answer-02",
-  "version": "3.1",
+  "version": "3.2",
   "created": "2026-08-11",
-  "updated": "2026-09-04",
+  "updated": "2026-09-09",
   "description": "Evaluation dataset (generation 2) for AskWRI Answer mode evaluation - cross-lingual corpus (en/zh/es/pt). Test cases are built by manually reviewing one sampled KP at a time and drafting a high-level English query whose expected answer is that document, along with a draft answer. synthesis_ground_truth (canonical_answer/key_facts) and retrieval_ground_truth.expected_passages are quote-first: every key_fact and passage traces to a verbatim quote in the source document (native language, zh/es), independently resolved to a real document_chunks chunk_id via scripts/lookup_chunk_id.py (see eval-generation-notes/answer-eval-migration_20260831.md for the full methodology). Content is pending AskWRI expert review.",
   "test_cases": [
     {
       "id": "q1_zero-emission-heavy-duty-trucks",
       "question": "What is the projected market penetration rate of new energy heavy-duty trucks in China through 2035?",
       "query_type": "quantitative_projection",
+      "doc_set_id": "zero-emission-trucks",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -104,6 +105,7 @@
       "id": "q2_bev-diesel-truck-tco-china",
       "question": "How does total cost of ownership compare between battery electric and diesel heavy-duty trucks in China?",
       "query_type": "cost_comparison",
+      "doc_set_id": "zero-emission-trucks",
       "difficulty": "hard",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -160,6 +162,7 @@
       "id": "q3_regional-vs-longhaul-adoption",
       "question": "What is the difference in zero-emission truck adoption potential between regional transport and long-haul transport scenarios?",
       "query_type": "comparative_analysis",
+      "doc_set_id": "zero-emission-trucks",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -240,6 +243,7 @@
       "id": "q4_bev-payback-periods",
       "question": "What are the payback periods for battery electric semi-trucks compared to diesel trucks in China?",
       "query_type": "payback_analysis",
+      "doc_set_id": "zero-emission-trucks",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -320,6 +324,7 @@
       "id": "q5_bikeshare-trip-substitution",
       "question": "What share of bike-share trips replace private car, taxi, or ride-hailing trips in China?",
       "query_type": "modal_substitution",
+      "doc_set_id": "dockless-bike-sharing",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -384,6 +389,7 @@
       "id": "q6_bikeshare-co2-reduction",
       "question": "How much CO2 emissions reduction is attributed to bike-sharing in China?",
       "query_type": "impact_assessment",
+      "doc_set_id": "dockless-bike-sharing",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -432,6 +438,7 @@
       "id": "q7_bikeshare-travel-behavior",
       "question": "How does dockless bike-sharing affect travel behavior in Chinese cities?",
       "query_type": "behavioral_impact",
+      "doc_set_id": "dockless-bike-sharing",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -482,6 +489,7 @@
       "id": "q8_yantian-port-mode-shift-targets",
       "question": "Can Yantian Port realistically meet the mode-shift targets set in Shenzhen's Master Plan (2035), or would it require more aggressive measures than a \"stated policy\" trajectory?",
       "query_type": "policy_feasibility",
+      "doc_set_id": "yantian-port",
       "difficulty": "hard",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -565,6 +573,7 @@
       "id": "q9_yantian-port-rail-water-barriers",
       "question": "What are the barriers to expanding rail-water intermodal transport (road-to-rail) at Yantian Port?",
       "query_type": "barrier_analysis",
+      "doc_set_id": "yantian-port",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -689,6 +698,7 @@
       "id": "q10_yantian-port-drayage-electrification-co2",
       "question": "How much would well-to-wheel CO2 emissions decline if drayage truck electrification reached 95% by 2035 at Yantian Port, and how does that compare to rail and water mode-shift measures?",
       "query_type": "quantitative_projection",
+      "doc_set_id": "yantian-port",
       "difficulty": "hard",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -763,6 +773,7 @@
       "id": "q11_mexico-transport-covid-methodology",
       "question": "What methodology was used to estimate COVID-19 financial impacts on Mexican urban public transport operators?",
       "query_type": "methodology",
+      "doc_set_id": "mexico-covid-transport",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -853,6 +864,7 @@
       "id": "q12_mexico-transport-jobs-dependency",
       "question": "How many jobs depend on the public transport sector in Mexico?",
       "query_type": "quantitative_fact",
+      "doc_set_id": "mexico-covid-transport",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -919,6 +931,7 @@
       "id": "q13_mexico-transport-financing-barriers",
       "question": "What barriers limit fondeo and financiamiento for urban public transport in Mexico?",
       "query_type": "barrier_analysis",
+      "doc_set_id": "mexico-transport-finance",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -1001,6 +1014,7 @@
       "id": "q14_mexico-carbon-tax-transport-financing",
       "question": "Why is revenue from Mexico's carbon tax not currently available for public transport, and how could that change?",
       "query_type": "policy_mechanism",
+      "doc_set_id": "mexico-transport-finance",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -1068,6 +1082,7 @@
       "id": "q15_mexico-parking-meter-revenue",
       "question": "How much revenue do parking meters generate in Mexican cities, and where does that money go?",
       "query_type": "quantitative_fact",
+      "doc_set_id": "mexico-transport-finance",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -1143,6 +1158,7 @@
       "id": "q16_mexico-transport-covid-demand-change",
       "question": "How did public transport demand in Mexican cities change during the COVID-19 pandemic?",
       "query_type": "impact_assessment",
+      "doc_set_id": "mexico-transport",
       "difficulty": "medium",
       "retrieval_ground_truth": {
         "expected_external_ids": [
@@ -1218,6 +1234,7 @@
       "id": "q17_negative-offdomain-schengen-visa",
       "question": "How do I apply for a Schengen tourist visa?",
       "query_type": "negative",
+      "doc_set_id": "zero-emission-trucks",
       "difficulty": "easy",
       "note": "Negative case (spec §2.1): no corpus document answers this; the correct system behavior is to abstain (low-coverage warning) rather than synthesize. Clearly off-domain by construction. Draft pending expert review.",
       "retrieval_ground_truth": {
@@ -1234,6 +1251,7 @@
       "id": "q18_negative-offdomain-boiling-point",
       "question": "What is the boiling point of water at sea level?",
       "query_type": "negative",
+      "doc_set_id": "zero-emission-trucks",
       "difficulty": "easy",
       "note": "Negative case (spec §2.1): off-domain trivia; correct behavior is abstention. Draft pending expert review.",
       "retrieval_ground_truth": {
@@ -1250,6 +1268,7 @@
       "id": "q19_negative-neardomain-lagos-commute",
       "question": "What was the average commute time in Lagos, Nigeria in 2023?",
       "query_type": "negative",
+      "doc_set_id": "mexico-transport",
       "difficulty": "hard",
       "note": "Negative case (spec §2.1), deliberately hard: topically adjacent to the corpus (urban mobility) but no corpus document reports this statistic; correct behavior is abstention. Reviewer should confirm no corpus doc answers it — reject if one does. Draft pending expert review.",
       "retrieval_ground_truth": {
@@ -1272,5 +1291,52 @@
       "2020_dockless-bike-sharing_00124",
       "2020_how-dockless-bike-sharing-changes-lives-an_2277"
     ]
+  ],
+  "doc_sets": [
+    {
+      "id": "zero-emission-trucks",
+      "doc_ids": [
+        "2025_zero-emission-heavy-duty-trucks_00015",
+        "2025_charging-toward-2035-policies-to-accelerate-zero_7455"
+      ],
+      "note": "Cluster 1 (q1-q4): the zero-emission heavy-duty trucks study (zh) plus its English translation twin (charging-toward-2035). Both members of the translation pair are in the set so retrieving either counts, mirroring the twins array. Also the ask-target for negatives q17/q18 (plainly wrong-domain questions)."
+    },
+    {
+      "id": "dockless-bike-sharing",
+      "doc_ids": [
+        "2020_dockless-bike-sharing_00124",
+        "2020_how-dockless-bike-sharing-changes-lives-an_2277"
+      ],
+      "note": "Cluster 2 (q5-q7): the dockless bike-sharing report (zh) plus its English translation twin (how-dockless-bike-sharing-changes-lives)."
+    },
+    {
+      "id": "yantian-port",
+      "doc_ids": [
+        "2024_optimizing-container-ports-transportation-and_9894"
+      ],
+      "note": "Cluster 3 (q8-q10): the Yantian container-port optimization study (zh). No twin in the corpus."
+    },
+    {
+      "id": "mexico-covid-transport",
+      "doc_ids": [
+        "2022_impactos-economicos-pandemia-covid19-transporte-publico_0070"
+      ],
+      "note": "Cluster 4 (q11, q12): the Mexico COVID-19 public-transport economic impacts working paper (es). No twin in the corpus."
+    },
+    {
+      "id": "mexico-transport-finance",
+      "doc_ids": [
+        "2023_analisis-de-los-mecanismos-financieros-para-la_3765"
+      ],
+      "note": "Cluster 5 (q13-q15): the Mexico transport financing mechanisms analysis (es). No twin in the corpus."
+    },
+    {
+      "id": "mexico-transport",
+      "doc_ids": [
+        "2022_impactos-economicos-pandemia-covid19-transporte-publico_0070",
+        "2023_analisis-de-los-mecanismos-financieros-para-la_3765"
+      ],
+      "note": "Union of mexico-covid-transport and mexico-transport-finance. q16's expected_external_ids span both clusters (its question is answerable from either), so it is asked against the union per the two-step-flow spec. Also the ask-target for negative q19 (the Lagos commute question — near-domain: the union looks plausible but cannot answer it)."
+    }
   ]
 }
